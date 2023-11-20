@@ -1,0 +1,1 @@
+[20-11-23 18:32:48]|[srv]: Client[Drone]:Connected with level 2

@@ -1,0 +1,12 @@
+#goal definition
+string[] target
+string operation
+string[] args
+int32 time_limit
+---
+#result definition
+bool res
+string res_arg
+---
+#feedback
+int32 progress

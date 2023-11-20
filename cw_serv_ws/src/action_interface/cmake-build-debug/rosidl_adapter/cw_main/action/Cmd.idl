@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from cw_main/action/Cmd.action
+// generated code does not contain a copyright notice
+
+
+module cw_main {
+  module action {
+    @verbatim (language="comment", text=
+      "goal definition")
+    struct Cmd_Goal {
+      sequence<string> target;
+
+      string operation;
+
+      sequence<string> args;
+
+      int32 time_limit;
+    };
+    @verbatim (language="comment", text=
+      "result definition")
+    struct Cmd_Result {
+      boolean res;
+
+      string res_arg;
+    };
+    @verbatim (language="comment", text=
+      "feedback")
+    struct Cmd_Feedback {
+      int32 progress;
+    };
+  };
+};

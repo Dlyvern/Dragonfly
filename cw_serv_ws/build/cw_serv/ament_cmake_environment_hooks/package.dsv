@@ -1,0 +1,4 @@
+source;share/cw_serv/local_setup.bash
+source;share/cw_serv/local_setup.dsv
+source;share/cw_serv/local_setup.sh
+source;share/cw_serv/local_setup.zsh
