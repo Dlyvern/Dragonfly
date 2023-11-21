@@ -44,6 +44,9 @@ private slots:
 
     void Run() override;
 
+signals:
+    void MessageForClient(int clientId, const QJsonObject& message);
+
 public:
     explicit TCPServer(const std::string &name, QWidget *parent = nullptr);
 

@@ -28,7 +28,7 @@ void Module::RunActionServer()
     action.operation = "Test";
     action.function = []()->std::string
     {
-        return {"GAY"};
+        return {"test_action_completed"};
     };
 
    std::unordered_map<std::string, std::function<std::string (void)>>fun;
@@ -44,11 +44,12 @@ void Module::RunActionServer()
     m_ActionsExecutor.add_node(m_ActionServer);
 }
 
-void Module::StartNewActionClient(const Command &command, int idClient)
+
+void Module::StartNewActionClient(const Command &command, int idClient, std::function<void(const std::string &)> &doneCallback)
 {
     m_ActionClient = std::make_shared<ActionClient>(command, idClient);
 
-    m_ActionClient->Start();
+    m_ActionClient->Start(doneCallback);
 
     m_ActionsExecutor.add_node(m_ActionClient);
 }
@@ -138,5 +139,6 @@ rclcpp::Parameter Module::GetParameter(const std::string &parameter) const
 
     return this->get_parameter(parameter);
 }
+
 
 Module::~Module() = default;

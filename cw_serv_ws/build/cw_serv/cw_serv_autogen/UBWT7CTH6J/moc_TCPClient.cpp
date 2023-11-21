@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_TCPClient_t {
     QByteArrayData data[8];
-    char stringdata0[81];
+    char stringdata0[82];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -39,12 +39,12 @@ QT_MOC_LITERAL(3, 21, 11), // "std::string"
 QT_MOC_LITERAL(4, 33, 7), // "message"
 QT_MOC_LITERAL(5, 41, 8), // "levelLog"
 QT_MOC_LITERAL(6, 50, 19), // "SendMessageToServer"
-QT_MOC_LITERAL(7, 70, 10) // "GotMessage"
+QT_MOC_LITERAL(7, 70, 11) // "ReadMessage"
 
     },
     "TCPClient\0LogClient\0\0std::string\0"
     "message\0levelLog\0SendMessageToServer\0"
-    "GotMessage"
+    "ReadMessage"
 };
 #undef QT_MOC_LITERAL
 
@@ -86,7 +86,7 @@ void TCPClient::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         switch (_id) {
         case 0: _t->LogClient((*reinterpret_cast< const std::string(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
         case 1: _t->SendMessageToServer((*reinterpret_cast< const QJsonObject(*)>(_a[1]))); break;
-        case 2: _t->GotMessage(); break;
+        case 2: _t->ReadMessage(); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {

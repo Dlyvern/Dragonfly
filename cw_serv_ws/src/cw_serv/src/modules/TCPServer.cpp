@@ -21,6 +21,8 @@ TCPServer::TCPServer(const std::string &name, QWidget *parent) : Module(name, pa
     connect(m_ClientManager, &ClientManager::NewAction, this, &TCPServer::NewAction);
 
     connect(m_RunTimer, &QTimer::timeout, this, &TCPServer::Run);
+
+    connect(this, &TCPServer::MessageForClient, m_ClientManager, &ClientManager::MessageForClient);
 }
 
 void TCPServer::Start()
@@ -99,7 +101,17 @@ void TCPServer::SetOperator(TCPClient* newOperator)
 
 void TCPServer::NewAction(int idOfClient, Command *command)
 {
-    StartNewActionClient(*command, idOfClient);
+    std::function<void(const std::string& message)>doneCallback =
+    [&](const std::string& message)
+    {
+        QJsonObject message_for_client;
+
+        message_for_client["cmd_done"] = QString{message.c_str()};
+
+        emit MessageForClient(idOfClient, message_for_client);
+    };
+
+    StartNewActionClient(*command, idOfClient, doneCallback);
 }
 
 std::unordered_map<std::string, std::function<void(void)>> TCPServer::GetActionFunctions()

@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_ClientManager_t {
-    QByteArrayData data[13];
-    char stringdata0[139];
+    QByteArrayData data[15];
+    char stringdata0[165];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -43,14 +43,17 @@ QT_MOC_LITERAL(7, 75, 9), // "NewAction"
 QT_MOC_LITERAL(8, 85, 10), // "idOfClient"
 QT_MOC_LITERAL(9, 96, 8), // "Command*"
 QT_MOC_LITERAL(10, 105, 7), // "command"
-QT_MOC_LITERAL(11, 113, 17), // "MessageFromClient"
-QT_MOC_LITERAL(12, 131, 7) // "message"
+QT_MOC_LITERAL(11, 113, 16), // "MessageForClient"
+QT_MOC_LITERAL(12, 130, 8), // "clientId"
+QT_MOC_LITERAL(13, 139, 7), // "message"
+QT_MOC_LITERAL(14, 147, 17) // "MessageFromClient"
 
     },
     "ClientManager\0NewOperator\0\0TCPClient*\0"
     "newOperator\0IsOperator\0maybeOperator\0"
     "NewAction\0idOfClient\0Command*\0command\0"
-    "MessageFromClient\0message"
+    "MessageForClient\0clientId\0message\0"
+    "MessageFromClient"
 };
 #undef QT_MOC_LITERAL
 
@@ -60,7 +63,7 @@ static const uint qt_meta_data_ClientManager[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       4,   14, // methods
+       5,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -68,12 +71,13 @@ static const uint qt_meta_data_ClientManager[] = {
        3,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   34,    2, 0x06 /* Public */,
-       5,    1,   37,    2, 0x06 /* Public */,
-       7,    2,   40,    2, 0x06 /* Public */,
+       1,    1,   39,    2, 0x06 /* Public */,
+       5,    1,   42,    2, 0x06 /* Public */,
+       7,    2,   45,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-      11,    1,   45,    2, 0x08 /* Private */,
+      11,    2,   50,    2, 0x0a /* Public */,
+      14,    1,   55,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3,    4,
@@ -81,7 +85,8 @@ static const uint qt_meta_data_ClientManager[] = {
     QMetaType::Void, QMetaType::Int, 0x80000000 | 9,    8,   10,
 
  // slots: parameters
-    QMetaType::Void, QMetaType::QJsonObject,   12,
+    QMetaType::Void, QMetaType::Int, QMetaType::QJsonObject,   12,   13,
+    QMetaType::Void, QMetaType::QJsonObject,   13,
 
        0        // eod
 };
@@ -96,7 +101,8 @@ void ClientManager::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _i
         case 1: { bool _r = _t->IsOperator((*reinterpret_cast< TCPClient*(*)>(_a[1])));
             if (_a[0]) *reinterpret_cast< bool*>(_a[0]) = std::move(_r); }  break;
         case 2: _t->NewAction((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Command*(*)>(_a[2]))); break;
-        case 3: _t->MessageFromClient((*reinterpret_cast< const QJsonObject(*)>(_a[1]))); break;
+        case 3: _t->MessageForClient((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< const QJsonObject(*)>(_a[2]))); break;
+        case 4: _t->MessageFromClient((*reinterpret_cast< const QJsonObject(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
@@ -172,13 +178,13 @@ int ClientManager::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 4)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 5;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 4)
+        if (_id < 5)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 4;
+        _id -= 5;
     }
     return _id;
 }

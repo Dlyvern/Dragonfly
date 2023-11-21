@@ -85,14 +85,14 @@ void ClientManager::AddNewClient(std::shared_ptr<TCPClient> &&tcpClient)
 {
     connect(tcpClient.get(), &TCPClient::SendMessageToServer, this, &ClientManager::MessageFromClient);
 
-    m_TCPClients.emplace_back(std::move(tcpClient));
+    m_TCPClients[tcpClient->GetId()] = tcpClient;
 }
 
 bool ClientManager::DisconnectClient(TCPClient* tcpClient)
 {
     for(auto client = m_TCPClients.begin(); client != m_TCPClients.end(); ++client)
     {
-        if(client->get() == tcpClient)
+        if(client->second.get() == tcpClient)
         {
             tcpClient->Disconnect();
             m_TCPClients.erase(client);
@@ -101,6 +101,18 @@ bool ClientManager::DisconnectClient(TCPClient* tcpClient)
     }
 
     return false;
+}
+
+void ClientManager::MessageForClient(int clientId, const QJsonObject &message)
+{
+    auto client = m_TCPClients.find(clientId);
+    if(client == m_TCPClients.end())
+    {
+        qDebug() << "New message for unknown client";
+        return;
+    }
+    Log("New message for client with id " + std::to_string(clientId), 0, client->second.get());
+    client->second->SendMessageToClient(message);
 }
 
 ClientManager::~ClientManager() = default;

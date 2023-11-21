@@ -48,7 +48,6 @@ private:
 
     std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String>>m_LogPublisher;
 
-
     struct Action
     {
         std::string target;
@@ -73,12 +72,11 @@ protected:
     std::chrono::milliseconds GetRunInterval() const;
 
     void SetRunInterval(std::chrono::milliseconds runInterval);
-
     void RunActionServer();
 
     [[nodiscard]]virtual std::unordered_map<std::string, std::function<void(void)>> GetActionFunctions() = 0;
 
-    void StartNewActionClient(const Command& command, int idClient);
+    void StartNewActionClient(const Command& command, int idClient, std::function<void(const std::string& message)>&doneCallback);
 
 public:
 

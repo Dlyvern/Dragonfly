@@ -24,7 +24,7 @@ private:
     void Log(const std::string&message, int levelLog);
 
 public slots:
-    void GotMessage();
+    void ReadMessage();
 
 public:
     explicit TCPClient(QTcpSocket * clientSocket, int id,  QObject*parent = nullptr);
@@ -38,6 +38,8 @@ public:
     [[nodiscard]] const std::string& GetName() const;
 
     [[nodiscard]] const int& GetId() const;
+
+    void SendMessageToClient(const QJsonObject& message);
 
     virtual ~TCPClient();
 

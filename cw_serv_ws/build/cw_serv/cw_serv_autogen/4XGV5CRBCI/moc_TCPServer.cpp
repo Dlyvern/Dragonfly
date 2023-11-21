@@ -22,8 +22,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_TCPServer_t {
-    QByteArrayData data[15];
-    char stringdata0[152];
+    QByteArrayData data[17];
+    char stringdata0[178];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,24 +33,27 @@ struct qt_meta_stringdata_TCPServer_t {
 static const qt_meta_stringdata_TCPServer_t qt_meta_stringdata_TCPServer = {
     {
 QT_MOC_LITERAL(0, 0, 9), // "TCPServer"
-QT_MOC_LITERAL(1, 10, 13), // "NewConnection"
-QT_MOC_LITERAL(2, 24, 0), // ""
-QT_MOC_LITERAL(3, 25, 20), // "LogMessageFromClient"
-QT_MOC_LITERAL(4, 46, 11), // "std::string"
-QT_MOC_LITERAL(5, 58, 7), // "message"
-QT_MOC_LITERAL(6, 66, 8), // "levelLog"
-QT_MOC_LITERAL(7, 75, 11), // "SetOperator"
-QT_MOC_LITERAL(8, 87, 10), // "TCPClient*"
-QT_MOC_LITERAL(9, 98, 11), // "newOperator"
-QT_MOC_LITERAL(10, 110, 9), // "NewAction"
-QT_MOC_LITERAL(11, 120, 10), // "idOfClient"
-QT_MOC_LITERAL(12, 131, 8), // "Command*"
-QT_MOC_LITERAL(13, 140, 7), // "command"
-QT_MOC_LITERAL(14, 148, 3) // "Run"
+QT_MOC_LITERAL(1, 10, 16), // "MessageForClient"
+QT_MOC_LITERAL(2, 27, 0), // ""
+QT_MOC_LITERAL(3, 28, 8), // "clientId"
+QT_MOC_LITERAL(4, 37, 7), // "message"
+QT_MOC_LITERAL(5, 45, 13), // "NewConnection"
+QT_MOC_LITERAL(6, 59, 20), // "LogMessageFromClient"
+QT_MOC_LITERAL(7, 80, 11), // "std::string"
+QT_MOC_LITERAL(8, 92, 8), // "levelLog"
+QT_MOC_LITERAL(9, 101, 11), // "SetOperator"
+QT_MOC_LITERAL(10, 113, 10), // "TCPClient*"
+QT_MOC_LITERAL(11, 124, 11), // "newOperator"
+QT_MOC_LITERAL(12, 136, 9), // "NewAction"
+QT_MOC_LITERAL(13, 146, 10), // "idOfClient"
+QT_MOC_LITERAL(14, 157, 8), // "Command*"
+QT_MOC_LITERAL(15, 166, 7), // "command"
+QT_MOC_LITERAL(16, 174, 3) // "Run"
 
     },
-    "TCPServer\0NewConnection\0\0LogMessageFromClient\0"
-    "std::string\0message\0levelLog\0SetOperator\0"
+    "TCPServer\0MessageForClient\0\0clientId\0"
+    "message\0NewConnection\0LogMessageFromClient\0"
+    "std::string\0levelLog\0SetOperator\0"
     "TCPClient*\0newOperator\0NewAction\0"
     "idOfClient\0Command*\0command\0Run"
 };
@@ -62,25 +65,31 @@ static const uint qt_meta_data_TCPServer[] = {
        8,       // revision
        0,       // classname
        0,    0, // classinfo
-       5,   14, // methods
+       6,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
        0,       // flags
-       0,       // signalCount
+       1,       // signalCount
+
+ // signals: name, argc, parameters, tag, flags
+       1,    2,   44,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       1,    0,   39,    2, 0x08 /* Private */,
-       3,    2,   40,    2, 0x08 /* Private */,
-       7,    1,   45,    2, 0x08 /* Private */,
-      10,    2,   48,    2, 0x08 /* Private */,
-      14,    0,   53,    2, 0x08 /* Private */,
+       5,    0,   49,    2, 0x08 /* Private */,
+       6,    2,   50,    2, 0x08 /* Private */,
+       9,    1,   55,    2, 0x08 /* Private */,
+      12,    2,   58,    2, 0x08 /* Private */,
+      16,    0,   63,    2, 0x08 /* Private */,
+
+ // signals: parameters
+    QMetaType::Void, QMetaType::Int, QMetaType::QJsonObject,    3,    4,
 
  // slots: parameters
     QMetaType::Void,
-    QMetaType::Void, 0x80000000 | 4, QMetaType::Int,    5,    6,
-    QMetaType::Void, 0x80000000 | 8,    9,
-    QMetaType::Void, QMetaType::Int, 0x80000000 | 12,   11,   13,
+    QMetaType::Void, 0x80000000 | 7, QMetaType::Int,    4,    8,
+    QMetaType::Void, 0x80000000 | 10,   11,
+    QMetaType::Void, QMetaType::Int, 0x80000000 | 14,   13,   15,
     QMetaType::Void,
 
        0        // eod
@@ -92,23 +101,33 @@ void TCPServer::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, v
         auto *_t = static_cast<TCPServer *>(_o);
         (void)_t;
         switch (_id) {
-        case 0: _t->NewConnection(); break;
-        case 1: _t->LogMessageFromClient((*reinterpret_cast< const std::string(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
-        case 2: _t->SetOperator((*reinterpret_cast< TCPClient*(*)>(_a[1]))); break;
-        case 3: _t->NewAction((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Command*(*)>(_a[2]))); break;
-        case 4: _t->Run(); break;
+        case 0: _t->MessageForClient((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< const QJsonObject(*)>(_a[2]))); break;
+        case 1: _t->NewConnection(); break;
+        case 2: _t->LogMessageFromClient((*reinterpret_cast< const std::string(*)>(_a[1])),(*reinterpret_cast< int(*)>(_a[2]))); break;
+        case 3: _t->SetOperator((*reinterpret_cast< TCPClient*(*)>(_a[1]))); break;
+        case 4: _t->NewAction((*reinterpret_cast< int(*)>(_a[1])),(*reinterpret_cast< Command*(*)>(_a[2]))); break;
+        case 5: _t->Run(); break;
         default: ;
         }
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
         switch (_id) {
         default: *reinterpret_cast<int*>(_a[0]) = -1; break;
-        case 2:
+        case 3:
             switch (*reinterpret_cast<int*>(_a[1])) {
             default: *reinterpret_cast<int*>(_a[0]) = -1; break;
             case 0:
                 *reinterpret_cast<int*>(_a[0]) = qRegisterMetaType< TCPClient* >(); break;
             }
             break;
+        }
+    } else if (_c == QMetaObject::IndexOfMethod) {
+        int *result = reinterpret_cast<int *>(_a[0]);
+        {
+            using _t = void (TCPServer::*)(int , const QJsonObject & );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&TCPServer::MessageForClient)) {
+                *result = 0;
+                return;
+            }
         }
     }
 }
@@ -142,15 +161,22 @@ int TCPServer::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 6;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 5)
+        if (_id < 6)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 6;
     }
     return _id;
+}
+
+// SIGNAL 0
+void TCPServer::MessageForClient(int _t1, const QJsonObject & _t2)
+{
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
+    QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 QT_WARNING_POP
 QT_END_MOC_NAMESPACE

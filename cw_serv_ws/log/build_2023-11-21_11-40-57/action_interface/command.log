@@ -1,4 +1,0 @@
-Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface': /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface -- -j12 -l12
-Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface' returned '0': /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface -- -j12 -l12
-Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface': /usr/bin/cmake --install /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface
-Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface' returned '0': /usr/bin/cmake --install /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface

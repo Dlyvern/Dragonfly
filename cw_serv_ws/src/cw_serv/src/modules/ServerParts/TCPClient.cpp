@@ -3,7 +3,7 @@
 TCPClient::TCPClient(QTcpSocket *clientSocket, int id, QObject*parent)
 : QObject(parent), m_Socket(clientSocket), m_Id{id}
 {
-    connect(m_Socket, &QTcpSocket::readyRead, this, &TCPClient::GotMessage);
+    connect(m_Socket, &QTcpSocket::readyRead, this, &TCPClient::ReadMessage);
 }
 
 void TCPClient::Log(const std::string &message, int levelLog)
@@ -17,7 +17,7 @@ void TCPClient::Start()
 
 }
 
-void TCPClient::GotMessage()
+void TCPClient::ReadMessage()
 {
     QByteArray dataForInitialization = m_Socket->readAll();
 
@@ -70,6 +70,23 @@ const std::string &TCPClient::GetName() const
 const int &TCPClient::GetId() const
 {
     return m_Id;
+}
+
+void TCPClient::SendMessageToClient(const QJsonObject &message)
+{
+    QByteArray packet;
+    QDataStream stream(&packet, QIODevice::WriteOnly);
+    stream.setByteOrder(QDataStream::LittleEndian);
+
+    QJsonDocument jsonDoc(message);
+    QByteArray jsonData = jsonDoc.toJson();
+    quint16 jsonLength = jsonData.length();
+
+    stream << jsonLength;
+
+    stream.writeRawData(jsonData.data(), jsonLength);
+
+    m_Socket->write(packet);
 }
 
 TCPClient::~TCPClient() = default;

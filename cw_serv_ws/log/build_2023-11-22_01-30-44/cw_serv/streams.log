@@ -1,0 +1,69 @@
+[0.039s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[0.083s] [  7%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[0.308s] [  7%] Built target cw_serv_autogen
+[0.323s] [35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[0.349s] [ 15%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o[0m
+[0.363s] [ 30%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o[0m
+[0.363s] [ 30%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/actions/ActionClient.cpp.o[0m
+[0.363s] [ 38%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o[0m
+[0.364s] [ 53%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o[0m
+[0.364s] [ 53%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o[0m
+[0.364s] [ 61%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/ClientManager.cpp.o[0m
+[1.308s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/ClientManager.cpp:[m[K In member function ‘[01m[Kvoid ClientManager::MessageForClient(int, const QJsonObject&)[m[K’:
+[1.309s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/ClientManager.cpp:106:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[1.309s]   106 | void ClientManager::MessageForClient(int clientId, [01;35m[Kconst QJsonObject &message[m[K)
+[1.309s]       |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[3.376s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:7[m[K,
+[3.379s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:1[m[K:
+[3.381s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:79:129:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.381s]    79 |     void StartNewActionClient(const Command& command, int idClient, std::function<void(const std::string& message)>&doneCallback[01;31m[K)[m[K);
+[3.381s]       |                                                                                                                                 [01;31m[K^[m[K
+[3.381s]       |                                                                                                                                  [32m[K;[m[K
+[3.381s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:79:130:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[3.381s]    79 |     void StartNewActionClient(const Command& command, int idClient, std::function<void(const std::string& message)>&doneCallback)[01;31m[K)[m[K;
+[3.381s]       |                                                                                                                                  [01;31m[K^[m[K
+[3.659s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:5[m[K,
+[3.666s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Logger.cpp:1[m[K:
+[3.666s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:79:129:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.666s]    79 |     void StartNewActionClient(const Command& command, int idClient, std::function<void(const std::string& message)>&doneCallback[01;31m[K)[m[K);
+[3.666s]       |                                                                                                                                 [01;31m[K^[m[K
+[3.666s]       |                                                                                                                                  [32m[K;[m[K
+[3.666s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:79:130:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[3.666s]    79 |     void StartNewActionClient(const Command& command, int idClient, std::function<void(const std::string& message)>&doneCallback)[01;31m[K)[m[K;
+[3.666s]       |                                                                                                                                  [01;31m[K^[m[K
+[3.949s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/TCPServer.hpp:7[m[K,
+[3.949s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:10[m[K,
+[3.949s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:4[m[K:
+[3.952s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Module.hpp:79:129:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[3.955s]    79 |     void StartNewActionClient(const Command& command, int idClient, std::function<void(const std::string& message)>&doneCallback[01;31m[K)[m[K);
+[3.955s]       |                                                                                                                                 [01;31m[K^[m[K
+[3.955s]       |                                                                                                                                  [32m[K;[m[K
+[3.955s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Module.hpp:79:130:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[3.955s]    79 |     void StartNewActionClient(const Command& command, int idClient, std::function<void(const std::string& message)>&doneCallback)[01;31m[K)[m[K;
+[3.955s]       |                                                                                                                                  [01;31m[K^[m[K
+[4.240s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:7[m[K,
+[4.240s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/main.cpp:3[m[K:
+[4.241s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:79:129:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.241s]    79 |     void StartNewActionClient(const Command& command, int idClient, std::function<void(const std::string& message)>&doneCallback[01;31m[K)[m[K);
+[4.241s]       |                                                                                                                                 [01;31m[K^[m[K
+[4.241s]       |                                                                                                                                  [32m[K;[m[K
+[4.241s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:79:130:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[4.241s]    79 |     void StartNewActionClient(const Command& command, int idClient, std::function<void(const std::string& message)>&doneCallback)[01;31m[K)[m[K;
+[4.241s]       |                                                                                                                                  [01;31m[K^[m[K
+[4.692s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:174: CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o] Error 1
+[4.694s] gmake[2]: *** Waiting for unfinished jobs....
+[4.765s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:76: CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o] Error 1
+[4.849s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:1[m[K:
+[4.849s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:79:129:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[4.849s]    79 |     void StartNewActionClient(const Command& command, int idClient, std::function<void(const std::string& message)>&doneCallback[01;31m[K)[m[K);
+[4.849s]       |                                                                                                                                 [01;31m[K^[m[K
+[4.849s]       |                                                                                                                                  [32m[K;[m[K
+[4.849s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:79:130:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[4.849s]    79 |     void StartNewActionClient(const Command& command, int idClient, std::function<void(const std::string& message)>&doneCallback)[01;31m[K)[m[K;
+[4.849s]       |                                                                                                                                  [01;31m[K^[m[K
+[5.590s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:90: CMakeFiles/cw_serv.dir/src/main.cpp.o] Error 1
+[6.290s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:160: CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o] Error 1
+[6.638s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:146: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o] Error 1
+[6.647s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Error 2
+[6.651s] gmake: *** [Makefile:146: all] Error 2
+[6.765s] Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv' returned '2': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12

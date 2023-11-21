@@ -17,9 +17,9 @@ m_ServerTimeOut{serverTimeOut}
     m_ConnectionTimer = this->create_wall_timer(std::chrono::milliseconds(0), std::bind(&ActionClient::SendGoal, this));
 }
 
-void ActionClient::Start()
+void ActionClient::Start(std::function<void(const std::string& message)>&doneCallback)
 {
-
+    m_DoneCallback = doneCallback;
 }
 
 void ActionClient::SendGoal()
@@ -105,6 +105,8 @@ void ActionClient::GoalResult(const rclcpp_action::ClientGoalHandle<action_inter
             return;
     }
 
+    if(m_DoneCallback)
+         m_DoneCallback( result.result->res_arg);
     Log("Action done with result " + result.result->res_arg, 0);
 }
 
