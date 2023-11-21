@@ -53,10 +53,10 @@ RM = /snap/clion/250/bin/cmake/linux/x64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dlyvern/Projects/cw_serv_ws/src/cw_serv
+CMAKE_SOURCE_DIR = /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dlyvern/Projects/cw_serv_ws/src/cw_serv /home/dlyvern/Projects/cw_serv_ws/src/cw_serv /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

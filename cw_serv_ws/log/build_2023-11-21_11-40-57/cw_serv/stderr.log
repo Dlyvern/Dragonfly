@@ -1,0 +1,12 @@
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:150:5:[m[K [01;31m[Kerror: [m[Kno declaration matches ‘[01m[Kint Module::AddModule(const std::shared_ptr<Module>&)[m[K’
+  150 | int [01;31m[KModule[m[K::AddModule(const std::shared_ptr<Module> &module)
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:150:5:[m[K [01;36m[Knote: [m[Kno functions named ‘[01m[Kint Module::AddModule(const std::shared_ptr<Module>&)[m[K’
+In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:1[m[K:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:33:7:[m[K [01;36m[Knote: [m[K‘[01m[Kclass Module[m[K’ defined here
+   33 | class [01;36m[KModule[m[K : public rclcpp::Node, public QWidget
+      |       [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:160: CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

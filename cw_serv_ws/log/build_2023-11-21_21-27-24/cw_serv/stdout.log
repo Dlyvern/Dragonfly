@@ -1,0 +1,4 @@
+[  7%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[  7%] Built target cw_serv_autogen
+[35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/actions/ActionServer.cpp.o[0m

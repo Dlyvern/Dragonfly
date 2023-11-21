@@ -27,6 +27,8 @@ private:
     rclcpp_action::Client<action_interface::action::Cmd>::SharedPtr m_ActionClient;
     rclcpp::TimerBase::SharedPtr m_ConnectionTimer;
 
+    std::string m_Name{"NOT_SET"};
+
     std::vector<std::string> m_Target{};
     int m_ClientId{0};
     std::string m_Operation{" "};

@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmodule.a CMakeFiles/module.dir/module_autogen/mocs_compilation.cpp.o CMakeFiles/module.dir/src/modules/Module.cpp.o
+/usr/bin/ranlib libmodule.a

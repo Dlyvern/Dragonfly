@@ -1,7 +1,7 @@
 CMakeFiles/cw_serv.dir/src/modules/ServerParts/Packet.cpp.o: \
- /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/src/modules/ServerParts/Packet.cpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/Packet.cpp \
  /usr/include/stdc-predef.h \
- /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/Packet.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/Packet.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \

@@ -14,57 +14,110 @@ ActionServer::ActionServer() : rclcpp::Node("ActionServer")
     );
 }
 
-void ActionServer::Start(std::unordered_map<std::string, std::unordered_map<std::string, std::function<void(void)>>> &actions)
+void ActionServer::Start(std::unordered_map<std::string, std::unordered_map<std::string, std::function<std::string (void)>>> &actions)
 {
     m_AllActionsFromModulesAndSubmodules = actions;
     Log("Action server is running", 0);
     //Work();
 }
 
-void ActionServer::Work()
+void ActionServer::HandleAcceptedGoal(const std::shared_ptr< rclcpp_action::ServerGoalHandle<action_interface::action::Cmd>> goal_handle)
 {
-    while (rclcpp::ok())
+    rclcpp::Rate loop_rate(1);
+
+    auto feedback = std::make_shared<action_interface::action::Cmd::Feedback>();
+    auto result = std::make_shared<action_interface::action::Cmd::Result>();
+
+    feedback->progress = 0;
+
+    m_WorkFuture = std::async(std::launch::async, [this]{ return Work();});
+
+    while(true)
     {
-        if(!m_ExecuteFunction)
+        if (goal_handle->is_canceling())
         {
-            RCLCPP_INFO(this->get_logger(), "No work");
-            continue;
-        }
-
-        RCLCPP_INFO(this->get_logger(), "Executing the goal...");
-
-        try
-        {
-            m_ExecuteFunction();
-        }
-
-
-        catch (std::exception &ex)
-        {
-            RCLCPP_ERROR(this->get_logger(), "Action server failed while executing action callback: \"%s\"", ex.what());
+            result->res = false;
+            result->res_arg = "Goal canceled";
+            goal_handle->canceled(result);
+            Log("Goal canceled", 2);
             return;
         }
+
+        if(m_WorkFuture.wait_for(std::chrono::milliseconds(1)) == std::future_status::ready)
+        {
+            break;
+        }
+
+        feedback->progress++;
+        goal_handle->publish_feedback(feedback);
+        loop_rate.sleep();
     }
+
+    if(!rclcpp::ok())
+    {
+        result->res = false;
+        result->res_arg = "RCLCPP IS NOT OK";
+        goal_handle->succeed(result);
+        return;
+    }
+
+    std::string return_result = m_WorkFuture.get();
+    result->res = true;
+    result->res_arg = return_result;
+    goal_handle->succeed(result);
+}
+
+std::string ActionServer::Work()
+{
+    std::string result{"ABORT"};
+
+    if(!m_ExecuteFunction)
+    {
+        Log("No work", 0);
+        return {"No work"};
+    }
+
+    try
+    {
+        result = m_ExecuteFunction();
+    }
+
+    catch (std::exception &ex)
+    {
+        return {R"(Action server failed while executing action callback: \"%s\"", ex.what())"};
+    }
+
+    return result;
 }
 
 rclcpp_action::GoalResponse ActionServer::HandleGoal(const rclcpp_action::GoalUUID &uuid, std::shared_ptr<const action_interface::action::Cmd::Goal> goal)
 {
-    m_Goals[uuid] = goal;
-
     std::string target  = goal->target[0];
     std::string operation = goal->operation;
 
     Log("Finding " + target + " with function " + operation, 0);
 
-    //m_ExecuteFunction = m_AllActionsFromModulesAndSubmodules.find(target)->second.find(operation)->second;
+    auto operations = m_AllActionsFromModulesAndSubmodules.find(target);
 
-    if(!m_ExecuteFunction)
+    if(operations == m_AllActionsFromModulesAndSubmodules.end())
     {
-        Log("Could not find a function to execute. Rejecting the goal", 2);
+        Log("No target. Rejecting the goal", 2);
         return rclcpp_action::GoalResponse::REJECT;
     }
 
-    Log("Found a function to execute. Accepting the goal", 2);
+    auto second_map = operations->second;
+
+    auto it = second_map.find(operation);
+
+    if(it == second_map.end())
+    {
+        Log("No operation. Rejecting the goal", 2);
+        return rclcpp_action::GoalResponse::REJECT;
+    }
+
+    m_ExecuteFunction = it->second;
+
+    m_Goals[uuid] = goal;
 
     return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
 }
@@ -76,13 +129,6 @@ rclcpp_action::CancelResponse ActionServer::HandleCancelGoal(const std::shared_p
     return rclcpp_action::CancelResponse::REJECT;
 }
 
-void ActionServer::HandleAcceptedGoal(const std::shared_ptr< rclcpp_action::ServerGoalHandle<action_interface::action::Cmd>> goal_handle)
-{
-    Log("Got accepted goal", 0);
-
-    //goal_handle->execute();
-   // std::thread{std::bind(&ActionServer::E, this, _1), goal_handle}.detach();
-}
 
 void ActionServer::Log(const std::string &message, int levelLog)
 {
@@ -99,7 +145,7 @@ void ActionServer::Log(const std::string &message, int levelLog)
 
     std::string date_time = ss.str();
 
-    std::string name_of_node = this->get_name();
+    std::string name_of_node = "Action server";
 
     //[TIME] [NAME]: MESSAGE LOGLEVEL(0 - INFO, 1 - WARN, 2 - ERROR)
 
@@ -108,6 +154,4 @@ void ActionServer::Log(const std::string &message, int levelLog)
     m_LogPublisher->publish(log_msg);
 }
 
-
 ActionServer::~ActionServer() = default;
-

@@ -3,7 +3,7 @@
 Logger::Logger(const std::string &nameOfNode, QWidget *parent)
         : Module(nameOfNode, parent)
 {
-    m_DirName = "../logs";
+    m_DirName = "logs";
     m_LogSub = this->create_subscription<std_msgs::msg::String>("/cw/log", 500, std::bind(&Logger::EventCallback, this, std::placeholders::_1));
     m_LogPublisher = this->create_publisher<std_msgs::msg::String>("/cw/logger", 10);
 }

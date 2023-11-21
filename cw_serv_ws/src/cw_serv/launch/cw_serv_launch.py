@@ -1,6 +1,7 @@
 import os
 from launch import LaunchDescription
-from launch_ros.actions import Node
+from launch_ros.actions import ComposableNodeContainer
+from launch_ros.descriptions import ComposableNode
 
 try:
     from configparser import ConfigParser
@@ -17,22 +18,65 @@ config.read(ini_file_path)
 
 tcp_ip_address = config.get('NETWORK_TCP_IP_SERVER', 'TcpIpAddress')
 tcp_port = config.getint('NETWORK_TCP_IP_SERVER', 'TcpPort')
-#int_val = config.getint('section_a', 'int_val')
-#float_val = config.getfloat('section_a', 'pi_val')
+
 
 def generate_launch_description():
-    return LaunchDescription([
-        Node
-        (
-            package="cw_serv",
-            executable="cw_serv",
-            name="srv",
-            output="screen",
-            emulate_tty=True,
-            parameters=[
-                {"server/ip": tcp_ip_address},
-                {"server/port_tcp": tcp_port}
-            ]
-        )
+    container = (ComposableNodeContainer
+    (
+        name='cw_serv',
+        namespace='',
+        package='cw_serv',
+        executable='cw_serv',
+        composable_node_descriptions=
+        [
+            ComposableNode(
+                package='cw_serv',
+                plugin='srv',
+                name='srv_node',
+                parameters =
+                [
+                    {"server/ip": tcp_ip_address},
+                    {"server/port_tcp": tcp_port}
+                ]
+            ),
+            ComposableNode(
+                package='cw_serv',
+                plugin='logger',
+                name='logger_node'
+            ),
+        ],
+        output='screen',
+    ))
 
-    ])
+    return LaunchDescription([container])
+
+#
+# def generate_launch_description():
+#     container = (ComposableNodeContainer
+#     (
+#         name='cw_serv',
+#         namespace='',
+#         package='cw_serv',
+#         executable='cw_serv',
+#         composable_node_descriptions=
+#         [
+#             ComposableNode(
+#                 package='cw_serv',
+#                 plugin='srv',
+#                 name='srv_node',
+#                 parameters =
+#                 [
+#                     {"server/ip": tcp_ip_address},
+#                     {"server/port_tcp": tcp_port}
+#                 ]
+#             ),
+#             ComposableNode(
+#                 package='cw_serv',
+#                 plugin='logger',
+#                 name='logger_node'
+#             ),
+#         ],
+#         output='screen',
+#     ))
+#
+#     return LaunchDescription([container])

@@ -1,7 +1,7 @@
 CMakeFiles/cw_serv.dir/src/cw_structs/Command.cpp.o: \
- /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/src/cw_structs/Command.cpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/Command.cpp \
  /usr/include/stdc-predef.h \
- /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
  /usr/include/c++/11/string \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

@@ -1,18 +1,8 @@
 #include "modules/Module.hpp"
 
-std::shared_ptr<rclcpp::Node>Module::m_NodeWithParameters;
-
-Module::Module(const std::string &nameOfNode, QWidget *parent) : rclcpp::Node(nameOfNode), QWidget(parent)
+Module::Module(const std::string &nameOfNode, QWidget *parent) : rclcpp::Node(nameOfNode), QWidget(parent), m_Name{nameOfNode}
 {
-    if(!m_NodeWithParameters)
-    {
-        m_NodeWithParameters = std::make_shared<rclcpp::Node>("PARAMETERS_NODE");
-        InitializeParameters();
-    }
-
     m_LogPublisher = this->create_publisher<std_msgs::msg::String>("/cw/log", 200);
-
-    m_Modules.emplace_back(this);
 
     std::thread([this]
     {
@@ -23,44 +13,33 @@ Module::Module(const std::string &nameOfNode, QWidget *parent) : rclcpp::Node(na
     }).detach();
 }
 
-void Module::InitializeParameters()
-{
-    if(m_NodeWithParameters == nullptr) return;
-    //[Header("SOME SHIT")]
-    m_NodeWithParameters->declare_parameter("cw/uptime", 0);
-    m_NodeWithParameters->declare_parameter("cw/operator", "None");
-    m_NodeWithParameters->declare_parameter("cw/project_name", "DEFAULT");
-    m_NodeWithParameters->declare_parameter("cw/winros", false);
-    m_NodeWithParameters->declare_parameter("test_level", 1);
-}
-
 void Module::RunActionServer()
 {
-    std::unordered_map<std::string, std::unordered_map<std::string, std::function<void(void)>>>actions;
-
-    std::map<std::string, std::string>functions;
-
-    std::string function_for_log{" "};
-
-    for(const auto&module : m_Modules)
+    if(m_ActionServer)
     {
-        actions[module->get_name()] = module->GetActionFunctions();
-
-        for(const auto& function : module->GetActionFunctions())
-            functions[module->get_name()] = function.first;
+        Log("Action server is already running", WARN_LEVEL_LOG);
+        return;
     }
 
-    for(const auto&functions_to_show : functions)
+    std::unordered_map<std::string, std::unordered_map<std::string, std::function<std::string (void)>>>functions;
+
+    Action action;
+    action.target = "Server";
+    action.operation = "Test";
+    action.function = []()->std::string
     {
-        function_for_log += functions_to_show.first + ": " + functions_to_show.second + "\n";
-    }
+        return {"GAY"};
+    };
 
-    Log("Starting Action Server with following functions: ", 0);
-    Log(function_for_log, 0);
+   std::unordered_map<std::string, std::function<std::string (void)>>fun;
 
-     m_ActionServer = std::make_shared<ActionServer>();
+   fun[action.operation] = action.function;
 
-    m_ActionServer->Start(actions);
+    functions[action.target] = fun;
+
+    m_ActionServer = std::make_shared<ActionServer>();
+
+    m_ActionServer->Start(functions);
 
     m_ActionsExecutor.add_node(m_ActionServer);
 }
@@ -89,7 +68,9 @@ void Module::Log(const std::string &message, int logLevel) const
 
     std::string date_time = ss.str();
 
-    std::string name_of_node = this->get_name();
+//    std::string name_of_node = this->get_name();
+
+    std::string name_of_node = m_Name;
 
     //[TIME] [NAME]: MESSAGE LOGLEVEL(0 - INFO, 1 - WARN, 2 - ERROR)
 
@@ -134,27 +115,25 @@ rclcpp::Parameter Module::GetParameter(const std::string &parameter) const
 {
     Log("Trying to get parameter '" + parameter + "'", INFO_LEVEL_LOG);
 
-    rclcpp::Parameter return_value = rclcpp::Parameter{parameter};
-
     try
     {
         if (!this->has_parameter(parameter))
         {
             Log("Unable to get parameter '" + parameter + "': no such key", ERROR_LEVEL_LOG);
-            return return_value;
+            return {};
         }
     }
 
     catch(const rclcpp::exceptions::ParameterNotDeclaredException& exception)
     {
         Log("Parameter '" + parameter +"' not declared", ERROR_LEVEL_LOG);
-        return return_value;
+        return {};
     }
 
     catch (const rclcpp::exceptions::InvalidParametersException& e)
     {
         Log("Unable to get parameter '" + parameter +"': " + e.what(), ERROR_LEVEL_LOG);
-        return return_value;
+        return {};
     }
 
     return this->get_parameter(parameter);

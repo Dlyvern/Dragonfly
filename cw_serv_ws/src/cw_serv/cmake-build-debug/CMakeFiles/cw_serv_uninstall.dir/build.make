@@ -53,10 +53,10 @@ RM = /snap/clion/250/bin/cmake/linux/x64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dlyvern/Projects/cw_serv_ws/src/cw_serv
+CMAKE_SOURCE_DIR = /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug
 
 # Utility rule file for cw_serv_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/cw_serv_uninstall.dir/compiler_depend.make
 include CMakeFiles/cw_serv_uninstall.dir/progress.make
 
 CMakeFiles/cw_serv_uninstall:
-	/snap/clion/250/bin/cmake/linux/x64/bin/cmake -P /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/snap/clion/250/bin/cmake/linux/x64/bin/cmake -P /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 cw_serv_uninstall: CMakeFiles/cw_serv_uninstall
 cw_serv_uninstall: CMakeFiles/cw_serv_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/cw_serv_uninstall.dir/clean:
 .PHONY : CMakeFiles/cw_serv_uninstall.dir/clean
 
 CMakeFiles/cw_serv_uninstall.dir/depend:
-	cd /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dlyvern/Projects/cw_serv_ws/src/cw_serv /home/dlyvern/Projects/cw_serv_ws/src/cw_serv /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug/CMakeFiles/cw_serv_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug/CMakeFiles/cw_serv_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cw_serv_uninstall.dir/depend
 

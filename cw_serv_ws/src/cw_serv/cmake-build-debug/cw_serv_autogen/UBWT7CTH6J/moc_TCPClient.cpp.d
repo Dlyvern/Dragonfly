@@ -1,6 +1,6 @@
-/home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug/cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp: /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/TCPClient.hpp \
-  /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug/cw_serv_autogen/moc_predefs.h \
-  /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/Packet.hpp \
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug/cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/TCPClient.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug/cw_serv_autogen/moc_predefs.h \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/Packet.hpp \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/asm-generic/errno.h \

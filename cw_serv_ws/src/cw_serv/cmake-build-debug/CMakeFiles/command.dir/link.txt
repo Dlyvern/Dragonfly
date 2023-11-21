@@ -1,0 +1,2 @@
+/usr/bin/ar qc libcommand.a CMakeFiles/command.dir/command_autogen/mocs_compilation.cpp.o CMakeFiles/command.dir/src/cw_structs/Command.cpp.o
+/usr/bin/ranlib libcommand.a

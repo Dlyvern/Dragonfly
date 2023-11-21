@@ -2,6 +2,7 @@
 
 
 ActionClient::ActionClient(const Command &command, int id, std::chrono::seconds serverTimeOut) : rclcpp::Node("ActionClient"),
+m_Name{"ActionClient" + std::to_string(id)},
 m_Target{command.GetTarget()},
 m_ClientId{id},
 m_Operation{command.GetOperation()},
@@ -10,7 +11,6 @@ m_TimeLimit{command.GetTimeLimit()},
 m_ServerTimeOut{serverTimeOut}
 {
     m_LogPublisher = this->create_publisher<std_msgs::msg::String>("/cw/log", 200);
-
 
     m_ActionClient = rclcpp_action::create_client<action_interface::action::Cmd>(this, "cmd");
 
@@ -24,8 +24,6 @@ void ActionClient::Start()
 
 void ActionClient::SendGoal()
 {
-    Log("Trying to connect to Action server...", 0);
-
     int failure_times{0};
 
     while(!m_IsConnected)
@@ -46,7 +44,7 @@ void ActionClient::SendGoal()
         }
     }
 
-   Log("Connected to action server", 0);
+    Log("Connected to action server. Starting to send a goal to action server", 0);
 
     m_ConnectionTimer->cancel();
 
@@ -68,13 +66,11 @@ void ActionClient::SendGoal()
     goal_msg.time_limit = m_TimeLimit;
 
     m_ActionClient->async_send_goal(goal_msg, send_goal_options);
-
-   Log("Sending a goal to action server", 0);
 }
 
 void ActionClient::GoalFeedback(rclcpp_action::ClientGoalHandle<action_interface::action::Cmd>::SharedPtr, const std::shared_ptr<const action_interface::action::Cmd::Feedback> feedback)
 {
-    RCLCPP_INFO(this->get_logger(), "Progress: %s", std::to_string(feedback->progress).c_str());
+    Log(&"Progress: " [ feedback->progress], 0);
 }
 
 void ActionClient::GoalResponse(rclcpp_action::ClientGoalHandle<action_interface::action::Cmd>::SharedPtr future)
@@ -109,11 +105,7 @@ void ActionClient::GoalResult(const rclcpp_action::ClientGoalHandle<action_inter
             return;
     }
 
-    std::stringstream ss;
-
-    ss << "Result received: ";
-
-    RCLCPP_INFO(this->get_logger(), "%s", ss.str().c_str());
+    Log("Action done with result " + result.result->res_arg, 0);
 }
 
 void ActionClient::Log(const std::string &message, int levelLog)
@@ -131,7 +123,7 @@ void ActionClient::Log(const std::string &message, int levelLog)
 
     std::string date_time = ss.str();
 
-    std::string name_of_node = this->get_name();
+    std::string name_of_node = m_Name;
 
     //[TIME] [NAME]: MESSAGE LOGLEVEL(0 - INFO, 1 - WARN, 2 - ERROR)
 

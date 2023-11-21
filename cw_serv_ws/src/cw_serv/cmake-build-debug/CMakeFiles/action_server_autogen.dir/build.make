@@ -53,10 +53,10 @@ RM = /snap/clion/250/bin/cmake/linux/x64/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dlyvern/Projects/cw_serv_ws/src/cw_serv
+CMAKE_SOURCE_DIR = /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug
+CMAKE_BINARY_DIR = /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug
 
 # Utility rule file for action_server_autogen.
 
@@ -67,8 +67,8 @@ include CMakeFiles/action_server_autogen.dir/compiler_depend.make
 include CMakeFiles/action_server_autogen.dir/progress.make
 
 CMakeFiles/action_server_autogen:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target action_server"
-	/snap/clion/250/bin/cmake/linux/x64/bin/cmake -E cmake_autogen /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug/CMakeFiles/action_server_autogen.dir/AutogenInfo.json Debug
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target action_server"
+	/snap/clion/250/bin/cmake/linux/x64/bin/cmake -E cmake_autogen /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug/CMakeFiles/action_server_autogen.dir/AutogenInfo.json Debug
 
 action_server_autogen: CMakeFiles/action_server_autogen
 action_server_autogen: CMakeFiles/action_server_autogen.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/action_server_autogen.dir/clean:
 .PHONY : CMakeFiles/action_server_autogen.dir/clean
 
 CMakeFiles/action_server_autogen.dir/depend:
-	cd /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dlyvern/Projects/cw_serv_ws/src/cw_serv /home/dlyvern/Projects/cw_serv_ws/src/cw_serv /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug /home/dlyvern/Projects/cw_serv_ws/src/cw_serv/cmake-build-debug/CMakeFiles/action_server_autogen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug/CMakeFiles/action_server_autogen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/action_server_autogen.dir/depend
 

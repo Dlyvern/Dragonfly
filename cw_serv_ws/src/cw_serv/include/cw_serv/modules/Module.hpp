@@ -37,27 +37,29 @@ private:
     std::shared_ptr<ActionServer>m_ActionServer{nullptr};
     rclcpp::executors::MultiThreadedExecutor m_ActionsExecutor;
 
-    std::vector<std::shared_ptr<Module>>m_Modules;
+    std::string m_Name{"NOT_SET"};
 
     std::mutex m_ActivityMutex;
     std::condition_variable m_ActivityConditionVariable;
 
-    mutable std::shared_mutex m_RunningMutex;
-    mutable std::shared_mutex m_RunIntervalMutex;
     std::chrono::milliseconds m_RunInterval{1000};
 
     bool m_IsRunning{false};
 
-    static std::shared_ptr<rclcpp::Node>m_NodeWithParameters;
     std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String>>m_LogPublisher;
 
-    static void InitializeParameters();
+
+    struct Action
+    {
+        std::string target;
+        std::string operation;
+        std::function<std::string(void)> function;
+    };
 
 public slots:
     void Log(const std::string &message, int logLevel) const;
 
 protected:
-
     std::thread runThread_;
 
     virtual void Run() = 0;
