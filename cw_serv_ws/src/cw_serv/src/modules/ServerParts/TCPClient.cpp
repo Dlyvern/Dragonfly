@@ -74,19 +74,12 @@ const int &TCPClient::GetId() const
 
 void TCPClient::SendMessageToClient(const QJsonObject &message)
 {
-    QByteArray packet;
-    QDataStream stream(&packet, QIODevice::WriteOnly);
-    stream.setByteOrder(QDataStream::LittleEndian);
+    auto msg = message;
+    Packet packet(0xAA55, 0x01, 0x1234, 0, std::move(msg), 0xFFFF);
 
-    QJsonDocument jsonDoc(message);
-    QByteArray jsonData = jsonDoc.toJson();
-    quint16 jsonLength = jsonData.length();
+    QByteArray container = packet.Pack();
 
-    stream << jsonLength;
-
-    stream.writeRawData(jsonData.data(), jsonLength);
-
-    m_Socket->write(packet);
+    m_Socket->write(container);
 }
 
 TCPClient::~TCPClient() = default;

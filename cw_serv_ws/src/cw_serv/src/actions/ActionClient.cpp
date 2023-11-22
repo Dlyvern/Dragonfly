@@ -19,12 +19,9 @@ m_ServerTimeOut{serverTimeOut}
 
 void ActionClient::Start(std::function<void(const std::string& message)>&doneCallback)
 {
-    m_DoneCallback = doneCallback;
-}
-
-void ActionClient::SendGoal()
-{
     int failure_times{0};
+
+    m_DoneCallback = doneCallback;
 
     while(!m_IsConnected)
     {
@@ -38,14 +35,16 @@ void ActionClient::SendGoal()
             if(failure_times > 5)
             {
                 Log("Could not connect to action server more than 5 timer. Aborting action client", 2);
-                m_ConnectionTimer->cancel();
-                return;
+
+                if(m_DoneCallback)
+                    m_DoneCallback("action_server_is_not_available");
             }
         }
     }
+}
 
-    Log("Connected to action server. Starting to send a goal to action server", 0);
-
+void ActionClient::SendGoal()
+{
     m_ConnectionTimer->cancel();
 
     using namespace std::placeholders;
@@ -95,7 +94,6 @@ void ActionClient::GoalResult(const rclcpp_action::ClientGoalHandle<action_inter
         case rclcpp_action::ResultCode::SUCCEEDED:
             break;
         case rclcpp_action::ResultCode::ABORTED:
-            Log("Goal was aborted", 2);
             return;
         case rclcpp_action::ResultCode::CANCELED:
             Log("Goal was canceled", 2);
@@ -106,8 +104,7 @@ void ActionClient::GoalResult(const rclcpp_action::ClientGoalHandle<action_inter
     }
 
     if(m_DoneCallback)
-         m_DoneCallback( result.result->res_arg);
-    Log("Action done with result " + result.result->res_arg, 0);
+         m_DoneCallback(result.result->res_arg);
 }
 
 void ActionClient::Log(const std::string &message, int levelLog)

@@ -29,7 +29,7 @@ private:
     QHostAddress m_Ip;
     QTcpServer *m_Server;
 
-    std::shared_ptr<TCPClient> m_Operator{nullptr};
+    TCPClient* m_Operator{nullptr};
 
     int m_IdOfClient{0};
 

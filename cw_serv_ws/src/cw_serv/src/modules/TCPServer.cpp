@@ -15,7 +15,7 @@ TCPServer::TCPServer(const std::string &name, QWidget *parent) : Module(name, pa
 
     connect(m_ClientManager, &ClientManager::IsOperator, this, [this](TCPClient*  client)
     {
-        return m_Operator.get() == client;
+        return m_Operator == client;
     });
 
     connect(m_ClientManager, &ClientManager::NewAction, this, &TCPServer::NewAction);
@@ -84,19 +84,30 @@ void TCPServer::SetOperator(TCPClient* newOperator)
 {
     if(!newOperator) return;
 
-    QString operators_name{newOperator->GetName().c_str()};
+    QJsonObject message_for_client;
 
-    if(m_Operator.get() == newOperator)
-        Log(newOperator->GetName() + " is already operator", WARN_LEVEL_LOG);
+    message_for_client["type"] = "result";
+    message_for_client["res"] = false;
+    message_for_client["res_arg"] = "not_op";
 
-    else if(m_Operator.get() != newOperator && newOperator->GetLevel() > 0)
+    if(m_Operator == newOperator)
     {
-        m_Operator.reset(newOperator);
-        Log("Operator assigned to " + newOperator->GetName(), INFO_LEVEL_LOG);
+        message_for_client["res_arg"] = "already_operator";
     }
 
-    else if(m_Operator.get() != newOperator && newOperator->GetLevel() <= 0)
-        Log(newOperator->GetName() + " have no permissions to get operator rights", WARN_LEVEL_LOG);
+    else if(m_Operator != newOperator && newOperator->GetLevel() > 0)
+    {
+        m_Operator = newOperator;
+        message_for_client["res"] = true;
+        message_for_client["res_arg"] = "new_operator";
+    }
+
+    else if(m_Operator != newOperator && newOperator->GetLevel() <= 0)
+    {
+        message_for_client["res_arg"] = "have_no_permissions to get operator rights";
+    }
+
+    emit MessageForClient(newOperator->GetId(), message_for_client);
 }
 
 void TCPServer::NewAction(int idOfClient, Command *command)
@@ -106,7 +117,9 @@ void TCPServer::NewAction(int idOfClient, Command *command)
     {
         QJsonObject message_for_client;
 
-        message_for_client["cmd_done"] = QString{message.c_str()};
+        message_for_client["type"] = "result";
+        message_for_client["res"] = true;
+        message_for_client["res_arg"] =  QString{message.c_str()};
 
         emit MessageForClient(idOfClient, message_for_client);
     };
