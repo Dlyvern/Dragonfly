@@ -16,8 +16,6 @@ class ClientManager : public QWidget
 {
     Q_OBJECT
 private:
-//    std::vector<std::shared_ptr<TCPClient>>m_TCPClients;
-
     std::unordered_map<int, std::shared_ptr<TCPClient>>m_TCPClients;
 
     bool DisconnectClient(TCPClient* tcpClient);
@@ -25,7 +23,6 @@ private:
     void Log(const std::string&message, int logLevel, TCPClient* tcpClient) const;
 
 public:
-
     explicit ClientManager(QWidget* parent = nullptr);
 
     void AddNewClient(std::shared_ptr<TCPClient>&&tcpClient);
@@ -33,17 +30,10 @@ public:
     virtual ~ClientManager();
 
 public slots:
-    void MessageForClient(int clientId, const QJsonObject& message);
+    void MessageForClient(const QJsonObject& message,  int idOfClient);
 
 private slots:
     void MessageFromClient(const QJsonObject& message);
-
-signals:
-    void NewOperator(TCPClient* newOperator);
-
-    bool IsOperator(TCPClient* maybeOperator);
-
-    void NewAction(int idOfClient, Command*command);
 };
 
 #endif //CLIENT_MANAGER_HPP

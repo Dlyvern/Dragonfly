@@ -1,57 +1,34 @@
 #include "modules/Module.hpp"
 
-Module::Module(const std::string &nameOfNode, QWidget *parent) : rclcpp::Node(nameOfNode), QWidget(parent), m_Name{nameOfNode}
-{
+std::shared_ptr<ActionServer>Module::m_ActionServer{nullptr};
+
+Module::Module(const std::string &nameOfNode, QWidget *parent) : rclcpp::Node(nameOfNode), QWidget(parent), m_Name{nameOfNode} {
     m_LogPublisher = this->create_publisher<std_msgs::msg::String>("/cw/log", 200);
 
-    std::thread([this]
+    if (!m_ActionServer)
     {
-        while(rclcpp::ok())
+        m_ActionServer = std::make_shared<ActionServer>();
+
+        std::unordered_map<std::string, std::unordered_map<std::string, std::function<std::string (void)>>>functions;
+
+        Action action;
+        action.target = "Server";
+        action.operation = "Test";
+        action.function = []()->std::string
         {
-            m_ActionsExecutor.spin();
-        }
-    }).detach();
-}
+            return {"test_action_completed"};
+        };
 
-void Module::RunActionServer()
-{
-    if(m_ActionServer)
-    {
-        Log("Action server is already running", WARN_LEVEL_LOG);
-        return;
+        std::unordered_map<std::string, std::function<std::string (void)>>fun;
+
+        fun[action.operation] = action.function;
+
+        functions[action.target] = fun;
+
+        m_ActionServer->Start(functions);
+
+        std::thread([]{spin(m_ActionServer);}).detach();
     }
-
-    std::unordered_map<std::string, std::unordered_map<std::string, std::function<std::string (void)>>>functions;
-
-    Action action;
-    action.target = "Server";
-    action.operation = "Test";
-    action.function = []()->std::string
-    {
-        return {"test_action_completed"};
-    };
-
-   std::unordered_map<std::string, std::function<std::string (void)>>fun;
-
-   fun[action.operation] = action.function;
-
-    functions[action.target] = fun;
-
-    m_ActionServer = std::make_shared<ActionServer>();
-
-    m_ActionServer->Start(functions);
-
-    m_ActionsExecutor.add_node(m_ActionServer);
-}
-
-
-void Module::StartNewActionClient(const Command &command, int idClient, std::function<void(const std::string &)> &doneCallback)
-{
-    m_ActionClient = std::make_shared<ActionClient>(command, idClient);
-
-    m_ActionClient->Start(doneCallback);
-
-    m_ActionsExecutor.add_node(m_ActionClient);
 }
 
 void Module::Log(const std::string &message, int logLevel) const
@@ -139,6 +116,5 @@ rclcpp::Parameter Module::GetParameter(const std::string &parameter) const
 
     return this->get_parameter(parameter);
 }
-
 
 Module::~Module() = default;

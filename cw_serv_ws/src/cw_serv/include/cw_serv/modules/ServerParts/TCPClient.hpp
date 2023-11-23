@@ -1,17 +1,19 @@
 #ifndef TCP_CLIENT_HPP
 #define TCP_CLIENT_HPP
 
-#include <QTcpServer>
 #include <QTcpSocket>
 
 #ifndef PACKET_HPP
 #include "Packet.hpp"
 #endif
 
+#include "actions/ActionClient.hpp"
+
 class TCPClient : public QObject
 {
 Q_OBJECT
 private:
+    std::shared_ptr<ActionClient>m_ActionClient{nullptr};
     QTcpSocket *m_Socket;
 
     std::string m_Name{"NOT_SET"};
@@ -20,10 +22,13 @@ private:
     int m_Level{0};
     bool m_TCPOnly{false};
     bool m_IsAlive{false};
+    bool m_Operator{false};
 
     void Log(const std::string&message, int levelLog);
 
-public slots:
+    void ActionDoneCallback(const std::string& resultArgs, bool result);
+
+private slots:
     void ReadMessage();
 
 public:

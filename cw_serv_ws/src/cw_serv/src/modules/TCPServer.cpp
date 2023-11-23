@@ -11,15 +11,6 @@ TCPServer::TCPServer(const std::string &name, QWidget *parent) : Module(name, pa
 
     connect(m_Server, &QTcpServer::newConnection, this, &TCPServer::NewConnection);
 
-    connect(m_ClientManager, &ClientManager::NewOperator, this, &TCPServer::SetOperator);
-
-    connect(m_ClientManager, &ClientManager::IsOperator, this, [this](TCPClient*  client)
-    {
-        return m_Operator == client;
-    });
-
-    connect(m_ClientManager, &ClientManager::NewAction, this, &TCPServer::NewAction);
-
     connect(m_RunTimer, &QTimer::timeout, this, &TCPServer::Run);
 
     connect(this, &TCPServer::MessageForClient, m_ClientManager, &ClientManager::MessageForClient);
@@ -42,8 +33,6 @@ void TCPServer::Start()
     SetRunInterval(std::chrono::milliseconds(100));
 
     m_RunTimer->setInterval(GetRunInterval());
-
-    RunActionServer();
 
     m_RunTimer->start();
 
@@ -80,57 +69,6 @@ void TCPServer::LogMessageFromClient(const std::string &message, int levelLog)
     Log(message, levelLog);
 }
 
-void TCPServer::SetOperator(TCPClient* newOperator)
-{
-    if(!newOperator) return;
-
-    QJsonObject message_for_client;
-
-    message_for_client["type"] = "result";
-    message_for_client["res"] = false;
-    message_for_client["res_arg"] = "not_op";
-
-    if(m_Operator == newOperator)
-    {
-        message_for_client["res_arg"] = "already_operator";
-    }
-
-    else if(m_Operator != newOperator && newOperator->GetLevel() > 0)
-    {
-        m_Operator = newOperator;
-        message_for_client["res"] = true;
-        message_for_client["res_arg"] = "new_operator";
-    }
-
-    else if(m_Operator != newOperator && newOperator->GetLevel() <= 0)
-    {
-        message_for_client["res_arg"] = "have_no_permissions to get operator rights";
-    }
-
-    emit MessageForClient(newOperator->GetId(), message_for_client);
-}
-
-void TCPServer::NewAction(int idOfClient, Command *command)
-{
-    std::function<void(const std::string& message)>doneCallback =
-    [&](const std::string& message)
-    {
-        QJsonObject message_for_client;
-
-        message_for_client["type"] = "result";
-        message_for_client["res"] = true;
-        message_for_client["res_arg"] =  QString{message.c_str()};
-
-        emit MessageForClient(idOfClient, message_for_client);
-    };
-
-    StartNewActionClient(*command, idOfClient, doneCallback);
-}
-
-std::unordered_map<std::string, std::function<void(void)>> TCPServer::GetActionFunctions()
-{
-    return{};
-}
 
 TCPServer::~TCPServer()
 {

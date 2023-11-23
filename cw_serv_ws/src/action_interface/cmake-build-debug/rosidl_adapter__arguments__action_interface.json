@@ -1,6 +1,7 @@
 {
   "package_name": "action_interface",
   "non_idl_tuples": [
-    "/home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface:action/Cmd.action"
+    "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface:action/Cmd.action",
+    "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface:srv/Cmd.srv"
   ]
 }

@@ -53,6 +53,12 @@
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
   /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -297,6 +303,10 @@
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/join.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
@@ -520,6 +530,7 @@
   /usr/include/c++/11/csignal \
   /usr/include/c++/11/cstddef \
   /usr/include/c++/11/cstdint \
+  /usr/include/c++/11/cstdio \
   /usr/include/c++/11/cstdlib \
   /usr/include/c++/11/cstring \
   /usr/include/c++/11/ctime \
@@ -590,6 +601,8 @@
   /usr/include/c++/11/utility \
   /usr/include/c++/11/variant \
   /usr/include/c++/11/vector \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
   /usr/include/ctype.h \
   /usr/include/endian.h \
   /usr/include/errno.h \

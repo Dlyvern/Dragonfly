@@ -1,0 +1,51 @@
+[0.023s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[0.053s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.143s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.167s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.169s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.174s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.182s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.193s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.231s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.233s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.300s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.395s] -- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.449s] -- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.485s] -- Found action_interface: 0.0.0 (/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake)
+[0.523s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.579s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.579s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv>
+[0.579s] -- Configured cppcheck exclude dirs and/or files: 
+[0.580s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.582s] -- Added test 'lint_cmake' to check CMake code style
+[0.583s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.590s] -- Added test 'uncrustify' to check C / C++ code style
+[0.590s] -- Configured uncrustify additional arguments: 
+[0.591s] -- Added test 'xmllint' to check XML markup files
+[0.592s] -- Configuring done
+[0.624s] -- Generating done
+[0.625s] -- Build files have been written to: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv
+[0.645s] [  7%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[0.921s] [  7%] Built target cw_serv_autogen
+[0.932s] [35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[0.954s] [ 14%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o[0m
+[0.963s] [ 21%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o[0m
+[0.963s] [ 28%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/actions/ActionClient.cpp.o[0m
+[0.964s] [ 35%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o[0m
+[0.964s] [ 42%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o[0m
+[0.965s] [ 50%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o[0m
+[0.965s] [ 57%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.o[0m
+[0.965s] [ 64%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/ClientManager.cpp.o[0m
+[0.966s] [ 71%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ActionService.cpp.o[0m
+[1.677s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:[m[K In member function ‘[01m[Kvoid TCPClient::SendMessageToClient(const QJsonObject&)[m[K’:
+[1.677s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:137:19:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kqint16[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K43605[m[K’ to ‘[01m[K-21931[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[1.677s]   137 |     Packet packet([01;35m[K0xAA55[m[K, 0x01, 0x1234, 0, std::move(msg), 0xFFFF);
+[1.678s]       |                   [01;35m[K^~~~~~[m[K
+[74.725s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:[m[K In member function ‘[01m[Kvoid ActionService::Callback(std::shared_ptr<action_interface::srv::Cmd_Request_<std::allocator<void> > >, std::shared_ptr<action_interface::srv::Cmd_Response_<std::allocator<void> > >)[m[K’:
+[76.317s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:52:146:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[77.920s]    52 | void ActionService::Callback(std::shared_ptr<action_interface::srv::Cmd::Request> request, [01;35m[Kstd::shared_ptr<action_interface::srv::Cmd::Response> response[m[K)
+[79.820s]       |                                                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[82.354s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:[m[K In member function ‘[01m[Kvoid ActionService::FeedbackCallback(const string&)[m[K’:
+[85.098s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:58:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[88.302s]    58 | void ActionService::FeedbackCallback([01;35m[Kconst std::string &feedback[m[K)
+[91.629s]       |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

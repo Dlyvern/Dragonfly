@@ -360,7 +360,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_interface/srv" TYPE FILE FILES "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/rosidl_adapter/action_interface/srv/Cmd.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_interface/action" TYPE FILE FILES "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/action/Cmd.action")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_interface/srv" TYPE FILE FILES "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/srv/Cmd.srv")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_interface/srv" TYPE FILE FILES "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/rosidl_cmake/srv/Cmd_Request.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/action_interface/srv" TYPE FILE FILES "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/rosidl_cmake/srv/Cmd_Response.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

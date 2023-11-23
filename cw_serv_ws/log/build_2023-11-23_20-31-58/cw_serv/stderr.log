@@ -1,0 +1,12 @@
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:[m[K In member function ‘[01m[Kvoid TCPClient::SendMessageToClient(const QJsonObject&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:138:19:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kqint16[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K43605[m[K’ to ‘[01m[K-21931[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+  138 |     Packet packet([01;35m[K0xAA55[m[K, 0x01, 0x1234, 0, std::move(msg), 0xFFFF);
+      |                   [01;35m[K^~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:[m[K In member function ‘[01m[Kvoid ActionService::Callback(std::shared_ptr<action_interface::srv::Cmd_Request_<std::allocator<void> > >, std::shared_ptr<action_interface::srv::Cmd_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:46:146:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   46 | void ActionService::Callback(std::shared_ptr<action_interface::srv::Cmd::Request> request, [01;35m[Kstd::shared_ptr<action_interface::srv::Cmd::Response> response[m[K)
+      |                                                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:[m[K In member function ‘[01m[Kvoid ActionService::FeedbackCallback(const string&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:52:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   52 | void ActionService::FeedbackCallback([01;35m[Kconst std::string &feedback[m[K)
+      |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

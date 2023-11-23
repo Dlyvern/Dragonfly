@@ -70,6 +70,10 @@ CMakeFiles/action_interface__cpp: rosidl_generator_cpp/action_interface/action/c
 CMakeFiles/action_interface__cpp: rosidl_generator_cpp/action_interface/action/detail/cmd__builder.hpp
 CMakeFiles/action_interface__cpp: rosidl_generator_cpp/action_interface/action/detail/cmd__struct.hpp
 CMakeFiles/action_interface__cpp: rosidl_generator_cpp/action_interface/action/detail/cmd__traits.hpp
+CMakeFiles/action_interface__cpp: rosidl_generator_cpp/action_interface/srv/cmd.hpp
+CMakeFiles/action_interface__cpp: rosidl_generator_cpp/action_interface/srv/detail/cmd__builder.hpp
+CMakeFiles/action_interface__cpp: rosidl_generator_cpp/action_interface/srv/detail/cmd__struct.hpp
+CMakeFiles/action_interface__cpp: rosidl_generator_cpp/action_interface/srv/detail/cmd__traits.hpp
 
 rosidl_generator_cpp/action_interface/action/cmd.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
 rosidl_generator_cpp/action_interface/action/cmd.hpp: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_cpp/__init__.py
@@ -87,6 +91,7 @@ rosidl_generator_cpp/action_interface/action/cmd.hpp: /opt/ros/humble/share/rosi
 rosidl_generator_cpp/action_interface/action/cmd.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
 rosidl_generator_cpp/action_interface/action/cmd.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/action_interface/action/cmd.hpp: rosidl_adapter/action_interface/action/Cmd.idl
+rosidl_generator_cpp/action_interface/action/cmd.hpp: rosidl_adapter/action_interface/srv/Cmd.idl
 rosidl_generator_cpp/action_interface/action/cmd.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_cpp/action_interface/action/cmd.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_cpp/action_interface/action/cmd.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -106,11 +111,27 @@ rosidl_generator_cpp/action_interface/action/detail/cmd__struct.hpp: rosidl_gene
 rosidl_generator_cpp/action_interface/action/detail/cmd__traits.hpp: rosidl_generator_cpp/action_interface/action/cmd.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/action_interface/action/detail/cmd__traits.hpp
 
+rosidl_generator_cpp/action_interface/srv/cmd.hpp: rosidl_generator_cpp/action_interface/action/cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/action_interface/srv/cmd.hpp
+
+rosidl_generator_cpp/action_interface/srv/detail/cmd__builder.hpp: rosidl_generator_cpp/action_interface/action/cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/action_interface/srv/detail/cmd__builder.hpp
+
+rosidl_generator_cpp/action_interface/srv/detail/cmd__struct.hpp: rosidl_generator_cpp/action_interface/action/cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/action_interface/srv/detail/cmd__struct.hpp
+
+rosidl_generator_cpp/action_interface/srv/detail/cmd__traits.hpp: rosidl_generator_cpp/action_interface/action/cmd.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/action_interface/srv/detail/cmd__traits.hpp
+
 action_interface__cpp: CMakeFiles/action_interface__cpp
 action_interface__cpp: rosidl_generator_cpp/action_interface/action/cmd.hpp
 action_interface__cpp: rosidl_generator_cpp/action_interface/action/detail/cmd__builder.hpp
 action_interface__cpp: rosidl_generator_cpp/action_interface/action/detail/cmd__struct.hpp
 action_interface__cpp: rosidl_generator_cpp/action_interface/action/detail/cmd__traits.hpp
+action_interface__cpp: rosidl_generator_cpp/action_interface/srv/cmd.hpp
+action_interface__cpp: rosidl_generator_cpp/action_interface/srv/detail/cmd__builder.hpp
+action_interface__cpp: rosidl_generator_cpp/action_interface/srv/detail/cmd__struct.hpp
+action_interface__cpp: rosidl_generator_cpp/action_interface/srv/detail/cmd__traits.hpp
 action_interface__cpp: CMakeFiles/action_interface__cpp.dir/build.make
 .PHONY : action_interface__cpp
 

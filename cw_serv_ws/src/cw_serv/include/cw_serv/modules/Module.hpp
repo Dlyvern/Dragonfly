@@ -13,14 +13,6 @@
 #define ERROR_LEVEL_LOG 2
 #endif
 
-#ifndef ACTION_SERVER_HPP
-#include "actions/ActionServer.hpp"
-#endif
-
-#ifndef ACTION_CLIENT_HPP
-#include "actions/ActionClient.hpp"
-#endif
-
 #ifndef COMMAND_HPP
 #include "cw_structs/Command.hpp"
 #endif
@@ -30,16 +22,19 @@
 #include "std_msgs/msg/string.hpp"
 #include "QSettings"
 
+
+#include "actions/ActionServer.hpp"
+
+
+
 class Module : public rclcpp::Node, public QWidget
 {
 private:
-    std::shared_ptr<ActionClient>m_ActionClient{nullptr};
-    std::shared_ptr<ActionServer>m_ActionServer{nullptr};
-    rclcpp::executors::MultiThreadedExecutor m_ActionsExecutor;
+
+    static std::shared_ptr<ActionServer>m_ActionServer;
 
     std::string m_Name{"NOT_SET"};
 
-    std::mutex m_ActivityMutex;
     std::condition_variable m_ActivityConditionVariable;
 
     std::chrono::milliseconds m_RunInterval{1000};
@@ -48,12 +43,7 @@ private:
 
     std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String>>m_LogPublisher;
 
-    struct Action
-    {
-        std::string target;
-        std::string operation;
-        std::function<std::string(void)> function;
-    };
+    std::mutex m_ActivityMutex;
 
 public slots:
     void Log(const std::string &message, int logLevel) const;
@@ -72,14 +62,15 @@ protected:
     std::chrono::milliseconds GetRunInterval() const;
 
     void SetRunInterval(std::chrono::milliseconds runInterval);
-    void RunActionServer();
 
-    [[nodiscard]]virtual std::unordered_map<std::string, std::function<void(void)>> GetActionFunctions() = 0;
-
-    void StartNewActionClient(const Command& command, int idClient, std::function<void(const std::string& message)>&doneCallback);
+    struct Action
+    {
+        std::string target;
+        std::string operation;
+        std::function<std::string(void)> function;
+    };
 
 public:
-
     explicit Module(const std::string& nameOfNode, QWidget *parent = nullptr);
 
     virtual void Start() = 0;

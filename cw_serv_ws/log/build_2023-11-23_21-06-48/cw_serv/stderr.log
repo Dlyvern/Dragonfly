@@ -1,0 +1,41 @@
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionServer.cpp:[m[K In constructor ‘[01m[KActionServer::ActionServer(rclcpp::NodeOptions)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionServer.cpp:3:54:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Koptions[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    3 | ActionServer::ActionServer([01;35m[Kconst rclcpp::NodeOptions options[m[K) : rclcpp::Node("ActionServer")
+      |                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:[m[K In member function ‘[01m[Kvoid ActionService::Callback(std::shared_ptr<action_interface::srv::Cmd_Request_<std::allocator<void> > >, std::shared_ptr<action_interface::srv::Cmd_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:46:146:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   46 | void ActionService::Callback(std::shared_ptr<action_interface::srv::Cmd::Request> request, [01;35m[Kstd::shared_ptr<action_interface::srv::Cmd::Response> response[m[K)
+      |                                                                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:[m[K In member function ‘[01m[Kvoid ActionService::FeedbackCallback(const string&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:53:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   53 | void ActionService::FeedbackCallback([01;35m[Kconst std::string &feedback[m[K)
+      |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/string:41[m[K,
+                 from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp:4[m[K,
+                 from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:17[m[K,
+                 from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ActionService.hpp:5[m[K,
+                 from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = ActionServer; _Args = {}; _Tp = ActionServer][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_CharT> >::construct(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, _Up*, _Args&& ...) [with _Up = ActionServer; _Args = {}; _Tp = ActionServer; std::allocator_traits<std::allocator<_CharT> >::allocator_type = std::allocator<ActionServer>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {}; _Tp = ActionServer; _Alloc = std::allocator<ActionServer>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = ActionServer; _Alloc = std::allocator<ActionServer>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ActionServer>; _Args = {}; _Tp = ActionServer; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<ActionServer>; _Args = {}; _Tp = ActionServer][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = ActionServer; _Alloc = std::allocator<ActionServer>; _Args = {}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = ActionServer; _Args = {}][m[K’
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:8:52:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KActionServer::ActionServer()[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ActionService.hpp:15[m[K,
+                 from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:1[m[K:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp:37:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KActionServer::ActionServer(rclcpp::NodeOptions)[m[K’
+   37 |     [01;36m[KActionServer[m[K(const rclcpp::NodeOptions options);
+      |     [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp:37:5:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 0 provided
+gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:230: CMakeFiles/cw_serv.dir/src/modules/ActionService.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

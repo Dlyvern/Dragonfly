@@ -124,6 +124,33 @@ find_package(Qt5 COMPONENTS Widgets Network REQUIRED)
 #target_include_directories(tcp_client PUBLIC $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/${INCLUDE_DIR}> $<INSTALL_INTERFACE:include> ${Boost_INCLUDE_DIRS})
 
 
+#add_library(action_server SHARED
+#        ${INCLUDE_DIR}/actions/ActionServer.hpp
+#        ${SRC_DIR}/actions/ActionServer.cpp)
+#
+#target_include_directories(action_server PRIVATE
+#        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+#        $<INSTALL_INTERFACE:include>)
+#
+#target_compile_definitions(action_server
+#        PRIVATE "COMPOSITION_BUILDING_DLL")
+#
+#ament_target_dependencies(action_server
+#        action_interface
+#        rclcpp
+#        rclcpp_action
+#        rclcpp_components)
+#
+#rclcpp_components_register_node(action_server PLUGIN "action_server_cmd::ActionServer" EXECUTABLE action_srv)
+#
+#set_property(SOURCE include/cw_serv/actions/ActionServer.hpp PROPERTY SKIP_AUTOGEN ON)
+#
+#install(TARGETS
+#        action_server
+#        ARCHIVE DESTINATION lib
+#        LIBRARY DESTINATION lib
+#        RUNTIME DESTINATION bin)
+
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
 ament_target_dependencies(${PROJECT_NAME}

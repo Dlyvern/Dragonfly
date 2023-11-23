@@ -1,0 +1,4 @@
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:[m[K In member function ‘[01m[Kvoid ActionService::FeedbackCallback(const string&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ActionService.cpp:55:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kfeedback[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   55 | void ActionService::FeedbackCallback([01;35m[Kconst std::string &feedback[m[K)
+      |                                      [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

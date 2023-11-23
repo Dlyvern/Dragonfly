@@ -1,0 +1,12 @@
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionServer.cpp:[m[K In member function ‘[01m[Kvoid ActionServer::Start(std::unordered_map<std::__cxx11::basic_string<char>, std::unordered_map<std::__cxx11::basic_string<char>, std::function<std::__cxx11::basic_string<char>()> > >&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionServer.cpp:19:5:[m[K [01;31m[Kerror: [m[K‘[01m[Km_AllActionsFromModulesAndSubmodules[m[K’ was not declared in this scope
+   19 |     [01;31m[Km_AllActionsFromModulesAndSubmodules[m[K = actions;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionServer.cpp:[m[K In member function ‘[01m[Krclcpp_action::GoalResponse ActionServer::HandleGoal(const GoalUUID&, std::shared_ptr<const action_interface::action::Cmd_Goal_<std::allocator<void> > >)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionServer.cpp:100:23:[m[K [01;31m[Kerror: [m[K‘[01m[Km_AllActionsFromModulesAndSubmodules[m[K’ was not declared in this scope
+  100 |     auto operations = [01;31m[Km_AllActionsFromModulesAndSubmodules[m[K.find(target);
+      |                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:118: CMakeFiles/cw_serv.dir/src/actions/ActionServer.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

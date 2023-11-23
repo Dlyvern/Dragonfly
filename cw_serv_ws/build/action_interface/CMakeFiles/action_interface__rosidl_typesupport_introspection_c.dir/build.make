@@ -78,6 +78,7 @@ rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__rosidl_ty
 rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em
 rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em
 rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__rosidl_typesupport_introspection_c.h: rosidl_adapter/action_interface/action/Cmd.idl
+rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__rosidl_typesupport_introspection_c.h: rosidl_adapter/action_interface/srv/Cmd.idl
 rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__rosidl_typesupport_introspection_c.h: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -88,8 +89,14 @@ rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__rosidl_ty
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C introspection for ROS interfaces"
 	/usr/bin/python3.10 /opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c --generator-arguments-file /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/rosidl_typesupport_introspection_c__arguments.json
 
+rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__rosidl_typesupport_introspection_c.h: rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__rosidl_typesupport_introspection_c.h
+
 rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__type_support.c: rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__rosidl_typesupport_introspection_c.h
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__type_support.c
+
+rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c: rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__rosidl_typesupport_introspection_c.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c
 
 CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__type_support.c.o: CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/flags.make
 CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__type_support.c.o: rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__type_support.c
@@ -105,14 +112,30 @@ CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_types
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__type_support.c.s"
 	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__type_support.c -o CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__type_support.c.s
 
+CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.o: CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/flags.make
+CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.o: rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c
+CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.o: CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.o -MF CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.o.d -o CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.o -c /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c
+
+CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c > CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.i
+
+CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c -o CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.s
+
 # Object files for target action_interface__rosidl_typesupport_introspection_c
 action_interface__rosidl_typesupport_introspection_c_OBJECTS = \
-"CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__type_support.c.o"
+"CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__type_support.c.o" \
+"CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.o"
 
 # External object files for target action_interface__rosidl_typesupport_introspection_c
 action_interface__rosidl_typesupport_introspection_c_EXTERNAL_OBJECTS =
 
 libaction_interface__rosidl_typesupport_introspection_c.so: CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__type_support.c.o
+libaction_interface__rosidl_typesupport_introspection_c.so: CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c.o
 libaction_interface__rosidl_typesupport_introspection_c.so: CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/build.make
 libaction_interface__rosidl_typesupport_introspection_c.so: libaction_interface__rosidl_generator_c.so
 libaction_interface__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
@@ -125,7 +148,7 @@ libaction_interface__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/
 libaction_interface__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libaction_interface__rosidl_typesupport_introspection_c.so: /opt/ros/humble/lib/librcutils.so
 libaction_interface__rosidl_typesupport_introspection_c.so: CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C shared library libaction_interface__rosidl_typesupport_introspection_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking C shared library libaction_interface__rosidl_typesupport_introspection_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +161,8 @@ CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/clean:
 
 CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__rosidl_typesupport_introspection_c.h
 CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/action_interface/action/detail/cmd__type_support.c
+CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__rosidl_typesupport_introspection_c.h
+CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/depend: rosidl_typesupport_introspection_c/action_interface/srv/detail/cmd__type_support.c
 	cd /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/action_interface__rosidl_typesupport_introspection_c.dir/depend
 

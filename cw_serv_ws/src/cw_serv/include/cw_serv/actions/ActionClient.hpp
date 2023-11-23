@@ -27,7 +27,7 @@ private:
     rclcpp_action::Client<action_interface::action::Cmd>::SharedPtr m_ActionClient;
     rclcpp::TimerBase::SharedPtr m_ConnectionTimer;
 
-    std::function<void(const std::string& message)>m_DoneCallback;
+    std::function<void(const std::string& message, bool result)>m_DoneCallback;
 
     std::string m_Name{"NOT_SET"};
 
@@ -54,9 +54,11 @@ private:
     void GoalResult(const rclcpp_action::ClientGoalHandle<action_interface::action::Cmd>::WrappedResult & result);
 
 public:
-    ActionClient(const Command &command, int id,std::chrono::seconds serverTimeOut = std::chrono::seconds(10));
+    explicit ActionClient(std::chrono::seconds serverTimeOut = std::chrono::seconds(10));
 
-    void Start(std::function<void(const std::string& message)>&doneCallback);
+    void NewAction(const Command &command);
+
+    void Start(std::function<void(const std::string& message, bool result)>doneCallback);
 };
 
 #endif //ACTION_CLIENT_HPP

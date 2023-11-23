@@ -25,7 +25,7 @@ private:
     QTimer *m_RunTimer{nullptr};
 
     ClientManager* m_ClientManager{nullptr};
-    int m_Port;
+    int m_Port{0};
     QHostAddress m_Ip;
     QTcpServer *m_Server;
 
@@ -38,21 +38,15 @@ private slots:
 
     void LogMessageFromClient(const std::string&message, int levelLog);
 
-    void SetOperator(TCPClient* newOperator);
-
-    void NewAction(int idOfClient, Command*command);
-
     void Run() override;
 
 signals:
-    void MessageForClient(int clientId, const QJsonObject& message);
+    void MessageForClient(const QJsonObject& message, int idOfClient);
 
 public:
     explicit TCPServer(const std::string &name, QWidget *parent = nullptr);
 
     void Start() override;
-
-    [[nodiscard]]std::unordered_map<std::string, std::function<void(void)>> GetActionFunctions() override;
 
     virtual ~TCPServer();
 };

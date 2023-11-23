@@ -70,8 +70,11 @@ action_interface__py/CMakeFiles/action_interface__py: rosidl_generator_py/action
 action_interface__py/CMakeFiles/action_interface__py: rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_introspection_c.c
 action_interface__py/CMakeFiles/action_interface__py: rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_c.c
 action_interface__py/CMakeFiles/action_interface__py: rosidl_generator_py/action_interface/action/_cmd.py
+action_interface__py/CMakeFiles/action_interface__py: rosidl_generator_py/action_interface/srv/_cmd.py
 action_interface__py/CMakeFiles/action_interface__py: rosidl_generator_py/action_interface/action/__init__.py
+action_interface__py/CMakeFiles/action_interface__py: rosidl_generator_py/action_interface/srv/__init__.py
 action_interface__py/CMakeFiles/action_interface__py: rosidl_generator_py/action_interface/action/_cmd_s.c
+action_interface__py/CMakeFiles/action_interface__py: rosidl_generator_py/action_interface/srv/_cmd_s.c
 
 rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/lib/rosidl_generator_py/rosidl_generator_py
 rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_generator_py/__init__.py
@@ -87,6 +90,7 @@ rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_f
 rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv_pkg_typesupport_entry_point.c.em
 rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/rosidl_generator_py/resource/_srv.py.em
 rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/action_interface/action/Cmd.idl
+rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c: rosidl_adapter/action_interface/srv/Cmd.idl
 rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
 rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
 rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
@@ -106,11 +110,20 @@ rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_c
 rosidl_generator_py/action_interface/action/_cmd.py: rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/action_interface/action/_cmd.py
 
+rosidl_generator_py/action_interface/srv/_cmd.py: rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/action_interface/srv/_cmd.py
+
 rosidl_generator_py/action_interface/action/__init__.py: rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/action_interface/action/__init__.py
 
+rosidl_generator_py/action_interface/srv/__init__.py: rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/action_interface/srv/__init__.py
+
 rosidl_generator_py/action_interface/action/_cmd_s.c: rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/action_interface/action/_cmd_s.c
+
+rosidl_generator_py/action_interface/srv/_cmd_s.c: rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_py/action_interface/srv/_cmd_s.c
 
 action_interface__py: action_interface__py/CMakeFiles/action_interface__py
 action_interface__py: rosidl_generator_py/action_interface/_action_interface_s.ep.rosidl_typesupport_c.c
@@ -119,6 +132,9 @@ action_interface__py: rosidl_generator_py/action_interface/_action_interface_s.e
 action_interface__py: rosidl_generator_py/action_interface/action/__init__.py
 action_interface__py: rosidl_generator_py/action_interface/action/_cmd.py
 action_interface__py: rosidl_generator_py/action_interface/action/_cmd_s.c
+action_interface__py: rosidl_generator_py/action_interface/srv/__init__.py
+action_interface__py: rosidl_generator_py/action_interface/srv/_cmd.py
+action_interface__py: rosidl_generator_py/action_interface/srv/_cmd_s.c
 action_interface__py: action_interface__py/CMakeFiles/action_interface__py.dir/build.make
 .PHONY : action_interface__py
 

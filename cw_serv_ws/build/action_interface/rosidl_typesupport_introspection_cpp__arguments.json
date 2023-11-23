@@ -3,7 +3,8 @@
   "output_dir": "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/rosidl_typesupport_introspection_cpp/action_interface",
   "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/rosidl_adapter/action_interface:action/Cmd.idl"
+    "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/rosidl_adapter/action_interface:action/Cmd.idl",
+    "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/rosidl_adapter/action_interface:srv/Cmd.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -24,6 +25,7 @@
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/humble/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
     "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/rosidl_adapter/action_interface/action/Cmd.idl",
+    "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface/rosidl_adapter/action_interface/srv/Cmd.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",

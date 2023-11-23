@@ -66,7 +66,7 @@ static const uint qt_meta_data_TCPClient[] = {
        6,    1,   34,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       7,    0,   37,    2, 0x0a /* Public */,
+       7,    0,   37,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void, 0x80000000 | 3, QMetaType::Int,    4,    5,

@@ -6,8 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/action_server.dir/action_server_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/action_server.dir/src/actions/ActionServer.cpp.o"
   "CMakeFiles/action_server.dir/src/actions/ActionServer.cpp.o.d"
-  "action_server"
-  "action_server.pdb"
+  "libaction_server.pdb"
+  "libaction_server.so"
 )
 
 # Per-language clean rules from dependency scanning.

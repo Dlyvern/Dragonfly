@@ -5,11 +5,12 @@ Logger::Logger(const std::string &nameOfNode, QWidget *parent)
 {
     m_DirName = "logs";
     m_LogSub = this->create_subscription<std_msgs::msg::String>("/cw/log", 500, std::bind(&Logger::EventCallback, this, std::placeholders::_1));
-    m_LogPublisher = this->create_publisher<std_msgs::msg::String>("/cw/logger", 10);
 }
 
 void Logger::Start()
 {
+    LogForLogger("Logger started");
+
     std::time_t time = std::chrono::system_clock::to_time_t( std::chrono::system_clock::now());
 
     std::stringstream ss;
@@ -22,21 +23,21 @@ void Logger::Start()
 
     if (boost::filesystem::exists(m_DirName))
     {
-        Log(m_DirName + " already exists", WARN_LEVEL_LOG);
+        LogForLogger(m_DirName + " already exists", WARN_LEVEL_LOG);
         try
         {
             boost::filesystem::remove_all(m_DirName);
-            Log("Old " + m_DirName + " directory successfully deleted", INFO_LEVEL_LOG);
+            LogForLogger("Old " + m_DirName + " directory successfully deleted");
         }
         catch (const boost::filesystem::filesystem_error& e)
         {
-            Log("Error while deleting " + m_DirName + " error: " + e.what(), ERROR_LEVEL_LOG);
+            LogForLogger("Error while deleting " + m_DirName + " error: " + e.what());
         }
     }
 
     boost::filesystem::create_directory(m_DirName);
 
-    Log("Directory " + m_DirName + " successfully created. Full path: " + boost::filesystem::canonical(m_DirName).string(), INFO_LEVEL_LOG);
+    LogForLogger("Directory " + m_DirName + " successfully created. Full path: " + boost::filesystem::canonical(m_DirName).string());
 
     boost::filesystem::path folder_path("./" + m_DirName);
 
@@ -51,8 +52,9 @@ void Logger::Start()
 
         log_file.close();
 
-        Log("Log file created successfully", INFO_LEVEL_LOG);
+        LogForLogger("Log file created successfully");
     }
+
     catch (const  boost::filesystem::filesystem_error& e)
     {
         Log(e.what(), ERROR_LEVEL_LOG);
@@ -143,12 +145,10 @@ void Logger::CheckTime()
 //    fname = new_file_name;
 }
 
-Logger::~Logger()
-= default;
-
-std::unordered_map<std::string, std::function<void(void)>> Logger::GetActionFunctions()
+void Logger::LogForLogger(const std::string &message, int logLevel)
 {
-    return {};
+    m_Events.emplace_back(message + std::to_string(logLevel));
 }
 
+Logger::~Logger() = default;
 

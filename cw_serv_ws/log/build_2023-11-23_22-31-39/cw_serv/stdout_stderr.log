@@ -1,0 +1,29 @@
+[  7%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+AutoGen warning: "SRC:/src/modules/ActionService.cpp" is empty.
+
+AutoGen warning: "SRC:/include/cw_serv/modules/ActionService.hpp" is empty.
+
+[  7%] Built target cw_serv_autogen
+[35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/actions/ActionClient.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ActionService.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/ClientManager.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.o[0m
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:[m[K In member function ‘[01m[Kvoid TCPClient::SendMessageToClient(const QJsonObject&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:154:19:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kqint16[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K43605[m[K’ to ‘[01m[K-21931[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+  154 |     Packet packet([01;35m[K0xAA55[m[K, 0x01, 0x1234, 0, std::move(msg), 0xFFFF);
+      |                   [01;35m[K^~~~~~[m[K
+[ 78%] [32m[1mLinking CXX executable cw_serv[0m
+/usr/bin/ld: CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: in function `TCPServer::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)':
+mocs_compilation.cpp:(.text+0x7a8): undefined reference to `TCPServer::RunNewAction(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+/usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o: in function `TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, QWidget*)':
+TCPServer.cpp:(.text+0x38e): undefined reference to `TCPServer::RunNewAction(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:377: cw_serv] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

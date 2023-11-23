@@ -1,27 +1,29 @@
 #include "actions/ActionClient.hpp"
 
+#include <utility>
 
-ActionClient::ActionClient(const Command &command, int id, std::chrono::seconds serverTimeOut) : rclcpp::Node("ActionClient"),
-m_Name{"ActionClient" + std::to_string(id)},
-m_Target{command.GetTarget()},
-m_ClientId{id},
-m_Operation{command.GetOperation()},
-m_Arguments{command.GetArguments()},
-m_TimeLimit{command.GetTimeLimit()},
-m_ServerTimeOut{serverTimeOut}
+
+ActionClient::ActionClient(std::chrono::seconds serverTimeOut) : rclcpp::Node("ActionClient"), m_Name{"ActionClient"}, m_ServerTimeOut{serverTimeOut}
 {
-    m_LogPublisher = this->create_publisher<std_msgs::msg::String>("/cw/log", 200);
-
     m_ActionClient = rclcpp_action::create_client<action_interface::action::Cmd>(this, "cmd");
-
-    m_ConnectionTimer = this->create_wall_timer(std::chrono::milliseconds(0), std::bind(&ActionClient::SendGoal, this));
+    m_LogPublisher = this->create_publisher<std_msgs::msg::String>("/cw/log", 200);
 }
 
-void ActionClient::Start(std::function<void(const std::string& message)>&doneCallback)
+void ActionClient::NewAction(const Command &command)
+{
+    m_Target = command.GetTarget();
+    m_Operation = command.GetOperation();
+    m_Arguments = command.GetArguments();
+    m_TimeLimit = command.GetTimeLimit();
+
+    SendGoal();
+}
+
+void ActionClient::Start(std::function<void(const std::string& message, bool result)>doneCallback)
 {
     int failure_times{0};
 
-    m_DoneCallback = doneCallback;
+    m_DoneCallback = std::move(doneCallback);
 
     while(!m_IsConnected)
     {
@@ -34,19 +36,18 @@ void ActionClient::Start(std::function<void(const std::string& message)>&doneCal
 
             if(failure_times > 5)
             {
-                Log("Could not connect to action server more than 5 timer. Aborting action client", 2);
+                Log("Could not connect to action server more than 5 times. Aborting action client", 2);
 
                 if(m_DoneCallback)
-                    m_DoneCallback("action_server_is_not_available");
+                    m_DoneCallback("action_server_is_not_available", false);
             }
         }
     }
+    Log("Connected to action server", 0);
 }
 
 void ActionClient::SendGoal()
 {
-    m_ConnectionTimer->cancel();
-
     using namespace std::placeholders;
 
     auto send_goal_options = rclcpp_action::Client<action_interface::action::Cmd>::SendGoalOptions();
@@ -86,14 +87,15 @@ void ActionClient::GoalResponse(rclcpp_action::ClientGoalHandle<action_interface
     }
 }
 
-
 void ActionClient::GoalResult(const rclcpp_action::ClientGoalHandle<action_interface::action::Cmd>::WrappedResult & result)
 {
     switch (result.code)
     {
         case rclcpp_action::ResultCode::SUCCEEDED:
+            Log("Goal succeeded", 0);
             break;
         case rclcpp_action::ResultCode::ABORTED:
+            Log("Goal was aborted", 2);
             return;
         case rclcpp_action::ResultCode::CANCELED:
             Log("Goal was canceled", 2);
@@ -104,7 +106,9 @@ void ActionClient::GoalResult(const rclcpp_action::ClientGoalHandle<action_inter
     }
 
     if(m_DoneCallback)
-         m_DoneCallback(result.result->res_arg);
+    {
+        m_DoneCallback(result.result->res_arg, result.result->res);
+    }
 }
 
 void ActionClient::Log(const std::string &message, int levelLog)

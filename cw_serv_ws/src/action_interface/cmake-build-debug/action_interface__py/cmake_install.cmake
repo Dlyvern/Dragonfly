@@ -1,4 +1,4 @@
-# Install script for directory: /home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface/cmake-build-debug/action_interface__py
+# Install script for directory: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug/action_interface__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -1,9 +1,10 @@
 {
   "package_name": "action_interface",
-  "output_dir": "/home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface/cmake-build-debug/rosidl_generator_c/action_interface",
+  "output_dir": "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug/rosidl_generator_c/action_interface",
   "template_dir": "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource",
   "idl_tuples": [
-    "/home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface/cmake-build-debug/rosidl_adapter/action_interface:action/Cmd.idl"
+    "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug/rosidl_adapter/action_interface:action/Cmd.idl",
+    "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug/rosidl_adapter/action_interface:srv/Cmd.idl"
   ],
   "ros_interface_dependencies": [
     "action_msgs:/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
@@ -28,7 +29,8 @@
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
     "/opt/ros/humble/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
-    "/home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface/cmake-build-debug/rosidl_adapter/action_interface/action/Cmd.idl",
+    "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug/rosidl_adapter/action_interface/action/Cmd.idl",
+    "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug/rosidl_adapter/action_interface/srv/Cmd.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalInfo.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatus.idl",
     "/opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl",

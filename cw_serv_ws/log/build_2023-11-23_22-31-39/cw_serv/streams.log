@@ -1,0 +1,31 @@
+[0.029s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[0.064s] [  7%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[0.070s] AutoGen warning: "SRC:/src/modules/ActionService.cpp" is empty.
+[0.071s] 
+[0.071s] AutoGen warning: "SRC:/include/cw_serv/modules/ActionService.hpp" is empty.
+[0.071s] 
+[0.387s] [  7%] Built target cw_serv_autogen
+[0.401s] [35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[0.426s] [ 14%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o[0m
+[0.426s] [ 21%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o[0m
+[0.427s] [ 28%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/actions/ActionClient.cpp.o[0m
+[0.427s] [ 35%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o[0m
+[0.427s] [ 42%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o[0m
+[0.428s] [ 50%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o[0m
+[0.428s] [ 57%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ActionService.cpp.o[0m
+[0.429s] [ 64%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/ClientManager.cpp.o[0m
+[0.429s] [ 71%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.o[0m
+[63.973s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:[m[K In member function ‘[01m[Kvoid TCPClient::SendMessageToClient(const QJsonObject&)[m[K’:
+[63.974s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:154:19:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kqint16[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K43605[m[K’ to ‘[01m[K-21931[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[63.974s]   154 |     Packet packet([01;35m[K0xAA55[m[K, 0x01, 0x1234, 0, std::move(msg), 0xFFFF);
+[63.974s]       |                   [01;35m[K^~~~~~[m[K
+[69.494s] [ 78%] [32m[1mLinking CXX executable cw_serv[0m
+[70.250s] /usr/bin/ld: CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: in function `TCPServer::qt_static_metacall(QObject*, QMetaObject::Call, int, void**)':
+[70.250s] mocs_compilation.cpp:(.text+0x7a8): undefined reference to `TCPServer::RunNewAction(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+[70.262s] /usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o: in function `TCPServer::TCPServer(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, QWidget*)':
+[70.262s] TCPServer.cpp:(.text+0x38e): undefined reference to `TCPServer::RunNewAction(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, int)'
+[70.293s] collect2: error: ld returned 1 exit status
+[70.294s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:377: cw_serv] Error 1
+[70.294s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Error 2
+[70.294s] gmake: *** [Makefile:146: all] Error 2
+[70.297s] Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv' returned '2': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12

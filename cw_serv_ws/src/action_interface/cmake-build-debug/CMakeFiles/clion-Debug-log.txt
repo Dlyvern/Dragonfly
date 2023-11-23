@@ -1,4 +1,4 @@
-/snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/250/bin/ninja/linux/x64/ninja -G Ninja -S /home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface -B /home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface/cmake-build-debug
+/snap/clion/250/bin/cmake/linux/x64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface -B /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug
 -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
 -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
 -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
@@ -13,7 +13,7 @@
 -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
 -- Added test 'cppcheck' to perform static code analysis on C / C++ code
--- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface/cmake-build-debug/rosidl_generator_c>;$<BUILD_INTERFACE:/home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface/cmake-build-debug/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface/cmake-build-debug/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface/cmake-build-debug/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface/cmake-build-debug/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface/cmake-build-debug/rosidl_typesupport_introspection_cpp>;/home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface/cmake-build-debug/rosidl_generator_c;/home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface/cmake-build-debug/rosidl_generator_py
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug/rosidl_generator_c>;$<BUILD_INTERFACE:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug/rosidl_typesupport_introspection_cpp>;/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug/rosidl_generator_c;/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug/rosidl_generator_py
 -- Configured cppcheck exclude dirs and/or files: 
 -- Added test 'flake8' to check Python code syntax and style conventions
 -- Added test 'lint_cmake' to check CMake code style
@@ -23,4 +23,4 @@
 -- Added test 'xmllint' to check XML markup files
 -- Configuring done (0.6s)
 -- Generating done (0.0s)
--- Build files have been written to: /home/dlyvern/Projects/ros2_cwserv_ws/src/action_interface/cmake-build-debug
+-- Build files have been written to: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/action_interface/cmake-build-debug

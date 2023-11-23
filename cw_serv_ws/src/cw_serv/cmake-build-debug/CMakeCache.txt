@@ -320,6 +320,9 @@ action_interface_DIR:PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/ac
 //The directory containing a CMake configuration file for action_msgs.
 action_msgs_DIR:PATH=/opt/ros/humble/share/action_msgs/cmake
 
+//Dependencies for the target
+action_server_LIB_DEPENDS:STATIC=general;action_interface::action_interface__rosidl_generator_c;general;action_interface::action_interface__rosidl_typesupport_fastrtps_c;general;action_interface::action_interface__rosidl_typesupport_introspection_c;general;action_interface::action_interface__rosidl_typesupport_c;general;action_interface::action_interface__rosidl_typesupport_fastrtps_cpp;general;action_interface::action_interface__rosidl_typesupport_introspection_cpp;general;action_interface::action_interface__rosidl_typesupport_cpp;general;action_interface::action_interface__rosidl_generator_py;general;rclcpp::rclcpp;general;rclcpp_action::rclcpp_action;general;rclcpp_components::component_manager;
+
 //The directory containing a CMake configuration file for ament_cmake.
 ament_cmake_DIR:PATH=/opt/ros/humble/share/ament_cmake/cmake
 

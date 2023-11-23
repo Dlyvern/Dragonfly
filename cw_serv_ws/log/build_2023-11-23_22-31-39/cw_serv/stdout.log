@@ -1,0 +1,17 @@
+[  7%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+AutoGen warning: "SRC:/src/modules/ActionService.cpp" is empty.
+
+AutoGen warning: "SRC:/include/cw_serv/modules/ActionService.hpp" is empty.
+
+[  7%] Built target cw_serv_autogen
+[35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/actions/ActionClient.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ActionService.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/ClientManager.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable cw_serv[0m

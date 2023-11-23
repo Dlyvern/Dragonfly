@@ -73,6 +73,7 @@ int main(int argc, char** argv)
             {"Logger", std::make_shared<Logger>("logger")},
     };
 
+
     for(const auto&module : modules)
     {
         module.second->Start();

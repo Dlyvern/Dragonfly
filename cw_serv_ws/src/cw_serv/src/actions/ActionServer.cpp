@@ -155,3 +155,5 @@ void ActionServer::Log(const std::string &message, int levelLog)
 }
 
 ActionServer::~ActionServer() = default;
+
+//RCLCPP_COMPONENTS_REGISTER_NODE(ActionServer)

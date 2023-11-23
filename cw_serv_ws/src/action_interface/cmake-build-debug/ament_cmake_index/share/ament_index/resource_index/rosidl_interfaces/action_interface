@@ -1,2 +1,6 @@
 action/Cmd.action
 action/Cmd.idl
+srv/Cmd.idl
+srv/Cmd.srv
+srv/Cmd_Request.msg
+srv/Cmd_Response.msg
