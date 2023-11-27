@@ -319,6 +319,30 @@ src/cw_structs/Command.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/cw_structs/Command.cpp.s
 .PHONY : src/cw_structs/Command.cpp.s
 
+src/cw_structs/RunParameter.o: src/cw_structs/RunParameter.cpp.o
+.PHONY : src/cw_structs/RunParameter.o
+
+# target to build an object file
+src/cw_structs/RunParameter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o
+.PHONY : src/cw_structs/RunParameter.cpp.o
+
+src/cw_structs/RunParameter.i: src/cw_structs/RunParameter.cpp.i
+.PHONY : src/cw_structs/RunParameter.i
+
+# target to preprocess a source file
+src/cw_structs/RunParameter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.i
+.PHONY : src/cw_structs/RunParameter.cpp.i
+
+src/cw_structs/RunParameter.s: src/cw_structs/RunParameter.cpp.s
+.PHONY : src/cw_structs/RunParameter.s
+
+# target to generate assembly for a file
+src/cw_structs/RunParameter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.s
+.PHONY : src/cw_structs/RunParameter.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -391,6 +415,30 @@ src/modules/Module.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/modules/Module.cpp.s
 .PHONY : src/modules/Module.cpp.s
 
+src/modules/Robot.o: src/modules/Robot.cpp.o
+.PHONY : src/modules/Robot.o
+
+# target to build an object file
+src/modules/Robot.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o
+.PHONY : src/modules/Robot.cpp.o
+
+src/modules/Robot.i: src/modules/Robot.cpp.i
+.PHONY : src/modules/Robot.i
+
+# target to preprocess a source file
+src/modules/Robot.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.i
+.PHONY : src/modules/Robot.cpp.i
+
+src/modules/Robot.s: src/modules/Robot.cpp.s
+.PHONY : src/modules/Robot.s
+
+# target to generate assembly for a file
+src/modules/Robot.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.s
+.PHONY : src/modules/Robot.cpp.s
+
 src/modules/ServerParts/ClientManager.o: src/modules/ServerParts/ClientManager.cpp.o
 .PHONY : src/modules/ServerParts/ClientManager.o
 
@@ -438,6 +486,30 @@ src/modules/ServerParts/Packet.s: src/modules/ServerParts/Packet.cpp.s
 src/modules/ServerParts/Packet.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/modules/ServerParts/Packet.cpp.s
 .PHONY : src/modules/ServerParts/Packet.cpp.s
+
+src/modules/ServerParts/PacketParser.o: src/modules/ServerParts/PacketParser.cpp.o
+.PHONY : src/modules/ServerParts/PacketParser.o
+
+# target to build an object file
+src/modules/ServerParts/PacketParser.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.o
+.PHONY : src/modules/ServerParts/PacketParser.cpp.o
+
+src/modules/ServerParts/PacketParser.i: src/modules/ServerParts/PacketParser.cpp.i
+.PHONY : src/modules/ServerParts/PacketParser.i
+
+# target to preprocess a source file
+src/modules/ServerParts/PacketParser.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.i
+.PHONY : src/modules/ServerParts/PacketParser.cpp.i
+
+src/modules/ServerParts/PacketParser.s: src/modules/ServerParts/PacketParser.cpp.s
+.PHONY : src/modules/ServerParts/PacketParser.s
+
+# target to generate assembly for a file
+src/modules/ServerParts/PacketParser.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.s
+.PHONY : src/modules/ServerParts/PacketParser.cpp.s
 
 src/modules/ServerParts/TCPClient.o: src/modules/ServerParts/TCPClient.cpp.o
 .PHONY : src/modules/ServerParts/TCPClient.o
@@ -487,6 +559,54 @@ src/modules/TCPServer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.s
 .PHONY : src/modules/TCPServer.cpp.s
 
+src/submodules/HardwareManager.o: src/submodules/HardwareManager.cpp.o
+.PHONY : src/submodules/HardwareManager.o
+
+# target to build an object file
+src/submodules/HardwareManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o
+.PHONY : src/submodules/HardwareManager.cpp.o
+
+src/submodules/HardwareManager.i: src/submodules/HardwareManager.cpp.i
+.PHONY : src/submodules/HardwareManager.i
+
+# target to preprocess a source file
+src/submodules/HardwareManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.i
+.PHONY : src/submodules/HardwareManager.cpp.i
+
+src/submodules/HardwareManager.s: src/submodules/HardwareManager.cpp.s
+.PHONY : src/submodules/HardwareManager.s
+
+# target to generate assembly for a file
+src/submodules/HardwareManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.s
+.PHONY : src/submodules/HardwareManager.cpp.s
+
+src/submodules/SubModule.o: src/submodules/SubModule.cpp.o
+.PHONY : src/submodules/SubModule.o
+
+# target to build an object file
+src/submodules/SubModule.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o
+.PHONY : src/submodules/SubModule.cpp.o
+
+src/submodules/SubModule.i: src/submodules/SubModule.cpp.i
+.PHONY : src/submodules/SubModule.i
+
+# target to preprocess a source file
+src/submodules/SubModule.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.i
+.PHONY : src/submodules/SubModule.cpp.i
+
+src/submodules/SubModule.s: src/submodules/SubModule.cpp.s
+.PHONY : src/submodules/SubModule.s
+
+# target to generate assembly for a file
+src/submodules/SubModule.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.s
+.PHONY : src/submodules/SubModule.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -516,6 +636,9 @@ help:
 	@echo "... src/cw_structs/Command.o"
 	@echo "... src/cw_structs/Command.i"
 	@echo "... src/cw_structs/Command.s"
+	@echo "... src/cw_structs/RunParameter.o"
+	@echo "... src/cw_structs/RunParameter.i"
+	@echo "... src/cw_structs/RunParameter.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -525,18 +648,30 @@ help:
 	@echo "... src/modules/Module.o"
 	@echo "... src/modules/Module.i"
 	@echo "... src/modules/Module.s"
+	@echo "... src/modules/Robot.o"
+	@echo "... src/modules/Robot.i"
+	@echo "... src/modules/Robot.s"
 	@echo "... src/modules/ServerParts/ClientManager.o"
 	@echo "... src/modules/ServerParts/ClientManager.i"
 	@echo "... src/modules/ServerParts/ClientManager.s"
 	@echo "... src/modules/ServerParts/Packet.o"
 	@echo "... src/modules/ServerParts/Packet.i"
 	@echo "... src/modules/ServerParts/Packet.s"
+	@echo "... src/modules/ServerParts/PacketParser.o"
+	@echo "... src/modules/ServerParts/PacketParser.i"
+	@echo "... src/modules/ServerParts/PacketParser.s"
 	@echo "... src/modules/ServerParts/TCPClient.o"
 	@echo "... src/modules/ServerParts/TCPClient.i"
 	@echo "... src/modules/ServerParts/TCPClient.s"
 	@echo "... src/modules/TCPServer.o"
 	@echo "... src/modules/TCPServer.i"
 	@echo "... src/modules/TCPServer.s"
+	@echo "... src/submodules/HardwareManager.o"
+	@echo "... src/submodules/HardwareManager.i"
+	@echo "... src/submodules/HardwareManager.s"
+	@echo "... src/submodules/SubModule.o"
+	@echo "... src/submodules/SubModule.i"
+	@echo "... src/submodules/SubModule.s"
 .PHONY : help
 
 

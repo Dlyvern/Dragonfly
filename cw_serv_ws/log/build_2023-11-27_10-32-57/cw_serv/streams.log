@@ -1,0 +1,37 @@
+[0.022s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[0.054s] [  7%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[0.067s] [  7%] Built target cw_serv_autogen
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[0.110s] [ 15%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.o[0m
+[1.584s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:[m[K In member function ‘[01m[Kvoid TCPClient::SendMessageToClient(const QJsonObject&)[m[K’:
+[1.584s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:155:19:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kqint16[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K43605[m[K’ to ‘[01m[K-21931[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[1.584s]   155 |     Packet packet([01;35m[K0xAA55[m[K, 0x01, 0x1234, 0, std::move(msg), 0xFFFF);
+[1.584s]       |                   [01;35m[K^~~~~~[m[K
+[2.159s] [ 23%] [32m[1mLinking CXX executable cw_serv[0m
+[2.886s] [100%] Built target cw_serv
+[2.892s] Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv' returned '0': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[2.913s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv
+[2.917s] -- Install configuration: ""
+[2.917s] -- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/lib/cw_serv/cw_serv
+[2.921s] -- Set runtime path of "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/lib/cw_serv/cw_serv" to ""
+[2.921s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch
+[2.921s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/cw_serv_launch.py
+[2.921s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/settings_for_launch_file
+[2.921s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/settings_for_launch_file/main_settings.ini
+[2.921s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/package_run_dependencies/cw_serv
+[2.921s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/parent_prefix_path/cw_serv
+[2.921s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/ament_prefix_path.sh
+[2.921s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/ament_prefix_path.dsv
+[2.921s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/path.sh
+[2.921s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/path.dsv
+[2.921s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.bash
+[2.922s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.sh
+[2.922s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.zsh
+[2.922s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.dsv
+[2.922s] -- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/package.dsv
+[2.922s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/packages/cw_serv
+[2.922s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/CMakeConfix.cmake
+[2.922s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/cw_servConfig.cmake
+[2.922s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/cw_servConfig-version.cmake
+[2.922s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/package.xml
+[2.923s] Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv' returned '0': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv

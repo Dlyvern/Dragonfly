@@ -1,0 +1,42 @@
+[0.029s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[0.056s] [  7%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[0.069s] [  7%] Built target cw_serv_autogen
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[0.107s] [ 21%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.o[0m
+[0.107s] [ 21%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.o[0m
+[0.649s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/PacketParser.cpp:[m[K In member function ‘[01m[Kvoid PacketParser::Start(const QByteArray&)[m[K’:
+[0.649s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/PacketParser.cpp:33:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kpacket[m[K’ is used uninitialized [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wuninitialized-Wuninitialized]8;;[m[K]
+[0.649s]    33 |     [01;35m[Kpacket->Unpack(socketData)[m[K;
+[0.649s]       |     [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[1.742s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:[m[K In member function ‘[01m[Kvoid TCPClient::SendMessageToClient(const QJsonObject&)[m[K’:
+[1.742s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:76:19:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kqint16[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K43605[m[K’ to ‘[01m[K-21931[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[1.742s]    76 |     Packet packet([01;35m[K0xAA55[m[K, 0x01, 0x1234, 0, std::move(msg), 0xFFFF);
+[1.742s]       |                   [01;35m[K^~~~~~[m[K
+[2.471s] [ 28%] [32m[1mLinking CXX executable cw_serv[0m
+[3.310s] [100%] Built target cw_serv
+[3.318s] Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv' returned '0': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[3.343s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --install /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv
+[3.347s] -- Install configuration: ""
+[3.347s] -- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/lib/cw_serv/cw_serv
+[3.351s] -- Set runtime path of "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/lib/cw_serv/cw_serv" to ""
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/cw_serv_launch.py
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/settings_for_launch_file
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/settings_for_launch_file/main_settings.ini
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/package_run_dependencies/cw_serv
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/parent_prefix_path/cw_serv
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/ament_prefix_path.sh
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/ament_prefix_path.dsv
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/path.sh
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/path.dsv
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.bash
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.sh
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.zsh
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.dsv
+[3.352s] -- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/package.dsv
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/packages/cw_serv
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/CMakeConfix.cmake
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/cw_servConfig.cmake
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/cw_servConfig-version.cmake
+[3.352s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/package.xml
+[3.353s] Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv' returned '0': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --install /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv

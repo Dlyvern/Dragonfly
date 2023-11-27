@@ -1,7 +1,7 @@
 CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp \
  /usr/include/stdc-predef.h \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -117,20 +117,20 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/../../../../src/cw_serv/include/cw_serv/modules/ServerParts/ClientManager.hpp \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointer \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qpointer.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
- /usr/include/c++/11/cstddef /usr/include/assert.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
- /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
- /usr/include/c++/11/cstdlib /usr/include/stdlib.h \
- /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Robot.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Module.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
+ /usr/include/c++/11/string /usr/include/c++/11/bits/char_traits.h \
+ /usr/include/c++/11/cstdint /usr/include/c++/11/bits/localefwd.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+ /usr/include/c++/11/clocale /usr/include/locale.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype \
+ /usr/include/ctype.h /usr/include/c++/11/bits/ostream_insert.h \
+ /usr/include/c++/11/bits/cxxabi_forced.h \
+ /usr/include/c++/11/bits/basic_string.h /usr/include/c++/11/string_view \
+ /usr/include/c++/11/bits/string_view.tcc \
+ /usr/include/c++/11/ext/string_conversions.h /usr/include/c++/11/cstdlib \
+ /usr/include/stdlib.h /usr/include/x86_64-linux-gnu/bits/waitflags.h \
  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
  /usr/include/x86_64-linux-gnu/sys/types.h /usr/include/endian.h \
  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
@@ -139,7 +139,35 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/select.h \
  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
  /usr/include/alloca.h /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
- /usr/include/c++/11/bits/std_abs.h \
+ /usr/include/c++/11/bits/std_abs.h /usr/include/c++/11/cstdio \
+ /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+ /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+ /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+ /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+ /usr/include/c++/11/cerrno /usr/include/errno.h \
+ /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
+ /usr/include/x86_64-linux-gnu/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+ /usr/include/c++/11/bits/charconv.h \
+ /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/vector \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+ /usr/include/c++/11/cstddef /usr/include/assert.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+ /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
  /usr/include/c++/11/bits/uniform_int_dist.h \
@@ -150,10 +178,7 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11/bits/enable_special_members.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc \
+ /usr/include/c++/11/bits/erase_if.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
@@ -166,42 +191,20 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
  /usr/include/string.h /usr/include/strings.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
- /usr/include/c++/11/stdlib.h /usr/include/c++/11/string \
- /usr/include/c++/11/bits/char_traits.h /usr/include/c++/11/cstdint \
- /usr/include/c++/11/bits/localefwd.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
- /usr/include/c++/11/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype \
- /usr/include/ctype.h /usr/include/c++/11/bits/ostream_insert.h \
- /usr/include/c++/11/bits/cxxabi_forced.h \
- /usr/include/c++/11/bits/basic_string.h /usr/include/c++/11/string_view \
- /usr/include/c++/11/bits/string_view.tcc \
- /usr/include/c++/11/ext/string_conversions.h /usr/include/c++/11/cstdio \
- /usr/include/stdio.h /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
- /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
- /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
- /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
- /usr/include/c++/11/cerrno /usr/include/errno.h \
- /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/x86_64-linux-gnu/asm/errno.h \
- /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
- /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
- /usr/include/c++/11/bits/charconv.h \
- /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/iterator \
+ /usr/include/c++/11/stdlib.h /usr/include/c++/11/iterator \
  /usr/include/c++/11/bits/stream_iterator.h \
  /usr/include/c++/11/bits/streambuf_iterator.h \
  /usr/include/c++/11/streambuf /usr/include/c++/11/bits/ios_base.h \
@@ -213,6 +216,10 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
  /usr/include/c++/11/numeric /usr/include/c++/11/bits/stl_numeric.h \
  /usr/include/c++/11/pstl/glue_numeric_defs.h \
@@ -232,10 +239,6 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
@@ -247,13 +250,6 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/limits /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
@@ -274,94 +270,16 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/../../../../src/cw_serv/include/cw_serv/modules/ServerParts/TCPClient.hpp \
- /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpSocket \
- /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h \
- /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h \
- /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h \
- /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
- /usr/include/c++/11/variant \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/../../../../src/cw_serv/include/cw_serv/modules/ServerParts/Packet.hpp \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QDataStream \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcborvalue.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qcborcommon.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/quuid.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionClient.hpp \
- /usr/include/c++/11/future /usr/include/c++/11/mutex \
- /usr/include/c++/11/bits/std_mutex.h \
- /usr/include/c++/11/bits/unique_lock.h \
- /usr/include/c++/11/condition_variable \
- /usr/include/c++/11/bits/atomic_futex.h \
- /usr/include/c++/11/bits/std_thread.h /usr/include/c++/11/sstream \
- /usr/include/c++/11/istream /usr/include/c++/11/ios \
- /usr/include/c++/11/bits/basic_ios.h \
- /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
- /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
- /usr/include/c++/11/bits/locale_facets.tcc \
- /usr/include/c++/11/bits/basic_ios.tcc /usr/include/c++/11/ostream \
- /usr/include/c++/11/bits/ostream.tcc \
- /usr/include/c++/11/bits/istream.tcc \
- /usr/include/c++/11/bits/sstream.tcc \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.hpp \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.hpp \
- /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
- /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
- /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
- /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
- /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
- /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
- /usr/include/c++/11/codecvt /usr/include/c++/11/bits/codecvt.h \
- /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
- /usr/include/c++/11/bits/locale_facets_nonio.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
- /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
- /usr/include/c++/11/bits/locale_conv.h \
- /usr/include/c++/11/bits/quoted_string.h \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp \
- /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp \
- /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
- /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -393,12 +311,28 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
  /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
+ /usr/include/c++/11/future /usr/include/c++/11/mutex \
+ /usr/include/c++/11/bits/std_mutex.h \
+ /usr/include/c++/11/bits/unique_lock.h \
+ /usr/include/c++/11/condition_variable \
+ /usr/include/c++/11/bits/atomic_futex.h \
+ /usr/include/c++/11/bits/std_thread.h \
  /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h /usr/include/c++/11/thread \
  /usr/include/c++/11/bits/this_thread_sleep.h \
  /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
  /usr/include/c++/11/cassert /usr/include/c++/11/iostream \
+ /usr/include/c++/11/ostream /usr/include/c++/11/ios \
+ /usr/include/c++/11/bits/basic_ios.h \
+ /usr/include/c++/11/bits/locale_facets.h /usr/include/c++/11/cwctype \
+ /usr/include/wctype.h /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+ /usr/include/c++/11/bits/locale_facets.tcc \
+ /usr/include/c++/11/bits/basic_ios.tcc \
+ /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
+ /usr/include/c++/11/bits/istream.tcc \
  /opt/ros/humble/include/rcl/rcl/guard_condition.h \
  /opt/ros/humble/include/rcl/rcl/allocator.h \
  /opt/ros/humble/include/rcutils/rcutils/allocator.h \
@@ -488,7 +422,8 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/client.hpp \
- /usr/include/c++/11/optional \
+ /usr/include/c++/11/optional /usr/include/c++/11/sstream \
+ /usr/include/c++/11/bits/sstream.tcc /usr/include/c++/11/variant \
  /opt/ros/humble/include/rcl/rcl/error_handling.h \
  /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
@@ -513,8 +448,20 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
+ /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+ /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+ /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+ /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
+ /usr/include/c++/11/codecvt /usr/include/c++/11/bits/codecvt.h \
+ /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
+ /usr/include/c++/11/bits/locale_facets_nonio.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/11/bits/locale_conv.h \
+ /usr/include/c++/11/bits/quoted_string.h \
  /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
  /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
  /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
@@ -566,7 +513,9 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
@@ -746,6 +695,15 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
@@ -774,10 +732,18 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp \
+ /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp \
+ /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp \
  /usr/include/c++/11/climits \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp \
@@ -787,22 +753,18 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/../../../../src/cw_serv/include/cw_serv/modules/ServerParts/TCPClient.hpp \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/TCPServer.hpp \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Module.hpp \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
+ /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
  /usr/include/console_bridge/console.h \
@@ -815,6 +777,54 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/../../../../src/cw_serv/include/cw_serv/modules/ServerParts/ClientManager.hpp \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointer \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qpointer.h \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/../../../../src/cw_serv/include/cw_serv/modules/ServerParts/TCPClient.hpp \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpSocket \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetwork-config.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/../../../../src/cw_serv/include/cw_serv/modules/ServerParts/Packet.hpp \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QDataStream \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcborvalue.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcborcommon.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/quuid.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionClient.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/../../../../src/cw_serv/include/cw_serv/modules/ServerParts/PacketParser.hpp \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/../../../../src/cw_serv/include/cw_serv/modules/ServerParts/PacketParser.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/UBWT7CTH6J/../../../../src/cw_serv/include/cw_serv/modules/ServerParts/TCPClient.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/TCPServer.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpServer \
  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpserver.h \
  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qhostaddress.h

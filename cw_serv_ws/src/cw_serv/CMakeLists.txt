@@ -46,6 +46,16 @@ set(SOURCE_FILES
 
         ${INCLUDE_DIR}/modules/ServerParts/TCPClient.hpp
         ${SRC_DIR}/modules/ServerParts/TCPClient.cpp
+        src/modules/ServerParts/PacketParser.cpp
+        include/cw_serv/modules/ServerParts/PacketParser.hpp
+        include/cw_serv/modules/Robot.hpp
+        src/modules/Robot.cpp
+        src/submodules/SubModule.cpp
+        include/cw_serv/submodules/SubModule.hpp
+        include/cw_serv/submodules/HardwareManager.hpp
+        src/submodules/HardwareManager.cpp
+        include/cw_serv/cw_structs/RunParameters.hpp
+        src/cw_structs/RunParameter.cpp
 )
 
 include(additional_cmake_lists/CMakeConfix.cmake)

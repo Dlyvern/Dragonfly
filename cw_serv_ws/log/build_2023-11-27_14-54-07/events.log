@@ -1,0 +1,610 @@
+[0.000000] (-) TimerEvent: {}
+[0.000097] (action_interface) JobQueued: {'identifier': 'action_interface', 'dependencies': OrderedDict()}
+[0.000117] (cw_serv) JobQueued: {'identifier': 'cw_serv', 'dependencies': OrderedDict([('action_interface', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface')])}
+[0.000141] (action_interface) JobStarted: {'identifier': 'action_interface'}
+[0.028402] (action_interface) JobProgress: {'identifier': 'action_interface', 'progress': 'cmake'}
+[0.029212] (action_interface) JobProgress: {'identifier': 'action_interface', 'progress': 'build'}
+[0.029278] (action_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface', '--', '-j12', '-l12'], 'cwd': '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dlyvern'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dlyvern'), ('OLDPWD', '/home/dlyvern/Projects'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '32757'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dlyvern'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dlyvern'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dlyvernPC:@/tmp/.ICE-unix/2188,unix/dlyvernPC:/tmp/.ICE-unix/2188'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f8449689_ecd9_42c4_bf77_9121a3eed5cb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.96Q9E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.497'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble')]), 'shell': False}
+[0.099721] (-) TimerEvent: {}
+[0.103345] (action_interface) StdoutLine: {'line': b'[  2%] Built target action_interface__cpp\n'}
+[0.105398] (action_interface) StdoutLine: {'line': b'[ 12%] Built target action_interface__rosidl_generator_c\n'}
+[0.112964] (action_interface) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_action_interface\n'}
+[0.120978] (action_interface) StdoutLine: {'line': b'[ 23%] Built target action_interface__rosidl_typesupport_introspection_c\n'}
+[0.121366] (action_interface) StdoutLine: {'line': b'[ 33%] Built target action_interface__rosidl_typesupport_cpp\n'}
+[0.121591] (action_interface) StdoutLine: {'line': b'[ 43%] Built target action_interface__rosidl_typesupport_introspection_cpp\n'}
+[0.122137] (action_interface) StdoutLine: {'line': b'[ 53%] Built target action_interface__rosidl_typesupport_fastrtps_c\n'}
+[0.122220] (action_interface) StdoutLine: {'line': b'[ 64%] Built target action_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[0.124692] (action_interface) StdoutLine: {'line': b'[ 74%] Built target action_interface__rosidl_typesupport_c\n'}
+[0.137121] (action_interface) StdoutLine: {'line': b'[ 74%] Built target action_interface\n'}
+[0.148783] (action_interface) StdoutLine: {'line': b'[ 76%] Built target action_interface__py\n'}
+[0.164772] (action_interface) StdoutLine: {'line': b'[ 84%] Built target action_interface__rosidl_generator_py\n'}
+[0.178125] (action_interface) StdoutLine: {'line': b'[ 97%] Built target action_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[0.178270] (action_interface) StdoutLine: {'line': b'[ 97%] Built target action_interface__rosidl_typesupport_c__pyext\n'}
+[0.178309] (action_interface) StdoutLine: {'line': b'[100%] Built target action_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.199806] (-) TimerEvent: {}
+[0.239534] (action_interface) StdoutLine: {'line': b'running egg_info\n'}
+[0.239891] (action_interface) StdoutLine: {'line': b'writing action_interface.egg-info/PKG-INFO\n'}
+[0.239993] (action_interface) StdoutLine: {'line': b'writing dependency_links to action_interface.egg-info/dependency_links.txt\n'}
+[0.240150] (action_interface) StdoutLine: {'line': b'writing top-level names to action_interface.egg-info/top_level.txt\n'}
+[0.241554] (action_interface) StdoutLine: {'line': b"reading manifest file 'action_interface.egg-info/SOURCES.txt'\n"}
+[0.241937] (action_interface) StdoutLine: {'line': b"writing manifest file 'action_interface.egg-info/SOURCES.txt'\n"}
+[0.257467] (action_interface) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_action_interface_egg\n'}
+[0.264162] (action_interface) CommandEnded: {'returncode': 0}
+[0.299109] (action_interface) JobProgress: {'identifier': 'action_interface', 'progress': 'install'}
+[0.299901] (-) TimerEvent: {}
+[0.303975] (action_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface'], 'cwd': '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dlyvern'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dlyvern'), ('OLDPWD', '/home/dlyvern/Projects'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '32757'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dlyvern'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dlyvern'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dlyvernPC:@/tmp/.ICE-unix/2188,unix/dlyvernPC:/tmp/.ICE-unix/2188'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f8449689_ecd9_42c4_bf77_9121a3eed5cb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.96Q9E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.497'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble')]), 'shell': False}
+[0.309091] (action_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.309247] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/ament_index/resource_index/rosidl_interfaces/action_interface\n'}
+[0.309293] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[0.309337] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[0.309398] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.h\n'}
+[0.309427] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[0.309455] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__functions.h\n'}
+[0.309481] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__functions.c\n'}
+[0.309509] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__type_support.h\n'}
+[0.309537] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.h\n'}
+[0.309565] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg\n'}
+[0.309611] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.309640] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv\n'}
+[0.309674] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/cmd.h\n'}
+[0.309703] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail\n'}
+[0.309742] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__functions.h\n'}
+[0.309787] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__functions.c\n'}
+[0.309818] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__type_support.h\n'}
+[0.309844] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__struct.h\n'}
+[0.309910] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/library_path.sh\n'}
+[0.309949] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/library_path.dsv\n'}
+[0.310437] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_generator_c.so\n'}
+[0.310502] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[0.310531] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[0.310559] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[0.310588] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[0.310615] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg\n'}
+[0.310651] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.310696] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv\n'}
+[0.310724] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail\n'}
+[0.310750] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[0.310885] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[0.310955] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[0.311000] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[0.311031] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[0.311059] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__rosidl_typesupport_introspection_c.h\n'}
+[0.311096] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__type_support.c\n'}
+[0.311140] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg\n'}
+[0.311166] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.311195] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv\n'}
+[0.311261] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail\n'}
+[0.311289] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__rosidl_typesupport_introspection_c.h\n'}
+[0.311316] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__type_support.c\n'}
+[0.311400] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_introspection_c.so\n'}
+[0.311792] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_c.so\n'}
+[0.311860] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[0.311906] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[0.311933] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.hpp\n'}
+[0.311984] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[0.312012] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp\n'}
+[0.312041] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.hpp\n'}
+[0.312069] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp\n'}
+[0.312097] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv\n'}
+[0.312124] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/cmd.hpp\n'}
+[0.312150] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail\n'}
+[0.312177] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__builder.hpp\n'}
+[0.312204] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__struct.hpp\n'}
+[0.312238] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__traits.hpp\n'}
+[0.312265] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[0.312292] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[0.312340] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[0.312369] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.312395] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/dds_fastrtps\n'}
+[0.312420] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg\n'}
+[0.312445] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.312472] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv\n'}
+[0.312506] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail\n'}
+[0.312534] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.312561] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/dds_fastrtps\n'}
+[0.312588] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.312625] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[0.312672] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[0.312700] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[0.312726] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__type_support.cpp\n'}
+[0.312752] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.312777] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv\n'}
+[0.312806] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail\n'}
+[0.312833] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__type_support.cpp\n'}
+[0.312859] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.312920] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[0.313306] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_cpp.so\n'}
+[0.313362] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/pythonpath.sh\n'}
+[0.313391] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/pythonpath.dsv\n'}
+[0.313432] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info\n'}
+[0.313461] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.313499] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.313537] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.313575] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.313628] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface\n'}
+[0.313723] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.313762] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/_action_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.313801] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.313828] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.313854] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action\n'}
+[0.313901] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action/_cmd_s.c\n'}
+[0.313937] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action/_cmd.py\n'}
+[0.313966] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action/__init__.py\n'}
+[0.313993] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.314021] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/_action_interface_s.ep.rosidl_typesupport_c.c\n'}
+[0.314059] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/srv\n'}
+[0.314106] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/srv/_cmd_s.c\n'}
+[0.314141] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/srv/_cmd.py\n'}
+[0.314167] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/srv/__init__.py\n'}
+[0.314192] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/libaction_interface__rosidl_generator_py.so\n'}
+[0.314217] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/__init__.py\n'}
+[0.337392] (action_interface) StdoutLine: {'line': b"Listing '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface'...\n"}
+[0.337532] (action_interface) StdoutLine: {'line': b"Listing '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action'...\n"}
+[0.337572] (action_interface) StdoutLine: {'line': b"Listing '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/srv'...\n"}
+[0.342134] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.342536] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.342883] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.343277] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_generator_py.so\n'}
+[0.343417] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/action/Cmd.idl\n'}
+[0.343525] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/srv/Cmd.idl\n'}
+[0.343578] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/action/Cmd.action\n'}
+[0.343616] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/srv/Cmd.srv\n'}
+[0.343644] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/srv/Cmd_Request.msg\n'}
+[0.343687] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/srv/Cmd_Response.msg\n'}
+[0.343716] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/ament_index/resource_index/package_run_dependencies/action_interface\n'}
+[0.343757] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/ament_index/resource_index/parent_prefix_path/action_interface\n'}
+[0.343788] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/ament_prefix_path.sh\n'}
+[0.343834] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/ament_prefix_path.dsv\n'}
+[0.343865] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/path.sh\n'}
+[0.343894] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/path.dsv\n'}
+[0.343924] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/local_setup.bash\n'}
+[0.343963] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/local_setup.sh\n'}
+[0.344008] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/local_setup.zsh\n'}
+[0.344037] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/local_setup.dsv\n'}
+[0.344063] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/package.dsv\n'}
+[0.344214] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/ament_index/resource_index/packages/action_interface\n'}
+[0.344833] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_cExport.cmake\n'}
+[0.344881] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.345015] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.345055] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.345246] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.345288] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.345458] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_cExport.cmake\n'}
+[0.345498] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.345670] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_cppExport.cmake\n'}
+[0.345854] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.345891] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.346053] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.346086] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.346265] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_cppExport.cmake\n'}
+[0.346304] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.346487] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_pyExport.cmake\n'}
+[0.346520] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.346561] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[0.346592] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.346630] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.346681] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.346710] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.346745] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.346774] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.346802] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interfaceConfig.cmake\n'}
+[0.346829] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interfaceConfig-version.cmake\n'}
+[0.346855] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/package.xml\n'}
+[0.348208] (action_interface) CommandEnded: {'returncode': 0}
+[0.400004] (-) TimerEvent: {}
+[0.447878] (action_interface) JobEnded: {'identifier': 'action_interface', 'rc': 0}
+[0.448266] (cw_serv) JobStarted: {'identifier': 'cw_serv'}
+[0.475592] (cw_serv) JobProgress: {'identifier': 'cw_serv', 'progress': 'cmake'}
+[0.476221] (cw_serv) JobProgress: {'identifier': 'cw_serv', 'progress': 'build'}
+[0.476425] (cw_serv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv', '--', '-j12', '-l12'], 'cwd': '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dlyvern'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dlyvern'), ('OLDPWD', '/home/dlyvern/Projects'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '32757'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dlyvern'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dlyvern'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dlyvernPC:@/tmp/.ICE-unix/2188,unix/dlyvernPC:/tmp/.ICE-unix/2188'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f8449689_ecd9_42c4_bf77_9121a3eed5cb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.96Q9E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.497'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble')]), 'shell': False}
+[0.500114] (-) TimerEvent: {}
+[0.506266] (cw_serv) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.597854] (cw_serv) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600209] (-) TimerEvent: {}
+[0.621325] (cw_serv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.623404] (cw_serv) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.628581] (cw_serv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.636565] (cw_serv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.647126] (cw_serv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.686536] (cw_serv) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.688000] (cw_serv) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700311] (-) TimerEvent: {}
+[0.757098] (cw_serv) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800456] (-) TimerEvent: {}
+[0.852446] (cw_serv) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.6 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.900605] (-) TimerEvent: {}
+[0.906718] (cw_serv) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.6 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[0.943720] (cw_serv) StdoutLine: {'line': b'-- Found action_interface: 0.0.0 (/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake)\n'}
+[0.981715] (cw_serv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.000760] (-) TimerEvent: {}
+[1.041350] (cw_serv) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.041483] (cw_serv) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv>\n'}
+[1.041517] (cw_serv) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.042819] (cw_serv) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.044953] (cw_serv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.046212] (cw_serv) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.053787] (cw_serv) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.053853] (cw_serv) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.054970] (cw_serv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.056098] (cw_serv) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.085522] (cw_serv) StdoutLine: {'line': b'-- Generating done\n'}
+[1.086569] (cw_serv) StdoutLine: {'line': b'-- Build files have been written to: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv\n'}
+[1.100913] (-) TimerEvent: {}
+[1.106656] (cw_serv) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target cw_serv\x1b[0m\n'}
+[1.201077] (-) TimerEvent: {}
+[1.301428] (-) TimerEvent: {}
+[1.401847] (-) TimerEvent: {}
+[1.422985] (cw_serv) StdoutLine: {'line': b'[  5%] Built target cw_serv_autogen\n'}
+[1.437468] (cw_serv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cw_serv\x1b[0m\n'}
+[1.464985] (cw_serv) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.473585] (cw_serv) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o\x1b[0m\n'}
+[1.474116] (cw_serv) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o\x1b[0m\n'}
+[1.474294] (cw_serv) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o\x1b[0m\n'}
+[1.474398] (cw_serv) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/actions/ActionServer.cpp.o\x1b[0m\n'}
+[1.475653] (cw_serv) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o\x1b[0m\n'}
+[1.476081] (cw_serv) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o\x1b[0m\n'}
+[1.476184] (cw_serv) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o\x1b[0m\n'}
+[1.501982] (-) TimerEvent: {}
+[1.602329] (-) TimerEvent: {}
+[1.702812] (-) TimerEvent: {}
+[1.803369] (-) TimerEvent: {}
+[1.903976] (-) TimerEvent: {}
+[2.004468] (-) TimerEvent: {}
+[2.104883] (-) TimerEvent: {}
+[2.205266] (-) TimerEvent: {}
+[2.336854] (-) TimerEvent: {}
+[3.813391] (-) TimerEvent: {}
+[6.255575] (-) TimerEvent: {}
+[8.143663] (-) TimerEvent: {}
+[10.579412] (-) TimerEvent: {}
+[13.808426] (-) TimerEvent: {}
+[15.726349] (-) TimerEvent: {}
+[15.831834] (-) TimerEvent: {}
+[15.932469] (-) TimerEvent: {}
+[16.041091] (-) TimerEvent: {}
+[16.142890] (-) TimerEvent: {}
+[16.243511] (-) TimerEvent: {}
+[16.344050] (-) TimerEvent: {}
+[16.444554] (-) TimerEvent: {}
+[16.545039] (-) TimerEvent: {}
+[16.645575] (-) TimerEvent: {}
+[16.746075] (-) TimerEvent: {}
+[16.846550] (-) TimerEvent: {}
+[16.947032] (-) TimerEvent: {}
+[17.047524] (-) TimerEvent: {}
+[17.148086] (-) TimerEvent: {}
+[17.248587] (-) TimerEvent: {}
+[17.349074] (-) TimerEvent: {}
+[17.449530] (-) TimerEvent: {}
+[17.549972] (-) TimerEvent: {}
+[17.553292] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:4:100:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconflicting declaration \xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unordered_map<std::__cxx11::basic_string<char>, std::function<std::__cxx11::basic_string<char>()> > > Module::allActions_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.558424] (cw_serv) StderrLine: {'line': b'    4 | std::unordered_map<std::string, std::unordered_map<std::string, std::function<std::string (void)>>>\x1b[01;31m\x1b[KModule\x1b[m\x1b[K::allActions_;\n'}
+[17.558612] (cw_serv) StderrLine: {'line': b'      |                                                                                                    \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[17.558695] (cw_serv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:1\x1b[m\x1b[K:\n'}
+[17.558748] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:70:127:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kprevious declaration as \xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unordered_map<std::__cxx11::basic_string<char>, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()> > > Module::allActions_\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.558805] (cw_serv) StderrLine: {'line': b'   70 |     static std::unordered_map<std::string, std::unordered_map<std::string, std::function<std::pair<std::string, bool>(void)>>>\x1b[01;36m\x1b[KallActions_\x1b[m\x1b[K;\n'}
+[17.558860] (cw_serv) StderrLine: {'line': b'      |                                                                                                                               \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.571308] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KModule::Module(const string&, QWidget*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[17.571541] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:29:31:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kcannot convert \xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unordered_map<std::__cxx11::basic_string<char>, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()> > >\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unordered_map<std::__cxx11::basic_string<char>, std::function<std::__cxx11::basic_string<char>()> > >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.571591] (cw_serv) StderrLine: {'line': b'   29 |         m_ActionServer->Start(\x1b[01;31m\x1b[KallActions_\x1b[m\x1b[K);\n'}
+[17.571691] (cw_serv) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[17.571743] (cw_serv) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[K|\x1b[m\x1b[K\n'}
+[17.571794] (cw_serv) StderrLine: {'line': b'      |                               \x1b[01;31m\x1b[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::unordered_map<std::__cxx11::basic_string<char>, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()> > >\x1b[m\x1b[K\n'}
+[17.571843] (cw_serv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:25\x1b[m\x1b[K,\n'}
+[17.571892] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:1\x1b[m\x1b[K:\n'}
+[17.571936] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp:39:117:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  initializing argument 1 of \xe2\x80\x98\x1b[01m\x1b[Kvoid ActionServer::Start(std::unordered_map<std::__cxx11::basic_string<char>, std::unordered_map<std::__cxx11::basic_string<char>, std::function<std::__cxx11::basic_string<char>()> > >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[17.571993] (cw_serv) StderrLine: {'line': b'   39 |     void Start(\x1b[01;36m\x1b[Kstd::unordered_map<std::string, std::unordered_map<std::string, std::function<std::string (void)>>>& actions\x1b[m\x1b[K);\n'}
+[17.572040] (cw_serv) StderrLine: {'line': b'      |                \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[17.650100] (-) TimerEvent: {}
+[17.750500] (-) TimerEvent: {}
+[17.850915] (-) TimerEvent: {}
+[17.951362] (-) TimerEvent: {}
+[18.051849] (-) TimerEvent: {}
+[18.152317] (-) TimerEvent: {}
+[18.172939] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTCPServer::TCPServer(const string&, QWidget*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.173233] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:18:69:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()> >::mapped_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<std::pair<std::__cxx11::basic_string<char>, bool>()>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (TCPServer::*)(), TCPServer*>::type\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[18.173527] (cw_serv) StderrLine: {'line': b'   18 |     allActions_["Server"]["Test"] = std::bind(&TCPServer::Test, this\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[18.173589] (cw_serv) StderrLine: {'line': b'      |                                                                     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.173641] (cw_serv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[18.173695] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[18.173742] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[18.173785] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142\x1b[m\x1b[K,\n'}
+[18.173827] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h:43\x1b[m\x1b[K,\n'}
+[18.173871] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer:1\x1b[m\x1b[K,\n'}
+[18.173996] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:4\x1b[m\x1b[K,\n'}
+[18.174047] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:1\x1b[m\x1b[K:\n'}
+[18.174095] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:530:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<_Functor>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.174252] (cw_serv) StderrLine: {'line': b'  530 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(_Functor&& __f)\n'}
+[18.174304] (cw_serv) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.174408] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:530:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[18.174456] (cw_serv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:45\x1b[m\x1b[K,\n'}
+[18.174506] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h:43\x1b[m\x1b[K,\n'}
+[18.174551] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer:1\x1b[m\x1b[K,\n'}
+[18.174597] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:4\x1b[m\x1b[K,\n'}
+[18.174643] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:1\x1b[m\x1b[K:\n'}
+[18.174687] (cw_serv) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using __enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.174735] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:353:8:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>::_Callable<std::_Bind<std::__cxx11::basic_string<char> (TCPServer::*(TCPServer*))()>, std::_Bind<std::__cxx11::basic_string<char> (TCPServer::*(TCPServer*))()>, std::__invoke_result<std::_Bind<std::__cxx11::basic_string<char> (TCPServer::*(TCPServer*))()>&> >; _Tp = std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&; _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.174787] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:530:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>::_Requires<std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>::_Callable<_Functor, typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()> >::value), std::decay<T> >::type::type, std::__invoke_result<typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()> >::value), std::decay<T> >::type::type&> >, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&> std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>::operator=<_Functor>(_Functor&&) [with _Functor = std::_Bind<std::__cxx11::basic_string<char> (TCPServer::*(TCPServer*))()>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.174852] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:18:69:\x1b[m\x1b[K   required from here\n'}
+[18.174897] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2205:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.175031] (cw_serv) StderrLine: {'line': b' 2205 |     using \x1b[01;31m\x1b[K__enable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[18.175086] (cw_serv) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.175135] (cw_serv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[18.175178] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[18.175241] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[18.175287] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142\x1b[m\x1b[K,\n'}
+[18.175336] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h:43\x1b[m\x1b[K,\n'}
+[18.175381] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer:1\x1b[m\x1b[K,\n'}
+[18.175427] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:4\x1b[m\x1b[K,\n'}
+[18.175480] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:1\x1b[m\x1b[K:\n'}
+[18.175526] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:540:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.175579] (cw_serv) StderrLine: {'line': b'  540 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(reference_wrapper<_Functor> __f) noexcept\n'}
+[18.175626] (cw_serv) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.175671] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:540:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[18.175723] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:18:69:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<std::__cxx11::basic_string<char> (TCPServer::*(TCPServer*))()>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::reference_wrapper<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.175775] (cw_serv) StderrLine: {'line': b'   18 |     allActions_["Server"]["Test"] = std::bind(&TCPServer::Test, this\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[18.175821] (cw_serv) StderrLine: {'line': b'      |                                                                     \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[18.175867] (cw_serv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[18.175914] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[18.175960] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[18.176011] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142\x1b[m\x1b[K,\n'}
+[18.176059] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h:43\x1b[m\x1b[K,\n'}
+[18.176106] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer:1\x1b[m\x1b[K,\n'}
+[18.176152] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:4\x1b[m\x1b[K,\n'}
+[18.176200] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:1\x1b[m\x1b[K:\n'}
+[18.176255] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:469:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.176303] (cw_serv) StderrLine: {'line': b'  469 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const function& __x)\n'}
+[18.176348] (cw_serv) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.176393] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:469:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (TCPServer::*)(), TCPServer*>::type\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.176445] (cw_serv) StderrLine: {'line': b'  469 |       operator=(\x1b[01;36m\x1b[Kconst function& __x\x1b[m\x1b[K)\n'}
+[18.176493] (cw_serv) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.176538] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:487:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.176584] (cw_serv) StderrLine: {'line': b'  487 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(function&& __x) noexcept\n'}
+[18.176630] (cw_serv) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.176676] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:487:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (TCPServer::*)(), TCPServer*>::type\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.176725] (cw_serv) StderrLine: {'line': b'  487 |       operator=(\x1b[01;36m\x1b[Kfunction&& __x\x1b[m\x1b[K) noexcept\n'}
+[18.176772] (cw_serv) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.176818] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:501:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.176875] (cw_serv) StderrLine: {'line': b'  501 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(nullptr_t) noexcept\n'}
+[18.176921] (cw_serv) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.176966] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:501:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (TCPServer::*)(), TCPServer*>::type\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.177016] (cw_serv) StderrLine: {'line': b'  501 |       operator=(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K) noexcept\n'}
+[18.177062] (cw_serv) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[18.252462] (-) TimerEvent: {}
+[18.291338] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KRobot::Robot(const string&, QWidget*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.291894] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:10:68:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()> >::mapped_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<std::pair<std::__cxx11::basic_string<char>, bool>()>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (Robot::*)(), Robot*>::type\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[18.292282] (cw_serv) StderrLine: {'line': b'   10 |     allActions_["Robot"]["Enable"] = std::bind(&Robot::Enable, this\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[18.292485] (cw_serv) StderrLine: {'line': b'      |                                                                    \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.292540] (cw_serv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[18.292588] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[18.292645] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[18.292690] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142\x1b[m\x1b[K,\n'}
+[18.292734] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43\x1b[m\x1b[K,\n'}
+[18.292779] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43\x1b[m\x1b[K,\n'}
+[18.292822] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:43\x1b[m\x1b[K,\n'}
+[18.292864] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1\x1b[m\x1b[K,\n'}
+[18.292910] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:20\x1b[m\x1b[K,\n'}
+[18.292958] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:6\x1b[m\x1b[K,\n'}
+[18.293006] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.293065] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:530:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<_Functor>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.293120] (cw_serv) StderrLine: {'line': b'  530 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(_Functor&& __f)\n'}
+[18.293166] (cw_serv) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.293208] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:530:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[18.293252] (cw_serv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/bits/move.h:57\x1b[m\x1b[K,\n'}
+[18.293298] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:59\x1b[m\x1b[K,\n'}
+[18.293341] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/stl_algobase.h:64\x1b[m\x1b[K,\n'}
+[18.293386] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/char_traits.h:39\x1b[m\x1b[K,\n'}
+[18.293434] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/string:40\x1b[m\x1b[K,\n'}
+[18.293479] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp:4\x1b[m\x1b[K,\n'}
+[18.293523] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:17\x1b[m\x1b[K,\n'}
+[18.293570] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:6\x1b[m\x1b[K,\n'}
+[18.293615] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.293663] (cw_serv) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<bool _Cond, class _Tp> using __enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[18.293717] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:353:8:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>::_Callable<std::_Bind<std::__cxx11::basic_string<char> (Robot::*(Robot*))()>, std::_Bind<std::__cxx11::basic_string<char> (Robot::*(Robot*))()>, std::__invoke_result<std::_Bind<std::__cxx11::basic_string<char> (Robot::*(Robot*))()>&> >; _Tp = std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&; _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.293772] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:530:2:\x1b[m\x1b[K   required by substitution of \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>::_Requires<std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>::_Callable<_Functor, typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()> >::value), std::decay<_Tp> >::type::type, std::__invoke_result<typename std::enable_if<(! std::is_same<typename std::remove_cv<typename std::remove_reference<_Tp>::type>::type, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()> >::value), std::decay<_Tp> >::type::type&> >, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&> std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>::operator=<_Functor>(_Functor&&) [with _Functor = std::_Bind<std::__cxx11::basic_string<char> (Robot::*(Robot*))()>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.293824] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:10:68:\x1b[m\x1b[K   required from here\n'}
+[18.293869] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/type_traits:2205:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno type named \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kstruct std::enable_if<false, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.293929] (cw_serv) StderrLine: {'line': b' 2205 |     using \x1b[01;31m\x1b[K__enable_if_t\x1b[m\x1b[K = typename enable_if<_Cond, _Tp>::type;\n'}
+[18.293976] (cw_serv) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[18.294021] (cw_serv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[18.294067] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[18.294112] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[18.294160] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142\x1b[m\x1b[K,\n'}
+[18.294206] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43\x1b[m\x1b[K,\n'}
+[18.294257] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43\x1b[m\x1b[K,\n'}
+[18.294304] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:43\x1b[m\x1b[K,\n'}
+[18.294348] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1\x1b[m\x1b[K,\n'}
+[18.294392] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:20\x1b[m\x1b[K,\n'}
+[18.294443] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:6\x1b[m\x1b[K,\n'}
+[18.294488] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.294531] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:540:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.294583] (cw_serv) StderrLine: {'line': b'  540 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(reference_wrapper<_Functor> __f) noexcept\n'}
+[18.294628] (cw_serv) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.294673] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:540:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[18.294725] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:10:68:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<std::__cxx11::basic_string<char> (Robot::*(Robot*))()>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::reference_wrapper<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.294772] (cw_serv) StderrLine: {'line': b'   10 |     allActions_["Robot"]["Enable"] = std::bind(&Robot::Enable, this\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[18.294817] (cw_serv) StderrLine: {'line': b'      |                                                                    \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[18.294865] (cw_serv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[18.294912] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[18.294958] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[18.295007] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142\x1b[m\x1b[K,\n'}
+[18.295054] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43\x1b[m\x1b[K,\n'}
+[18.295098] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43\x1b[m\x1b[K,\n'}
+[18.295143] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:43\x1b[m\x1b[K,\n'}
+[18.295190] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1\x1b[m\x1b[K,\n'}
+[18.295314] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:20\x1b[m\x1b[K,\n'}
+[18.295373] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:6\x1b[m\x1b[K,\n'}
+[18.295420] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.295466] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:469:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.295524] (cw_serv) StderrLine: {'line': b'  469 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const function& __x)\n'}
+[18.295570] (cw_serv) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.295615] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:469:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (Robot::*)(), Robot*>::type\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.295673] (cw_serv) StderrLine: {'line': b'  469 |       operator=(\x1b[01;36m\x1b[Kconst function& __x\x1b[m\x1b[K)\n'}
+[18.295728] (cw_serv) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.295812] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:487:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.295863] (cw_serv) StderrLine: {'line': b'  487 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(function&& __x) noexcept\n'}
+[18.295921] (cw_serv) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.295969] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:487:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (Robot::*)(), Robot*>::type\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.296022] (cw_serv) StderrLine: {'line': b'  487 |       operator=(\x1b[01;36m\x1b[Kfunction&& __x\x1b[m\x1b[K) noexcept\n'}
+[18.296065] (cw_serv) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.296120] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:501:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.296167] (cw_serv) StderrLine: {'line': b'  501 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(nullptr_t) noexcept\n'}
+[18.296213] (cw_serv) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.296256] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:501:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (Robot::*)(), Robot*>::type\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.296303] (cw_serv) StderrLine: {'line': b'  501 |       operator=(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K) noexcept\n'}
+[18.296353] (cw_serv) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[18.296397] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:11:80:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()> >::mapped_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<std::pair<std::__cxx11::basic_string<char>, bool>()>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (Robot::*)(), Robot*>::type\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[18.296447] (cw_serv) StderrLine: {'line': b'   11 |     allActions_["Robot"]["DoDiagnostic"] = std::bind(&Robot::DoDiagnostic, this\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[18.296496] (cw_serv) StderrLine: {'line': b'      |                                                                                \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.296541] (cw_serv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[18.296587] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[18.296648] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[18.296697] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142\x1b[m\x1b[K,\n'}
+[18.296743] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43\x1b[m\x1b[K,\n'}
+[18.296785] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43\x1b[m\x1b[K,\n'}
+[18.296827] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:43\x1b[m\x1b[K,\n'}
+[18.296869] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1\x1b[m\x1b[K,\n'}
+[18.296911] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:20\x1b[m\x1b[K,\n'}
+[18.296966] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:6\x1b[m\x1b[K,\n'}
+[18.297015] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.297061] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:530:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<_Functor>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.297119] (cw_serv) StderrLine: {'line': b'  530 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(_Functor&& __f)\n'}
+[18.297165] (cw_serv) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.297209] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:530:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[18.297252] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:540:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.297301] (cw_serv) StderrLine: {'line': b'  540 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(reference_wrapper<_Functor> __f) noexcept\n'}
+[18.297349] (cw_serv) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.297393] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:540:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[18.297433] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:11:80:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<std::__cxx11::basic_string<char> (Robot::*(Robot*))()>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::reference_wrapper<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.297479] (cw_serv) StderrLine: {'line': b'   11 |     allActions_["Robot"]["DoDiagnostic"] = std::bind(&Robot::DoDiagnostic, this\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[18.297523] (cw_serv) StderrLine: {'line': b'      |                                                                                \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[18.297569] (cw_serv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[18.297616] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[18.297664] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[18.297707] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142\x1b[m\x1b[K,\n'}
+[18.297753] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43\x1b[m\x1b[K,\n'}
+[18.297796] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43\x1b[m\x1b[K,\n'}
+[18.297852] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:43\x1b[m\x1b[K,\n'}
+[18.297898] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1\x1b[m\x1b[K,\n'}
+[18.297944] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:20\x1b[m\x1b[K,\n'}
+[18.297989] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:6\x1b[m\x1b[K,\n'}
+[18.298037] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.298085] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:469:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.298134] (cw_serv) StderrLine: {'line': b'  469 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const function& __x)\n'}
+[18.298178] (cw_serv) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.298223] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:469:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (Robot::*)(), Robot*>::type\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.298275] (cw_serv) StderrLine: {'line': b'  469 |       operator=(\x1b[01;36m\x1b[Kconst function& __x\x1b[m\x1b[K)\n'}
+[18.298321] (cw_serv) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.298365] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:487:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.298411] (cw_serv) StderrLine: {'line': b'  487 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(function&& __x) noexcept\n'}
+[18.298453] (cw_serv) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.298498] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:487:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (Robot::*)(), Robot*>::type\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.298552] (cw_serv) StderrLine: {'line': b'  487 |       operator=(\x1b[01;36m\x1b[Kfunction&& __x\x1b[m\x1b[K) noexcept\n'}
+[18.298603] (cw_serv) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.298646] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:501:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.298691] (cw_serv) StderrLine: {'line': b'  501 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(nullptr_t) noexcept\n'}
+[18.298736] (cw_serv) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.298779] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:501:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (Robot::*)(), Robot*>::type\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.298834] (cw_serv) StderrLine: {'line': b'  501 |       operator=(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K) noexcept\n'}
+[18.298879] (cw_serv) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[18.298922] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:12:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno match for \xe2\x80\x98\x1b[01m\x1b[Koperator=\x1b[m\x1b[K\xe2\x80\x99 (operand types are \xe2\x80\x98\x1b[01m\x1b[Kstd::unordered_map<std::__cxx11::basic_string<char>, std::function<std::pair<std::__cxx11::basic_string<char>, bool>()> >::mapped_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<std::pair<std::__cxx11::basic_string<char>, bool>()>\x1b[m\x1b[K\xe2\x80\x99} and \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (Robot::*)(), Robot*>::type\x1b[m\x1b[K\xe2\x80\x99)\n'}
+[18.298971] (cw_serv) StderrLine: {'line': b'   12 |     allActions_["Robot"]["Disable"] = std::bind(&Robot::Disable, this\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[18.299016] (cw_serv) StderrLine: {'line': b'      |                                                                      \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[18.299061] (cw_serv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[18.299104] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[18.299153] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[18.299198] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142\x1b[m\x1b[K,\n'}
+[18.299265] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43\x1b[m\x1b[K,\n'}
+[18.299309] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43\x1b[m\x1b[K,\n'}
+[18.299351] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:43\x1b[m\x1b[K,\n'}
+[18.299394] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1\x1b[m\x1b[K,\n'}
+[18.299436] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:20\x1b[m\x1b[K,\n'}
+[18.299477] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:6\x1b[m\x1b[K,\n'}
+[18.299519] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.299563] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:530:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>::_Requires<std::function<_Res(_ArgTypes ...)>::_Callable<_Functor>, std::function<_Res(_ArgTypes ...)>&> std::function<_Res(_ArgTypes ...)>::operator=(_Functor&&) [with _Functor = _Functor; _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.299618] (cw_serv) StderrLine: {'line': b'  530 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(_Functor&& __f)\n'}
+[18.299662] (cw_serv) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.299705] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:530:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[18.299749] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:540:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Functor> std::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::reference_wrapper<_Functor>) [with _Functor = _Functor; _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.299801] (cw_serv) StderrLine: {'line': b'  540 |         \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(reference_wrapper<_Functor> __f) noexcept\n'}
+[18.299845] (cw_serv) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.299889] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:540:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[18.299932] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:12:70:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind<std::__cxx11::basic_string<char> (Robot::*(Robot*))()>\x1b[m\x1b[K\xe2\x80\x99 is not derived from \xe2\x80\x98\x1b[01m\x1b[Kstd::reference_wrapper<_Tp>\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.299978] (cw_serv) StderrLine: {'line': b'   12 |     allActions_["Robot"]["Disable"] = std::bind(&Robot::Disable, this\x1b[01;36m\x1b[K)\x1b[m\x1b[K;\n'}
+[18.300020] (cw_serv) StderrLine: {'line': b'      |                                                                      \x1b[01;36m\x1b[K^\x1b[m\x1b[K\n'}
+[18.300064] (cw_serv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/functional:59\x1b[m\x1b[K,\n'}
+[18.300108] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[18.300156] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[18.300199] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:142\x1b[m\x1b[K,\n'}
+[18.300241] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:43\x1b[m\x1b[K,\n'}
+[18.300283] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:43\x1b[m\x1b[K,\n'}
+[18.300326] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:43\x1b[m\x1b[K,\n'}
+[18.300371] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:1\x1b[m\x1b[K,\n'}
+[18.300415] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:20\x1b[m\x1b[K,\n'}
+[18.300458] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:6\x1b[m\x1b[K,\n'}
+[18.300500] (cw_serv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:1\x1b[m\x1b[K:\n'}
+[18.300541] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:469:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(const std::function<_Res(_ArgTypes ...)>&) [with _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.300588] (cw_serv) StderrLine: {'line': b'  469 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(const function& __x)\n'}
+[18.300635] (cw_serv) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.300677] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:469:33:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (Robot::*)(), Robot*>::type\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.300730] (cw_serv) StderrLine: {'line': b'  469 |       operator=(\x1b[01;36m\x1b[Kconst function& __x\x1b[m\x1b[K)\n'}
+[18.300774] (cw_serv) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.300817] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:487:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::function<_Res(_ArgTypes ...)>&&) [with _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.300867] (cw_serv) StderrLine: {'line': b'  487 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(function&& __x) noexcept\n'}
+[18.300919] (cw_serv) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.300963] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:487:28:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (Robot::*)(), Robot*>::type\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::function<std::pair<std::__cxx11::basic_string<char>, bool>()>&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.301010] (cw_serv) StderrLine: {'line': b'  487 |       operator=(\x1b[01;36m\x1b[Kfunction&& __x\x1b[m\x1b[K) noexcept\n'}
+[18.301056] (cw_serv) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[18.301097] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:501:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::function<_Res(_ArgTypes ...)>& std::function<_Res(_ArgTypes ...)>::operator=(std::nullptr_t) [with _Res = std::pair<std::__cxx11::basic_string<char>, bool>; _ArgTypes = {}; std::nullptr_t = std::nullptr_t]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.301137] (cw_serv) StderrLine: {'line': b'  501 |       \x1b[01;36m\x1b[Koperator\x1b[m\x1b[K=(nullptr_t) noexcept\n'}
+[18.301177] (cw_serv) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[18.301219] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/std_function.h:501:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Bind_helper<false, std::__cxx11::basic_string<char> (Robot::*)(), Robot*>::type\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kstd::nullptr_t\x1b[m\x1b[K\xe2\x80\x99\n'}
+[18.301264] (cw_serv) StderrLine: {'line': b'  501 |       operator=(\x1b[01;36m\x1b[Knullptr_t\x1b[m\x1b[K) noexcept\n'}
+[18.301308] (cw_serv) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[18.352614] (-) TimerEvent: {}
+[18.453074] (-) TimerEvent: {}
+[18.553558] (-) TimerEvent: {}
+[18.654027] (-) TimerEvent: {}
+[18.713094] (cw_serv) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:174: CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o] Error 1\n'}
+[18.713308] (cw_serv) StderrLine: {'line': b'gmake[2]: *** Waiting for unfinished jobs....\n'}
+[18.754169] (-) TimerEvent: {}
+[18.807080] (cw_serv) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:244: CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o] Error 1\n'}
+[18.814148] (cw_serv) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:160: CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o] Error 1\n'}
+[18.854285] (-) TimerEvent: {}
+[18.954626] (-) TimerEvent: {}
+[19.054947] (-) TimerEvent: {}
+[19.155304] (-) TimerEvent: {}
+[19.255610] (-) TimerEvent: {}
+[19.355898] (-) TimerEvent: {}
+[19.456171] (-) TimerEvent: {}
+[19.556495] (-) TimerEvent: {}
+[19.656808] (-) TimerEvent: {}
+[19.757087] (-) TimerEvent: {}
+[19.857399] (-) TimerEvent: {}
+[19.957670] (-) TimerEvent: {}
+[20.057950] (-) TimerEvent: {}
+[20.158229] (-) TimerEvent: {}
+[20.258490] (-) TimerEvent: {}
+[20.358815] (-) TimerEvent: {}
+[20.459122] (-) TimerEvent: {}
+[20.559462] (-) TimerEvent: {}
+[20.659762] (-) TimerEvent: {}
+[20.760062] (-) TimerEvent: {}
+[20.860365] (-) TimerEvent: {}
+[20.960684] (-) TimerEvent: {}
+[21.060970] (-) TimerEvent: {}
+[21.161259] (-) TimerEvent: {}
+[21.261552] (-) TimerEvent: {}
+[21.361843] (-) TimerEvent: {}
+[21.462145] (-) TimerEvent: {}
+[21.562437] (-) TimerEvent: {}
+[21.662755] (-) TimerEvent: {}
+[21.763083] (-) TimerEvent: {}
+[21.863353] (-) TimerEvent: {}
+[21.940312] (cw_serv) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Error 2\n'}
+[21.940486] (cw_serv) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[21.963411] (-) TimerEvent: {}
+[21.973621] (cw_serv) CommandEnded: {'returncode': 2}
+[22.118821] (-) TimerEvent: {}
+[22.161308] (cw_serv) JobEnded: {'identifier': 'cw_serv', 'rc': 2}
+[22.171797] (-) EventReactorShutdown: {}

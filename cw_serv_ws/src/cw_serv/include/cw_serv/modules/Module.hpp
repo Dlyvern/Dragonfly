@@ -17,15 +17,16 @@
 #include "cw_structs/Command.hpp"
 #endif
 
+#ifndef RUN_PARAMETERS_HPP
+#include "cw_structs/RunParameters.hpp"
+#endif
+
 #include "QWidget"
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
 #include "QSettings"
 
-
 #include "actions/ActionServer.hpp"
-
-
 
 class Module : public rclcpp::Node, public QWidget
 {
@@ -63,12 +64,7 @@ protected:
 
     void SetRunInterval(std::chrono::milliseconds runInterval);
 
-    struct Action
-    {
-        std::string target;
-        std::string operation;
-        std::function<std::string(void)> function;
-    };
+    static std::unordered_map<std::string, std::unordered_map<std::string, std::function<std::pair<std::string, bool>(RunParameters& runParameters)>>>allActions_;
 
 public:
     explicit Module(const std::string& nameOfNode, QWidget *parent = nullptr);

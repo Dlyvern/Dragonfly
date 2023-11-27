@@ -278,10 +278,16 @@
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp">
 			<Option target="cw_serv"/>
 		</Unit>
+		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp">
+			<Option target="cw_serv"/>
+		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp">
 			<Option target="cw_serv"/>
 		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp">
+			<Option target="cw_serv"/>
+		</Unit>
+		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp">
 			<Option target="cw_serv"/>
 		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/ClientManager.hpp">
@@ -290,10 +296,19 @@
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/Packet.hpp">
 			<Option target="cw_serv"/>
 		</Unit>
+		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/PacketParser.hpp">
+			<Option target="cw_serv"/>
+		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/TCPClient.hpp">
 			<Option target="cw_serv"/>
 		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp">
+			<Option target="cw_serv"/>
+		</Unit>
+		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp">
+			<Option target="cw_serv"/>
+		</Unit>
+		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp">
 			<Option target="cw_serv"/>
 		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionClient.cpp">
@@ -305,6 +320,9 @@
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/Command.cpp">
 			<Option target="cw_serv"/>
 		</Unit>
+		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/RunParameter.cpp">
+			<Option target="cw_serv"/>
+		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/main.cpp">
 			<Option target="cw_serv"/>
 		</Unit>
@@ -314,16 +332,28 @@
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp">
 			<Option target="cw_serv"/>
 		</Unit>
+		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp">
+			<Option target="cw_serv"/>
+		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/ClientManager.cpp">
 			<Option target="cw_serv"/>
 		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/Packet.cpp">
 			<Option target="cw_serv"/>
 		</Unit>
+		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/PacketParser.cpp">
+			<Option target="cw_serv"/>
+		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp">
 			<Option target="cw_serv"/>
 		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp">
+			<Option target="cw_serv"/>
+		</Unit>
+		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp">
+			<Option target="cw_serv"/>
+		</Unit>
+		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/SubModule.cpp">
 			<Option target="cw_serv"/>
 		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/CMakeLists.txt">

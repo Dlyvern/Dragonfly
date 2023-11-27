@@ -7,9 +7,11 @@
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionClient.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/ClientManager.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/Packet.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/PacketParser.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/TCPClient.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
@@ -741,6 +743,7 @@
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QDataStream \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointer \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \

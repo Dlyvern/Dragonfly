@@ -1232,6 +1232,12 @@
 			null
 		],
 		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp",
+			"MU",
+			"IOOCFJDYUV/moc_RunParameters.cpp",
+			null
+		],
+		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp",
 			"MU",
 			"4XGV5CRBCI/moc_Logger.cpp",
@@ -1241,6 +1247,12 @@
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp",
 			"MU",
 			"4XGV5CRBCI/moc_Module.cpp",
+			null
+		],
+		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp",
+			"MU",
+			"4XGV5CRBCI/moc_Robot.cpp",
 			null
 		],
 		[
@@ -1256,6 +1268,12 @@
 			null
 		],
 		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/PacketParser.hpp",
+			"MU",
+			"UBWT7CTH6J/moc_PacketParser.cpp",
+			null
+		],
+		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/TCPClient.hpp",
 			"MU",
 			"UBWT7CTH6J/moc_TCPClient.cpp",
@@ -1265,6 +1283,18 @@
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp",
 			"MU",
 			"4XGV5CRBCI/moc_TCPServer.cpp",
+			null
+		],
+		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp",
+			"MU",
+			"JBZNCJ465A/moc_HardwareManager.cpp",
+			null
+		],
+		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp",
+			"MU",
+			"JBZNCJ465A/moc_SubModule.cpp",
 			null
 		]
 	],
@@ -1383,6 +1413,11 @@
 			null
 		],
 		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/RunParameter.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/main.cpp",
 			"MU",
 			null
@@ -1398,6 +1433,11 @@
 			null
 		],
 		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/ClientManager.cpp",
 			"MU",
 			null
@@ -1408,12 +1448,27 @@
 			null
 		],
 		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/PacketParser.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp",
 			"MU",
 			null
 		],
 		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/SubModule.cpp",
 			"MU",
 			null
 		]

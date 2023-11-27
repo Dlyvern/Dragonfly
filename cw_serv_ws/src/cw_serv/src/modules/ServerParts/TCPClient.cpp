@@ -4,13 +4,21 @@
 TCPClient::TCPClient(QTcpSocket *clientSocket, int id, QObject*parent)
 : QObject(parent), m_Socket(clientSocket), m_Id{id}
 {
+    m_PacketParser = new PacketParser;
+
+    connect(m_PacketParser, &PacketParser::NewPacket, this, &TCPClient::ParsedNewPacket);
+
     connect(m_Socket, &QTcpSocket::readyRead, this, &TCPClient::ReadMessage);
+
     m_ActionClient = std::make_shared<ActionClient>();
+    m_ActionClientTimer = new QTimer;
+    m_ActionClientTimer->setInterval(100);
+    connect(m_ActionClientTimer, &QTimer::timeout, [this]{spin_some(m_ActionClient);});
 }
 
 void TCPClient::Log(const std::string &message, int levelLog)
 {
-    std::string message_for_server = "Client[" + GetName() + "]:" + message;
+    std::string message_for_server = "Client[" + GetName().toStdString() + "]:" + message;
     emit LogClient(message_for_server, levelLog);
 }
 
@@ -18,7 +26,7 @@ void TCPClient::Start()
 {
     m_ActionClient->Start(std::bind(&TCPClient::ActionDoneCallback, this, std::placeholders::_1, std::placeholders::_2));
 
-    std::thread([this]{spin(m_ActionClient);}).detach();
+    m_ActionClientTimer->start();
 }
 
 void TCPClient::ActionDoneCallback(const std::string &resultArgs, bool result)
@@ -34,35 +42,66 @@ void TCPClient::ActionDoneCallback(const std::string &resultArgs, bool result)
 
 void TCPClient::ReadMessage()
 {
-    QByteArray dataForInitialization = m_Socket->readAll();
-
-    Packet packet;
-
-    if(!packet.Unpack(dataForInitialization))
+    if(m_Socket->bytesAvailable())
     {
-        Log("Got a broken message", 2); //ERROR LEVEL LOG
+        auto data_from_socket = m_Socket->readAll();
+        m_PacketParser->Start(data_from_socket);
     }
+}
 
-    const QJsonObject &data = packet.GetData();
+void TCPClient::Disconnect()
+{
+    m_Socket->disconnect();
+    m_Socket->close();
+}
+
+const int &TCPClient::GetLevel() const
+{
+    return m_Level;
+}
+
+const QString &TCPClient::GetName() const
+{
+    return m_Name;
+}
+
+const int &TCPClient::GetId() const
+{
+    return m_Id;
+}
+
+void TCPClient::SendMessageToClient(const QJsonObject &message)
+{
+    auto msg = message;
+    Packet packet(0xAA55, 0x01, 0x1234, 0, std::move(msg), 0xFFFF);
+
+    QByteArray container = packet.Pack();
+
+    m_Socket->write(container);
+}
+
+void TCPClient::ParsedNewPacket(Packet *packet)
+{
+    const QJsonObject &data = packet->GetData();
+
+    QJsonObject message_for_client;
 
     if(data["type"] == "connect")
     {
-        Log("Receiving init message with name and level", 0);
-
         QString message = data["msg"].toString();
 
-        m_Name = data["name"].toString().toStdString();
+        m_Name = data["name"].toString();
         m_Level = data["level"].toInt();
 
-        if((m_TCPOnly = data["tcp"].toBool()))
-            Log("CONNECTED IN TCP_ONLY MODE", 0);
-
-        Log("Connected with level " + std::to_string(m_Level), 0);
         m_IsAlive = true;
+
+        message_for_client["type"] = "message";
+        message_for_client["msg"] = QString("You were connected with the name " + m_Name + " and with the " + QString(std::to_string(m_Level).c_str()) + " level of access");
+        SendMessageToClient(message_for_client);
         //Send ping to server
     }
 
-    else if(data["type"] == "get_op")
+    else if(data["type"] == "get_op" && m_Level >= 2)
     {
         m_Operator = true;
     }
@@ -123,39 +162,11 @@ void TCPClient::ReadMessage()
             m_ActionClient->NewAction(*command);
         }
     }
+
+    else
+    {
+        qDebug() << "WEIRD DATA";
+    }
 }
-
-void TCPClient::Disconnect()
-{
-    m_Socket->disconnect();
-    m_Socket->close();
-}
-
-const int &TCPClient::GetLevel() const
-{
-    return m_Level;
-}
-
-const std::string &TCPClient::GetName() const
-{
-    return m_Name;
-}
-
-const int &TCPClient::GetId() const
-{
-    return m_Id;
-}
-
-void TCPClient::SendMessageToClient(const QJsonObject &message)
-{
-    auto msg = message;
-    Packet packet(0xAA55, 0x01, 0x1234, 0, std::move(msg), 0xFFFF);
-
-    QByteArray container = packet.Pack();
-
-    m_Socket->write(container);
-}
-
-
 
 TCPClient::~TCPClient() = default;

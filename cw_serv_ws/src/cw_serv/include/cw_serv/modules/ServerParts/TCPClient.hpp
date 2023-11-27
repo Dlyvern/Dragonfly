@@ -9,6 +9,12 @@
 
 #include "actions/ActionClient.hpp"
 
+#include "QTimer"
+
+#ifndef PACKET_PARSER_HPP
+#include "PacketParser.hpp"
+#endif
+
 class TCPClient : public QObject
 {
 Q_OBJECT
@@ -16,13 +22,15 @@ private:
     std::shared_ptr<ActionClient>m_ActionClient{nullptr};
     QTcpSocket *m_Socket;
 
-    std::string m_Name{"NOT_SET"};
+    QString m_Name{"NOT_SET"};
+    QTimer* m_ActionClientTimer{nullptr};
 
     int m_Id;
     int m_Level{0};
     bool m_TCPOnly{false};
     bool m_IsAlive{false};
     bool m_Operator{false};
+    PacketParser* m_PacketParser{nullptr};
 
     void Log(const std::string&message, int levelLog);
 
@@ -30,6 +38,8 @@ private:
 
 private slots:
     void ReadMessage();
+
+    void ParsedNewPacket(Packet* packet);
 
 public:
     explicit TCPClient(QTcpSocket * clientSocket, int id,  QObject*parent = nullptr);
@@ -40,7 +50,7 @@ public:
 
     [[nodiscard]] const int& GetLevel() const;
 
-    [[nodiscard]] const std::string& GetName() const;
+    [[nodiscard]] const QString& GetName() const;
 
     [[nodiscard]] const int& GetId() const;
 

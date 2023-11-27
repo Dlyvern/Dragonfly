@@ -1,6 +1,7 @@
 #include "modules/Module.hpp"
 
 std::shared_ptr<ActionServer>Module::m_ActionServer{nullptr};
+std::unordered_map<std::string, std::unordered_map<std::string, std::function<std::pair<std::string, bool>(RunParameters& runParameters)>>>Module::allActions_;
 
 Module::Module(const std::string &nameOfNode, QWidget *parent) : rclcpp::Node(nameOfNode), QWidget(parent), m_Name{nameOfNode} {
     m_LogPublisher = this->create_publisher<std_msgs::msg::String>("/cw/log", 200);
@@ -8,24 +9,24 @@ Module::Module(const std::string &nameOfNode, QWidget *parent) : rclcpp::Node(na
     if (!m_ActionServer)
     {
         m_ActionServer = std::make_shared<ActionServer>();
+//
+//        std::unordered_map<std::string, std::unordered_map<std::string, std::function<std::string (void)>>>functions;
+//
+//        Action action;
+//        action.target = "Server";
+//        action.operation = "Test";
+//        action.function = []()->std::string
+//        {
+//            return {"test_action_completed"};
+//        };
+//
+//        std::unordered_map<std::string, std::function<std::string (void)>>fun;
+//
+//        fun[action.operation] = action.function;
+//
+//        functions[action.target] = fun;
 
-        std::unordered_map<std::string, std::unordered_map<std::string, std::function<std::string (void)>>>functions;
-
-        Action action;
-        action.target = "Server";
-        action.operation = "Test";
-        action.function = []()->std::string
-        {
-            return {"test_action_completed"};
-        };
-
-        std::unordered_map<std::string, std::function<std::string (void)>>fun;
-
-        fun[action.operation] = action.function;
-
-        functions[action.target] = fun;
-
-        m_ActionServer->Start(functions);
+        m_ActionServer->Start(allActions_);
 
         std::thread([]{spin(m_ActionServer);}).detach();
     }

@@ -788,4 +788,10 @@ CMakeFiles/cw_serv.dir/src/modules/ServerParts/ClientManager.cpp.o: \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/PacketParser.hpp \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h

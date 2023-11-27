@@ -14,9 +14,9 @@ ActionServer::ActionServer() : rclcpp::Node("ActionServer")
     );
 }
 
-void ActionServer::Start(std::unordered_map<std::string, std::unordered_map<std::string, std::function<std::string (void)>>> &actions)
+void ActionServer::Start(std::unordered_map<std::string, std::unordered_map<std::string, std::function<std::pair<std::string, bool>(RunParameters& runParameters)>>>&actions)
 {
-    m_AllActionsFromModulesAndSubmodules = actions;
+    m_AllActionsFromModulesAndSubmodules = &actions;
     Log("Action server is running", 0);
     //Work();
 }
@@ -61,30 +61,32 @@ void ActionServer::HandleAcceptedGoal(const std::shared_ptr< rclcpp_action::Serv
         return;
     }
 
-    std::string return_result = m_WorkFuture.get();
-    result->res = true;
-    result->res_arg = return_result;
+    auto return_result = m_WorkFuture.get();
+    result->res = return_result.second;
+    result->res_arg = return_result.first;
     goal_handle->succeed(result);
 }
 
-std::string ActionServer::Work()
+std::pair<std::string, bool> ActionServer::Work()
 {
-    std::string result{"ABORT"};
+    std::pair<std::string, bool>result;
 
     if(!m_ExecuteFunction)
     {
         Log("No work", 0);
-        return {"No work"};
+        return {"No work", false};
     }
 
+
+    //FIX RUN_PARAMETERS IN WORK METHOD
     try
     {
-        result = m_ExecuteFunction();
+        result = m_ExecuteFunction(m_Goals.begin()->second.begin()->second);
     }
 
     catch (std::exception &ex)
     {
-        return {R"(Action server failed while executing action callback: \"%s\"", ex.what())"};
+        return {R"(Action server failed while executing action callback: \"%s\"", ex.what())", false};
     }
 
     return result;
@@ -97,9 +99,9 @@ rclcpp_action::GoalResponse ActionServer::HandleGoal(const rclcpp_action::GoalUU
 
     Log("Finding " + target + " with function " + operation, 0);
 
-    auto operations = m_AllActionsFromModulesAndSubmodules.find(target);
+    auto operations = m_AllActionsFromModulesAndSubmodules->find(target);
 
-    if(operations == m_AllActionsFromModulesAndSubmodules.end())
+    if(operations == m_AllActionsFromModulesAndSubmodules->end())
     {
         Log("No target. Rejecting the goal", 2);
         return rclcpp_action::GoalResponse::REJECT;
@@ -117,7 +119,11 @@ rclcpp_action::GoalResponse ActionServer::HandleGoal(const rclcpp_action::GoalUU
 
     m_ExecuteFunction = it->second;
 
-    m_Goals[uuid] = goal;
+    RunParameters runParameters;
+    runParameters.arguments = goal->args;
+    runParameters.timeLimit = goal->time_limit;
+
+    m_Goals[uuid][goal] = runParameters;
 
     return rclcpp_action::GoalResponse::ACCEPT_AND_EXECUTE;
 }

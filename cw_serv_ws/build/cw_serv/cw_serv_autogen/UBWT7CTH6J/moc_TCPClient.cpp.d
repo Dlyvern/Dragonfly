@@ -7,6 +7,7 @@
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionClient.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/Packet.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/PacketParser.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
@@ -724,11 +725,14 @@
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QDataStream \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcborcommon.h \
@@ -784,6 +788,7 @@
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/quuid.h \

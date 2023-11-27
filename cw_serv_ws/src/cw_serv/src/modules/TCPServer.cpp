@@ -69,7 +69,6 @@ void TCPServer::LogMessageFromClient(const std::string &message, int levelLog)
     Log(message, levelLog);
 }
 
-
 TCPServer::~TCPServer()
 {
     SetRunning(false);

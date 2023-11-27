@@ -1,0 +1,38 @@
+[0.029s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[0.064s] [  5%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[0.364s] [  5%] Built target cw_serv_autogen
+[0.382s] [35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[0.410s] [ 11%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o[0m
+[0.419s] [ 16%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o[0m
+[0.419s] [ 27%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o[0m
+[0.419s] [ 27%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o[0m
+[0.419s] [ 33%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o[0m
+[0.420s] [ 38%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o[0m
+[31.790s] [ 44%] [32m[1mLinking CXX executable cw_serv[0m
+[32.634s] [100%] Built target cw_serv
+[32.675s] Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv' returned '0': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[32.720s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --install /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv
+[32.724s] -- Install configuration: ""
+[32.725s] -- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/lib/cw_serv/cw_serv
+[32.729s] -- Set runtime path of "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/lib/cw_serv/cw_serv" to ""
+[32.729s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch
+[32.729s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/cw_serv_launch.py
+[32.729s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/settings_for_launch_file
+[32.730s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/settings_for_launch_file/main_settings.ini
+[32.730s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/package_run_dependencies/cw_serv
+[32.731s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/parent_prefix_path/cw_serv
+[32.731s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/ament_prefix_path.sh
+[32.731s] -- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/ament_prefix_path.dsv
+[32.732s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/path.sh
+[32.732s] -- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/path.dsv
+[32.732s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.bash
+[32.732s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.sh
+[32.732s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.zsh
+[32.732s] -- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.dsv
+[32.732s] -- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/package.dsv
+[32.732s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/packages/cw_serv
+[32.732s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/CMakeConfix.cmake
+[32.732s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/cw_servConfig.cmake
+[32.733s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/cw_servConfig-version.cmake
+[32.733s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/package.xml
+[32.740s] Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv' returned '0': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --install /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv

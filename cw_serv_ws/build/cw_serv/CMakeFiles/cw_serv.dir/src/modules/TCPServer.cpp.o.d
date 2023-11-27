@@ -244,6 +244,7 @@ CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o: \
  /usr/include/c++/11/bits/shared_ptr_atomic.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
@@ -806,6 +807,9 @@ CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h \
  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionClient.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/PacketParser.hpp \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QObject \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/ClientManager.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointer \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpointer.h \

@@ -1,0 +1,10 @@
+/usr/bin/ld: CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o:(.data.rel.ro._ZTV5Robot[_ZTV5Robot]+0x10): undefined reference to `Robot::~Robot()'
+/usr/bin/ld: CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o:(.data.rel.ro._ZTV5Robot[_ZTV5Robot]+0x18): undefined reference to `Robot::~Robot()'
+/usr/bin/ld: CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o:(.data.rel.ro._ZTV5Robot[_ZTV5Robot]+0x70): undefined reference to `non-virtual thunk to Robot::~Robot()'
+/usr/bin/ld: CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o:(.data.rel.ro._ZTV5Robot[_ZTV5Robot]+0x78): undefined reference to `non-virtual thunk to Robot::~Robot()'
+/usr/bin/ld: CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o:(.data.rel.ro._ZTV5Robot[_ZTV5Robot]+0x208): undefined reference to `non-virtual thunk to Robot::~Robot()'
+/usr/bin/ld: CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o:(.data.rel.ro._ZTV5Robot[_ZTV5Robot]+0x210): undefined reference to `non-virtual thunk to Robot::~Robot()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:393: cw_serv] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

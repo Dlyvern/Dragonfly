@@ -2,6 +2,7 @@
 #include <QSettings>
 #include "modules/TCPServer.hpp"
 #include "modules/Logger.hpp"
+#include "modules/Robot.hpp"
 
 //TO-DO:
 //Every module has to have publisher(/cw/telemetry/NAME_OF_MODULE) and telemetry module has to have subscribers of all other modules.
@@ -71,6 +72,7 @@ int main(int argc, char** argv)
     {
             {"Server", std::make_shared<TCPServer>("srv")},
             {"Logger", std::make_shared<Logger>("logger")},
+            {"Robot", std::make_shared<Robot>("rb")},
     };
 
 

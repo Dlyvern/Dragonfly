@@ -223,6 +223,76 @@ CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp -o CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.s
 
+CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.o: CMakeFiles/cw_serv.dir/flags.make
+CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/PacketParser.cpp
+CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.o: CMakeFiles/cw_serv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.o -MF CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.o.d -o CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.o -c /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/PacketParser.cpp
+
+CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/PacketParser.cpp > CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.i
+
+CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/PacketParser.cpp -o CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.s
+
+CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o: CMakeFiles/cw_serv.dir/flags.make
+CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp
+CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o: CMakeFiles/cw_serv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o -MF CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o.d -o CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o -c /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp
+
+CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp > CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.i
+
+CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp -o CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.s
+
+CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: CMakeFiles/cw_serv.dir/flags.make
+CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/SubModule.cpp
+CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: CMakeFiles/cw_serv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o -MF CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o.d -o CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o -c /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/SubModule.cpp
+
+CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/SubModule.cpp > CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.i
+
+CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/SubModule.cpp -o CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.s
+
+CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o: CMakeFiles/cw_serv.dir/flags.make
+CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp
+CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o: CMakeFiles/cw_serv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o -MF CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o.d -o CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o -c /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp
+
+CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp > CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.i
+
+CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp -o CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.s
+
+CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o: CMakeFiles/cw_serv.dir/flags.make
+CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/RunParameter.cpp
+CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o: CMakeFiles/cw_serv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o -MF CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o.d -o CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o -c /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/RunParameter.cpp
+
+CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/RunParameter.cpp > CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.i
+
+CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/RunParameter.cpp -o CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.s
+
 # Object files for target cw_serv
 cw_serv_OBJECTS = \
 "CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o" \
@@ -235,7 +305,12 @@ cw_serv_OBJECTS = \
 "CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o" \
 "CMakeFiles/cw_serv.dir/src/modules/ServerParts/ClientManager.cpp.o" \
 "CMakeFiles/cw_serv.dir/src/modules/ServerParts/Packet.cpp.o" \
-"CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.o"
+"CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.o" \
+"CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.o" \
+"CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o" \
+"CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o" \
+"CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o" \
+"CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o"
 
 # External object files for target cw_serv
 cw_serv_EXTERNAL_OBJECTS =
@@ -251,6 +326,11 @@ cw_serv: CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o
 cw_serv: CMakeFiles/cw_serv.dir/src/modules/ServerParts/ClientManager.cpp.o
 cw_serv: CMakeFiles/cw_serv.dir/src/modules/ServerParts/Packet.cpp.o
 cw_serv: CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.o
+cw_serv: CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.o
+cw_serv: CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o
+cw_serv: CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o
+cw_serv: CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o
+cw_serv: CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o
 cw_serv: CMakeFiles/cw_serv.dir/build.make
 cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -357,7 +437,7 @@ cw_serv: /opt/ros/humble/lib/librcutils.so
 cw_serv: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 cw_serv: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 cw_serv: CMakeFiles/cw_serv.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable cw_serv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable cw_serv"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cw_serv.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
