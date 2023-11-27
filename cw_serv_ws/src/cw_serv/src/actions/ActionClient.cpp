@@ -19,11 +19,12 @@ void ActionClient::NewAction(const Command &command)
     SendGoal();
 }
 
-void ActionClient::Start(std::function<void(const std::string& message, bool result)>doneCallback)
+void ActionClient::Start(std::function<void(const std::string& message, bool result)>doneCallback, std::function<void(int)>feedbackCallback)
 {
     int failure_times{0};
 
     m_DoneCallback = std::move(doneCallback);
+    m_FeedbackCallback = std::move(feedbackCallback);
 
     while(!m_IsConnected)
     {
@@ -70,7 +71,8 @@ void ActionClient::SendGoal()
 
 void ActionClient::GoalFeedback(rclcpp_action::ClientGoalHandle<action_interface::action::Cmd>::SharedPtr, const std::shared_ptr<const action_interface::action::Cmd::Feedback> feedback)
 {
-    Log(&"Progress: " [ feedback->progress], 0);
+    if(m_FeedbackCallback)
+        m_FeedbackCallback(feedback->progress);
 }
 
 void ActionClient::GoalResponse(rclcpp_action::ClientGoalHandle<action_interface::action::Cmd>::SharedPtr future)

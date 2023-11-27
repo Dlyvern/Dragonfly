@@ -24,9 +24,20 @@ void TCPClient::Log(const std::string &message, int levelLog)
 
 void TCPClient::Start()
 {
-    m_ActionClient->Start(std::bind(&TCPClient::ActionDoneCallback, this, std::placeholders::_1, std::placeholders::_2));
+    m_ActionClient->Start(std::bind(&TCPClient::ActionDoneCallback, this, std::placeholders::_1, std::placeholders::_2),
+         std::bind(&TCPClient::ActionFeedbackCallback, this, std::placeholders::_1));
 
     m_ActionClientTimer->start();
+}
+
+void TCPClient::ActionFeedbackCallback(int progress)
+{
+    QJsonObject message_for_client;
+
+    message_for_client["type"] = "feedback";
+    message_for_client["progress"] = progress;
+
+    SendMessageToClient(message_for_client);
 }
 
 void TCPClient::ActionDoneCallback(const std::string &resultArgs, bool result)
@@ -168,5 +179,7 @@ void TCPClient::ParsedNewPacket(Packet *packet)
         qDebug() << "WEIRD DATA";
     }
 }
+
+
 
 TCPClient::~TCPClient() = default;

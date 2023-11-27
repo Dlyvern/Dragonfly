@@ -138,6 +138,7 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: cw_serv_autogen/m
   /usr/include/c++/11/pstl/execution_defs.h \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
   /usr/include/c++/11/string \
   /usr/include/c++/11/bits/char_traits.h \
@@ -191,144 +192,7 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: cw_serv_autogen/m
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
-  /usr/include/c++/11/cstddef \
-  /usr/include/assert.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
-  /usr/include/c++/11/atomic \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/c++/11/stdlib.h \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
   /usr/include/signal.h \
@@ -364,34 +228,72 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: cw_serv_autogen/m
   /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
   /usr/include/c++/11/future \
   /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/bits/std_thread.h \
   /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
   /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/stl_set.h \
   /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
   /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
   /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
   /usr/include/c++/11/bits/basic_ios.h \
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
   /opt/ros/humble/include/rcl/rcl/guard_condition.h \
   /opt/ros/humble/include/rcl/rcl/allocator.h \
   /opt/ros/humble/include/rcutils/rcutils/allocator.h \
@@ -417,6 +319,9 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: cw_serv_autogen/m
   /opt/ros/humble/include/rmw/rmw/types.h \
   /opt/ros/humble/include/rcutils/rcutils/logging.h \
   /opt/ros/humble/include/rcutils/rcutils/error_handling.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
   /opt/ros/humble/include/rcutils/rcutils/time.h \
   /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -491,6 +396,8 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: cw_serv_autogen/m
   /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/join.hpp \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
   /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp \
@@ -638,6 +545,9 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: cw_serv_autogen/m
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -762,15 +672,6 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: cw_serv_autogen/m
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
@@ -809,6 +710,15 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: cw_serv_autogen/m
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp \
   /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
@@ -832,8 +742,13 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: cw_serv_autogen/m
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
   /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
+  /usr/include/c++/11/cstddef \
   /usr/include/console_bridge/console.h \
   /usr/include/console_bridge_export.h \
   /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
@@ -844,6 +759,92 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: cw_serv_autogen/m
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
@@ -855,6 +856,356 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: cw_serv_autogen/m
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp \
+  /usr/include/boost/filesystem.hpp \
+  /usr/include/boost/filesystem/config.hpp \
+  /usr/include/boost/config.hpp \
+  /usr/include/boost/config/user.hpp \
+  /usr/include/boost/config/detail/select_compiler_config.hpp \
+  /usr/include/boost/config/compiler/gcc.hpp \
+  /usr/include/boost/config/detail/select_stdlib_config.hpp \
+  /usr/include/c++/11/version \
+  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
+  /usr/include/boost/config/detail/select_platform_config.hpp \
+  /usr/include/boost/config/platform/linux.hpp \
+  /usr/include/boost/config/detail/posix_features.hpp \
+  /usr/include/boost/config/detail/suffix.hpp \
+  /usr/include/boost/config/helper_macros.hpp \
+  /usr/include/boost/system/api_config.hpp \
+  /usr/include/boost/detail/workaround.hpp \
+  /usr/include/boost/config/workaround.hpp \
+  /usr/include/boost/filesystem/path.hpp \
+  /usr/include/boost/assert.hpp \
+  /usr/include/boost/filesystem/path_traits.hpp \
+  /usr/include/boost/type_traits/is_array.hpp \
+  /usr/include/boost/type_traits/integral_constant.hpp \
+  /usr/include/boost/type_traits/decay.hpp \
+  /usr/include/boost/type_traits/is_function.hpp \
+  /usr/include/boost/type_traits/detail/config.hpp \
+  /usr/include/boost/version.hpp \
+  /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp \
+  /usr/include/boost/type_traits/remove_bounds.hpp \
+  /usr/include/boost/type_traits/remove_extent.hpp \
+  /usr/include/boost/type_traits/add_pointer.hpp \
+  /usr/include/boost/type_traits/remove_reference.hpp \
+  /usr/include/boost/type_traits/remove_cv.hpp \
+  /usr/include/boost/system/error_code.hpp \
+  /usr/include/boost/system/detail/config.hpp \
+  /usr/include/boost/cstdint.hpp \
+  /usr/include/boost/cerrno.hpp \
+  /usr/include/boost/system/detail/generic_category.hpp \
+  /usr/include/boost/system/detail/system_category_posix.hpp \
+  /usr/include/boost/system/detail/std_interoperability.hpp \
+  /usr/include/boost/core/enable_if.hpp \
+  /usr/include/boost/config/abi_prefix.hpp \
+  /usr/include/boost/config/abi_suffix.hpp \
+  /usr/include/boost/system/system_error.hpp \
+  /usr/include/boost/iterator/iterator_facade.hpp \
+  /usr/include/boost/iterator/interoperable.hpp \
+  /usr/include/boost/mpl/bool.hpp \
+  /usr/include/boost/mpl/bool_fwd.hpp \
+  /usr/include/boost/mpl/aux_/adl_barrier.hpp \
+  /usr/include/boost/mpl/aux_/config/adl.hpp \
+  /usr/include/boost/mpl/aux_/config/msvc.hpp \
+  /usr/include/boost/mpl/aux_/config/intel.hpp \
+  /usr/include/boost/mpl/aux_/config/gcc.hpp \
+  /usr/include/boost/mpl/aux_/config/workaround.hpp \
+  /usr/include/boost/mpl/integral_c_tag.hpp \
+  /usr/include/boost/mpl/aux_/config/static_constant.hpp \
+  /usr/include/boost/mpl/or.hpp \
+  /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp \
+  /usr/include/boost/mpl/aux_/nested_type_wknd.hpp \
+  /usr/include/boost/mpl/aux_/na_spec.hpp \
+  /usr/include/boost/mpl/lambda_fwd.hpp \
+  /usr/include/boost/mpl/void_fwd.hpp \
+  /usr/include/boost/mpl/aux_/na.hpp \
+  /usr/include/boost/mpl/aux_/na_fwd.hpp \
+  /usr/include/boost/mpl/aux_/config/ctps.hpp \
+  /usr/include/boost/mpl/aux_/config/lambda.hpp \
+  /usr/include/boost/mpl/aux_/config/ttp.hpp \
+  /usr/include/boost/mpl/int.hpp \
+  /usr/include/boost/mpl/int_fwd.hpp \
+  /usr/include/boost/mpl/aux_/nttp_decl.hpp \
+  /usr/include/boost/mpl/aux_/config/nttp.hpp \
+  /usr/include/boost/mpl/aux_/integral_wrapper.hpp \
+  /usr/include/boost/mpl/aux_/static_cast.hpp \
+  /usr/include/boost/preprocessor/cat.hpp \
+  /usr/include/boost/preprocessor/config/config.hpp \
+  /usr/include/boost/mpl/aux_/lambda_arity_param.hpp \
+  /usr/include/boost/mpl/aux_/template_arity_fwd.hpp \
+  /usr/include/boost/mpl/aux_/arity.hpp \
+  /usr/include/boost/mpl/aux_/config/dtp.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/params.hpp \
+  /usr/include/boost/mpl/aux_/config/preprocessor.hpp \
+  /usr/include/boost/preprocessor/comma_if.hpp \
+  /usr/include/boost/preprocessor/punctuation/comma_if.hpp \
+  /usr/include/boost/preprocessor/control/if.hpp \
+  /usr/include/boost/preprocessor/control/iif.hpp \
+  /usr/include/boost/preprocessor/logical/bool.hpp \
+  /usr/include/boost/preprocessor/facilities/empty.hpp \
+  /usr/include/boost/preprocessor/punctuation/comma.hpp \
+  /usr/include/boost/preprocessor/repeat.hpp \
+  /usr/include/boost/preprocessor/repetition/repeat.hpp \
+  /usr/include/boost/preprocessor/debug/error.hpp \
+  /usr/include/boost/preprocessor/detail/auto_rec.hpp \
+  /usr/include/boost/preprocessor/tuple/eat.hpp \
+  /usr/include/boost/preprocessor/inc.hpp \
+  /usr/include/boost/preprocessor/arithmetic/inc.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/enum.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+  /usr/include/boost/mpl/limits/arity.hpp \
+  /usr/include/boost/preprocessor/logical/and.hpp \
+  /usr/include/boost/preprocessor/logical/bitand.hpp \
+  /usr/include/boost/preprocessor/identity.hpp \
+  /usr/include/boost/preprocessor/facilities/identity.hpp \
+  /usr/include/boost/preprocessor/empty.hpp \
+  /usr/include/boost/preprocessor/arithmetic/add.hpp \
+  /usr/include/boost/preprocessor/arithmetic/dec.hpp \
+  /usr/include/boost/preprocessor/control/while.hpp \
+  /usr/include/boost/preprocessor/list/fold_left.hpp \
+  /usr/include/boost/preprocessor/list/detail/fold_left.hpp \
+  /usr/include/boost/preprocessor/control/expr_iif.hpp \
+  /usr/include/boost/preprocessor/list/adt.hpp \
+  /usr/include/boost/preprocessor/detail/is_binary.hpp \
+  /usr/include/boost/preprocessor/detail/check.hpp \
+  /usr/include/boost/preprocessor/logical/compl.hpp \
+  /usr/include/boost/preprocessor/list/fold_right.hpp \
+  /usr/include/boost/preprocessor/list/detail/fold_right.hpp \
+  /usr/include/boost/preprocessor/list/reverse.hpp \
+  /usr/include/boost/preprocessor/control/detail/while.hpp \
+  /usr/include/boost/preprocessor/tuple/elem.hpp \
+  /usr/include/boost/preprocessor/facilities/expand.hpp \
+  /usr/include/boost/preprocessor/facilities/overload.hpp \
+  /usr/include/boost/preprocessor/variadic/size.hpp \
+  /usr/include/boost/preprocessor/tuple/rem.hpp \
+  /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+  /usr/include/boost/preprocessor/variadic/elem.hpp \
+  /usr/include/boost/preprocessor/arithmetic/sub.hpp \
+  /usr/include/boost/mpl/aux_/config/eti.hpp \
+  /usr/include/boost/mpl/aux_/config/overload_resolution.hpp \
+  /usr/include/boost/mpl/aux_/lambda_support.hpp \
+  /usr/include/boost/mpl/aux_/include_preprocessed.hpp \
+  /usr/include/boost/mpl/aux_/config/compiler.hpp \
+  /usr/include/boost/preprocessor/stringize.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+  /usr/include/boost/type_traits/is_convertible.hpp \
+  /usr/include/boost/type_traits/intrinsics.hpp \
+  /usr/include/boost/type_traits/is_complete.hpp \
+  /usr/include/boost/type_traits/declval.hpp \
+  /usr/include/boost/type_traits/add_rvalue_reference.hpp \
+  /usr/include/boost/type_traits/is_void.hpp \
+  /usr/include/boost/type_traits/is_reference.hpp \
+  /usr/include/boost/type_traits/is_lvalue_reference.hpp \
+  /usr/include/boost/type_traits/is_rvalue_reference.hpp \
+  /usr/include/boost/type_traits/detail/yes_no_type.hpp \
+  /usr/include/boost/static_assert.hpp \
+  /usr/include/boost/type_traits/is_arithmetic.hpp \
+  /usr/include/boost/type_traits/is_integral.hpp \
+  /usr/include/boost/type_traits/is_floating_point.hpp \
+  /usr/include/boost/type_traits/is_abstract.hpp \
+  /usr/include/boost/type_traits/add_lvalue_reference.hpp \
+  /usr/include/boost/type_traits/add_reference.hpp \
+  /usr/include/boost/iterator/detail/config_def.hpp \
+  /usr/include/boost/iterator/detail/config_undef.hpp \
+  /usr/include/boost/iterator/iterator_traits.hpp \
+  /usr/include/boost/iterator/iterator_categories.hpp \
+  /usr/include/boost/mpl/eval_if.hpp \
+  /usr/include/boost/mpl/if.hpp \
+  /usr/include/boost/mpl/aux_/value_wknd.hpp \
+  /usr/include/boost/mpl/aux_/config/integral.hpp \
+  /usr/include/boost/mpl/identity.hpp \
+  /usr/include/boost/mpl/placeholders.hpp \
+  /usr/include/boost/mpl/arg.hpp \
+  /usr/include/boost/mpl/arg_fwd.hpp \
+  /usr/include/boost/mpl/aux_/na_assert.hpp \
+  /usr/include/boost/mpl/assert.hpp \
+  /usr/include/boost/mpl/not.hpp \
+  /usr/include/boost/mpl/aux_/yes_no.hpp \
+  /usr/include/boost/mpl/aux_/config/arrays.hpp \
+  /usr/include/boost/mpl/aux_/config/gpu.hpp \
+  /usr/include/boost/mpl/aux_/config/pp_counter.hpp \
+  /usr/include/boost/mpl/aux_/arity_spec.hpp \
+  /usr/include/boost/mpl/aux_/arg_typedef.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
+  /usr/include/boost/iterator/detail/facade_iterator_category.hpp \
+  /usr/include/boost/core/use_default.hpp \
+  /usr/include/boost/mpl/and.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+  /usr/include/boost/type_traits/is_same.hpp \
+  /usr/include/boost/type_traits/is_const.hpp \
+  /usr/include/boost/detail/indirect_traits.hpp \
+  /usr/include/boost/type_traits/is_pointer.hpp \
+  /usr/include/boost/type_traits/is_class.hpp \
+  /usr/include/boost/type_traits/is_volatile.hpp \
+  /usr/include/boost/type_traits/is_member_function_pointer.hpp \
+  /usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp \
+  /usr/include/boost/type_traits/is_member_pointer.hpp \
+  /usr/include/boost/type_traits/remove_pointer.hpp \
+  /usr/include/boost/detail/select_type.hpp \
+  /usr/include/boost/iterator/detail/enable_if.hpp \
+  /usr/include/boost/core/addressof.hpp \
+  /usr/include/boost/type_traits/add_const.hpp \
+  /usr/include/boost/type_traits/remove_const.hpp \
+  /usr/include/boost/type_traits/is_pod.hpp \
+  /usr/include/boost/type_traits/is_scalar.hpp \
+  /usr/include/boost/type_traits/is_enum.hpp \
+  /usr/include/boost/mpl/always.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/default_params.hpp \
+  /usr/include/boost/mpl/apply.hpp \
+  /usr/include/boost/mpl/apply_fwd.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+  /usr/include/boost/mpl/apply_wrap.hpp \
+  /usr/include/boost/mpl/aux_/has_apply.hpp \
+  /usr/include/boost/mpl/has_xxx.hpp \
+  /usr/include/boost/mpl/aux_/type_wrapper.hpp \
+  /usr/include/boost/mpl/aux_/config/has_xxx.hpp \
+  /usr/include/boost/mpl/aux_/config/msvc_typename.hpp \
+  /usr/include/boost/preprocessor/array/elem.hpp \
+  /usr/include/boost/preprocessor/array/data.hpp \
+  /usr/include/boost/preprocessor/array/size.hpp \
+  /usr/include/boost/preprocessor/repetition/enum_params.hpp \
+  /usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
+  /usr/include/boost/mpl/aux_/config/has_apply.hpp \
+  /usr/include/boost/mpl/aux_/msvc_never_true.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
+  /usr/include/boost/mpl/lambda.hpp \
+  /usr/include/boost/mpl/bind.hpp \
+  /usr/include/boost/mpl/bind_fwd.hpp \
+  /usr/include/boost/mpl/aux_/config/bind.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
+  /usr/include/boost/mpl/next.hpp \
+  /usr/include/boost/mpl/next_prior.hpp \
+  /usr/include/boost/mpl/aux_/common_name_wknd.hpp \
+  /usr/include/boost/mpl/protect.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
+  /usr/include/boost/mpl/aux_/full_lambda.hpp \
+  /usr/include/boost/mpl/quote.hpp \
+  /usr/include/boost/mpl/void.hpp \
+  /usr/include/boost/mpl/aux_/has_type.hpp \
+  /usr/include/boost/mpl/aux_/config/bcc.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
+  /usr/include/boost/mpl/aux_/template_arity.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
+  /usr/include/boost/io/quoted.hpp \
+  /usr/include/boost/io/detail/buffer_fill.hpp \
+  /usr/include/boost/io/detail/ostream_guard.hpp \
+  /usr/include/boost/io/ios_state.hpp \
+  /usr/include/boost/io_fwd.hpp \
+  /usr/include/boost/functional/hash_fwd.hpp \
+  /usr/include/boost/container_hash/hash_fwd.hpp \
+  /usr/include/boost/filesystem/exception.hpp \
+  /usr/include/boost/smart_ptr/intrusive_ptr.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_convertible.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_noexcept.hpp \
+  /usr/include/boost/config/no_tr1/functional.hpp \
+  /usr/include/boost/smart_ptr/detail/operator_bool.hpp \
+  /usr/include/boost/smart_ptr/intrusive_ref_counter.hpp \
+  /usr/include/boost/smart_ptr/detail/atomic_count.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp \
+  /usr/include/boost/smart_ptr/detail/atomic_count_gcc_atomic.hpp \
+  /usr/include/boost/filesystem/directory.hpp \
+  /usr/include/boost/filesystem/file_status.hpp \
+  /usr/include/boost/detail/bitmask.hpp \
+  /usr/include/boost/core/scoped_enum.hpp \
+  /usr/include/boost/filesystem/operations.hpp \
+  /usr/include/boost/filesystem/convenience.hpp \
+  /usr/include/boost/filesystem/string_file.hpp \
+  /usr/include/boost/filesystem/fstream.hpp \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/serialization.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/bag_events.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/visibility_control.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_options.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writers/sequential_writer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/cache_consumer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/cache_buffer_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/serialized_bag_message.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_buffer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_interface.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/circular_message_cache.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_circular_buffer.hpp \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_converter.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_serializer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/types/introspection_message.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_deserializer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory_interface.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer_interfaces/base_writer_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_options.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/visibility_control.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/yaml.hpp \
+  /usr/include/yaml-cpp/yaml.h \
+  /usr/include/yaml-cpp/parser.h \
+  /usr/include/yaml-cpp/dll.h \
+  /usr/include/yaml-cpp/emitter.h \
+  /usr/include/yaml-cpp/binary.h \
+  /usr/include/yaml-cpp/emitterdef.h \
+  /usr/include/yaml-cpp/emittermanip.h \
+  /usr/include/yaml-cpp/null.h \
+  /usr/include/yaml-cpp/ostream_wrapper.h \
+  /usr/include/yaml-cpp/emitterstyle.h \
+  /usr/include/yaml-cpp/stlemitter.h \
+  /usr/include/yaml-cpp/exceptions.h \
+  /usr/include/yaml-cpp/mark.h \
+  /usr/include/yaml-cpp/noexcept.h \
+  /usr/include/yaml-cpp/traits.h \
+  /usr/include/yaml-cpp/node/node.h \
+  /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /usr/include/yaml-cpp/node/ptr.h \
+  /usr/include/yaml-cpp/node/type.h \
+  /usr/include/yaml-cpp/node/impl.h \
+  /usr/include/yaml-cpp/node/detail/memory.h \
+  /usr/include/yaml-cpp/node/detail/node.h \
+  /usr/include/yaml-cpp/node/detail/node_ref.h \
+  /usr/include/yaml-cpp/node/detail/node_data.h \
+  /usr/include/yaml-cpp/node/detail/node_iterator.h \
+  /usr/include/yaml-cpp/node/iterator.h \
+  /usr/include/yaml-cpp/node/detail/iterator.h \
+  /usr/include/yaml-cpp/node/convert.h \
+  /usr/include/yaml-cpp/node/detail/impl.h \
+  /usr/include/yaml-cpp/node/parse.h \
+  /usr/include/yaml-cpp/node/emit.h \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/topic_metadata.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/metadata_io.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/bag_metadata.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_factory.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_factory_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_only_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_filter.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_info_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_io_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_read_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_traits.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_write_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_write_interface.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/reader.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/readers/sequential_reader.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/reader_interfaces/base_reader_interface.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStorageInfo \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstorageinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTextStream \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
   cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/ClientManager.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QPointer \
@@ -895,6 +1246,849 @@ CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o: cw_serv_autogen/m
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpServer \
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpserver.h \
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qhostaddress.h
+
+CMakeFiles/cw_serv.dir/src/Base.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/Base.cpp \
+  /usr/include/stdc-predef.h \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
+  /usr/include/c++/11/string \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/c++/11/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
+  /usr/include/c++/11/csignal \
+  /usr/include/signal.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /opt/ros/humble/include/rcl/rcl/guard_condition.h \
+  /opt/ros/humble/include/rcl/rcl/allocator.h \
+  /opt/ros/humble/include/rcutils/rcutils/allocator.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /opt/ros/humble/include/rcutils/rcutils/macros.h \
+  /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h \
+  /opt/ros/humble/include/rcutils/rcutils/visibility_control.h \
+  /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/humble/include/rcl/rcl/context.h \
+  /opt/ros/humble/include/rmw/rmw/init.h \
+  /opt/ros/humble/include/rmw/rmw/init_options.h \
+  /opt/ros/humble/include/rmw/rmw/domain_id.h \
+  /opt/ros/humble/include/rmw/rmw/localhost.h \
+  /opt/ros/humble/include/rmw/rmw/visibility_control.h \
+  /opt/ros/humble/include/rmw/rmw/macros.h \
+  /opt/ros/humble/include/rmw/rmw/ret_types.h \
+  /opt/ros/humble/include/rmw/rmw/security_options.h \
+  /opt/ros/humble/include/rcl/rcl/arguments.h \
+  /opt/ros/humble/include/rcl/rcl/log_level.h \
+  /opt/ros/humble/include/rcl/rcl/macros.h \
+  /opt/ros/humble/include/rcl/rcl/types.h \
+  /opt/ros/humble/include/rmw/rmw/types.h \
+  /opt/ros/humble/include/rcutils/rcutils/logging.h \
+  /opt/ros/humble/include/rcutils/rcutils/error_handling.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
+  /opt/ros/humble/include/rcutils/rcutils/time.h \
+  /opt/ros/humble/include/rcutils/rcutils/types.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/array_list.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/char_array.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/hash_map.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/string_array.h \
+  /opt/ros/humble/include/rcutils/rcutils/qsort.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/string_map.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h \
+  /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
+  /opt/ros/humble/include/rmw/rmw/serialized_message.h \
+  /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h \
+  /opt/ros/humble/include/rmw/rmw/time.h \
+  /opt/ros/humble/include/rcl/rcl/visibility_control.h \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
+  /opt/ros/humble/include/rcl/rcl/init_options.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h \
+  /opt/ros/humble/include/rcl/rcl/wait.h \
+  /opt/ros/humble/include/rcl/rcl/client.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/humble/include/rcl/rcl/event_callback.h \
+  /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
+  /opt/ros/humble/include/rcl/rcl/node.h \
+  /opt/ros/humble/include/rcl/rcl/node_options.h \
+  /opt/ros/humble/include/rcl/rcl/domain_id.h \
+  /opt/ros/humble/include/rcl/rcl/service.h \
+  /opt/ros/humble/include/rcl/rcl/subscription.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rmw/rmw/message_sequence.h \
+  /opt/ros/humble/include/rcl/rcl/timer.h \
+  /opt/ros/humble/include/rcl/rcl/time.h \
+  /opt/ros/humble/include/rmw/rmw/rmw.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h \
+  /opt/ros/humble/include/rmw/rmw/event.h \
+  /opt/ros/humble/include/rmw/rmw/publisher_options.h \
+  /opt/ros/humble/include/rmw/rmw/qos_profiles.h \
+  /opt/ros/humble/include/rmw/rmw/subscription_options.h \
+  /opt/ros/humble/include/rcl/rcl/event.h \
+  /opt/ros/humble/include/rcl/rcl/publisher.h \
+  /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/context.hpp \
+  /usr/include/c++/11/typeindex \
+  /usr/include/c++/11/unordered_set \
+  /usr/include/c++/11/bits/unordered_set.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/client.hpp \
+  /usr/include/c++/11/optional \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /usr/include/c++/11/variant \
+  /opt/ros/humble/include/rcl/rcl/error_handling.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/join.hpp \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/logging_macros.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp \
+  /opt/ros/humble/include/rcl/rcl/graph.h \
+  /opt/ros/humble/include/rmw/rmw/names_and_types.h \
+  /opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h \
+  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
+  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
+  /usr/include/c++/11/codecvt \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
+  /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+  /opt/ros/humble/include/rmw/rmw/error_handling.h \
+  /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
+  /usr/include/c++/11/cxxabi.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
+  /opt/ros/humble/include/rmw/rmw/impl/config.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
+  /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h \
+  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h \
+  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/time.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/service.hpp \
+  /opt/ros/humble/include/tracetools/tracetools/tracetools.h \
+  /opt/ros/humble/include/tracetools/tracetools/config.h \
+  /opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp \
+  /opt/ros/humble/include/tracetools/tracetools/utils.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
+  /usr/include/c++/11/cstring \
+  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp \
+  /usr/include/c++/11/shared_mutex \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp \
+  /opt/ros/humble/include/rmw/rmw/qos_string_conversions.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/action_type_support.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp \
+  /opt/ros/humble/include/rcl_action/rcl_action/action_client.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/types.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/visibility_control.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp \
+  /opt/ros/humble/include/rcl_action/rcl_action/action_server.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/goal_handle.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
+  /usr/include/c++/11/cstddef \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp
 
 CMakeFiles/cw_serv.dir/src/actions/ActionClient.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionClient.cpp \
   /usr/include/stdc-predef.h \
@@ -2736,6 +3930,159 @@ CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o: /home/dlyvern/Projects
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc
 
+CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/Tower.cpp \
+  /usr/include/stdc-predef.h \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Tower.hpp \
+  /usr/include/c++/11/string \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/c++/11/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc
+
 CMakeFiles/cw_serv.dir/src/main.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/main.cpp \
   /usr/include/stdc-predef.h \
   /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication \
@@ -3041,6 +4388,7 @@ CMakeFiles/cw_serv.dir/src/main.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
@@ -3053,32 +4401,7 @@ CMakeFiles/cw_serv.dir/src/main.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
   /usr/include/signal.h \
@@ -3511,11 +4834,6 @@ CMakeFiles/cw_serv.dir/src/main.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
@@ -3577,6 +4895,10 @@ CMakeFiles/cw_serv.dir/src/main.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
   /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
   /usr/include/console_bridge/console.h \
@@ -3589,6 +4911,32 @@ CMakeFiles/cw_serv.dir/src/main.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/TCPClient.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpSocket \
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h \
@@ -3893,12 +5241,100 @@ CMakeFiles/cw_serv.dir/src/main.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/serialization.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/bag_events.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/visibility_control.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_options.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writers/sequential_writer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/cache_consumer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/cache_buffer_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/serialized_bag_message.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_buffer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_interface.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/circular_message_cache.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_circular_buffer.hpp \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_converter.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_serializer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/types/introspection_message.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_deserializer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory_interface.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer_interfaces/base_writer_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_options.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/visibility_control.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/yaml.hpp \
+  /usr/include/yaml-cpp/yaml.h \
+  /usr/include/yaml-cpp/parser.h \
+  /usr/include/yaml-cpp/dll.h \
+  /usr/include/yaml-cpp/emitter.h \
+  /usr/include/yaml-cpp/binary.h \
+  /usr/include/yaml-cpp/emitterdef.h \
+  /usr/include/yaml-cpp/emittermanip.h \
+  /usr/include/yaml-cpp/null.h \
+  /usr/include/yaml-cpp/ostream_wrapper.h \
+  /usr/include/yaml-cpp/emitterstyle.h \
+  /usr/include/yaml-cpp/stlemitter.h \
+  /usr/include/yaml-cpp/exceptions.h \
+  /usr/include/yaml-cpp/mark.h \
+  /usr/include/yaml-cpp/noexcept.h \
+  /usr/include/yaml-cpp/traits.h \
+  /usr/include/yaml-cpp/node/node.h \
+  /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /usr/include/yaml-cpp/node/ptr.h \
+  /usr/include/yaml-cpp/node/type.h \
+  /usr/include/yaml-cpp/node/impl.h \
+  /usr/include/yaml-cpp/node/detail/memory.h \
+  /usr/include/yaml-cpp/node/detail/node.h \
+  /usr/include/yaml-cpp/node/detail/node_ref.h \
+  /usr/include/yaml-cpp/node/detail/node_data.h \
+  /usr/include/yaml-cpp/node/detail/node_iterator.h \
+  /usr/include/yaml-cpp/node/iterator.h \
+  /usr/include/yaml-cpp/node/detail/iterator.h \
+  /usr/include/yaml-cpp/node/convert.h \
+  /usr/include/yaml-cpp/node/detail/impl.h \
+  /usr/include/yaml-cpp/node/parse.h \
+  /usr/include/yaml-cpp/node/emit.h \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/topic_metadata.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/metadata_io.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/bag_metadata.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_factory.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_factory_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_only_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_filter.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_info_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_io_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_read_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_traits.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_write_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_write_interface.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/reader.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/readers/sequential_reader.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/reader_interfaces/base_reader_interface.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStorageInfo \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstorageinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTextStream \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
 
 CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Logger.cpp \
   /usr/include/stdc-predef.h \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
   /usr/include/c++/11/string \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -4084,144 +5520,7 @@ CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: /home/dlyvern/Projects/Dragonfl
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
-  /usr/include/c++/11/cstddef \
-  /usr/include/assert.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
-  /usr/include/c++/11/atomic \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/c++/11/stdlib.h \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
   /usr/include/signal.h \
@@ -4257,34 +5556,72 @@ CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: /home/dlyvern/Projects/Dragonfl
   /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
   /usr/include/c++/11/future \
   /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/bits/std_thread.h \
   /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
   /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/stl_set.h \
   /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
   /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
   /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
   /usr/include/c++/11/bits/basic_ios.h \
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
   /opt/ros/humble/include/rcl/rcl/guard_condition.h \
   /opt/ros/humble/include/rcl/rcl/allocator.h \
   /opt/ros/humble/include/rcutils/rcutils/allocator.h \
@@ -4310,6 +5647,9 @@ CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: /home/dlyvern/Projects/Dragonfl
   /opt/ros/humble/include/rmw/rmw/types.h \
   /opt/ros/humble/include/rcutils/rcutils/logging.h \
   /opt/ros/humble/include/rcutils/rcutils/error_handling.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
   /opt/ros/humble/include/rcutils/rcutils/time.h \
   /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -4384,6 +5724,8 @@ CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: /home/dlyvern/Projects/Dragonfl
   /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/join.hpp \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
   /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp \
@@ -4531,6 +5873,9 @@ CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: /home/dlyvern/Projects/Dragonfl
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -4655,15 +6000,6 @@ CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: /home/dlyvern/Projects/Dragonfl
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
@@ -4702,6 +6038,15 @@ CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: /home/dlyvern/Projects/Dragonfl
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp \
   /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
@@ -4725,8 +6070,13 @@ CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: /home/dlyvern/Projects/Dragonfl
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
   /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
+  /usr/include/c++/11/cstddef \
   /usr/include/console_bridge/console.h \
   /usr/include/console_bridge_export.h \
   /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
@@ -4737,6 +6087,92 @@ CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: /home/dlyvern/Projects/Dragonfl
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/boost/filesystem.hpp \
   /usr/include/boost/filesystem/config.hpp \
   /usr/include/boost/config.hpp \
@@ -5004,6 +6440,7 @@ CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: /home/dlyvern/Projects/Dragonfl
 CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp \
   /usr/include/stdc-predef.h \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
   /usr/include/c++/11/string \
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -5189,144 +6626,7 @@ CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o: /home/dlyvern/Projects/Dragonfl
   /usr/include/c++/11/bits/stl_bvector.h \
   /usr/include/c++/11/bits/vector.tcc \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
-  /usr/include/c++/11/cstddef \
-  /usr/include/assert.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
-  /usr/include/c++/11/atomic \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/c++/11/stdlib.h \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/list.tcc \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
-  /usr/include/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
-  /usr/include/linux/limits.h \
-  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
-  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
   /usr/include/signal.h \
@@ -5362,34 +6662,72 @@ CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o: /home/dlyvern/Projects/Dragonfl
   /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
   /usr/include/c++/11/future \
   /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
   /usr/include/c++/11/bits/std_mutex.h \
   /usr/include/c++/11/bits/unique_lock.h \
   /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/atomic \
   /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_function.h \
   /usr/include/c++/11/bits/std_thread.h \
   /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
   /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/node_handle.h \
   /usr/include/c++/11/bits/stl_set.h \
   /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
   /usr/include/c++/11/thread \
   /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
   /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
   /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
   /usr/include/c++/11/iostream \
   /usr/include/c++/11/ostream \
   /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
   /usr/include/c++/11/bits/basic_ios.h \
   /usr/include/c++/11/bits/locale_facets.h \
   /usr/include/c++/11/cwctype \
   /usr/include/wctype.h \
   /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
   /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
   /usr/include/c++/11/bits/locale_facets.tcc \
   /usr/include/c++/11/bits/basic_ios.tcc \
   /usr/include/c++/11/bits/ostream.tcc \
   /usr/include/c++/11/istream \
   /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
   /opt/ros/humble/include/rcl/rcl/guard_condition.h \
   /opt/ros/humble/include/rcl/rcl/allocator.h \
   /opt/ros/humble/include/rcutils/rcutils/allocator.h \
@@ -5415,6 +6753,9 @@ CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o: /home/dlyvern/Projects/Dragonfl
   /opt/ros/humble/include/rmw/rmw/types.h \
   /opt/ros/humble/include/rcutils/rcutils/logging.h \
   /opt/ros/humble/include/rcutils/rcutils/error_handling.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
   /opt/ros/humble/include/rcutils/rcutils/time.h \
   /opt/ros/humble/include/rcutils/rcutils/types.h \
@@ -5489,6 +6830,8 @@ CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o: /home/dlyvern/Projects/Dragonfl
   /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/join.hpp \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
   /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp \
@@ -5636,6 +6979,9 @@ CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o: /home/dlyvern/Projects/Dragonfl
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
   /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
   /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
@@ -5760,15 +7106,6 @@ CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o: /home/dlyvern/Projects/Dragonfl
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
@@ -5807,312 +7144,6 @@ CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o: /home/dlyvern/Projects/Dragonfl
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp \
   /usr/include/c++/11/climits \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
-  /opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
-  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp \
-  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp \
-  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp \
-  /opt/ros/humble/include/rcl_action/rcl_action/action_server.h \
-  /opt/ros/humble/include/rcl_action/rcl_action/goal_handle.h \
-  /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
-  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
-  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.hpp \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
-  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
-  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
-  /usr/include/console_bridge/console.h \
-  /usr/include/console_bridge_export.h \
-  /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
-  /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp \
-  /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp \
-  /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
-  /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
-  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
-  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
-  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp
-
-CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp \
-  /usr/include/stdc-predef.h \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
-  /usr/include/c++/11/string \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
-  /usr/include/features.h \
-  /usr/include/features-time64.h \
-  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
-  /usr/include/x86_64-linux-gnu/bits/timesize.h \
-  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
-  /usr/include/x86_64-linux-gnu/bits/long-double.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
-  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
-  /usr/include/c++/11/pstl/pstl_config.h \
-  /usr/include/c++/11/bits/stringfwd.h \
-  /usr/include/c++/11/bits/memoryfwd.h \
-  /usr/include/c++/11/bits/char_traits.h \
-  /usr/include/c++/11/bits/stl_algobase.h \
-  /usr/include/c++/11/bits/functexcept.h \
-  /usr/include/c++/11/bits/exception_defines.h \
-  /usr/include/c++/11/bits/cpp_type_traits.h \
-  /usr/include/c++/11/ext/type_traits.h \
-  /usr/include/c++/11/ext/numeric_traits.h \
-  /usr/include/c++/11/bits/stl_pair.h \
-  /usr/include/c++/11/bits/move.h \
-  /usr/include/c++/11/type_traits \
-  /usr/include/c++/11/bits/stl_iterator_base_types.h \
-  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/11/bits/concept_check.h \
-  /usr/include/c++/11/debug/assertions.h \
-  /usr/include/c++/11/bits/stl_iterator.h \
-  /usr/include/c++/11/bits/ptr_traits.h \
-  /usr/include/c++/11/debug/debug.h \
-  /usr/include/c++/11/bits/predefined_ops.h \
-  /usr/include/c++/11/bits/postypes.h \
-  /usr/include/c++/11/cwchar \
-  /usr/include/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn.h \
-  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
-  /usr/include/x86_64-linux-gnu/bits/wchar.h \
-  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
-  /usr/include/c++/11/cstdint \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/x86_64-linux-gnu/bits/types.h \
-  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
-  /usr/include/x86_64-linux-gnu/bits/time64.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
-  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
-  /usr/include/c++/11/bits/allocator.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
-  /usr/include/c++/11/ext/new_allocator.h \
-  /usr/include/c++/11/new \
-  /usr/include/c++/11/bits/exception.h \
-  /usr/include/c++/11/bits/localefwd.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
-  /usr/include/c++/11/clocale \
-  /usr/include/locale.h \
-  /usr/include/x86_64-linux-gnu/bits/locale.h \
-  /usr/include/c++/11/iosfwd \
-  /usr/include/c++/11/cctype \
-  /usr/include/ctype.h \
-  /usr/include/x86_64-linux-gnu/bits/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/endianness.h \
-  /usr/include/c++/11/bits/ostream_insert.h \
-  /usr/include/c++/11/bits/cxxabi_forced.h \
-  /usr/include/c++/11/bits/stl_function.h \
-  /usr/include/c++/11/backward/binders.h \
-  /usr/include/c++/11/bits/range_access.h \
-  /usr/include/c++/11/initializer_list \
-  /usr/include/c++/11/bits/basic_string.h \
-  /usr/include/c++/11/ext/atomicity.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
-  /usr/include/pthread.h \
-  /usr/include/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
-  /usr/include/x86_64-linux-gnu/bits/sched.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
-  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
-  /usr/include/time.h \
-  /usr/include/x86_64-linux-gnu/bits/time.h \
-  /usr/include/x86_64-linux-gnu/bits/timex.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
-  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
-  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
-  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
-  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
-  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
-  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
-  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
-  /usr/include/c++/11/ext/alloc_traits.h \
-  /usr/include/c++/11/bits/alloc_traits.h \
-  /usr/include/c++/11/bits/stl_construct.h \
-  /usr/include/c++/11/string_view \
-  /usr/include/c++/11/bits/functional_hash.h \
-  /usr/include/c++/11/bits/hash_bytes.h \
-  /usr/include/c++/11/bits/string_view.tcc \
-  /usr/include/c++/11/ext/string_conversions.h \
-  /usr/include/c++/11/cstdlib \
-  /usr/include/stdlib.h \
-  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
-  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
-  /usr/include/x86_64-linux-gnu/sys/types.h \
-  /usr/include/endian.h \
-  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
-  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
-  /usr/include/x86_64-linux-gnu/sys/select.h \
-  /usr/include/x86_64-linux-gnu/bits/select.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
-  /usr/include/alloca.h \
-  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
-  /usr/include/c++/11/bits/std_abs.h \
-  /usr/include/c++/11/cstdio \
-  /usr/include/stdio.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
-  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
-  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
-  /usr/include/c++/11/cerrno \
-  /usr/include/errno.h \
-  /usr/include/x86_64-linux-gnu/bits/errno.h \
-  /usr/include/linux/errno.h \
-  /usr/include/x86_64-linux-gnu/asm/errno.h \
-  /usr/include/asm-generic/errno.h \
-  /usr/include/asm-generic/errno-base.h \
-  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
-  /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/basic_string.tcc \
-  /usr/include/c++/11/memory \
-  /usr/include/c++/11/bits/stl_uninitialized.h \
-  /usr/include/c++/11/bits/stl_tempbuf.h \
-  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/11/bits/align.h \
-  /usr/include/c++/11/bit \
-  /usr/include/c++/11/bits/uses_allocator.h \
-  /usr/include/c++/11/bits/unique_ptr.h \
-  /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h \
-  /usr/include/c++/11/tuple \
-  /usr/include/c++/11/array \
-  /usr/include/c++/11/bits/invoke.h \
-  /usr/include/c++/11/bits/shared_ptr.h \
-  /usr/include/c++/11/bits/shared_ptr_base.h \
-  /usr/include/c++/11/typeinfo \
-  /usr/include/c++/11/bits/allocated_ptr.h \
-  /usr/include/c++/11/bits/refwrap.h \
-  /usr/include/c++/11/ext/aligned_buffer.h \
-  /usr/include/c++/11/ext/concurrence.h \
-  /usr/include/c++/11/exception \
-  /usr/include/c++/11/bits/exception_ptr.h \
-  /usr/include/c++/11/bits/cxxabi_init_exception.h \
-  /usr/include/c++/11/bits/nested_exception.h \
-  /usr/include/c++/11/bits/shared_ptr_atomic.h \
-  /usr/include/c++/11/bits/atomic_base.h \
-  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/11/backward/auto_ptr.h \
-  /usr/include/c++/11/pstl/glue_memory_defs.h \
-  /usr/include/c++/11/pstl/execution_defs.h \
-  /usr/include/c++/11/vector \
-  /usr/include/c++/11/bits/stl_vector.h \
-  /usr/include/c++/11/bits/stl_bvector.h \
-  /usr/include/c++/11/bits/vector.tcc \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
-  /usr/include/c++/11/cstddef \
-  /usr/include/assert.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
-  /usr/include/c++/11/algorithm \
-  /usr/include/c++/11/bits/stl_algo.h \
-  /usr/include/c++/11/bits/algorithmfwd.h \
-  /usr/include/c++/11/bits/stl_heap.h \
-  /usr/include/c++/11/bits/uniform_int_dist.h \
-  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
-  /usr/include/c++/11/functional \
-  /usr/include/c++/11/bits/std_function.h \
-  /usr/include/c++/11/unordered_map \
-  /usr/include/c++/11/bits/hashtable.h \
-  /usr/include/c++/11/bits/hashtable_policy.h \
-  /usr/include/c++/11/bits/enable_special_members.h \
-  /usr/include/c++/11/bits/node_handle.h \
-  /usr/include/c++/11/bits/unordered_map.h \
-  /usr/include/c++/11/bits/erase_if.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
-  /usr/include/c++/11/atomic \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/c++/11/stdlib.h \
-  /usr/include/c++/11/iterator \
-  /usr/include/c++/11/bits/stream_iterator.h \
-  /usr/include/c++/11/bits/streambuf_iterator.h \
-  /usr/include/c++/11/streambuf \
-  /usr/include/c++/11/bits/ios_base.h \
-  /usr/include/c++/11/bits/locale_classes.h \
-  /usr/include/c++/11/bits/locale_classes.tcc \
-  /usr/include/c++/11/system_error \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
-  /usr/include/c++/11/stdexcept \
-  /usr/include/c++/11/bits/streambuf.tcc \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
-  /usr/include/c++/11/numeric \
-  /usr/include/c++/11/bits/stl_numeric.h \
-  /usr/include/c++/11/pstl/glue_numeric_defs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
-  /usr/include/c++/11/list \
-  /usr/include/c++/11/bits/stl_list.h \
-  /usr/include/c++/11/bits/list.tcc \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
   /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
   /usr/include/limits.h \
@@ -6122,534 +7153,6 @@ CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o: /home/dlyvern/Projects/Dragonfly
   /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
   /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
   /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
-  /usr/include/c++/11/map \
-  /usr/include/c++/11/bits/stl_tree.h \
-  /usr/include/c++/11/bits/stl_map.h \
-  /usr/include/c++/11/bits/stl_multimap.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
-  /usr/include/c++/11/chrono \
-  /usr/include/c++/11/ratio \
-  /usr/include/c++/11/limits \
-  /usr/include/c++/11/ctime \
-  /usr/include/c++/11/bits/parse_numbers.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
-  /usr/include/c++/11/csignal \
-  /usr/include/signal.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
-  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
-  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
-  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
-  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
-  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
-  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
-  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
-  /usr/include/unistd.h \
-  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
-  /usr/include/x86_64-linux-gnu/bits/environments.h \
-  /usr/include/x86_64-linux-gnu/bits/confname.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
-  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
-  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
-  /usr/include/linux/close_range.h \
-  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
-  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
-  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
-  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
-  /usr/include/c++/11/future \
-  /usr/include/c++/11/mutex \
-  /usr/include/c++/11/bits/std_mutex.h \
-  /usr/include/c++/11/bits/unique_lock.h \
-  /usr/include/c++/11/condition_variable \
-  /usr/include/c++/11/bits/atomic_futex.h \
-  /usr/include/c++/11/bits/std_thread.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
-  /usr/include/c++/11/set \
-  /usr/include/c++/11/bits/stl_set.h \
-  /usr/include/c++/11/bits/stl_multiset.h \
-  /usr/include/c++/11/thread \
-  /usr/include/c++/11/bits/this_thread_sleep.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
-  /usr/include/c++/11/cassert \
-  /usr/include/c++/11/iostream \
-  /usr/include/c++/11/ostream \
-  /usr/include/c++/11/ios \
-  /usr/include/c++/11/bits/basic_ios.h \
-  /usr/include/c++/11/bits/locale_facets.h \
-  /usr/include/c++/11/cwctype \
-  /usr/include/wctype.h \
-  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
-  /usr/include/c++/11/bits/locale_facets.tcc \
-  /usr/include/c++/11/bits/basic_ios.tcc \
-  /usr/include/c++/11/bits/ostream.tcc \
-  /usr/include/c++/11/istream \
-  /usr/include/c++/11/bits/istream.tcc \
-  /opt/ros/humble/include/rcl/rcl/guard_condition.h \
-  /opt/ros/humble/include/rcl/rcl/allocator.h \
-  /opt/ros/humble/include/rcutils/rcutils/allocator.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
-  /opt/ros/humble/include/rcutils/rcutils/macros.h \
-  /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h \
-  /opt/ros/humble/include/rcutils/rcutils/visibility_control.h \
-  /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
-  /opt/ros/humble/include/rcl/rcl/context.h \
-  /opt/ros/humble/include/rmw/rmw/init.h \
-  /opt/ros/humble/include/rmw/rmw/init_options.h \
-  /opt/ros/humble/include/rmw/rmw/domain_id.h \
-  /opt/ros/humble/include/rmw/rmw/localhost.h \
-  /opt/ros/humble/include/rmw/rmw/visibility_control.h \
-  /opt/ros/humble/include/rmw/rmw/macros.h \
-  /opt/ros/humble/include/rmw/rmw/ret_types.h \
-  /opt/ros/humble/include/rmw/rmw/security_options.h \
-  /opt/ros/humble/include/rcl/rcl/arguments.h \
-  /opt/ros/humble/include/rcl/rcl/log_level.h \
-  /opt/ros/humble/include/rcl/rcl/macros.h \
-  /opt/ros/humble/include/rcl/rcl/types.h \
-  /opt/ros/humble/include/rmw/rmw/types.h \
-  /opt/ros/humble/include/rcutils/rcutils/logging.h \
-  /opt/ros/humble/include/rcutils/rcutils/error_handling.h \
-  /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
-  /opt/ros/humble/include/rcutils/rcutils/time.h \
-  /opt/ros/humble/include/rcutils/rcutils/types.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/array_list.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/char_array.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/hash_map.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/string_array.h \
-  /opt/ros/humble/include/rcutils/rcutils/qsort.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/string_map.h \
-  /opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h \
-  /opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h \
-  /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h \
-  /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h \
-  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h \
-  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h \
-  /opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h \
-  /opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
-  /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
-  /opt/ros/humble/include/rmw/rmw/serialized_message.h \
-  /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h \
-  /opt/ros/humble/include/rmw/rmw/time.h \
-  /opt/ros/humble/include/rcl/rcl/visibility_control.h \
-  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
-  /opt/ros/humble/include/rcl/rcl/init_options.h \
-  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h \
-  /opt/ros/humble/include/rcl/rcl/wait.h \
-  /opt/ros/humble/include/rcl/rcl/client.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
-  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
-  /opt/ros/humble/include/rcl/rcl/event_callback.h \
-  /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
-  /opt/ros/humble/include/rcl/rcl/node.h \
-  /opt/ros/humble/include/rcl/rcl/node_options.h \
-  /opt/ros/humble/include/rcl/rcl/domain_id.h \
-  /opt/ros/humble/include/rcl/rcl/service.h \
-  /opt/ros/humble/include/rcl/rcl/subscription.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
-  /opt/ros/humble/include/rmw/rmw/message_sequence.h \
-  /opt/ros/humble/include/rcl/rcl/timer.h \
-  /opt/ros/humble/include/rcl/rcl/time.h \
-  /opt/ros/humble/include/rmw/rmw/rmw.h \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h \
-  /opt/ros/humble/include/rmw/rmw/event.h \
-  /opt/ros/humble/include/rmw/rmw/publisher_options.h \
-  /opt/ros/humble/include/rmw/rmw/qos_profiles.h \
-  /opt/ros/humble/include/rmw/rmw/subscription_options.h \
-  /opt/ros/humble/include/rcl/rcl/event.h \
-  /opt/ros/humble/include/rcl/rcl/publisher.h \
-  /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/context.hpp \
-  /usr/include/c++/11/typeindex \
-  /usr/include/c++/11/unordered_set \
-  /usr/include/c++/11/bits/unordered_set.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/client.hpp \
-  /usr/include/c++/11/optional \
-  /usr/include/c++/11/sstream \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /usr/include/c++/11/variant \
-  /opt/ros/humble/include/rcl/rcl/error_handling.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/join.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp \
-  /opt/ros/humble/include/rcutils/rcutils/logging_macros.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp \
-  /opt/ros/humble/include/rcl/rcl/graph.h \
-  /opt/ros/humble/include/rmw/rmw/names_and_types.h \
-  /opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h \
-  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
-  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
-  /usr/include/c++/11/codecvt \
-  /usr/include/c++/11/bits/codecvt.h \
-  /usr/include/c++/11/iomanip \
-  /usr/include/c++/11/locale \
-  /usr/include/c++/11/bits/locale_facets_nonio.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
-  /usr/include/libintl.h \
-  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
-  /usr/include/c++/11/bits/locale_conv.h \
-  /usr/include/c++/11/bits/quoted_string.h \
-  /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
-  /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
-  /opt/ros/humble/include/rmw/rmw/error_handling.h \
-  /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
-  /usr/include/c++/11/cxxabi.h \
-  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
-  /opt/ros/humble/include/rmw/rmw/impl/config.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
-  /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h \
-  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h \
-  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/time.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/service.hpp \
-  /opt/ros/humble/include/tracetools/tracetools/tracetools.h \
-  /opt/ros/humble/include/tracetools/tracetools/config.h \
-  /opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp \
-  /opt/ros/humble/include/tracetools/tracetools/utils.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
-  /usr/include/c++/11/cstring \
-  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp \
-  /usr/include/c++/11/shared_mutex \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
-  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
-  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp \
-  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp \
-  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
-  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
-  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
-  /usr/include/c++/11/cmath \
-  /usr/include/math.h \
-  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
-  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
-  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
-  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
-  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
-  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
-  /usr/include/c++/11/bits/specfun.h \
-  /usr/include/c++/11/tr1/gamma.tcc \
-  /usr/include/c++/11/tr1/special_function_util.h \
-  /usr/include/c++/11/tr1/bessel_function.tcc \
-  /usr/include/c++/11/tr1/beta_function.tcc \
-  /usr/include/c++/11/tr1/ell_integral.tcc \
-  /usr/include/c++/11/tr1/exp_integral.tcc \
-  /usr/include/c++/11/tr1/hypergeometric.tcc \
-  /usr/include/c++/11/tr1/legendre_function.tcc \
-  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
-  /usr/include/c++/11/tr1/poly_hermite.tcc \
-  /usr/include/c++/11/tr1/poly_laguerre.tcc \
-  /usr/include/c++/11/tr1/riemann_zeta.tcc \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
-  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
-  /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
-  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp \
-  /opt/ros/humble/include/rmw/rmw/qos_string_conversions.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
-  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
-  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
-  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
-  /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
-  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
-  /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
-  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
-  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
-  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/action_type_support.hpp \
-  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp \
-  /opt/ros/humble/include/rcl_action/rcl_action/action_client.h \
-  /opt/ros/humble/include/rcl_action/rcl_action/types.h \
-  /opt/ros/humble/include/rcl_action/rcl_action/visibility_control.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
-  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
-  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp \
-  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
-  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp \
-  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp \
-  /opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp \
-  /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp \
-  /usr/include/c++/11/climits \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.hpp \
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
@@ -6673,8 +7176,13 @@ CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o: /home/dlyvern/Projects/Dragonfly
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
   /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
+  /usr/include/c++/11/cstddef \
   /usr/include/console_bridge/console.h \
   /usr/include/console_bridge_export.h \
   /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
@@ -6685,6 +7193,936 @@ CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o: /home/dlyvern/Projects/Dragonfly
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
+
+CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp \
+  /usr/include/stdc-predef.h \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
+  /usr/include/c++/11/string \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/c++/11/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
+  /usr/include/c++/11/csignal \
+  /usr/include/signal.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /opt/ros/humble/include/rcl/rcl/guard_condition.h \
+  /opt/ros/humble/include/rcl/rcl/allocator.h \
+  /opt/ros/humble/include/rcutils/rcutils/allocator.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /opt/ros/humble/include/rcutils/rcutils/macros.h \
+  /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h \
+  /opt/ros/humble/include/rcutils/rcutils/visibility_control.h \
+  /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/humble/include/rcl/rcl/context.h \
+  /opt/ros/humble/include/rmw/rmw/init.h \
+  /opt/ros/humble/include/rmw/rmw/init_options.h \
+  /opt/ros/humble/include/rmw/rmw/domain_id.h \
+  /opt/ros/humble/include/rmw/rmw/localhost.h \
+  /opt/ros/humble/include/rmw/rmw/visibility_control.h \
+  /opt/ros/humble/include/rmw/rmw/macros.h \
+  /opt/ros/humble/include/rmw/rmw/ret_types.h \
+  /opt/ros/humble/include/rmw/rmw/security_options.h \
+  /opt/ros/humble/include/rcl/rcl/arguments.h \
+  /opt/ros/humble/include/rcl/rcl/log_level.h \
+  /opt/ros/humble/include/rcl/rcl/macros.h \
+  /opt/ros/humble/include/rcl/rcl/types.h \
+  /opt/ros/humble/include/rmw/rmw/types.h \
+  /opt/ros/humble/include/rcutils/rcutils/logging.h \
+  /opt/ros/humble/include/rcutils/rcutils/error_handling.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
+  /opt/ros/humble/include/rcutils/rcutils/time.h \
+  /opt/ros/humble/include/rcutils/rcutils/types.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/array_list.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/char_array.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/hash_map.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/string_array.h \
+  /opt/ros/humble/include/rcutils/rcutils/qsort.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/string_map.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h \
+  /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
+  /opt/ros/humble/include/rmw/rmw/serialized_message.h \
+  /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h \
+  /opt/ros/humble/include/rmw/rmw/time.h \
+  /opt/ros/humble/include/rcl/rcl/visibility_control.h \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
+  /opt/ros/humble/include/rcl/rcl/init_options.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h \
+  /opt/ros/humble/include/rcl/rcl/wait.h \
+  /opt/ros/humble/include/rcl/rcl/client.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/humble/include/rcl/rcl/event_callback.h \
+  /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
+  /opt/ros/humble/include/rcl/rcl/node.h \
+  /opt/ros/humble/include/rcl/rcl/node_options.h \
+  /opt/ros/humble/include/rcl/rcl/domain_id.h \
+  /opt/ros/humble/include/rcl/rcl/service.h \
+  /opt/ros/humble/include/rcl/rcl/subscription.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rmw/rmw/message_sequence.h \
+  /opt/ros/humble/include/rcl/rcl/timer.h \
+  /opt/ros/humble/include/rcl/rcl/time.h \
+  /opt/ros/humble/include/rmw/rmw/rmw.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h \
+  /opt/ros/humble/include/rmw/rmw/event.h \
+  /opt/ros/humble/include/rmw/rmw/publisher_options.h \
+  /opt/ros/humble/include/rmw/rmw/qos_profiles.h \
+  /opt/ros/humble/include/rmw/rmw/subscription_options.h \
+  /opt/ros/humble/include/rcl/rcl/event.h \
+  /opt/ros/humble/include/rcl/rcl/publisher.h \
+  /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/context.hpp \
+  /usr/include/c++/11/typeindex \
+  /usr/include/c++/11/unordered_set \
+  /usr/include/c++/11/bits/unordered_set.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/client.hpp \
+  /usr/include/c++/11/optional \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /usr/include/c++/11/variant \
+  /opt/ros/humble/include/rcl/rcl/error_handling.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/join.hpp \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/logging_macros.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp \
+  /opt/ros/humble/include/rcl/rcl/graph.h \
+  /opt/ros/humble/include/rmw/rmw/names_and_types.h \
+  /opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h \
+  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
+  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
+  /usr/include/c++/11/codecvt \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
+  /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+  /opt/ros/humble/include/rmw/rmw/error_handling.h \
+  /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
+  /usr/include/c++/11/cxxabi.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
+  /opt/ros/humble/include/rmw/rmw/impl/config.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
+  /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h \
+  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h \
+  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/time.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/service.hpp \
+  /opt/ros/humble/include/tracetools/tracetools/tracetools.h \
+  /opt/ros/humble/include/tracetools/tracetools/config.h \
+  /opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp \
+  /opt/ros/humble/include/tracetools/tracetools/utils.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
+  /usr/include/c++/11/cstring \
+  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp \
+  /usr/include/c++/11/shared_mutex \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp \
+  /opt/ros/humble/include/rmw/rmw/qos_string_conversions.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/action_type_support.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp \
+  /opt/ros/humble/include/rcl_action/rcl_action/action_client.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/types.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/visibility_control.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp \
+  /opt/ros/humble/include/rcl_action/rcl_action/action_server.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/goal_handle.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
+  /usr/include/c++/11/cstddef \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
@@ -6695,7 +8133,357 @@ CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o: /home/dlyvern/Projects/Dragonfly
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qset.h \
   /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp \
+  /usr/include/boost/filesystem.hpp \
+  /usr/include/boost/filesystem/config.hpp \
+  /usr/include/boost/config.hpp \
+  /usr/include/boost/config/user.hpp \
+  /usr/include/boost/config/detail/select_compiler_config.hpp \
+  /usr/include/boost/config/compiler/gcc.hpp \
+  /usr/include/boost/config/detail/select_stdlib_config.hpp \
+  /usr/include/c++/11/version \
+  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
+  /usr/include/boost/config/detail/select_platform_config.hpp \
+  /usr/include/boost/config/platform/linux.hpp \
+  /usr/include/boost/config/detail/posix_features.hpp \
+  /usr/include/boost/config/detail/suffix.hpp \
+  /usr/include/boost/config/helper_macros.hpp \
+  /usr/include/boost/system/api_config.hpp \
+  /usr/include/boost/detail/workaround.hpp \
+  /usr/include/boost/config/workaround.hpp \
+  /usr/include/boost/filesystem/path.hpp \
+  /usr/include/boost/assert.hpp \
+  /usr/include/boost/filesystem/path_traits.hpp \
+  /usr/include/boost/type_traits/is_array.hpp \
+  /usr/include/boost/type_traits/integral_constant.hpp \
+  /usr/include/boost/type_traits/decay.hpp \
+  /usr/include/boost/type_traits/is_function.hpp \
+  /usr/include/boost/type_traits/detail/config.hpp \
+  /usr/include/boost/version.hpp \
+  /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp \
+  /usr/include/boost/type_traits/remove_bounds.hpp \
+  /usr/include/boost/type_traits/remove_extent.hpp \
+  /usr/include/boost/type_traits/add_pointer.hpp \
+  /usr/include/boost/type_traits/remove_reference.hpp \
+  /usr/include/boost/type_traits/remove_cv.hpp \
+  /usr/include/boost/system/error_code.hpp \
+  /usr/include/boost/system/detail/config.hpp \
+  /usr/include/boost/cstdint.hpp \
+  /usr/include/boost/cerrno.hpp \
+  /usr/include/boost/system/detail/generic_category.hpp \
+  /usr/include/boost/system/detail/system_category_posix.hpp \
+  /usr/include/boost/system/detail/std_interoperability.hpp \
+  /usr/include/boost/core/enable_if.hpp \
+  /usr/include/boost/config/abi_prefix.hpp \
+  /usr/include/boost/config/abi_suffix.hpp \
+  /usr/include/boost/system/system_error.hpp \
+  /usr/include/boost/iterator/iterator_facade.hpp \
+  /usr/include/boost/iterator/interoperable.hpp \
+  /usr/include/boost/mpl/bool.hpp \
+  /usr/include/boost/mpl/bool_fwd.hpp \
+  /usr/include/boost/mpl/aux_/adl_barrier.hpp \
+  /usr/include/boost/mpl/aux_/config/adl.hpp \
+  /usr/include/boost/mpl/aux_/config/msvc.hpp \
+  /usr/include/boost/mpl/aux_/config/intel.hpp \
+  /usr/include/boost/mpl/aux_/config/gcc.hpp \
+  /usr/include/boost/mpl/aux_/config/workaround.hpp \
+  /usr/include/boost/mpl/integral_c_tag.hpp \
+  /usr/include/boost/mpl/aux_/config/static_constant.hpp \
+  /usr/include/boost/mpl/or.hpp \
+  /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp \
+  /usr/include/boost/mpl/aux_/nested_type_wknd.hpp \
+  /usr/include/boost/mpl/aux_/na_spec.hpp \
+  /usr/include/boost/mpl/lambda_fwd.hpp \
+  /usr/include/boost/mpl/void_fwd.hpp \
+  /usr/include/boost/mpl/aux_/na.hpp \
+  /usr/include/boost/mpl/aux_/na_fwd.hpp \
+  /usr/include/boost/mpl/aux_/config/ctps.hpp \
+  /usr/include/boost/mpl/aux_/config/lambda.hpp \
+  /usr/include/boost/mpl/aux_/config/ttp.hpp \
+  /usr/include/boost/mpl/int.hpp \
+  /usr/include/boost/mpl/int_fwd.hpp \
+  /usr/include/boost/mpl/aux_/nttp_decl.hpp \
+  /usr/include/boost/mpl/aux_/config/nttp.hpp \
+  /usr/include/boost/mpl/aux_/integral_wrapper.hpp \
+  /usr/include/boost/mpl/aux_/static_cast.hpp \
+  /usr/include/boost/preprocessor/cat.hpp \
+  /usr/include/boost/preprocessor/config/config.hpp \
+  /usr/include/boost/mpl/aux_/lambda_arity_param.hpp \
+  /usr/include/boost/mpl/aux_/template_arity_fwd.hpp \
+  /usr/include/boost/mpl/aux_/arity.hpp \
+  /usr/include/boost/mpl/aux_/config/dtp.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/params.hpp \
+  /usr/include/boost/mpl/aux_/config/preprocessor.hpp \
+  /usr/include/boost/preprocessor/comma_if.hpp \
+  /usr/include/boost/preprocessor/punctuation/comma_if.hpp \
+  /usr/include/boost/preprocessor/control/if.hpp \
+  /usr/include/boost/preprocessor/control/iif.hpp \
+  /usr/include/boost/preprocessor/logical/bool.hpp \
+  /usr/include/boost/preprocessor/facilities/empty.hpp \
+  /usr/include/boost/preprocessor/punctuation/comma.hpp \
+  /usr/include/boost/preprocessor/repeat.hpp \
+  /usr/include/boost/preprocessor/repetition/repeat.hpp \
+  /usr/include/boost/preprocessor/debug/error.hpp \
+  /usr/include/boost/preprocessor/detail/auto_rec.hpp \
+  /usr/include/boost/preprocessor/tuple/eat.hpp \
+  /usr/include/boost/preprocessor/inc.hpp \
+  /usr/include/boost/preprocessor/arithmetic/inc.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/enum.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+  /usr/include/boost/mpl/limits/arity.hpp \
+  /usr/include/boost/preprocessor/logical/and.hpp \
+  /usr/include/boost/preprocessor/logical/bitand.hpp \
+  /usr/include/boost/preprocessor/identity.hpp \
+  /usr/include/boost/preprocessor/facilities/identity.hpp \
+  /usr/include/boost/preprocessor/empty.hpp \
+  /usr/include/boost/preprocessor/arithmetic/add.hpp \
+  /usr/include/boost/preprocessor/arithmetic/dec.hpp \
+  /usr/include/boost/preprocessor/control/while.hpp \
+  /usr/include/boost/preprocessor/list/fold_left.hpp \
+  /usr/include/boost/preprocessor/list/detail/fold_left.hpp \
+  /usr/include/boost/preprocessor/control/expr_iif.hpp \
+  /usr/include/boost/preprocessor/list/adt.hpp \
+  /usr/include/boost/preprocessor/detail/is_binary.hpp \
+  /usr/include/boost/preprocessor/detail/check.hpp \
+  /usr/include/boost/preprocessor/logical/compl.hpp \
+  /usr/include/boost/preprocessor/list/fold_right.hpp \
+  /usr/include/boost/preprocessor/list/detail/fold_right.hpp \
+  /usr/include/boost/preprocessor/list/reverse.hpp \
+  /usr/include/boost/preprocessor/control/detail/while.hpp \
+  /usr/include/boost/preprocessor/tuple/elem.hpp \
+  /usr/include/boost/preprocessor/facilities/expand.hpp \
+  /usr/include/boost/preprocessor/facilities/overload.hpp \
+  /usr/include/boost/preprocessor/variadic/size.hpp \
+  /usr/include/boost/preprocessor/tuple/rem.hpp \
+  /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+  /usr/include/boost/preprocessor/variadic/elem.hpp \
+  /usr/include/boost/preprocessor/arithmetic/sub.hpp \
+  /usr/include/boost/mpl/aux_/config/eti.hpp \
+  /usr/include/boost/mpl/aux_/config/overload_resolution.hpp \
+  /usr/include/boost/mpl/aux_/lambda_support.hpp \
+  /usr/include/boost/mpl/aux_/include_preprocessed.hpp \
+  /usr/include/boost/mpl/aux_/config/compiler.hpp \
+  /usr/include/boost/preprocessor/stringize.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+  /usr/include/boost/type_traits/is_convertible.hpp \
+  /usr/include/boost/type_traits/intrinsics.hpp \
+  /usr/include/boost/type_traits/is_complete.hpp \
+  /usr/include/boost/type_traits/declval.hpp \
+  /usr/include/boost/type_traits/add_rvalue_reference.hpp \
+  /usr/include/boost/type_traits/is_void.hpp \
+  /usr/include/boost/type_traits/is_reference.hpp \
+  /usr/include/boost/type_traits/is_lvalue_reference.hpp \
+  /usr/include/boost/type_traits/is_rvalue_reference.hpp \
+  /usr/include/boost/type_traits/detail/yes_no_type.hpp \
+  /usr/include/boost/static_assert.hpp \
+  /usr/include/boost/type_traits/is_arithmetic.hpp \
+  /usr/include/boost/type_traits/is_integral.hpp \
+  /usr/include/boost/type_traits/is_floating_point.hpp \
+  /usr/include/boost/type_traits/is_abstract.hpp \
+  /usr/include/boost/type_traits/add_lvalue_reference.hpp \
+  /usr/include/boost/type_traits/add_reference.hpp \
+  /usr/include/boost/iterator/detail/config_def.hpp \
+  /usr/include/boost/iterator/detail/config_undef.hpp \
+  /usr/include/boost/iterator/iterator_traits.hpp \
+  /usr/include/boost/iterator/iterator_categories.hpp \
+  /usr/include/boost/mpl/eval_if.hpp \
+  /usr/include/boost/mpl/if.hpp \
+  /usr/include/boost/mpl/aux_/value_wknd.hpp \
+  /usr/include/boost/mpl/aux_/config/integral.hpp \
+  /usr/include/boost/mpl/identity.hpp \
+  /usr/include/boost/mpl/placeholders.hpp \
+  /usr/include/boost/mpl/arg.hpp \
+  /usr/include/boost/mpl/arg_fwd.hpp \
+  /usr/include/boost/mpl/aux_/na_assert.hpp \
+  /usr/include/boost/mpl/assert.hpp \
+  /usr/include/boost/mpl/not.hpp \
+  /usr/include/boost/mpl/aux_/yes_no.hpp \
+  /usr/include/boost/mpl/aux_/config/arrays.hpp \
+  /usr/include/boost/mpl/aux_/config/gpu.hpp \
+  /usr/include/boost/mpl/aux_/config/pp_counter.hpp \
+  /usr/include/boost/mpl/aux_/arity_spec.hpp \
+  /usr/include/boost/mpl/aux_/arg_typedef.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
+  /usr/include/boost/iterator/detail/facade_iterator_category.hpp \
+  /usr/include/boost/core/use_default.hpp \
+  /usr/include/boost/mpl/and.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+  /usr/include/boost/type_traits/is_same.hpp \
+  /usr/include/boost/type_traits/is_const.hpp \
+  /usr/include/boost/detail/indirect_traits.hpp \
+  /usr/include/boost/type_traits/is_pointer.hpp \
+  /usr/include/boost/type_traits/is_class.hpp \
+  /usr/include/boost/type_traits/is_volatile.hpp \
+  /usr/include/boost/type_traits/is_member_function_pointer.hpp \
+  /usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp \
+  /usr/include/boost/type_traits/is_member_pointer.hpp \
+  /usr/include/boost/type_traits/remove_pointer.hpp \
+  /usr/include/boost/detail/select_type.hpp \
+  /usr/include/boost/iterator/detail/enable_if.hpp \
+  /usr/include/boost/core/addressof.hpp \
+  /usr/include/boost/type_traits/add_const.hpp \
+  /usr/include/boost/type_traits/remove_const.hpp \
+  /usr/include/boost/type_traits/is_pod.hpp \
+  /usr/include/boost/type_traits/is_scalar.hpp \
+  /usr/include/boost/type_traits/is_enum.hpp \
+  /usr/include/boost/mpl/always.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/default_params.hpp \
+  /usr/include/boost/mpl/apply.hpp \
+  /usr/include/boost/mpl/apply_fwd.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+  /usr/include/boost/mpl/apply_wrap.hpp \
+  /usr/include/boost/mpl/aux_/has_apply.hpp \
+  /usr/include/boost/mpl/has_xxx.hpp \
+  /usr/include/boost/mpl/aux_/type_wrapper.hpp \
+  /usr/include/boost/mpl/aux_/config/has_xxx.hpp \
+  /usr/include/boost/mpl/aux_/config/msvc_typename.hpp \
+  /usr/include/boost/preprocessor/array/elem.hpp \
+  /usr/include/boost/preprocessor/array/data.hpp \
+  /usr/include/boost/preprocessor/array/size.hpp \
+  /usr/include/boost/preprocessor/repetition/enum_params.hpp \
+  /usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
+  /usr/include/boost/mpl/aux_/config/has_apply.hpp \
+  /usr/include/boost/mpl/aux_/msvc_never_true.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
+  /usr/include/boost/mpl/lambda.hpp \
+  /usr/include/boost/mpl/bind.hpp \
+  /usr/include/boost/mpl/bind_fwd.hpp \
+  /usr/include/boost/mpl/aux_/config/bind.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
+  /usr/include/boost/mpl/next.hpp \
+  /usr/include/boost/mpl/next_prior.hpp \
+  /usr/include/boost/mpl/aux_/common_name_wknd.hpp \
+  /usr/include/boost/mpl/protect.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
+  /usr/include/boost/mpl/aux_/full_lambda.hpp \
+  /usr/include/boost/mpl/quote.hpp \
+  /usr/include/boost/mpl/void.hpp \
+  /usr/include/boost/mpl/aux_/has_type.hpp \
+  /usr/include/boost/mpl/aux_/config/bcc.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
+  /usr/include/boost/mpl/aux_/template_arity.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
+  /usr/include/boost/io/quoted.hpp \
+  /usr/include/boost/io/detail/buffer_fill.hpp \
+  /usr/include/boost/io/detail/ostream_guard.hpp \
+  /usr/include/boost/io/ios_state.hpp \
+  /usr/include/boost/io_fwd.hpp \
+  /usr/include/boost/functional/hash_fwd.hpp \
+  /usr/include/boost/container_hash/hash_fwd.hpp \
+  /usr/include/boost/filesystem/exception.hpp \
+  /usr/include/boost/smart_ptr/intrusive_ptr.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_convertible.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_noexcept.hpp \
+  /usr/include/boost/config/no_tr1/functional.hpp \
+  /usr/include/boost/smart_ptr/detail/operator_bool.hpp \
+  /usr/include/boost/smart_ptr/intrusive_ref_counter.hpp \
+  /usr/include/boost/smart_ptr/detail/atomic_count.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp \
+  /usr/include/boost/smart_ptr/detail/atomic_count_gcc_atomic.hpp \
+  /usr/include/boost/filesystem/directory.hpp \
+  /usr/include/boost/filesystem/file_status.hpp \
+  /usr/include/boost/detail/bitmask.hpp \
+  /usr/include/boost/core/scoped_enum.hpp \
+  /usr/include/boost/filesystem/operations.hpp \
+  /usr/include/boost/filesystem/convenience.hpp \
+  /usr/include/boost/filesystem/string_file.hpp \
+  /usr/include/boost/filesystem/fstream.hpp \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/serialization.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/bag_events.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/visibility_control.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_options.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writers/sequential_writer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/cache_consumer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/cache_buffer_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/serialized_bag_message.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_buffer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_interface.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/circular_message_cache.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_circular_buffer.hpp \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_converter.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_serializer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/types/introspection_message.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_deserializer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory_interface.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer_interfaces/base_writer_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_options.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/visibility_control.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/yaml.hpp \
+  /usr/include/yaml-cpp/yaml.h \
+  /usr/include/yaml-cpp/parser.h \
+  /usr/include/yaml-cpp/dll.h \
+  /usr/include/yaml-cpp/emitter.h \
+  /usr/include/yaml-cpp/binary.h \
+  /usr/include/yaml-cpp/emitterdef.h \
+  /usr/include/yaml-cpp/emittermanip.h \
+  /usr/include/yaml-cpp/null.h \
+  /usr/include/yaml-cpp/ostream_wrapper.h \
+  /usr/include/yaml-cpp/emitterstyle.h \
+  /usr/include/yaml-cpp/stlemitter.h \
+  /usr/include/yaml-cpp/exceptions.h \
+  /usr/include/yaml-cpp/mark.h \
+  /usr/include/yaml-cpp/noexcept.h \
+  /usr/include/yaml-cpp/traits.h \
+  /usr/include/yaml-cpp/node/node.h \
+  /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /usr/include/yaml-cpp/node/ptr.h \
+  /usr/include/yaml-cpp/node/type.h \
+  /usr/include/yaml-cpp/node/impl.h \
+  /usr/include/yaml-cpp/node/detail/memory.h \
+  /usr/include/yaml-cpp/node/detail/node.h \
+  /usr/include/yaml-cpp/node/detail/node_ref.h \
+  /usr/include/yaml-cpp/node/detail/node_data.h \
+  /usr/include/yaml-cpp/node/detail/node_iterator.h \
+  /usr/include/yaml-cpp/node/iterator.h \
+  /usr/include/yaml-cpp/node/detail/iterator.h \
+  /usr/include/yaml-cpp/node/convert.h \
+  /usr/include/yaml-cpp/node/detail/impl.h \
+  /usr/include/yaml-cpp/node/parse.h \
+  /usr/include/yaml-cpp/node/emit.h \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/topic_metadata.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/metadata_io.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/bag_metadata.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_factory.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_factory_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_only_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_filter.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_info_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_io_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_read_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_traits.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_write_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_write_interface.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/reader.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/readers/sequential_reader.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/reader_interfaces/base_reader_interface.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStorageInfo \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstorageinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTextStream \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h
 
 CMakeFiles/cw_serv.dir/src/modules/ServerParts/ClientManager.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/ClientManager.cpp \
   /usr/include/stdc-predef.h \
@@ -9302,6 +11090,7 @@ CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o: /home/dlyvern/Projects/Drago
   /usr/include/c++/11/ctime \
   /usr/include/c++/11/bits/parse_numbers.h \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
   /usr/include/c++/11/memory \
   /usr/include/c++/11/bits/stl_raw_storage_iter.h \
@@ -9314,43 +11103,7 @@ CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o: /home/dlyvern/Projects/Drago
   /usr/include/c++/11/backward/auto_ptr.h \
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
   /usr/include/c++/11/csignal \
   /usr/include/signal.h \
@@ -9784,15 +11537,6 @@ CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o: /home/dlyvern/Projects/Drago
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
   /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
-  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
-  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
-  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
   /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
   /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
@@ -9854,6 +11598,10 @@ CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o: /home/dlyvern/Projects/Drago
   /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
   /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
   /usr/include/console_bridge/console.h \
@@ -9866,6 +11614,47 @@ CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o: /home/dlyvern/Projects/Drago
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
   /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
   /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/TCPClient.hpp \
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpSocket \
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h \
@@ -9903,6 +11692,1186 @@ CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o: /home/dlyvern/Projects/Drago
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpServer \
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpserver.h \
   /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qhostaddress.h
+
+CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp \
+  /usr/include/stdc-predef.h \
+  /usr/include/c++/11/fstream \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/string \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
+  /usr/include/c++/11/csignal \
+  /usr/include/signal.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /opt/ros/humble/include/rcl/rcl/guard_condition.h \
+  /opt/ros/humble/include/rcl/rcl/allocator.h \
+  /opt/ros/humble/include/rcutils/rcutils/allocator.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /opt/ros/humble/include/rcutils/rcutils/macros.h \
+  /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h \
+  /opt/ros/humble/include/rcutils/rcutils/visibility_control.h \
+  /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/humble/include/rcl/rcl/context.h \
+  /opt/ros/humble/include/rmw/rmw/init.h \
+  /opt/ros/humble/include/rmw/rmw/init_options.h \
+  /opt/ros/humble/include/rmw/rmw/domain_id.h \
+  /opt/ros/humble/include/rmw/rmw/localhost.h \
+  /opt/ros/humble/include/rmw/rmw/visibility_control.h \
+  /opt/ros/humble/include/rmw/rmw/macros.h \
+  /opt/ros/humble/include/rmw/rmw/ret_types.h \
+  /opt/ros/humble/include/rmw/rmw/security_options.h \
+  /opt/ros/humble/include/rcl/rcl/arguments.h \
+  /opt/ros/humble/include/rcl/rcl/log_level.h \
+  /opt/ros/humble/include/rcl/rcl/macros.h \
+  /opt/ros/humble/include/rcl/rcl/types.h \
+  /opt/ros/humble/include/rmw/rmw/types.h \
+  /opt/ros/humble/include/rcutils/rcutils/logging.h \
+  /opt/ros/humble/include/rcutils/rcutils/error_handling.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
+  /opt/ros/humble/include/rcutils/rcutils/time.h \
+  /opt/ros/humble/include/rcutils/rcutils/types.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/array_list.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/char_array.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/hash_map.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/string_array.h \
+  /opt/ros/humble/include/rcutils/rcutils/qsort.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/string_map.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h \
+  /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
+  /opt/ros/humble/include/rmw/rmw/serialized_message.h \
+  /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h \
+  /opt/ros/humble/include/rmw/rmw/time.h \
+  /opt/ros/humble/include/rcl/rcl/visibility_control.h \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
+  /opt/ros/humble/include/rcl/rcl/init_options.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h \
+  /opt/ros/humble/include/rcl/rcl/wait.h \
+  /opt/ros/humble/include/rcl/rcl/client.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/humble/include/rcl/rcl/event_callback.h \
+  /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
+  /opt/ros/humble/include/rcl/rcl/node.h \
+  /opt/ros/humble/include/rcl/rcl/node_options.h \
+  /opt/ros/humble/include/rcl/rcl/domain_id.h \
+  /opt/ros/humble/include/rcl/rcl/service.h \
+  /opt/ros/humble/include/rcl/rcl/subscription.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rmw/rmw/message_sequence.h \
+  /opt/ros/humble/include/rcl/rcl/timer.h \
+  /opt/ros/humble/include/rcl/rcl/time.h \
+  /opt/ros/humble/include/rmw/rmw/rmw.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h \
+  /opt/ros/humble/include/rmw/rmw/event.h \
+  /opt/ros/humble/include/rmw/rmw/publisher_options.h \
+  /opt/ros/humble/include/rmw/rmw/qos_profiles.h \
+  /opt/ros/humble/include/rmw/rmw/subscription_options.h \
+  /opt/ros/humble/include/rcl/rcl/event.h \
+  /opt/ros/humble/include/rcl/rcl/publisher.h \
+  /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/context.hpp \
+  /usr/include/c++/11/typeindex \
+  /usr/include/c++/11/unordered_set \
+  /usr/include/c++/11/bits/unordered_set.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/client.hpp \
+  /usr/include/c++/11/optional \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /usr/include/c++/11/variant \
+  /opt/ros/humble/include/rcl/rcl/error_handling.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/join.hpp \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/logging_macros.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp \
+  /opt/ros/humble/include/rcl/rcl/graph.h \
+  /opt/ros/humble/include/rmw/rmw/names_and_types.h \
+  /opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h \
+  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
+  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
+  /usr/include/c++/11/codecvt \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
+  /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+  /opt/ros/humble/include/rmw/rmw/error_handling.h \
+  /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
+  /usr/include/c++/11/cxxabi.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
+  /opt/ros/humble/include/rmw/rmw/impl/config.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
+  /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h \
+  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h \
+  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/time.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/service.hpp \
+  /opt/ros/humble/include/tracetools/tracetools/tracetools.h \
+  /opt/ros/humble/include/tracetools/tracetools/config.h \
+  /opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp \
+  /opt/ros/humble/include/tracetools/tracetools/utils.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
+  /usr/include/c++/11/cstring \
+  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp \
+  /usr/include/c++/11/shared_mutex \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp \
+  /opt/ros/humble/include/rmw/rmw/qos_string_conversions.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/action_type_support.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp \
+  /opt/ros/humble/include/rcl_action/rcl_action/action_client.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/types.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/visibility_control.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp \
+  /opt/ros/humble/include/rcl_action/rcl_action/action_server.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/goal_handle.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
+  /usr/include/c++/11/cstddef \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /usr/include/boost/filesystem.hpp \
+  /usr/include/boost/filesystem/config.hpp \
+  /usr/include/boost/config.hpp \
+  /usr/include/boost/config/user.hpp \
+  /usr/include/boost/config/detail/select_compiler_config.hpp \
+  /usr/include/boost/config/compiler/gcc.hpp \
+  /usr/include/boost/config/detail/select_stdlib_config.hpp \
+  /usr/include/c++/11/version \
+  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
+  /usr/include/boost/config/detail/select_platform_config.hpp \
+  /usr/include/boost/config/platform/linux.hpp \
+  /usr/include/boost/config/detail/posix_features.hpp \
+  /usr/include/boost/config/detail/suffix.hpp \
+  /usr/include/boost/config/helper_macros.hpp \
+  /usr/include/boost/system/api_config.hpp \
+  /usr/include/boost/detail/workaround.hpp \
+  /usr/include/boost/config/workaround.hpp \
+  /usr/include/boost/filesystem/path.hpp \
+  /usr/include/boost/assert.hpp \
+  /usr/include/boost/filesystem/path_traits.hpp \
+  /usr/include/boost/type_traits/is_array.hpp \
+  /usr/include/boost/type_traits/integral_constant.hpp \
+  /usr/include/boost/type_traits/decay.hpp \
+  /usr/include/boost/type_traits/is_function.hpp \
+  /usr/include/boost/type_traits/detail/config.hpp \
+  /usr/include/boost/version.hpp \
+  /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp \
+  /usr/include/boost/type_traits/remove_bounds.hpp \
+  /usr/include/boost/type_traits/remove_extent.hpp \
+  /usr/include/boost/type_traits/add_pointer.hpp \
+  /usr/include/boost/type_traits/remove_reference.hpp \
+  /usr/include/boost/type_traits/remove_cv.hpp \
+  /usr/include/boost/system/error_code.hpp \
+  /usr/include/boost/system/detail/config.hpp \
+  /usr/include/boost/cstdint.hpp \
+  /usr/include/boost/cerrno.hpp \
+  /usr/include/boost/system/detail/generic_category.hpp \
+  /usr/include/boost/system/detail/system_category_posix.hpp \
+  /usr/include/boost/system/detail/std_interoperability.hpp \
+  /usr/include/boost/core/enable_if.hpp \
+  /usr/include/boost/config/abi_prefix.hpp \
+  /usr/include/boost/config/abi_suffix.hpp \
+  /usr/include/boost/system/system_error.hpp \
+  /usr/include/boost/iterator/iterator_facade.hpp \
+  /usr/include/boost/iterator/interoperable.hpp \
+  /usr/include/boost/mpl/bool.hpp \
+  /usr/include/boost/mpl/bool_fwd.hpp \
+  /usr/include/boost/mpl/aux_/adl_barrier.hpp \
+  /usr/include/boost/mpl/aux_/config/adl.hpp \
+  /usr/include/boost/mpl/aux_/config/msvc.hpp \
+  /usr/include/boost/mpl/aux_/config/intel.hpp \
+  /usr/include/boost/mpl/aux_/config/gcc.hpp \
+  /usr/include/boost/mpl/aux_/config/workaround.hpp \
+  /usr/include/boost/mpl/integral_c_tag.hpp \
+  /usr/include/boost/mpl/aux_/config/static_constant.hpp \
+  /usr/include/boost/mpl/or.hpp \
+  /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp \
+  /usr/include/boost/mpl/aux_/nested_type_wknd.hpp \
+  /usr/include/boost/mpl/aux_/na_spec.hpp \
+  /usr/include/boost/mpl/lambda_fwd.hpp \
+  /usr/include/boost/mpl/void_fwd.hpp \
+  /usr/include/boost/mpl/aux_/na.hpp \
+  /usr/include/boost/mpl/aux_/na_fwd.hpp \
+  /usr/include/boost/mpl/aux_/config/ctps.hpp \
+  /usr/include/boost/mpl/aux_/config/lambda.hpp \
+  /usr/include/boost/mpl/aux_/config/ttp.hpp \
+  /usr/include/boost/mpl/int.hpp \
+  /usr/include/boost/mpl/int_fwd.hpp \
+  /usr/include/boost/mpl/aux_/nttp_decl.hpp \
+  /usr/include/boost/mpl/aux_/config/nttp.hpp \
+  /usr/include/boost/mpl/aux_/integral_wrapper.hpp \
+  /usr/include/boost/mpl/aux_/static_cast.hpp \
+  /usr/include/boost/preprocessor/cat.hpp \
+  /usr/include/boost/preprocessor/config/config.hpp \
+  /usr/include/boost/mpl/aux_/lambda_arity_param.hpp \
+  /usr/include/boost/mpl/aux_/template_arity_fwd.hpp \
+  /usr/include/boost/mpl/aux_/arity.hpp \
+  /usr/include/boost/mpl/aux_/config/dtp.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/params.hpp \
+  /usr/include/boost/mpl/aux_/config/preprocessor.hpp \
+  /usr/include/boost/preprocessor/comma_if.hpp \
+  /usr/include/boost/preprocessor/punctuation/comma_if.hpp \
+  /usr/include/boost/preprocessor/control/if.hpp \
+  /usr/include/boost/preprocessor/control/iif.hpp \
+  /usr/include/boost/preprocessor/logical/bool.hpp \
+  /usr/include/boost/preprocessor/facilities/empty.hpp \
+  /usr/include/boost/preprocessor/punctuation/comma.hpp \
+  /usr/include/boost/preprocessor/repeat.hpp \
+  /usr/include/boost/preprocessor/repetition/repeat.hpp \
+  /usr/include/boost/preprocessor/debug/error.hpp \
+  /usr/include/boost/preprocessor/detail/auto_rec.hpp \
+  /usr/include/boost/preprocessor/tuple/eat.hpp \
+  /usr/include/boost/preprocessor/inc.hpp \
+  /usr/include/boost/preprocessor/arithmetic/inc.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/enum.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+  /usr/include/boost/mpl/limits/arity.hpp \
+  /usr/include/boost/preprocessor/logical/and.hpp \
+  /usr/include/boost/preprocessor/logical/bitand.hpp \
+  /usr/include/boost/preprocessor/identity.hpp \
+  /usr/include/boost/preprocessor/facilities/identity.hpp \
+  /usr/include/boost/preprocessor/empty.hpp \
+  /usr/include/boost/preprocessor/arithmetic/add.hpp \
+  /usr/include/boost/preprocessor/arithmetic/dec.hpp \
+  /usr/include/boost/preprocessor/control/while.hpp \
+  /usr/include/boost/preprocessor/list/fold_left.hpp \
+  /usr/include/boost/preprocessor/list/detail/fold_left.hpp \
+  /usr/include/boost/preprocessor/control/expr_iif.hpp \
+  /usr/include/boost/preprocessor/list/adt.hpp \
+  /usr/include/boost/preprocessor/detail/is_binary.hpp \
+  /usr/include/boost/preprocessor/detail/check.hpp \
+  /usr/include/boost/preprocessor/logical/compl.hpp \
+  /usr/include/boost/preprocessor/list/fold_right.hpp \
+  /usr/include/boost/preprocessor/list/detail/fold_right.hpp \
+  /usr/include/boost/preprocessor/list/reverse.hpp \
+  /usr/include/boost/preprocessor/control/detail/while.hpp \
+  /usr/include/boost/preprocessor/tuple/elem.hpp \
+  /usr/include/boost/preprocessor/facilities/expand.hpp \
+  /usr/include/boost/preprocessor/facilities/overload.hpp \
+  /usr/include/boost/preprocessor/variadic/size.hpp \
+  /usr/include/boost/preprocessor/tuple/rem.hpp \
+  /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+  /usr/include/boost/preprocessor/variadic/elem.hpp \
+  /usr/include/boost/preprocessor/arithmetic/sub.hpp \
+  /usr/include/boost/mpl/aux_/config/eti.hpp \
+  /usr/include/boost/mpl/aux_/config/overload_resolution.hpp \
+  /usr/include/boost/mpl/aux_/lambda_support.hpp \
+  /usr/include/boost/mpl/aux_/include_preprocessed.hpp \
+  /usr/include/boost/mpl/aux_/config/compiler.hpp \
+  /usr/include/boost/preprocessor/stringize.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+  /usr/include/boost/type_traits/is_convertible.hpp \
+  /usr/include/boost/type_traits/intrinsics.hpp \
+  /usr/include/boost/type_traits/is_complete.hpp \
+  /usr/include/boost/type_traits/declval.hpp \
+  /usr/include/boost/type_traits/add_rvalue_reference.hpp \
+  /usr/include/boost/type_traits/is_void.hpp \
+  /usr/include/boost/type_traits/is_reference.hpp \
+  /usr/include/boost/type_traits/is_lvalue_reference.hpp \
+  /usr/include/boost/type_traits/is_rvalue_reference.hpp \
+  /usr/include/boost/type_traits/detail/yes_no_type.hpp \
+  /usr/include/boost/static_assert.hpp \
+  /usr/include/boost/type_traits/is_arithmetic.hpp \
+  /usr/include/boost/type_traits/is_integral.hpp \
+  /usr/include/boost/type_traits/is_floating_point.hpp \
+  /usr/include/boost/type_traits/is_abstract.hpp \
+  /usr/include/boost/type_traits/add_lvalue_reference.hpp \
+  /usr/include/boost/type_traits/add_reference.hpp \
+  /usr/include/boost/iterator/detail/config_def.hpp \
+  /usr/include/boost/iterator/detail/config_undef.hpp \
+  /usr/include/boost/iterator/iterator_traits.hpp \
+  /usr/include/boost/iterator/iterator_categories.hpp \
+  /usr/include/boost/mpl/eval_if.hpp \
+  /usr/include/boost/mpl/if.hpp \
+  /usr/include/boost/mpl/aux_/value_wknd.hpp \
+  /usr/include/boost/mpl/aux_/config/integral.hpp \
+  /usr/include/boost/mpl/identity.hpp \
+  /usr/include/boost/mpl/placeholders.hpp \
+  /usr/include/boost/mpl/arg.hpp \
+  /usr/include/boost/mpl/arg_fwd.hpp \
+  /usr/include/boost/mpl/aux_/na_assert.hpp \
+  /usr/include/boost/mpl/assert.hpp \
+  /usr/include/boost/mpl/not.hpp \
+  /usr/include/boost/mpl/aux_/yes_no.hpp \
+  /usr/include/boost/mpl/aux_/config/arrays.hpp \
+  /usr/include/boost/mpl/aux_/config/gpu.hpp \
+  /usr/include/boost/mpl/aux_/config/pp_counter.hpp \
+  /usr/include/boost/mpl/aux_/arity_spec.hpp \
+  /usr/include/boost/mpl/aux_/arg_typedef.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
+  /usr/include/boost/iterator/detail/facade_iterator_category.hpp \
+  /usr/include/boost/core/use_default.hpp \
+  /usr/include/boost/mpl/and.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+  /usr/include/boost/type_traits/is_same.hpp \
+  /usr/include/boost/type_traits/is_const.hpp \
+  /usr/include/boost/detail/indirect_traits.hpp \
+  /usr/include/boost/type_traits/is_pointer.hpp \
+  /usr/include/boost/type_traits/is_class.hpp \
+  /usr/include/boost/type_traits/is_volatile.hpp \
+  /usr/include/boost/type_traits/is_member_function_pointer.hpp \
+  /usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp \
+  /usr/include/boost/type_traits/is_member_pointer.hpp \
+  /usr/include/boost/type_traits/remove_pointer.hpp \
+  /usr/include/boost/detail/select_type.hpp \
+  /usr/include/boost/iterator/detail/enable_if.hpp \
+  /usr/include/boost/core/addressof.hpp \
+  /usr/include/boost/type_traits/add_const.hpp \
+  /usr/include/boost/type_traits/remove_const.hpp \
+  /usr/include/boost/type_traits/is_pod.hpp \
+  /usr/include/boost/type_traits/is_scalar.hpp \
+  /usr/include/boost/type_traits/is_enum.hpp \
+  /usr/include/boost/mpl/always.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/default_params.hpp \
+  /usr/include/boost/mpl/apply.hpp \
+  /usr/include/boost/mpl/apply_fwd.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+  /usr/include/boost/mpl/apply_wrap.hpp \
+  /usr/include/boost/mpl/aux_/has_apply.hpp \
+  /usr/include/boost/mpl/has_xxx.hpp \
+  /usr/include/boost/mpl/aux_/type_wrapper.hpp \
+  /usr/include/boost/mpl/aux_/config/has_xxx.hpp \
+  /usr/include/boost/mpl/aux_/config/msvc_typename.hpp \
+  /usr/include/boost/preprocessor/array/elem.hpp \
+  /usr/include/boost/preprocessor/array/data.hpp \
+  /usr/include/boost/preprocessor/array/size.hpp \
+  /usr/include/boost/preprocessor/repetition/enum_params.hpp \
+  /usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
+  /usr/include/boost/mpl/aux_/config/has_apply.hpp \
+  /usr/include/boost/mpl/aux_/msvc_never_true.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
+  /usr/include/boost/mpl/lambda.hpp \
+  /usr/include/boost/mpl/bind.hpp \
+  /usr/include/boost/mpl/bind_fwd.hpp \
+  /usr/include/boost/mpl/aux_/config/bind.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
+  /usr/include/boost/mpl/next.hpp \
+  /usr/include/boost/mpl/next_prior.hpp \
+  /usr/include/boost/mpl/aux_/common_name_wknd.hpp \
+  /usr/include/boost/mpl/protect.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
+  /usr/include/boost/mpl/aux_/full_lambda.hpp \
+  /usr/include/boost/mpl/quote.hpp \
+  /usr/include/boost/mpl/void.hpp \
+  /usr/include/boost/mpl/aux_/has_type.hpp \
+  /usr/include/boost/mpl/aux_/config/bcc.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
+  /usr/include/boost/mpl/aux_/template_arity.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
+  /usr/include/boost/io/quoted.hpp \
+  /usr/include/boost/io/detail/buffer_fill.hpp \
+  /usr/include/boost/io/detail/ostream_guard.hpp \
+  /usr/include/boost/io/ios_state.hpp \
+  /usr/include/boost/io_fwd.hpp \
+  /usr/include/boost/functional/hash_fwd.hpp \
+  /usr/include/boost/container_hash/hash_fwd.hpp \
+  /usr/include/boost/filesystem/exception.hpp \
+  /usr/include/boost/smart_ptr/intrusive_ptr.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_convertible.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_noexcept.hpp \
+  /usr/include/boost/config/no_tr1/functional.hpp \
+  /usr/include/boost/smart_ptr/detail/operator_bool.hpp \
+  /usr/include/boost/smart_ptr/intrusive_ref_counter.hpp \
+  /usr/include/boost/smart_ptr/detail/atomic_count.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp \
+  /usr/include/boost/smart_ptr/detail/atomic_count_gcc_atomic.hpp \
+  /usr/include/boost/filesystem/directory.hpp \
+  /usr/include/boost/filesystem/file_status.hpp \
+  /usr/include/boost/detail/bitmask.hpp \
+  /usr/include/boost/core/scoped_enum.hpp \
+  /usr/include/boost/filesystem/operations.hpp \
+  /usr/include/boost/filesystem/convenience.hpp \
+  /usr/include/boost/filesystem/string_file.hpp \
+  /usr/include/boost/filesystem/fstream.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/serialization.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/reader.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/bag_events.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/visibility_control.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_options.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/readers/sequential_reader.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_converter.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_serializer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/types/introspection_message.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/serialized_bag_message.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_deserializer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory_interface.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/reader_interfaces/base_reader_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/bag_metadata.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/topic_metadata.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_filter.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_options.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/visibility_control.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/yaml.hpp \
+  /usr/include/yaml-cpp/yaml.h \
+  /usr/include/yaml-cpp/parser.h \
+  /usr/include/yaml-cpp/dll.h \
+  /usr/include/yaml-cpp/emitter.h \
+  /usr/include/yaml-cpp/binary.h \
+  /usr/include/yaml-cpp/emitterdef.h \
+  /usr/include/yaml-cpp/emittermanip.h \
+  /usr/include/yaml-cpp/null.h \
+  /usr/include/yaml-cpp/ostream_wrapper.h \
+  /usr/include/yaml-cpp/emitterstyle.h \
+  /usr/include/yaml-cpp/stlemitter.h \
+  /usr/include/yaml-cpp/exceptions.h \
+  /usr/include/yaml-cpp/mark.h \
+  /usr/include/yaml-cpp/noexcept.h \
+  /usr/include/yaml-cpp/traits.h \
+  /usr/include/yaml-cpp/node/node.h \
+  /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /usr/include/yaml-cpp/node/ptr.h \
+  /usr/include/yaml-cpp/node/type.h \
+  /usr/include/yaml-cpp/node/impl.h \
+  /usr/include/yaml-cpp/node/detail/memory.h \
+  /usr/include/yaml-cpp/node/detail/node.h \
+  /usr/include/yaml-cpp/node/detail/node_ref.h \
+  /usr/include/yaml-cpp/node/detail/node_data.h \
+  /usr/include/yaml-cpp/node/detail/node_iterator.h \
+  /usr/include/yaml-cpp/node/iterator.h \
+  /usr/include/yaml-cpp/node/detail/iterator.h \
+  /usr/include/yaml-cpp/node/convert.h \
+  /usr/include/yaml-cpp/node/detail/impl.h \
+  /usr/include/yaml-cpp/node/parse.h \
+  /usr/include/yaml-cpp/node/emit.h \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/metadata_io.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_factory.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_factory_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_only_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_info_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_io_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_read_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_traits.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_write_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_write_interface.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QStorageInfo \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstorageinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QTextStream \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h
 
 CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp \
   /usr/include/stdc-predef.h \
@@ -10056,7 +13025,1878 @@ CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o: /home/dlyvern/Proje
   /usr/include/asm-generic/errno-base.h \
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
-  /usr/include/c++/11/bits/basic_string.tcc
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
+  /usr/include/c++/11/csignal \
+  /usr/include/signal.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /opt/ros/humble/include/rcl/rcl/guard_condition.h \
+  /opt/ros/humble/include/rcl/rcl/allocator.h \
+  /opt/ros/humble/include/rcutils/rcutils/allocator.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /opt/ros/humble/include/rcutils/rcutils/macros.h \
+  /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h \
+  /opt/ros/humble/include/rcutils/rcutils/visibility_control.h \
+  /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/humble/include/rcl/rcl/context.h \
+  /opt/ros/humble/include/rmw/rmw/init.h \
+  /opt/ros/humble/include/rmw/rmw/init_options.h \
+  /opt/ros/humble/include/rmw/rmw/domain_id.h \
+  /opt/ros/humble/include/rmw/rmw/localhost.h \
+  /opt/ros/humble/include/rmw/rmw/visibility_control.h \
+  /opt/ros/humble/include/rmw/rmw/macros.h \
+  /opt/ros/humble/include/rmw/rmw/ret_types.h \
+  /opt/ros/humble/include/rmw/rmw/security_options.h \
+  /opt/ros/humble/include/rcl/rcl/arguments.h \
+  /opt/ros/humble/include/rcl/rcl/log_level.h \
+  /opt/ros/humble/include/rcl/rcl/macros.h \
+  /opt/ros/humble/include/rcl/rcl/types.h \
+  /opt/ros/humble/include/rmw/rmw/types.h \
+  /opt/ros/humble/include/rcutils/rcutils/logging.h \
+  /opt/ros/humble/include/rcutils/rcutils/error_handling.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
+  /opt/ros/humble/include/rcutils/rcutils/time.h \
+  /opt/ros/humble/include/rcutils/rcutils/types.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/array_list.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/char_array.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/hash_map.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/string_array.h \
+  /opt/ros/humble/include/rcutils/rcutils/qsort.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/string_map.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h \
+  /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
+  /opt/ros/humble/include/rmw/rmw/serialized_message.h \
+  /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h \
+  /opt/ros/humble/include/rmw/rmw/time.h \
+  /opt/ros/humble/include/rcl/rcl/visibility_control.h \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
+  /opt/ros/humble/include/rcl/rcl/init_options.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h \
+  /opt/ros/humble/include/rcl/rcl/wait.h \
+  /opt/ros/humble/include/rcl/rcl/client.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/humble/include/rcl/rcl/event_callback.h \
+  /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
+  /opt/ros/humble/include/rcl/rcl/node.h \
+  /opt/ros/humble/include/rcl/rcl/node_options.h \
+  /opt/ros/humble/include/rcl/rcl/domain_id.h \
+  /opt/ros/humble/include/rcl/rcl/service.h \
+  /opt/ros/humble/include/rcl/rcl/subscription.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rmw/rmw/message_sequence.h \
+  /opt/ros/humble/include/rcl/rcl/timer.h \
+  /opt/ros/humble/include/rcl/rcl/time.h \
+  /opt/ros/humble/include/rmw/rmw/rmw.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h \
+  /opt/ros/humble/include/rmw/rmw/event.h \
+  /opt/ros/humble/include/rmw/rmw/publisher_options.h \
+  /opt/ros/humble/include/rmw/rmw/qos_profiles.h \
+  /opt/ros/humble/include/rmw/rmw/subscription_options.h \
+  /opt/ros/humble/include/rcl/rcl/event.h \
+  /opt/ros/humble/include/rcl/rcl/publisher.h \
+  /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/context.hpp \
+  /usr/include/c++/11/typeindex \
+  /usr/include/c++/11/unordered_set \
+  /usr/include/c++/11/bits/unordered_set.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/client.hpp \
+  /usr/include/c++/11/optional \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /usr/include/c++/11/variant \
+  /opt/ros/humble/include/rcl/rcl/error_handling.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/join.hpp \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/logging_macros.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp \
+  /opt/ros/humble/include/rcl/rcl/graph.h \
+  /opt/ros/humble/include/rmw/rmw/names_and_types.h \
+  /opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h \
+  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
+  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
+  /usr/include/c++/11/codecvt \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
+  /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+  /opt/ros/humble/include/rmw/rmw/error_handling.h \
+  /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
+  /usr/include/c++/11/cxxabi.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
+  /opt/ros/humble/include/rmw/rmw/impl/config.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
+  /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h \
+  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h \
+  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/time.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/service.hpp \
+  /opt/ros/humble/include/tracetools/tracetools/tracetools.h \
+  /opt/ros/humble/include/tracetools/tracetools/config.h \
+  /opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp \
+  /opt/ros/humble/include/tracetools/tracetools/utils.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
+  /usr/include/c++/11/cstring \
+  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp \
+  /usr/include/c++/11/shared_mutex \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp \
+  /opt/ros/humble/include/rmw/rmw/qos_string_conversions.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/action_type_support.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp \
+  /opt/ros/humble/include/rcl_action/rcl_action/action_client.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/types.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/visibility_control.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp \
+  /opt/ros/humble/include/rcl_action/rcl_action/action_server.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/goal_handle.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
+  /usr/include/c++/11/cstddef \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
+
+CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp \
+  /usr/include/stdc-predef.h \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp \
+  /usr/include/c++/11/string \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/features-time64.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
+  /usr/include/c++/11/pstl/pstl_config.h \
+  /usr/include/c++/11/bits/stringfwd.h \
+  /usr/include/c++/11/bits/memoryfwd.h \
+  /usr/include/c++/11/bits/char_traits.h \
+  /usr/include/c++/11/bits/stl_algobase.h \
+  /usr/include/c++/11/bits/functexcept.h \
+  /usr/include/c++/11/bits/exception_defines.h \
+  /usr/include/c++/11/bits/cpp_type_traits.h \
+  /usr/include/c++/11/ext/type_traits.h \
+  /usr/include/c++/11/ext/numeric_traits.h \
+  /usr/include/c++/11/bits/stl_pair.h \
+  /usr/include/c++/11/bits/move.h \
+  /usr/include/c++/11/type_traits \
+  /usr/include/c++/11/bits/stl_iterator_base_types.h \
+  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/11/bits/concept_check.h \
+  /usr/include/c++/11/debug/assertions.h \
+  /usr/include/c++/11/bits/stl_iterator.h \
+  /usr/include/c++/11/bits/ptr_traits.h \
+  /usr/include/c++/11/debug/debug.h \
+  /usr/include/c++/11/bits/predefined_ops.h \
+  /usr/include/c++/11/bits/postypes.h \
+  /usr/include/c++/11/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/c++/11/cstdint \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/c++/11/bits/allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+  /usr/include/c++/11/ext/new_allocator.h \
+  /usr/include/c++/11/new \
+  /usr/include/c++/11/bits/exception.h \
+  /usr/include/c++/11/bits/localefwd.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
+  /usr/include/c++/11/clocale \
+  /usr/include/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/c++/11/iosfwd \
+  /usr/include/c++/11/cctype \
+  /usr/include/ctype.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/c++/11/bits/ostream_insert.h \
+  /usr/include/c++/11/bits/cxxabi_forced.h \
+  /usr/include/c++/11/bits/stl_function.h \
+  /usr/include/c++/11/backward/binders.h \
+  /usr/include/c++/11/bits/range_access.h \
+  /usr/include/c++/11/initializer_list \
+  /usr/include/c++/11/bits/basic_string.h \
+  /usr/include/c++/11/ext/atomicity.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/c++/11/ext/alloc_traits.h \
+  /usr/include/c++/11/bits/alloc_traits.h \
+  /usr/include/c++/11/bits/stl_construct.h \
+  /usr/include/c++/11/string_view \
+  /usr/include/c++/11/bits/functional_hash.h \
+  /usr/include/c++/11/bits/hash_bytes.h \
+  /usr/include/c++/11/bits/string_view.tcc \
+  /usr/include/c++/11/ext/string_conversions.h \
+  /usr/include/c++/11/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/c++/11/bits/std_abs.h \
+  /usr/include/c++/11/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/c++/11/cerrno \
+  /usr/include/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/c++/11/bits/charconv.h \
+  /usr/include/c++/11/bits/basic_string.tcc \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/utility \
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
+  /usr/include/c++/11/csignal \
+  /usr/include/signal.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /opt/ros/humble/include/rcl/rcl/guard_condition.h \
+  /opt/ros/humble/include/rcl/rcl/allocator.h \
+  /opt/ros/humble/include/rcutils/rcutils/allocator.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /opt/ros/humble/include/rcutils/rcutils/macros.h \
+  /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h \
+  /opt/ros/humble/include/rcutils/rcutils/visibility_control.h \
+  /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/humble/include/rcl/rcl/context.h \
+  /opt/ros/humble/include/rmw/rmw/init.h \
+  /opt/ros/humble/include/rmw/rmw/init_options.h \
+  /opt/ros/humble/include/rmw/rmw/domain_id.h \
+  /opt/ros/humble/include/rmw/rmw/localhost.h \
+  /opt/ros/humble/include/rmw/rmw/visibility_control.h \
+  /opt/ros/humble/include/rmw/rmw/macros.h \
+  /opt/ros/humble/include/rmw/rmw/ret_types.h \
+  /opt/ros/humble/include/rmw/rmw/security_options.h \
+  /opt/ros/humble/include/rcl/rcl/arguments.h \
+  /opt/ros/humble/include/rcl/rcl/log_level.h \
+  /opt/ros/humble/include/rcl/rcl/macros.h \
+  /opt/ros/humble/include/rcl/rcl/types.h \
+  /opt/ros/humble/include/rmw/rmw/types.h \
+  /opt/ros/humble/include/rcutils/rcutils/logging.h \
+  /opt/ros/humble/include/rcutils/rcutils/error_handling.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
+  /opt/ros/humble/include/rcutils/rcutils/time.h \
+  /opt/ros/humble/include/rcutils/rcutils/types.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/array_list.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/char_array.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/hash_map.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/string_array.h \
+  /opt/ros/humble/include/rcutils/rcutils/qsort.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/string_map.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h \
+  /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
+  /opt/ros/humble/include/rmw/rmw/serialized_message.h \
+  /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h \
+  /opt/ros/humble/include/rmw/rmw/time.h \
+  /opt/ros/humble/include/rcl/rcl/visibility_control.h \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
+  /opt/ros/humble/include/rcl/rcl/init_options.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h \
+  /opt/ros/humble/include/rcl/rcl/wait.h \
+  /opt/ros/humble/include/rcl/rcl/client.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/humble/include/rcl/rcl/event_callback.h \
+  /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
+  /opt/ros/humble/include/rcl/rcl/node.h \
+  /opt/ros/humble/include/rcl/rcl/node_options.h \
+  /opt/ros/humble/include/rcl/rcl/domain_id.h \
+  /opt/ros/humble/include/rcl/rcl/service.h \
+  /opt/ros/humble/include/rcl/rcl/subscription.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rmw/rmw/message_sequence.h \
+  /opt/ros/humble/include/rcl/rcl/timer.h \
+  /opt/ros/humble/include/rcl/rcl/time.h \
+  /opt/ros/humble/include/rmw/rmw/rmw.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h \
+  /opt/ros/humble/include/rmw/rmw/event.h \
+  /opt/ros/humble/include/rmw/rmw/publisher_options.h \
+  /opt/ros/humble/include/rmw/rmw/qos_profiles.h \
+  /opt/ros/humble/include/rmw/rmw/subscription_options.h \
+  /opt/ros/humble/include/rcl/rcl/event.h \
+  /opt/ros/humble/include/rcl/rcl/publisher.h \
+  /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/context.hpp \
+  /usr/include/c++/11/typeindex \
+  /usr/include/c++/11/unordered_set \
+  /usr/include/c++/11/bits/unordered_set.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/client.hpp \
+  /usr/include/c++/11/optional \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /usr/include/c++/11/variant \
+  /opt/ros/humble/include/rcl/rcl/error_handling.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/join.hpp \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/logging_macros.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp \
+  /opt/ros/humble/include/rcl/rcl/graph.h \
+  /opt/ros/humble/include/rmw/rmw/names_and_types.h \
+  /opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h \
+  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
+  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
+  /usr/include/c++/11/codecvt \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
+  /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+  /opt/ros/humble/include/rmw/rmw/error_handling.h \
+  /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
+  /usr/include/c++/11/cxxabi.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
+  /opt/ros/humble/include/rmw/rmw/impl/config.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
+  /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h \
+  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h \
+  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/time.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/service.hpp \
+  /opt/ros/humble/include/tracetools/tracetools/tracetools.h \
+  /opt/ros/humble/include/tracetools/tracetools/config.h \
+  /opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp \
+  /opt/ros/humble/include/tracetools/tracetools/utils.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
+  /usr/include/c++/11/cstring \
+  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp \
+  /usr/include/c++/11/shared_mutex \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp \
+  /opt/ros/humble/include/rmw/rmw/qos_string_conversions.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/action_type_support.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp \
+  /opt/ros/humble/include/rcl_action/rcl_action/action_client.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/types.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/visibility_control.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp \
+  /opt/ros/humble/include/rcl_action/rcl_action/action_server.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/goal_handle.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
+  /usr/include/c++/11/cstddef \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h \
+  /usr/include/boost/filesystem.hpp \
+  /usr/include/boost/filesystem/config.hpp \
+  /usr/include/boost/config.hpp \
+  /usr/include/boost/config/user.hpp \
+  /usr/include/boost/config/detail/select_compiler_config.hpp \
+  /usr/include/boost/config/compiler/gcc.hpp \
+  /usr/include/boost/config/detail/select_stdlib_config.hpp \
+  /usr/include/c++/11/version \
+  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
+  /usr/include/boost/config/detail/select_platform_config.hpp \
+  /usr/include/boost/config/platform/linux.hpp \
+  /usr/include/boost/config/detail/posix_features.hpp \
+  /usr/include/boost/config/detail/suffix.hpp \
+  /usr/include/boost/config/helper_macros.hpp \
+  /usr/include/boost/system/api_config.hpp \
+  /usr/include/boost/detail/workaround.hpp \
+  /usr/include/boost/config/workaround.hpp \
+  /usr/include/boost/filesystem/path.hpp \
+  /usr/include/boost/assert.hpp \
+  /usr/include/boost/filesystem/path_traits.hpp \
+  /usr/include/boost/type_traits/is_array.hpp \
+  /usr/include/boost/type_traits/integral_constant.hpp \
+  /usr/include/boost/type_traits/decay.hpp \
+  /usr/include/boost/type_traits/is_function.hpp \
+  /usr/include/boost/type_traits/detail/config.hpp \
+  /usr/include/boost/version.hpp \
+  /usr/include/boost/type_traits/detail/is_function_cxx_11.hpp \
+  /usr/include/boost/type_traits/remove_bounds.hpp \
+  /usr/include/boost/type_traits/remove_extent.hpp \
+  /usr/include/boost/type_traits/add_pointer.hpp \
+  /usr/include/boost/type_traits/remove_reference.hpp \
+  /usr/include/boost/type_traits/remove_cv.hpp \
+  /usr/include/boost/system/error_code.hpp \
+  /usr/include/boost/system/detail/config.hpp \
+  /usr/include/boost/cstdint.hpp \
+  /usr/include/boost/cerrno.hpp \
+  /usr/include/boost/system/detail/generic_category.hpp \
+  /usr/include/boost/system/detail/system_category_posix.hpp \
+  /usr/include/boost/system/detail/std_interoperability.hpp \
+  /usr/include/boost/core/enable_if.hpp \
+  /usr/include/boost/config/abi_prefix.hpp \
+  /usr/include/boost/config/abi_suffix.hpp \
+  /usr/include/boost/system/system_error.hpp \
+  /usr/include/boost/iterator/iterator_facade.hpp \
+  /usr/include/boost/iterator/interoperable.hpp \
+  /usr/include/boost/mpl/bool.hpp \
+  /usr/include/boost/mpl/bool_fwd.hpp \
+  /usr/include/boost/mpl/aux_/adl_barrier.hpp \
+  /usr/include/boost/mpl/aux_/config/adl.hpp \
+  /usr/include/boost/mpl/aux_/config/msvc.hpp \
+  /usr/include/boost/mpl/aux_/config/intel.hpp \
+  /usr/include/boost/mpl/aux_/config/gcc.hpp \
+  /usr/include/boost/mpl/aux_/config/workaround.hpp \
+  /usr/include/boost/mpl/integral_c_tag.hpp \
+  /usr/include/boost/mpl/aux_/config/static_constant.hpp \
+  /usr/include/boost/mpl/or.hpp \
+  /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp \
+  /usr/include/boost/mpl/aux_/nested_type_wknd.hpp \
+  /usr/include/boost/mpl/aux_/na_spec.hpp \
+  /usr/include/boost/mpl/lambda_fwd.hpp \
+  /usr/include/boost/mpl/void_fwd.hpp \
+  /usr/include/boost/mpl/aux_/na.hpp \
+  /usr/include/boost/mpl/aux_/na_fwd.hpp \
+  /usr/include/boost/mpl/aux_/config/ctps.hpp \
+  /usr/include/boost/mpl/aux_/config/lambda.hpp \
+  /usr/include/boost/mpl/aux_/config/ttp.hpp \
+  /usr/include/boost/mpl/int.hpp \
+  /usr/include/boost/mpl/int_fwd.hpp \
+  /usr/include/boost/mpl/aux_/nttp_decl.hpp \
+  /usr/include/boost/mpl/aux_/config/nttp.hpp \
+  /usr/include/boost/mpl/aux_/integral_wrapper.hpp \
+  /usr/include/boost/mpl/aux_/static_cast.hpp \
+  /usr/include/boost/preprocessor/cat.hpp \
+  /usr/include/boost/preprocessor/config/config.hpp \
+  /usr/include/boost/mpl/aux_/lambda_arity_param.hpp \
+  /usr/include/boost/mpl/aux_/template_arity_fwd.hpp \
+  /usr/include/boost/mpl/aux_/arity.hpp \
+  /usr/include/boost/mpl/aux_/config/dtp.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/params.hpp \
+  /usr/include/boost/mpl/aux_/config/preprocessor.hpp \
+  /usr/include/boost/preprocessor/comma_if.hpp \
+  /usr/include/boost/preprocessor/punctuation/comma_if.hpp \
+  /usr/include/boost/preprocessor/control/if.hpp \
+  /usr/include/boost/preprocessor/control/iif.hpp \
+  /usr/include/boost/preprocessor/logical/bool.hpp \
+  /usr/include/boost/preprocessor/facilities/empty.hpp \
+  /usr/include/boost/preprocessor/punctuation/comma.hpp \
+  /usr/include/boost/preprocessor/repeat.hpp \
+  /usr/include/boost/preprocessor/repetition/repeat.hpp \
+  /usr/include/boost/preprocessor/debug/error.hpp \
+  /usr/include/boost/preprocessor/detail/auto_rec.hpp \
+  /usr/include/boost/preprocessor/tuple/eat.hpp \
+  /usr/include/boost/preprocessor/inc.hpp \
+  /usr/include/boost/preprocessor/arithmetic/inc.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/enum.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+  /usr/include/boost/mpl/limits/arity.hpp \
+  /usr/include/boost/preprocessor/logical/and.hpp \
+  /usr/include/boost/preprocessor/logical/bitand.hpp \
+  /usr/include/boost/preprocessor/identity.hpp \
+  /usr/include/boost/preprocessor/facilities/identity.hpp \
+  /usr/include/boost/preprocessor/empty.hpp \
+  /usr/include/boost/preprocessor/arithmetic/add.hpp \
+  /usr/include/boost/preprocessor/arithmetic/dec.hpp \
+  /usr/include/boost/preprocessor/control/while.hpp \
+  /usr/include/boost/preprocessor/list/fold_left.hpp \
+  /usr/include/boost/preprocessor/list/detail/fold_left.hpp \
+  /usr/include/boost/preprocessor/control/expr_iif.hpp \
+  /usr/include/boost/preprocessor/list/adt.hpp \
+  /usr/include/boost/preprocessor/detail/is_binary.hpp \
+  /usr/include/boost/preprocessor/detail/check.hpp \
+  /usr/include/boost/preprocessor/logical/compl.hpp \
+  /usr/include/boost/preprocessor/list/fold_right.hpp \
+  /usr/include/boost/preprocessor/list/detail/fold_right.hpp \
+  /usr/include/boost/preprocessor/list/reverse.hpp \
+  /usr/include/boost/preprocessor/control/detail/while.hpp \
+  /usr/include/boost/preprocessor/tuple/elem.hpp \
+  /usr/include/boost/preprocessor/facilities/expand.hpp \
+  /usr/include/boost/preprocessor/facilities/overload.hpp \
+  /usr/include/boost/preprocessor/variadic/size.hpp \
+  /usr/include/boost/preprocessor/tuple/rem.hpp \
+  /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
+  /usr/include/boost/preprocessor/variadic/elem.hpp \
+  /usr/include/boost/preprocessor/arithmetic/sub.hpp \
+  /usr/include/boost/mpl/aux_/config/eti.hpp \
+  /usr/include/boost/mpl/aux_/config/overload_resolution.hpp \
+  /usr/include/boost/mpl/aux_/lambda_support.hpp \
+  /usr/include/boost/mpl/aux_/include_preprocessed.hpp \
+  /usr/include/boost/mpl/aux_/config/compiler.hpp \
+  /usr/include/boost/preprocessor/stringize.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+  /usr/include/boost/type_traits/is_convertible.hpp \
+  /usr/include/boost/type_traits/intrinsics.hpp \
+  /usr/include/boost/type_traits/is_complete.hpp \
+  /usr/include/boost/type_traits/declval.hpp \
+  /usr/include/boost/type_traits/add_rvalue_reference.hpp \
+  /usr/include/boost/type_traits/is_void.hpp \
+  /usr/include/boost/type_traits/is_reference.hpp \
+  /usr/include/boost/type_traits/is_lvalue_reference.hpp \
+  /usr/include/boost/type_traits/is_rvalue_reference.hpp \
+  /usr/include/boost/type_traits/detail/yes_no_type.hpp \
+  /usr/include/boost/static_assert.hpp \
+  /usr/include/boost/type_traits/is_arithmetic.hpp \
+  /usr/include/boost/type_traits/is_integral.hpp \
+  /usr/include/boost/type_traits/is_floating_point.hpp \
+  /usr/include/boost/type_traits/is_abstract.hpp \
+  /usr/include/boost/type_traits/add_lvalue_reference.hpp \
+  /usr/include/boost/type_traits/add_reference.hpp \
+  /usr/include/boost/iterator/detail/config_def.hpp \
+  /usr/include/boost/iterator/detail/config_undef.hpp \
+  /usr/include/boost/iterator/iterator_traits.hpp \
+  /usr/include/boost/iterator/iterator_categories.hpp \
+  /usr/include/boost/mpl/eval_if.hpp \
+  /usr/include/boost/mpl/if.hpp \
+  /usr/include/boost/mpl/aux_/value_wknd.hpp \
+  /usr/include/boost/mpl/aux_/config/integral.hpp \
+  /usr/include/boost/mpl/identity.hpp \
+  /usr/include/boost/mpl/placeholders.hpp \
+  /usr/include/boost/mpl/arg.hpp \
+  /usr/include/boost/mpl/arg_fwd.hpp \
+  /usr/include/boost/mpl/aux_/na_assert.hpp \
+  /usr/include/boost/mpl/assert.hpp \
+  /usr/include/boost/mpl/not.hpp \
+  /usr/include/boost/mpl/aux_/yes_no.hpp \
+  /usr/include/boost/mpl/aux_/config/arrays.hpp \
+  /usr/include/boost/mpl/aux_/config/gpu.hpp \
+  /usr/include/boost/mpl/aux_/config/pp_counter.hpp \
+  /usr/include/boost/mpl/aux_/arity_spec.hpp \
+  /usr/include/boost/mpl/aux_/arg_typedef.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
+  /usr/include/boost/iterator/detail/facade_iterator_category.hpp \
+  /usr/include/boost/core/use_default.hpp \
+  /usr/include/boost/mpl/and.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+  /usr/include/boost/type_traits/is_same.hpp \
+  /usr/include/boost/type_traits/is_const.hpp \
+  /usr/include/boost/detail/indirect_traits.hpp \
+  /usr/include/boost/type_traits/is_pointer.hpp \
+  /usr/include/boost/type_traits/is_class.hpp \
+  /usr/include/boost/type_traits/is_volatile.hpp \
+  /usr/include/boost/type_traits/is_member_function_pointer.hpp \
+  /usr/include/boost/type_traits/detail/is_member_function_pointer_cxx_11.hpp \
+  /usr/include/boost/type_traits/is_member_pointer.hpp \
+  /usr/include/boost/type_traits/remove_pointer.hpp \
+  /usr/include/boost/detail/select_type.hpp \
+  /usr/include/boost/iterator/detail/enable_if.hpp \
+  /usr/include/boost/core/addressof.hpp \
+  /usr/include/boost/type_traits/add_const.hpp \
+  /usr/include/boost/type_traits/remove_const.hpp \
+  /usr/include/boost/type_traits/is_pod.hpp \
+  /usr/include/boost/type_traits/is_scalar.hpp \
+  /usr/include/boost/type_traits/is_enum.hpp \
+  /usr/include/boost/mpl/always.hpp \
+  /usr/include/boost/mpl/aux_/preprocessor/default_params.hpp \
+  /usr/include/boost/mpl/apply.hpp \
+  /usr/include/boost/mpl/apply_fwd.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+  /usr/include/boost/mpl/apply_wrap.hpp \
+  /usr/include/boost/mpl/aux_/has_apply.hpp \
+  /usr/include/boost/mpl/has_xxx.hpp \
+  /usr/include/boost/mpl/aux_/type_wrapper.hpp \
+  /usr/include/boost/mpl/aux_/config/has_xxx.hpp \
+  /usr/include/boost/mpl/aux_/config/msvc_typename.hpp \
+  /usr/include/boost/preprocessor/array/elem.hpp \
+  /usr/include/boost/preprocessor/array/data.hpp \
+  /usr/include/boost/preprocessor/array/size.hpp \
+  /usr/include/boost/preprocessor/repetition/enum_params.hpp \
+  /usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
+  /usr/include/boost/mpl/aux_/config/has_apply.hpp \
+  /usr/include/boost/mpl/aux_/msvc_never_true.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
+  /usr/include/boost/mpl/lambda.hpp \
+  /usr/include/boost/mpl/bind.hpp \
+  /usr/include/boost/mpl/bind_fwd.hpp \
+  /usr/include/boost/mpl/aux_/config/bind.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
+  /usr/include/boost/mpl/next.hpp \
+  /usr/include/boost/mpl/next_prior.hpp \
+  /usr/include/boost/mpl/aux_/common_name_wknd.hpp \
+  /usr/include/boost/mpl/protect.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
+  /usr/include/boost/mpl/aux_/full_lambda.hpp \
+  /usr/include/boost/mpl/quote.hpp \
+  /usr/include/boost/mpl/void.hpp \
+  /usr/include/boost/mpl/aux_/has_type.hpp \
+  /usr/include/boost/mpl/aux_/config/bcc.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
+  /usr/include/boost/mpl/aux_/template_arity.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
+  /usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
+  /usr/include/boost/io/quoted.hpp \
+  /usr/include/boost/io/detail/buffer_fill.hpp \
+  /usr/include/boost/io/detail/ostream_guard.hpp \
+  /usr/include/boost/io/ios_state.hpp \
+  /usr/include/boost/io_fwd.hpp \
+  /usr/include/boost/functional/hash_fwd.hpp \
+  /usr/include/boost/container_hash/hash_fwd.hpp \
+  /usr/include/boost/filesystem/exception.hpp \
+  /usr/include/boost/smart_ptr/intrusive_ptr.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_convertible.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_noexcept.hpp \
+  /usr/include/boost/config/no_tr1/functional.hpp \
+  /usr/include/boost/smart_ptr/detail/operator_bool.hpp \
+  /usr/include/boost/smart_ptr/intrusive_ref_counter.hpp \
+  /usr/include/boost/smart_ptr/detail/atomic_count.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp \
+  /usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp \
+  /usr/include/boost/smart_ptr/detail/atomic_count_gcc_atomic.hpp \
+  /usr/include/boost/filesystem/directory.hpp \
+  /usr/include/boost/filesystem/file_status.hpp \
+  /usr/include/boost/detail/bitmask.hpp \
+  /usr/include/boost/core/scoped_enum.hpp \
+  /usr/include/boost/filesystem/operations.hpp \
+  /usr/include/boost/filesystem/convenience.hpp \
+  /usr/include/boost/filesystem/string_file.hpp \
+  /usr/include/boost/filesystem/fstream.hpp \
+  /usr/include/c++/11/fstream \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
+  /usr/include/c++/11/bits/fstream.tcc \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/serialization.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/bag_events.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/visibility_control.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_options.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writers/sequential_writer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/cache_consumer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/cache_buffer_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/serialized_bag_message.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_buffer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_interface.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/circular_message_cache.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_circular_buffer.hpp \
+  /usr/include/c++/11/deque \
+  /usr/include/c++/11/bits/stl_deque.h \
+  /usr/include/c++/11/bits/deque.tcc \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_converter.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_serializer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/types/introspection_message.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
+  /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_deserializer.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory_interface.hpp \
+  /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer_interfaces/base_writer_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_options.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/visibility_control.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/yaml.hpp \
+  /usr/include/yaml-cpp/yaml.h \
+  /usr/include/yaml-cpp/parser.h \
+  /usr/include/yaml-cpp/dll.h \
+  /usr/include/yaml-cpp/emitter.h \
+  /usr/include/yaml-cpp/binary.h \
+  /usr/include/yaml-cpp/emitterdef.h \
+  /usr/include/yaml-cpp/emittermanip.h \
+  /usr/include/yaml-cpp/null.h \
+  /usr/include/yaml-cpp/ostream_wrapper.h \
+  /usr/include/yaml-cpp/emitterstyle.h \
+  /usr/include/yaml-cpp/stlemitter.h \
+  /usr/include/yaml-cpp/exceptions.h \
+  /usr/include/yaml-cpp/mark.h \
+  /usr/include/yaml-cpp/noexcept.h \
+  /usr/include/yaml-cpp/traits.h \
+  /usr/include/yaml-cpp/node/node.h \
+  /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+  /usr/include/yaml-cpp/node/ptr.h \
+  /usr/include/yaml-cpp/node/type.h \
+  /usr/include/yaml-cpp/node/impl.h \
+  /usr/include/yaml-cpp/node/detail/memory.h \
+  /usr/include/yaml-cpp/node/detail/node.h \
+  /usr/include/yaml-cpp/node/detail/node_ref.h \
+  /usr/include/yaml-cpp/node/detail/node_data.h \
+  /usr/include/yaml-cpp/node/detail/node_iterator.h \
+  /usr/include/yaml-cpp/node/iterator.h \
+  /usr/include/yaml-cpp/node/detail/iterator.h \
+  /usr/include/yaml-cpp/node/convert.h \
+  /usr/include/yaml-cpp/node/detail/impl.h \
+  /usr/include/yaml-cpp/node/parse.h \
+  /usr/include/yaml-cpp/node/emit.h \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/topic_metadata.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/metadata_io.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/bag_metadata.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_factory.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_factory_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_only_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_filter.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_info_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_io_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_read_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_traits.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_write_interface.hpp \
+  /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_write_interface.hpp
 
 CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/SubModule.cpp \
   /usr/include/stdc-predef.h \
@@ -10210,8 +15050,696 @@ CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dr
   /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
   /usr/include/c++/11/bits/charconv.h \
   /usr/include/c++/11/bits/basic_string.tcc \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_uninitialized.h \
+  /usr/include/c++/11/bits/stl_tempbuf.h \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/uses_allocator.h \
+  /usr/include/c++/11/bits/unique_ptr.h \
   /usr/include/c++/11/utility \
-  /usr/include/c++/11/bits/stl_relops.h
+  /usr/include/c++/11/bits/stl_relops.h \
+  /usr/include/c++/11/tuple \
+  /usr/include/c++/11/array \
+  /usr/include/c++/11/bits/invoke.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/typeinfo \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/bits/refwrap.h \
+  /usr/include/c++/11/ext/aligned_buffer.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/exception \
+  /usr/include/c++/11/bits/exception_ptr.h \
+  /usr/include/c++/11/bits/cxxabi_init_exception.h \
+  /usr/include/c++/11/bits/nested_exception.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/c++/11/vector \
+  /usr/include/c++/11/bits/stl_vector.h \
+  /usr/include/c++/11/bits/stl_bvector.h \
+  /usr/include/c++/11/bits/vector.tcc \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
+  /usr/include/c++/11/csignal \
+  /usr/include/signal.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
+  /usr/include/x86_64-linux-gnu/bits/signum-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigval_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h \
+  /usr/include/x86_64-linux-gnu/bits/sigevent-consts.h \
+  /usr/include/x86_64-linux-gnu/bits/sigaction.h \
+  /usr/include/x86_64-linux-gnu/bits/sigcontext.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigstksz.h \
+  /usr/include/unistd.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/x86_64-linux-gnu/bits/ss_flags.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h \
+  /usr/include/x86_64-linux-gnu/bits/sigthread.h \
+  /usr/include/x86_64-linux-gnu/bits/signal_ext.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp \
+  /usr/include/c++/11/future \
+  /usr/include/c++/11/mutex \
+  /usr/include/c++/11/chrono \
+  /usr/include/c++/11/ratio \
+  /usr/include/c++/11/limits \
+  /usr/include/c++/11/ctime \
+  /usr/include/c++/11/bits/parse_numbers.h \
+  /usr/include/c++/11/system_error \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
+  /usr/include/c++/11/stdexcept \
+  /usr/include/c++/11/bits/std_mutex.h \
+  /usr/include/c++/11/bits/unique_lock.h \
+  /usr/include/c++/11/condition_variable \
+  /usr/include/c++/11/atomic \
+  /usr/include/c++/11/bits/atomic_futex.h \
+  /usr/include/c++/11/bits/std_function.h \
+  /usr/include/c++/11/bits/std_thread.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp \
+  /usr/include/c++/11/set \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/node_handle.h \
+  /usr/include/c++/11/bits/stl_set.h \
+  /usr/include/c++/11/bits/stl_multiset.h \
+  /usr/include/c++/11/bits/erase_if.h \
+  /usr/include/c++/11/thread \
+  /usr/include/c++/11/bits/this_thread_sleep.h \
+  /usr/include/c++/11/unordered_map \
+  /usr/include/c++/11/bits/hashtable.h \
+  /usr/include/c++/11/bits/hashtable_policy.h \
+  /usr/include/c++/11/bits/enable_special_members.h \
+  /usr/include/c++/11/bits/unordered_map.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp \
+  /usr/include/c++/11/algorithm \
+  /usr/include/c++/11/bits/stl_algo.h \
+  /usr/include/c++/11/bits/algorithmfwd.h \
+  /usr/include/c++/11/bits/stl_heap.h \
+  /usr/include/c++/11/bits/uniform_int_dist.h \
+  /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+  /usr/include/c++/11/functional \
+  /usr/include/c++/11/cassert \
+  /usr/include/assert.h \
+  /usr/include/c++/11/iostream \
+  /usr/include/c++/11/ostream \
+  /usr/include/c++/11/ios \
+  /usr/include/c++/11/bits/ios_base.h \
+  /usr/include/c++/11/bits/locale_classes.h \
+  /usr/include/c++/11/bits/locale_classes.tcc \
+  /usr/include/c++/11/streambuf \
+  /usr/include/c++/11/bits/streambuf.tcc \
+  /usr/include/c++/11/bits/basic_ios.h \
+  /usr/include/c++/11/bits/locale_facets.h \
+  /usr/include/c++/11/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h \
+  /usr/include/c++/11/bits/streambuf_iterator.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h \
+  /usr/include/c++/11/bits/locale_facets.tcc \
+  /usr/include/c++/11/bits/basic_ios.tcc \
+  /usr/include/c++/11/bits/ostream.tcc \
+  /usr/include/c++/11/istream \
+  /usr/include/c++/11/bits/istream.tcc \
+  /usr/include/c++/11/list \
+  /usr/include/c++/11/bits/stl_list.h \
+  /usr/include/c++/11/bits/list.tcc \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /opt/ros/humble/include/rcl/rcl/guard_condition.h \
+  /opt/ros/humble/include/rcl/rcl/allocator.h \
+  /opt/ros/humble/include/rcutils/rcutils/allocator.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h \
+  /opt/ros/humble/include/rcutils/rcutils/macros.h \
+  /opt/ros/humble/include/rcutils/rcutils/testing/fault_injection.h \
+  /opt/ros/humble/include/rcutils/rcutils/visibility_control.h \
+  /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/rcutils_ret.h \
+  /opt/ros/humble/include/rcl/rcl/context.h \
+  /opt/ros/humble/include/rmw/rmw/init.h \
+  /opt/ros/humble/include/rmw/rmw/init_options.h \
+  /opt/ros/humble/include/rmw/rmw/domain_id.h \
+  /opt/ros/humble/include/rmw/rmw/localhost.h \
+  /opt/ros/humble/include/rmw/rmw/visibility_control.h \
+  /opt/ros/humble/include/rmw/rmw/macros.h \
+  /opt/ros/humble/include/rmw/rmw/ret_types.h \
+  /opt/ros/humble/include/rmw/rmw/security_options.h \
+  /opt/ros/humble/include/rcl/rcl/arguments.h \
+  /opt/ros/humble/include/rcl/rcl/log_level.h \
+  /opt/ros/humble/include/rcl/rcl/macros.h \
+  /opt/ros/humble/include/rcl/rcl/types.h \
+  /opt/ros/humble/include/rmw/rmw/types.h \
+  /opt/ros/humble/include/rcutils/rcutils/logging.h \
+  /opt/ros/humble/include/rcutils/rcutils/error_handling.h \
+  /usr/include/c++/11/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /opt/ros/humble/include/rcutils/rcutils/snprintf.h \
+  /opt/ros/humble/include/rcutils/rcutils/time.h \
+  /opt/ros/humble/include/rcutils/rcutils/types.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/array_list.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/char_array.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/hash_map.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/string_array.h \
+  /opt/ros/humble/include/rcutils/rcutils/qsort.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/string_map.h \
+  /opt/ros/humble/include/rcutils/rcutils/types/uint8_array.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h \
+  /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_changed.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h \
+  /opt/ros/humble/include/rmw/rmw/events_statuses/requested_deadline_missed.h \
+  /opt/ros/humble/include/rmw/rmw/serialized_message.h \
+  /opt/ros/humble/include/rmw/rmw/subscription_content_filter_options.h \
+  /opt/ros/humble/include/rmw/rmw/time.h \
+  /opt/ros/humble/include/rcl/rcl/visibility_control.h \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h \
+  /opt/ros/humble/include/rcl/rcl/init_options.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdalign.h \
+  /opt/ros/humble/include/rcl/rcl/wait.h \
+  /opt/ros/humble/include/rcl/rcl/client.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/service_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/visibility_control.h \
+  /opt/ros/humble/include/rosidl_typesupport_interface/rosidl_typesupport_interface/macros.h \
+  /opt/ros/humble/include/rcl/rcl/event_callback.h \
+  /opt/ros/humble/include/rmw/rmw/event_callback_type.h \
+  /opt/ros/humble/include/rcl/rcl/node.h \
+  /opt/ros/humble/include/rcl/rcl/node_options.h \
+  /opt/ros/humble/include/rcl/rcl/domain_id.h \
+  /opt/ros/humble/include/rcl/rcl/service.h \
+  /opt/ros/humble/include/rcl/rcl/subscription.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h \
+  /opt/ros/humble/include/rmw/rmw/message_sequence.h \
+  /opt/ros/humble/include/rcl/rcl/timer.h \
+  /opt/ros/humble/include/rcl/rcl/time.h \
+  /opt/ros/humble/include/rmw/rmw/rmw.h \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h \
+  /opt/ros/humble/include/rmw/rmw/event.h \
+  /opt/ros/humble/include/rmw/rmw/publisher_options.h \
+  /opt/ros/humble/include/rmw/rmw/qos_profiles.h \
+  /opt/ros/humble/include/rmw/rmw/subscription_options.h \
+  /opt/ros/humble/include/rcl/rcl/event.h \
+  /opt/ros/humble/include/rcl/rcl/publisher.h \
+  /opt/ros/humble/include/rcpputils/rcpputils/scope_exit.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/context.hpp \
+  /usr/include/c++/11/typeindex \
+  /usr/include/c++/11/unordered_set \
+  /usr/include/c++/11/bits/unordered_set.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/macros.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/client.hpp \
+  /usr/include/c++/11/optional \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /usr/include/c++/11/variant \
+  /opt/ros/humble/include/rcl/rcl/error_handling.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/exceptions.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/join.hpp \
+  /usr/include/c++/11/iterator \
+  /usr/include/c++/11/bits/stream_iterator.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/logging.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/logging_macros.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp \
+  /opt/ros/humble/include/rcl/rcl/graph.h \
+  /opt/ros/humble/include/rmw/rmw/names_and_types.h \
+  /opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h \
+  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h \
+  /opt/ros/humble/include/rmw/rmw/topic_endpoint_info.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp \
+  /usr/include/c++/11/codecvt \
+  /usr/include/c++/11/bits/codecvt.h \
+  /usr/include/c++/11/iomanip \
+  /usr/include/c++/11/locale \
+  /usr/include/c++/11/bits/locale_facets_nonio.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h \
+  /usr/include/libintl.h \
+  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/11/bits/locale_conv.h \
+  /usr/include/c++/11/bits/quoted_string.h \
+  /opt/ros/humble/include/rcl/rcl/logging_rosout.h \
+  /opt/ros/humble/include/rmw/rmw/incompatible_qos_events_statuses.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/service_type_support.hpp \
+  /opt/ros/humble/include/rmw/rmw/error_handling.h \
+  /opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp \
+  /usr/include/c++/11/cxxabi.h \
+  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
+  /opt/ros/humble/include/rmw/rmw/impl/config.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/network_flow_endpoint.hpp \
+  /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h \
+  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h \
+  /opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/time.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/service.hpp \
+  /opt/ros/humble/include/tracetools/tracetools/tracetools.h \
+  /opt/ros/humble/include/tracetools/tracetools/config.h \
+  /opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp \
+  /opt/ros/humble/include/tracetools/tracetools/utils.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp \
+  /usr/include/c++/11/cstring \
+  /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/type_adapter.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp \
+  /usr/include/c++/11/shared_mutex \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_buffer_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/timer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/clock.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/time.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/rate.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp \
+  /opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /usr/include/c++/11/cmath \
+  /usr/include/math.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/c++/11/bits/specfun.h \
+  /usr/include/c++/11/tr1/gamma.tcc \
+  /usr/include/c++/11/tr1/special_function_util.h \
+  /usr/include/c++/11/tr1/bessel_function.tcc \
+  /usr/include/c++/11/tr1/beta_function.tcc \
+  /usr/include/c++/11/tr1/ell_integral.tcc \
+  /usr/include/c++/11/tr1/exp_integral.tcc \
+  /usr/include/c++/11/tr1/hypergeometric.tcc \
+  /usr/include/c++/11/tr1/legendre_function.tcc \
+  /usr/include/c++/11/tr1/modified_bessel_func.tcc \
+  /usr/include/c++/11/tr1/poly_hermite.tcc \
+  /usr/include/c++/11/tr1/poly_laguerre.tcc \
+  /usr/include/c++/11/tr1/riemann_zeta.tcc \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp \
+  /usr/include/c++/11/numeric \
+  /usr/include/c++/11/bits/stl_numeric.h \
+  /usr/include/c++/11/pstl/glue_numeric_defs.h \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/thread_safety_annotations.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/metric_details_interface.hpp \
+  /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/is_ros_compatible_type.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_event.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp \
+  /opt/ros/humble/include/rcutils/rcutils/shared_library.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/publisher_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_factory.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/generic_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__builder.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_services_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_time_source_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_waitables_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_options.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_publisher.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp \
+  /opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp \
+  /opt/ros/humble/include/rmw/rmw/qos_string_conversions.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_enable_topic_statistics.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_timers_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface_traits.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__traits.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters_atomically.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp \
+  /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__traits.hpp \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/parser.h \
+  /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/visibility_control.h \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_event_handler.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
+  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
+  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
+  /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/action_type_support.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp \
+  /opt/ros/humble/include/rcl_action/rcl_action/action_client.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/types.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/visibility_control.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+  /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__traits.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp \
+  /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp \
+  /usr/include/c++/11/climits \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+  /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+  /usr/include/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+  /usr/include/linux/limits.h \
+  /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp \
+  /opt/ros/humble/include/rcl_action/rcl_action/action_server.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/goal_handle.h \
+  /opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp \
+  /opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp \
+  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
+  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+  /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
+  /usr/include/c++/11/cstddef \
+  /usr/include/console_bridge/console.h \
+  /usr/include/console_bridge_export.h \
+  /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/exceptions.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/meta_object.hpp \
+  /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
+  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtypeinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrefcount.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringliteral.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhashfunctions.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qscopedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qvariant.h \
+  /usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h
 
 
 /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:
@@ -10223,6 +15751,184 @@ CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dr
 /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/ClientManager.cpp:
 
 /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Tower.hpp:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/Tower.cpp:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/RunParameter.cpp:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionServer.cpp:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/Base.cpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpserver.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpServer:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:
+
+cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:
+
+cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/PacketParser.hpp:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionClient.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborcommon.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborvalue.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QDataStream:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/Packet.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/ClientManager.hpp:
+
+cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QTextStream:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstorageinfo.h:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/readers/sequential_reader.hpp:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/reader.hpp:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:
+
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_write_interface.hpp:
+
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_read_interface.hpp:
+
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_io_interface.hpp:
+
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_info_interface.hpp:
+
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_filter.hpp:
+
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_factory.hpp:
+
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/bag_metadata.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h:
+
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/metadata_io.hpp:
+
+/usr/include/yaml-cpp/node/emit.h:
+
+/usr/include/yaml-cpp/node/detail/impl.h:
+
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_factory_interface.hpp:
+
+/usr/include/yaml-cpp/node/convert.h:
+
+/usr/include/yaml-cpp/node/detail/iterator.h:
+
+/usr/include/yaml-cpp/node/iterator.h:
+
+/usr/include/yaml-cpp/node/detail/node_iterator.h:
+
+/usr/include/yaml-cpp/node/detail/node_data.h:
+
+/usr/include/yaml-cpp/node/detail/memory.h:
+
+/usr/include/yaml-cpp/node/impl.h:
+
+/usr/include/yaml-cpp/node/type.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
+
+/usr/include/yaml-cpp/node/ptr.h:
+
+/usr/include/yaml-cpp/node/detail/iterator_fwd.h:
+
+/usr/include/yaml-cpp/noexcept.h:
+
+/usr/include/yaml-cpp/mark.h:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:
+
+/usr/include/yaml-cpp/stlemitter.h:
+
+/usr/include/yaml-cpp/ostream_wrapper.h:
+
+/usr/include/yaml-cpp/null.h:
+
+/usr/include/yaml-cpp/binary.h:
+
+/usr/include/yaml-cpp/emitter.h:
+
+/usr/include/yaml-cpp/dll.h:
+
+/usr/include/yaml-cpp/node/detail/node.h:
+
+/usr/include/yaml-cpp/parser.h:
+
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/yaml.hpp:
+
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/visibility_control.hpp:
+
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_options.hpp:
+
+/opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h:
+
+/opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/types/introspection_message.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpSocket:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_serializer.hpp:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter.hpp:
+
+/usr/include/c++/11/bits/deque.tcc:
+
+/usr/include/c++/11/bits/stl_deque.h:
+
+/usr/include/c++/11/deque:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/circular_message_cache.hpp:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_buffer.hpp:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache.hpp:
+
+/usr/include/yaml-cpp/yaml.h:
+
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/serialized_bag_message.hpp:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/cache_buffer_interface.hpp:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/bag_events.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h:
 
@@ -10236,67 +15942,103 @@ CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dr
 
 /usr/include/boost/filesystem/operations.hpp:
 
-/usr/include/boost/core/scoped_enum.hpp:
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
 
-/usr/include/boost/detail/bitmask.hpp:
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
 
-/usr/include/boost/filesystem/file_status.hpp:
+/usr/include/boost/preprocessor/facilities/identity.hpp:
 
-/usr/include/boost/filesystem/directory.hpp:
+/usr/include/c++/11/tr1/ell_integral.tcc:
 
-/usr/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp:
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
 
-/usr/include/boost/smart_ptr/detail/atomic_count.hpp:
+/usr/include/x86_64-linux-gnu/bits/endian.h:
 
-/usr/include/boost/smart_ptr/intrusive_ref_counter.hpp:
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_traits.hpp:
 
-/usr/include/boost/smart_ptr/detail/sp_noexcept.hpp:
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
 
-/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
 
-/usr/include/boost/filesystem/exception.hpp:
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
 
-/usr/include/boost/functional/hash_fwd.hpp:
+/opt/ros/humble/include/rmw/rmw/time.h:
 
-/usr/include/boost/io_fwd.hpp:
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
 
-/usr/include/boost/io/ios_state.hpp:
+/usr/include/boost/cerrno.hpp:
 
-/usr/include/boost/io/detail/ostream_guard.hpp:
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
 
-/usr/include/boost/io/detail/buffer_fill.hpp:
+/usr/include/boost/type_traits/add_rvalue_reference.hpp:
 
-/usr/include/boost/io/quoted.hpp:
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
+/opt/ros/humble/include/rmw/rmw/qos_profiles.h:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp:
 
-/usr/include/boost/mpl/aux_/template_arity.hpp:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
 
-/usr/include/boost/mpl/aux_/config/bcc.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
 
-/usr/include/boost/mpl/aux_/has_type.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:
 
-/usr/include/boost/mpl/void.hpp:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h:
 
-/usr/include/boost/mpl/quote.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp:
 
-/usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
 
-/usr/include/boost/mpl/protect.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp:
 
-/usr/include/boost/mpl/aux_/common_name_wknd.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:
 
-/usr/include/boost/mpl/next_prior.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
 
-/usr/include/boost/mpl/next.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
 
-/usr/include/boost/mpl/aux_/config/bind.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/rate.hpp:
 
-/usr/include/boost/mpl/lambda.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h:
+
+/usr/include/c++/11/shared_mutex:
+
+/opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
+
+/usr/include/signal.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QPointer:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
+
+/usr/include/boost/type_traits/is_member_pointer.hpp:
+
+/opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/publisher_base.hpp:
 
@@ -10314,15 +16056,35 @@ CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dr
 
 /opt/ros/humble/include/rcl/rcl/logging_rosout.h:
 
+cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
+
+/usr/include/yaml-cpp/node/node.h:
+
+/usr/include/c++/11/bits/locale_conv.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h:
 
 /usr/include/c++/11/bits/locale_facets_nonio.tcc:
 
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
+
+/usr/include/boost/type_traits/is_pointer.hpp:
+
 /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/c++/11/cxxabi.h:
+
+/usr/include/boost/mpl/aux_/arity_spec.hpp:
+
+/usr/include/c++/11/bits/basic_ios.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h:
 
 /usr/include/boost/type_traits/detail/yes_no_type.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
+
+/usr/include/boost/preprocessor/list/reverse.hpp:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp:
 
@@ -10330,11 +16092,19 @@ CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dr
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/describe_parameters.hpp:
 
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:
+
+/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject:
+
+/opt/ros/humble/include/rcutils/rcutils/logging.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QObject:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:
 
@@ -10346,15 +16116,25 @@ CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dr
 
 /usr/include/x86_64-linux-gnu/bits/xopen_lim.h:
 
+/usr/include/boost/core/scoped_enum.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/utilities.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
 
 /opt/ros/humble/include/rcpputils/rcpputils/visibility_control.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_base_interface.hpp:
 
+/usr/include/boost/mpl/void.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/logger.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/type_support_decl.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:
+
+/usr/include/c++/11/tr1/hypergeometric.tcc:
 
 /opt/ros/humble/include/rclcpp/rclcpp/exceptions/exceptions.hpp:
 
@@ -10362,13 +16142,35 @@ CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dr
 
 /usr/include/c++/11/optional:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h:
+
+/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
+
 /usr/include/c++/11/condition_variable:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_interface.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types.h:
+
+/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/guard_condition.hpp:
 
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/ClientManager.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
+
+/opt/ros/humble/include/tracetools/tracetools/tracetools.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/visibility_control.hpp:
 
@@ -10376,25 +16178,31 @@ CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dr
 
 /usr/include/c++/11/bits/stl_vector.h:
 
-/opt/ros/humble/include/rmw/rmw/qos_profiles.h:
+/opt/ros/humble/include/rcl/rcl/event.h:
 
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/service_type_support_decl.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpServer:
-
 /usr/include/boost/mpl/aux_/config/ttp.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_has_gcc_intrinsics.hpp:
 
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/sequence_bound.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h:
+/opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.h:
 
 /opt/ros/humble/include/rcl/rcl/time.h:
+
+/usr/include/yaml-cpp/exceptions.h:
 
 /usr/include/c++/11/bits/stl_iterator_base_types.h:
 
 /usr/include/boost/preprocessor/list/fold_left.hpp:
+
+/usr/include/boost/mpl/aux_/config/static_constant.hpp:
+
+/opt/ros/humble/include/rcl/rcl/subscription.h:
 
 /usr/include/boost/preprocessor/config/config.hpp:
 
@@ -10403,6 +16211,8 @@ CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dr
 /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:
 
 /opt/ros/humble/include/rcl/rcl/domain_id.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
 
 /opt/ros/humble/include/rcl/rcl/node.h:
 
@@ -10424,13 +16234,31 @@ CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dr
 
 /opt/ros/humble/include/rcl_yaml_param_parser/rcl_yaml_param_parser/types.h:
 
+/usr/include/c++/11/codecvt:
+
 /usr/include/c++/11/bits/allocated_ptr.h:
 
-/usr/include/c++/11/codecvt:
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionClient.cpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
+
+/opt/ros/humble/include/rcl/rcl/visibility_control.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
+
+/usr/include/boost/io/detail/buffer_fill.hpp:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/offered_deadline_missed.h:
 
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/visibility_control.hpp:
+
 /opt/ros/humble/include/rmw/rmw/events_statuses/message_lost.h:
+
+/usr/include/c++/11/tr1/bessel_function.tcc:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h:
+
+/usr/include/boost/type_traits/declval.hpp:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/liveliness_lost.h:
 
@@ -10440,13 +16268,19 @@ CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dr
 
 /usr/include/c++/11/bit:
 
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_deserializer.hpp:
+
 /opt/ros/humble/include/rmw/rmw/qos_policy_kind.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h:
 
+/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+
 /usr/include/c++/11/bits/list.tcc:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h:
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
 
 /opt/ros/humble/include/rmw/rmw/rmw.h:
 
@@ -10462,11 +16296,21 @@ CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dr
 
 /opt/ros/humble/include/rcutils/rcutils/types.h:
 
+/opt/ros/humble/include/rcutils/rcutils/time.h:
+
+/usr/include/boost/preprocessor/array/data.hpp:
+
 /opt/ros/humble/include/rcutils/rcutils/snprintf.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h:
+
+/opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/error_handling.h:
 
 /opt/ros/humble/include/rmw/rmw/types.h:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/expand_topic_or_service_name.hpp:
 
@@ -10476,11 +16320,29 @@ CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o: /home/dlyvern/Projects/Dr
 
 /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:
 
-cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:
+/opt/ros/humble/include/rmw/rmw/ret_types.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:
+
+/usr/include/boost/type_traits/is_function.hpp:
+
+/opt/ros/humble/include/rmw/rmw/macros.h:
 
 /opt/ros/humble/include/rmw/rmw/visibility_control.h:
 
 /usr/include/c++/11/type_traits:
+
+/usr/include/c++/11/tr1/modified_bessel_func.tcc:
+
+/usr/include/c++/11/bits/ostream.tcc:
+
+/opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp:
+
+/opt/ros/humble/include/rmw/rmw/localhost.h:
+
+/usr/include/boost/type_traits/decay.hpp:
+
+/usr/include/boost/smart_ptr/intrusive_ref_counter.hpp:
 
 /opt/ros/humble/include/rmw/rmw/domain_id.h:
 
@@ -10490,6 +16352,12 @@ cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/visibility_control.hpp:
 
+/opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h:
+
+/opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
+
+/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h:
+
 /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h:
 
 /opt/ros/humble/include/rcutils/rcutils/macros.h:
@@ -10498,9 +16366,33 @@ cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h:
+
+/opt/ros/humble/include/rcl/rcl/guard_condition.h:
+
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__functions.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/ring_buffer_implementation.hpp:
+/usr/include/c++/11/bits/stl_multimap.h:
+
+/usr/include/c++/11/bits/stl_map.h:
+
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:
+
+/usr/include/c++/11/map:
+
+/usr/include/c++/11/list:
+
+/usr/include/c++/11/clocale:
+
+/usr/include/c++/11/bits/istream.tcc:
+
+/usr/include/c++/11/istream:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/ctype_base.h:
 
@@ -10510,223 +16402,41 @@ cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:
 
 /usr/include/c++/11/cwctype:
 
+/usr/include/string.h:
+
+/usr/include/c++/11/bits/streambuf.tcc:
+
+/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
+
+/usr/include/boost/preprocessor/control/if.hpp:
+
+/usr/include/c++/11/ext/aligned_buffer.h:
+
+/usr/include/c++/11/bits/locale_classes.h:
+
 /usr/include/c++/11/ostream:
 
-/usr/include/boost/system/detail/system_category_posix.hpp:
+/usr/include/yaml-cpp/emitterdef.h:
 
-/usr/include/boost/type_traits/is_rvalue_reference.hpp:
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
 
-/usr/include/c++/11/bits/stl_set.h:
+/usr/include/c++/11/cassert:
 
-/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
 
-/opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h:
+/usr/include/boost/type_traits/is_member_function_pointer.hpp:
 
-/usr/include/c++/11/bits/std_mutex.h:
+/usr/include/c++/11/bits/uniform_int_dist.h:
 
-/usr/include/c++/11/bits/codecvt.h:
-
-/opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h:
-
-/usr/include/linux/close_range.h:
-
-/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
-
-/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
-
-/usr/include/c++/11/bits/functexcept.h:
-
-/opt/ros/humble/include/rcl/rcl/init_options.h:
-
-/opt/ros/humble/include/rcutils/rcutils/allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
-
-/usr/include/x86_64-linux-gnu/sys/ucontext.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
-
-/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigaction.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h:
-
-/usr/include/boost/preprocessor/cat.hpp:
-
-/usr/include/c++/11/bits/quoted_string.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h:
-
-/usr/include/x86_64-linux-gnu/bits/signal_ext.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__struct.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h:
-
-/usr/include/c++/11/bits/enable_special_members.h:
-
-/usr/include/boost/preprocessor/control/iif.hpp:
-
-/opt/ros/humble/include/rmw/rmw/localhost.h:
-
-/usr/include/boost/type_traits/decay.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp:
-
-/opt/ros/humble/include/tracetools/tracetools/utils.hpp:
-
-/opt/ros/humble/include/rcl/rcl/subscription.h:
-
-/usr/include/boost/mpl/aux_/config/static_constant.hpp:
-
-/usr/include/c++/11/bits/exception_defines.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:
-
-/usr/include/boost/smart_ptr/detail/operator_bool.hpp:
-
-/usr/include/c++/11/cerrno:
-
-/opt/ros/humble/include/rclcpp/rclcpp/function_traits.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h:
-
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h:
-
-/usr/include/c++/11/bits/parse_numbers.h:
-
-/usr/include/c++/11/ctime:
-
-/usr/include/boost/system/system_error.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h:
-
-/usr/include/c++/11/bits/stl_multimap.h:
-
-/usr/include/c++/11/bits/stl_map.h:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_initialization.hpp:
-
-/usr/include/boost/mpl/aux_/config/msvc.hpp:
-
-/usr/include/c++/11/bits/stl_tree.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:
-
-/usr/include/c++/11/map:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
-
-/opt/ros/humble/include/rmw/rmw/qos_string_conversions.h:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
-
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:
-
-/opt/ros/humble/include/rcl/rcl/log_level.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h:
-
-/usr/include/boost/preprocessor/empty.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h:
-
-/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdbool.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qbasicatomic.h:
-
-/usr/include/x86_64-linux-gnu/bits/local_lim.h:
-
-/usr/include/c++/11/bits/locale_conv.h:
-
-cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
-
-/usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
-
-/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
-
-/usr/include/boost/type_traits/remove_extent.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
-
-/usr/include/c++/11/tuple:
-
-/usr/include/c++/11/list:
-
-/usr/include/c++/11/numeric:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h:
+/usr/include/c++/11/bits/stl_algo.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/init_options.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h:
+/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
+/usr/include/c++/11/bits/stl_set.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h:
-
-/usr/include/c++/11/exception:
+/opt/ros/humble/include/action_msgs/action_msgs/msg/rosidl_generator_c__visibility_control.h:
 
 /usr/include/c++/11/ext/concurrence.h:
 
@@ -10736,17 +16446,25 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /usr/include/c++/11/pstl/pstl_config.h:
 
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/SubModule.cpp:
+
+/usr/include/c++/11/cmath:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h:
+
 /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonobject.h:
-
 /usr/include/boost/mpl/bool.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/timer_t.h:
 
 /usr/include/c++/11/bits/std_function.h:
+
+/usr/include/c++/11/bits/quoted_string.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__struct.hpp:
 
 /opt/ros/humble/include/rcl/rcl/types.h:
 
@@ -10760,55 +16478,39 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /usr/include/boost/mpl/aux_/config/has_xxx.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
-
-/usr/include/time.h:
-
 /usr/include/x86_64-linux-gnu/bits/cpu-set.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainertools_impl.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/message_memory_strategy.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/generic_publisher.hpp:
-
-/usr/include/c++/11/ratio:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h:
-
-/opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp:
 
 /usr/include/c++/11/bits/unordered_map.h:
 
 /usr/include/boost/type_traits/is_arithmetic.hpp:
 
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_initialization.h:
+/usr/include/boost/mpl/bool_fwd.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/ros_message_intra_process_buffer.hpp:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__builder.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/endian.h:
+/usr/include/c++/11/bits/shared_ptr_base.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+/usr/include/c++/11/bits/basic_string.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
+/usr/include/boost/type_traits/remove_reference.hpp:
 
-/usr/include/sched.h:
+/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/set_parameters_result.hpp:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/quuid.h:
 
-/usr/include/signal.h:
+/usr/include/c++/11/bits/specfun.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/waitable.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h:
-
-/usr/include/c++/11/bits/refwrap.h:
-
-/usr/include/c++/11/istream:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h:
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
 
 /usr/include/c++/11/ext/new_allocator.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/sigcontext.h:
+
+/opt/ros/humble/include/rmw/rmw/qos_string_conversions.h:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__type_support.h:
 
 /opt/ros/humble/include/rcl/rcl/publisher.h:
 
@@ -10820,17 +16522,11 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /usr/include/c++/11/system_error:
 
-/usr/include/c++/11/bits/this_thread_sleep.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
-
-/opt/ros/humble/include/rmw/rmw/event.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
-
 /usr/include/c++/11/bits/stringfwd.h:
 
 /usr/include/boost/type_traits/remove_const.hpp:
+
+/usr/include/boost/mpl/aux_/has_type.hpp:
 
 /usr/include/c++/11/unordered_set:
 
@@ -10838,43 +16534,53 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/time_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/any_service_callback.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/floatn-common.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h:
+/usr/include/boost/filesystem/exception.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
+
+/usr/include/c++/11/bits/std_mutex.h:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
 
 /usr/include/wchar.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdlib-float.h:
 
-/usr/include/c++/11/bits/basic_ios.h:
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
+
+/usr/include/c++/11/bits/locale_classes.tcc:
+
+/usr/include/c++/11/bits/cxxabi_init_exception.h:
 
 /usr/include/c++/11/cwchar:
-
-/usr/include/unistd.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp:
-
-/usr/include/c++/11/bits/stl_algobase.h:
 
 /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h:
 
 /usr/include/c++/11/bits/string_view.tcc:
 
+/usr/include/features.h:
+
 /usr/include/c++/11/bits/functional_hash.h:
 
 /usr/include/c++/11/backward/binders.h:
 
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_converter.hpp:
+
+/opt/ros/humble/include/rcpputils/rcpputils/time.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/floatn.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h:
+
 /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/select.h:
 
 /opt/ros/humble/include/rcutils/rcutils/qsort.h:
 
@@ -10884,23 +16590,19 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/sequential_synchronization.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:
+/usr/include/x86_64-linux-gnu/bits/endianness.h:
+
+/usr/include/x86_64-linux-gnu/bits/timex.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:
 
+/usr/include/c++/11/tr1/poly_hermite.tcc:
+
+/usr/include/c++/11/bits/memoryfwd.h:
+
 /usr/include/c++/11/bits/stl_function.h:
 
-/usr/include/c++/11/cxxabi.h:
-
-/usr/include/boost/mpl/aux_/arity_spec.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:
-
 /usr/include/c++/11/ext/type_traits.h:
-
-/usr/include/c++/11/csignal:
-
-/usr/include/c++/11/pstl/glue_memory_defs.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h:
 
@@ -10910,21 +16612,15 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h:
 
-/usr/include/strings.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/environments.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
-
 /usr/include/c++/11/atomic:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h:
+/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
+/opt/ros/humble/include/rmw/rmw/event.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
+
+/usr/include/c++/11/bits/this_thread_sleep.h:
 
 /usr/include/c++/11/bits/stl_construct.h:
 
@@ -10938,9 +16634,15 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/byteswap.h:
 
-/usr/include/c++/11/bits/move.h:
+/usr/include/c++/11/tr1/special_function_util.h:
 
-/opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h:
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts-arch.h:
+
+/opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp:
+
+/opt/ros/humble/include/rcl/rcl/allocator.h:
 
 /usr/include/c++/11/bits/alloc_traits.h:
 
@@ -10956,25 +16658,33 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /opt/ros/humble/include/rcl/rcl/network_flow_endpoints.h:
 
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:
+/usr/include/c++/11/tuple:
 
-/usr/include/pthread.h:
+/usr/include/x86_64-linux-gnu/bits/types/sig_atomic_t.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:
+/usr/include/boost/mpl/aux_/config/msvc.hpp:
+
+/usr/include/c++/11/bits/stl_tree.h:
+
+/usr/include/boost/preprocessor/detail/is_binary.hpp:
+
+/usr/include/c++/11/bits/stl_relops.h:
 
 /usr/include/x86_64-linux-gnu/qt5/QtCore/qcompilerdetection.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h:
-
-/usr/include/c++/11/bits/unique_ptr.h:
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory.hpp:
 
 /usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
-/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
+/usr/include/c++/11/bits/streambuf_iterator.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
+/opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp:
 
-/usr/include/c++/11/streambuf:
+/usr/include/c++/11/tr1/beta_function.tcc:
+
+/usr/include/c++/11/tr1/poly_laguerre.tcc:
+
+/usr/include/c++/11/array:
 
 /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp:
 
@@ -10986,9 +16696,21 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp:
 
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/Command.cpp:
+
+/usr/include/boost/mpl/aux_/value_wknd.hpp:
+
 /usr/include/c++/11/new:
 
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/TCPClient.hpp:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h:
+
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
+
+/usr/include/boost/config/user.hpp:
+
+/usr/include/boost/iterator/detail/config_def.hpp:
 
 /usr/include/c++/11/ext/atomicity.h:
 
@@ -10996,17 +16718,9 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
+/usr/include/x86_64-linux-gnu/bits/sigevent-consts.h:
 
-/usr/include/c++/11/algorithm:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h:
-
-/usr/include/c++/11/initializer_list:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h:
 
 /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:
 
@@ -11018,7 +16732,11 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/time64.h:
 
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionServer.cpp:
+/usr/include/c++/11/ctime:
+
+/usr/include/boost/system/system_error.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
@@ -11030,51 +16748,57 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /opt/ros/humble/include/class_loader/class_loader/register_macro.hpp:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
+
+cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
+
+/usr/include/strings.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/event.hpp:
+
 /usr/include/c++/11/locale:
 
-/opt/ros/humble/include/rmw/rmw/ret_types.h:
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
 
-/usr/include/c++/11/cassert:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/moving_average.hpp:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp:
-
-/usr/include/boost/type_traits/is_function.hpp:
-
-/opt/ros/humble/include/rmw/rmw/macros.h:
+/usr/include/ctype.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h:
 
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/PacketParser.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
+
+/opt/ros/humble/include/rcl/rcl/graph.h:
 
 /usr/include/c++/11/bits/exception_ptr.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
-
-/usr/include/c++/11/bits/charconv.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__traits.hpp:
 
 /usr/include/math.h:
 
-/usr/include/c++/11/bits/atomic_futex.h:
+/usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h:
 
-/usr/include/c++/11/cstring:
+/usr/include/c++/11/bits/charconv.h:
+
+/opt/ros/humble/include/tracetools/tracetools/config.h:
+
+/usr/include/c++/11/debug/assertions.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
+/usr/include/c++/11/functional:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
+/usr/include/linux/errno.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
 
 /usr/include/c++/11/debug/debug.h:
+
+/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
+
+/usr/include/c++/11/tr1/legendre_function.tcc:
 
 /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h:
 
@@ -11082,11 +16806,25 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h:
+/usr/include/x86_64-linux-gnu/bits/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
+
+/usr/include/boost/preprocessor/cat.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/confname.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs-64.h:
 
 /usr/include/x86_64-linux-gnu/sys/select.h:
+
+/usr/include/c++/11/bits/stl_algobase.h:
+
+/usr/include/unistd.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/floating_point_range__struct.hpp:
+
+/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__traits.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h:
 
@@ -11096,29 +16834,27 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:
+/usr/include/c++/11/bits/cxxabi_forced.h:
 
-/usr/include/boost/mpl/aux_/config/workaround.hpp:
+/usr/include/c++/11/bits/codecvt.h:
 
-/usr/include/c++/11/chrono:
+/opt/ros/humble/include/rcpputils/rcpputils/join.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.h:
 
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp:
+/opt/ros/humble/include/tracetools/tracetools/utils.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__traits.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h:
-
-/usr/include/c++/11/debug/assertions.h:
-
-/opt/ros/humble/include/tracetools/tracetools/config.h:
+/usr/include/linux/close_range.h:
 
 /usr/include/c++/11/typeindex:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h:
 
 /usr/include/x86_64-linux-gnu/asm/errno.h:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_circular_buffer.hpp:
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status.hpp:
 
@@ -11128,33 +16864,37 @@ cw_serv_autogen/UBWT7CTH6J/moc_PacketParser.cpp:
 
 /opt/ros/humble/include/rmw/rmw/events_statuses/incompatible_qos.h:
 
+/usr/include/yaml-cpp/node/parse.h:
+
+/usr/include/boost/iterator/iterator_traits.hpp:
+
+/usr/include/boost/smart_ptr/detail/atomic_count_gcc_atomic.hpp:
+
 cw_serv_autogen/mocs_compilation.cpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter.hpp:
 
 /usr/include/c++/11/bits/hashtable.h:
 
-/opt/ros/humble/include/tracetools/tracetools/tracetools.h:
-
-/usr/include/boost/iterator/detail/config_def.hpp:
-
-/usr/include/boost/config/user.hpp:
-
 /usr/include/stdc-predef.h:
-
-/usr/include/boost/mpl/aux_/config/preprocessor.hpp:
-
-/usr/include/c++/11/ext/numeric_traits.h:
 
 /usr/include/x86_64-linux-gnu/bits/sigstack.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__struct.hpp:
 
-/usr/include/features.h:
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_options.hpp:
 
-/opt/ros/humble/include/rcl/rcl/graph.h:
+/usr/include/c++/11/bits/functexcept.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/serialization.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_core.h:
+
+/opt/ros/humble/include/rcl/rcl/init_options.h:
+
+/opt/ros/humble/include/rcutils/rcutils/allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__sigval_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -11164,9 +16904,9 @@ cw_serv_autogen/mocs_compilation.cpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/qos_event.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+/usr/include/c++/11/cstring:
 
-/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+/usr/include/c++/11/bits/atomic_futex.h:
 
 /usr/include/c++/11/backward/auto_ptr.h:
 
@@ -11178,16 +16918,6 @@ cw_serv_autogen/mocs_compilation.cpp:
 
 /usr/include/c++/11/ext/alloc_traits.h:
 
-/usr/include/x86_64-linux-gnu/bits/floatn.h:
-
-/opt/ros/humble/include/rcpputils/rcpputils/time.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h:
-
-cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h:
-
 /usr/include/c++/11/iterator:
 
 /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp:
@@ -11198,9 +16928,7 @@ cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/wchar.h:
 
-/usr/include/boost/preprocessor/variadic/size.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
 
 /opt/ros/humble/include/rmw/rmw/get_topic_names_and_types.h:
 
@@ -11208,39 +16936,19 @@ cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/subscription_callback_type_helper.hpp:
 
-/opt/ros/humble/include/rcutils/rcutils/time.h:
+/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
 
-/usr/include/boost/preprocessor/array/data.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h:
-
-/usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
-
-/usr/include/c++/11/bits/std_thread.h:
-
-/usr/include/c++/11/bits/stream_iterator.h:
-
-/usr/include/c++/11/bits/cpp_type_traits.h:
-
-/usr/include/endian.h:
-
-/usr/include/c++/11/bits/stl_iterator_base_funcs.h:
-
-/usr/include/c++/11/bits/streambuf.tcc:
-
-/usr/include/boost/preprocessor/control/if.hpp:
+/usr/include/c++/11/bits/exception.h:
 
 /usr/include/c++/11/bits/stl_uninitialized.h:
 
-/usr/include/boost/type_traits/is_member_pointer.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h:
-
-/opt/ros/humble/include/rcutils/rcutils/shared_library.h:
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp:
 
 /usr/include/c++/11/iostream:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/c++/11/bits/node_handle.h:
 
@@ -11251,6 +16959,16 @@ cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
 /usr/include/boost/type_traits/is_const.hpp:
 
 /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__struct.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
+
+/usr/include/boost/mpl/aux_/config/integral.hpp:
+
+/usr/include/c++/11/bits/align.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_value.hpp:
 
@@ -11264,25 +16982,17 @@ cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
 
 /usr/include/boost/mpl/aux_/yes_no.hpp:
 
-/opt/ros/humble/include/rmw/rmw/time.h:
-
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__traits.hpp:
-
 /opt/ros/humble/include/rcl/rcl/wait.h:
 
 /usr/include/c++/11/bits/predefined_ops.h:
 
 /usr/include/x86_64-linux-gnu/bits/typesizes.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborvalue.h:
-
 /opt/ros/humble/include/rmw/rmw/topic_endpoint_info_array.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/storage_policy_common.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobal.h:
 
 /opt/ros/humble/include/rmw/rmw/publisher_options.h:
 
@@ -11290,19 +17000,9 @@ cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
 
 /usr/include/c++/11/bits/nested_exception.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsonvalue.h:
-
-/usr/include/boost/type_traits/is_convertible.hpp:
-
-/usr/include/boost/mpl/aux_/nttp_decl.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:
-
-/usr/include/boost/type_traits/detail/is_function_cxx_11.hpp:
+/usr/include/c++/11/bits/parse_numbers.h:
 
 /usr/include/c++/11/bits/atomic_lockfree_defines.h:
-
-/usr/include/c++/11/bits/cxxabi_forced.h:
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__type_support.h:
 
@@ -11312,15 +17012,13 @@ cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
-/usr/include/x86_64-linux-gnu/bits/confname.h:
+/usr/include/x86_64-linux-gnu/c++/11/bits/ctype_inline.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h:
+/opt/ros/humble/include/rcl/rcl/log_level.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h:
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/boost/type_traits/is_pod.hpp:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic_cxx11.h:
 
 /opt/ros/humble/include/rmw/rmw/subscription_options.h:
 
@@ -11328,15 +17026,9 @@ cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
 
 /usr/include/asm-generic/errno-base.h:
 
-/usr/include/linux/errno.h:
+/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:
 
-/usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h:
-
-/usr/include/c++/11/functional:
-
-/usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_value__traits.hpp:
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/c++/11/cstdint:
 
@@ -11350,25 +17042,25 @@ cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
 
 /usr/include/boost/iterator/iterator_facade.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/contexts/default_context.hpp:
+/opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qnamespace.h:
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
 
-/usr/include/c++/11/tr1/bessel_function.tcc:
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp:
 
-/usr/include/boost/type_traits/declval.hpp:
+/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:
 
-/usr/include/c++/11/bits/istream.tcc:
+/usr/include/x86_64-linux-gnu/bits/siginfo-consts.h:
 
-/usr/include/c++/11/clocale:
+/usr/include/c++/11/streambuf:
 
-/opt/ros/humble/include/rcl/rcl/event.h:
+/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_publisher_payload.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__functions.h:
 
 /usr/include/x86_64-linux-gnu/bits/locale.h:
 
-/usr/include/c++/11/pstl/glue_numeric_defs.h:
+/usr/include/x86_64-linux-gnu/bits/posix1_lim.h:
 
 /opt/ros/humble/include/rcutils/rcutils/visibility_control_macros.h:
 
@@ -11376,29 +17068,31 @@ cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
 
 /usr/include/c++/11/iomanip:
 
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_write_interface.hpp:
+
 /usr/include/c++/11/cctype:
 
 /usr/include/c++/11/unordered_map:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:
 
-/usr/include/boost/mpl/bind_fwd.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
+/usr/include/boost/io_fwd.hpp:
+
+/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp:
+
+/usr/include/c++/11/numeric:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h:
 
 /usr/include/boost/mpl/apply.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h:
-
-/usr/include/c++/11/cstdlib:
-
-/usr/include/c++/11/string_view:
 
 /usr/include/boost/preprocessor/detail/auto_rec.hpp:
 
@@ -11406,27 +17100,41 @@ cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
 
 /usr/include/boost/type_traits/is_complete.hpp:
 
+/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
+
 /usr/include/stdlib.h:
 
 /usr/include/boost/type_traits/remove_pointer.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
 
-/usr/include/c++/11/future:
-
-/usr/include/c++/11/ext/aligned_buffer.h:
-
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/traits.hpp:
-
-/usr/include/c++/11/bits/cxxabi_init_exception.h:
-
-/usr/include/c++/11/bits/locale_classes.tcc:
-
-/usr/include/x86_64-linux-gnu/sys/types.h:
-
 /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/message_type_support_decl.hpp:
 
+/usr/include/c++/11/bits/stl_heap.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
+
+/usr/include/c++/11/bits/std_abs.h:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writers/sequential_writer.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp:
+
+/opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
+
 /usr/include/c++/11/cstdio:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/wordsize.h:
+
+/usr/include/c++/11/chrono:
+
+/usr/include/x86_64-linux-gnu/bits/sigthread.h:
+
+/usr/include/boost/mpl/protect.hpp:
 
 /usr/include/stdio.h:
 
@@ -11434,19 +17142,7 @@ cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h:
 
-/opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/message_type_support_struct.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QPointer:
-
-/usr/include/c++/11/string:
-
-/opt/ros/humble/include/rmw/rmw/security_options.h:
-
-/usr/include/boost/mpl/aux_/full_lambda.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/errno.h:
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h:
 
@@ -11460,25 +17156,21 @@ cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
 
 /usr/include/boost/preprocessor/repeat.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h:
-
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/Packet.hpp:
-
 /usr/include/c++/11/bits/algorithmfwd.h:
 
 /usr/include/c++/11/bits/basic_string.tcc:
 
-/usr/include/boost/smart_ptr/intrusive_ptr.hpp:
-
-/opt/ros/humble/include/rcl_action/rcl_action/goal_handle.h:
-
-/usr/include/c++/11/cstddef:
+/usr/include/x86_64-linux-gnu/bits/sigaction.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/filesystem_helper.hpp:
 
 /usr/include/boost/type_traits/is_lvalue_reference.hpp:
 
 /opt/ros/humble/include/rcutils/rcutils/types/array_list.h:
+
+/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h:
 
@@ -11488,395 +17180,151 @@ cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:
 
 /usr/include/c++/11/bits/vector.tcc:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
-
-/usr/include/c++/11/bits/exception.h:
-
-/usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h:
-
-/opt/ros/humble/include/rclcpp_action/rclcpp_action/visibility_control.hpp:
-
-/usr/include/boost/mpl/bind.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
-
-/usr/include/boost/mpl/aux_/msvc_never_true.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
-
-/usr/include/c++/11/pstl/glue_algorithm_defs.h:
-
-/usr/include/c++/11/stdexcept:
-
-/opt/ros/humble/include/rmw/rmw/events_statuses/events_statuses.h:
-
-/opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__type_support.h:
-
-/opt/ros/humble/include/rcutils/rcutils/types/string_array.h:
-
-/opt/ros/humble/include/rcl/rcl/allocator.h:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h:
-
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/time.hpp:
-
-/usr/include/ctype.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_base_interface.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
-
-/usr/include/c++/11/limits:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:
-
-/usr/include/x86_64-linux-gnu/bits/siginfo-arch.h:
-
-/usr/include/x86_64-linux-gnu/bits/time.h:
-
-/usr/include/x86_64-linux-gnu/bits/select.h:
-
-/usr/include/c++/11/bits/stl_relops.h:
-
-/usr/include/boost/preprocessor/detail/is_binary.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h:
-
-/usr/include/x86_64-linux-gnu/bits/sigstksz.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qpoint.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/create_intra_process_buffer.hpp:
-
-/usr/include/c++/11/bits/stl_algo.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h:
-
-/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h:
-
-/opt/ros/humble/include/rcl_action/rcl_action/types.h:
-
-/usr/include/boost/mpl/aux_/value_wknd.hpp:
-
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/Command.cpp:
-
-/opt/ros/humble/include/rcl/rcl/visibility_control.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/set_parameters.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:
-
-/usr/include/c++/11/bits/std_abs.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__traits.hpp:
-
-/opt/ros/humble/include/rcpputils/rcpputils/pointer_traits.hpp:
-
-/usr/include/c++/11/bits/stl_heap.h:
-
-/usr/include/c++/11/bits/hashtable_policy.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:
-
-/usr/include/c++/11/bits/basic_ios.tcc:
-
-/usr/include/c++/11/bits/ptr_traits.h:
-
-/usr/include/stdint.h:
-
-/usr/include/c++/11/bits/erase_if.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/timex.h:
-
-/usr/include/x86_64-linux-gnu/bits/endianness.h:
-
-/usr/include/boost/mpl/bool_fwd.hpp:
-
-/usr/include/boost/config/compiler/gcc.hpp:
-
-/usr/include/boost/iterator/interoperable.hpp:
-
-/usr/include/boost/filesystem/config.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h:
-
-/usr/include/boost/type_traits/is_reference.hpp:
-
-/usr/include/c++/11/bits/allocator.h:
-
-/usr/include/linux/limits.h:
-
-/usr/include/boost/mpl/always.hpp:
-
-/usr/include/c++/11/bits/shared_ptr_base.h:
-
-/usr/include/c++/11/bits/basic_string.h:
-
-/usr/include/c++/11/bits/locale_classes.h:
-
-/usr/include/string.h:
-
-/opt/ros/humble/include/rmw/rmw/impl/cpp/demangle.hpp:
-
-/usr/include/boost/config/no_tr1/functional.hpp:
-
-/usr/include/c++/11/stdlib.h:
-
-/opt/ros/humble/include/class_loader/class_loader/visibility_control.hpp:
-
-/usr/include/c++/11/bits/streambuf_iterator.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h:
-
-cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
-
-/usr/include/boost/preprocessor/facilities/empty.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h:
-
-/usr/include/c++/11/bits/ios_base.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
-
-/usr/include/c++/11/ios:
-
-/usr/include/c++/11/utility:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
-
-/usr/include/c++/11/tr1/ell_integral.tcc:
-
-/usr/include/c++/11/tr1/exp_integral.tcc:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h:
-
-/opt/ros/humble/include/rmw/rmw/network_flow_endpoint.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_base.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/parameter_map.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/any_subscription_callback.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_common.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/message_info.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters_atomically__builder.hpp:
-
-/usr/include/boost/smart_ptr/detail/atomic_count_gcc_atomic.hpp:
-
-/usr/include/boost/iterator/iterator_traits.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__struct.hpp:
-
-/usr/include/c++/11/shared_mutex:
-
-/opt/ros/humble/include/rclcpp/rclcpp/create_generic_subscription.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_base.hpp:
-
-/usr/include/c++/11/bits/align.h:
-
-/usr/include/boost/mpl/aux_/config/integral.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/buffer_implementation_base.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/clock.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_content_filter_options.hpp:
-
-/usr/include/boost/preprocessor/list/reverse.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/timer.hpp:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/time.hpp:
-
-/usr/include/limits.h:
-
-/usr/include/c++/11/tr1/riemann_zeta.tcc:
-
-/usr/include/c++/11/bits/uniform_int_dist.h:
-
-/usr/include/boost/type_traits/is_member_function_pointer.hpp:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__builder.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/intra_process_setting.hpp:
-
-/opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__traits.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/rate.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_use_intra_process.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
-
-/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_options.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/synchronization_policy_common.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_payload.hpp:
-
-/usr/include/boost/type_traits/remove_reference.hpp:
-
-/opt/ros/humble/include/rclcpp/rclcpp/qos_overriding_options.hpp:
-
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__builder.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/goal_info.h:
+/usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
 /usr/include/c++/11/bits/stl_list.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics_state.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/subscription_traits.hpp:
+/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:
 
-/usr/include/boost/type_traits/is_pointer.hpp:
+/usr/include/c++/11/pstl/glue_memory_defs.h:
 
-/opt/ros/humble/include/rclcpp_action/rclcpp_action/exceptions.hpp:
+/usr/include/c++/11/csignal:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:
+/usr/include/c++/11/string:
 
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp:
+/opt/ros/humble/include/rmw/rmw/security_options.h:
 
-/opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp:
+/usr/include/x86_64-linux-gnu/bits/errno.h:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:
+/usr/lib/gcc/x86_64-linux-gnu/11/include/stdarg.h:
 
-/usr/include/boost/type_traits/add_rvalue_reference.hpp:
+/usr/include/x86_64-linux-gnu/bits/ss_flags.h:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:
+/usr/include/c++/11/tr1/gamma.tcc:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__builder.hpp:
+/opt/ros/humble/include/rmw/rmw/message_sequence.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_topics_interface.hpp:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/set_parameters__builder.hpp:
 
-/opt/ros/humble/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__traits.hpp:
+/usr/include/sched.h:
 
-/usr/include/boost/cerrno.hpp:
+/usr/include/x86_64-linux-gnu/bits/types/sigevent_t.h:
 
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/moving_average_statistics/types.hpp:
+/usr/include/c++/11/bits/ptr_traits.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/describe_parameters__struct.hpp:
+/usr/include/endian.h:
 
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/SubModule.cpp:
+/usr/include/c++/11/bits/stream_iterator.h:
 
-/usr/include/c++/11/cmath:
+/usr/include/c++/11/bits/cpp_type_traits.h:
 
-/opt/ros/humble/include/rclcpp/rclcpp/detail/qos_parameters.hpp:
+/usr/include/stdint.h:
 
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+/usr/include/c++/11/bits/erase_if.h:
 
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+/usr/include/x86_64-linux-gnu/bits/types/stack_t.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h:
+/opt/ros/humble/include/rclcpp_action/rclcpp_action/server_goal_handle.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+/usr/include/c++/11/bits/hashtable_policy.h:
 
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+/usr/include/x86_64-linux-gnu/bits/posix_opt.h:
 
-/usr/include/c++/11/bits/stl_multiset.h:
+/usr/include/c++/11/bits/exception_defines.h:
+
+/usr/include/c++/11/bits/refwrap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h:
+
+/usr/include/x86_64-linux-gnu/bits/environments.h:
+
+/usr/include/c++/11/ext/numeric_traits.h:
+
+/usr/include/boost/mpl/aux_/config/preprocessor.hpp:
+
+/usr/include/time.h:
+
+/usr/include/x86_64-linux-gnu/bits/getopt_posix.h:
+
+/usr/include/x86_64-linux-gnu/bits/unistd_ext.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__FILE.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/yaml-cpp/traits.h:
+
+/usr/include/x86_64-linux-gnu/sys/types.h:
+
+/usr/include/c++/11/future:
+
+/usr/include/c++/11/ratio:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/resolve_intra_process_buffer_type.hpp:
+
+/opt/ros/humble/include/class_loader/class_loader/class_loader.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/types/struct_sigstack.h:
+
+/usr/include/c++/11/limits:
+
+/usr/include/c++/11/ios:
+
+/usr/include/c++/11/utility:
+
+/opt/ros/humble/include/rclcpp/rclcpp/detail/cpp_callback_trampoline.hpp:
+
+/usr/include/c++/11/stdexcept:
+
+/usr/include/c++/11/bits/std_thread.h:
 
 /usr/include/x86_64-linux-gnu/gnu/stubs.h:
 
 /usr/include/x86_64-linux-gnu/bits/fp-fast.h:
 
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp:
+/usr/include/c++/11/bits/stl_multiset.h:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+/usr/include/boost/system/detail/system_category_posix.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory_interface.hpp:
 
-/opt/ros/humble/include/rmw/rmw/message_sequence.h:
+/usr/include/boost/type_traits/is_rvalue_reference.hpp:
 
-/usr/include/c++/11/tr1/gamma.tcc:
+/opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:
 
-/usr/include/c++/11/tr1/special_function_util.h:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_value.hpp:
 
-/usr/include/c++/11/tr1/beta_function.tcc:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvarlengtharray.h:
 
-/usr/include/c++/11/tr1/hypergeometric.tcc:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlocale.h:
 
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__builder.hpp:
+/usr/include/c++/11/bits/basic_ios.tcc:
 
-/usr/include/x86_64-linux-gnu/bits/stdio_lim.h:
+/usr/include/x86_64-linux-gnu/bits/types/siginfo_t.h:
 
-/usr/include/c++/11/tr1/legendre_function.tcc:
+/usr/include/boost/preprocessor/facilities/empty.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/create_generic_publisher.hpp:
+/usr/include/c++/11/bits/enable_special_members.h:
 
-/usr/include/c++/11/bits/ostream.tcc:
+/usr/include/c++/11/bits/unique_ptr.h:
 
-/usr/include/c++/11/tr1/modified_bessel_func.tcc:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qshareddata.h:
 
-/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qabstractsocket.h:
+/usr/include/boost/preprocessor/control/iif.hpp:
 
-/usr/include/boost/preprocessor/facilities/identity.hpp:
+/usr/include/c++/11/bits/move.h:
 
-/usr/include/c++/11/bits/memoryfwd.h:
-
-/usr/include/c++/11/tr1/poly_hermite.tcc:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp:
-
-/usr/include/c++/11/array:
-
-/usr/include/c++/11/tr1/poly_laguerre.tcc:
-
-/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/get_node_parameters_interface.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/constants.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/topic_statistics_collector.hpp:
+/opt/ros/humble/include/rcl_action/rcl_action/goal_state_machine.h:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/collector/collector.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/subscription_intra_process_buffer.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface_traits.hpp:
+
+/usr/include/c++/11/pstl/glue_numeric_defs.h:
 
 /usr/include/c++/11/bits/atomic_base.h:
 
@@ -11896,21 +17344,29 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/loaned_message.hpp:
 
-/usr/include/boost/mpl/aux_/config/intel.hpp:
+/usr/include/boost/mpl/next_prior.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings:
+/opt/ros/humble/include/rclcpp/rclcpp/publisher_options.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h:
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsize.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/future_return_code.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/list_parameters_result.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringlist.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__builder.hpp:
 
 /usr/include/c++/11/set:
 
 /usr/include/boost/preprocessor/identity.hpp:
+
+/usr/include/boost/mpl/quote.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:
 
@@ -11922,11 +17378,9 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__traits.hpp:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QStorageInfo:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__builder.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
 
 /usr/include/c++/11/bits/char_traits.h:
 
@@ -11940,13 +17394,17 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 
 /usr/include/boost/mpl/arg_fwd.hpp:
 
-/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter__traits.hpp:
 
-/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
-
-/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmetatype.h:
 
 /opt/ros/humble/include/rcpputils/rcpputils/shared_library.hpp:
+
+/opt/ros/humble/include/rcutils/rcutils/shared_library.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h:
+
+/usr/include/boost/detail/bitmask.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface.hpp:
 
@@ -11961,6 +17419,14 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_clock_interface.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_logging_interface.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/messages_members.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/typesupport_helpers.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qgenericatomic.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_type.hpp:
 
@@ -11984,6 +17450,8 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_client.hpp:
 
+/usr/include/boost/io/ios_state.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface_traits.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_service.hpp:
@@ -11998,6 +17466,8 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp:
 
+/usr/include/yaml-cpp/node/detail/node_ref.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/set_parameters_result__traits.hpp:
 
 /usr/include/boost/config/helper_macros.hpp:
@@ -12010,9 +17480,15 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp:
 
-/opt/ros/humble/include/rcl/rcl/guard_condition.h:
+/usr/include/boost/mpl/bind.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatetime.h:
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qurl.h:
+
+/usr/include/c++/11/bits/ios_base.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_client.hpp:
 
@@ -12020,13 +17496,11 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 
 /usr/include/boost/mpl/aux_/na.hpp:
 
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/get_parameter_types.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h:
+
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameter_types__struct.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
-
-/usr/include/boost/preprocessor/inc.hpp:
-
-/usr/include/boost/preprocessor/array/size.hpp:
 
 /usr/include/c++/11/pstl/execution_defs.h:
 
@@ -12039,6 +17513,12 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__struct.hpp:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/detail/get_parameters__traits.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstring.h:
 
 /opt/ros/humble/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:
 
@@ -12068,11 +17548,29 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/parameter_service.hpp:
 
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_runtime_cpp/bounded_vector.hpp:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_event__traits.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/dynamic_storage.hpp:
+
+/usr/include/c++/11/tr1/riemann_zeta.tcc:
+
+/usr/include/limits.h:
+
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:
+
 /usr/include/c++/11/bits/stl_numeric.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription_wait_set_mask.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_result.hpp:
+
+/usr/include/boost/preprocessor/inc.hpp:
+
+/usr/include/boost/preprocessor/array/size.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_result_kind.hpp:
 
@@ -12083,20 +17581,6 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/static_storage.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp:
-
-/opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
-
-/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
-
-/usr/include/boost/preprocessor/tuple/rem.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
 
 /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h:
 
@@ -12109,6 +17593,8 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h:
 
 /opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h:
 
 /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:
 
@@ -12128,6 +17614,8 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/goal_status_array.h:
 
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_only_interface.hpp:
+
 /usr/include/locale.h:
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.h:
@@ -12135,6 +17623,8 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 /opt/ros/humble/include/action_msgs/action_msgs/srv/detail/cancel_goal__functions.h:
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__struct.hpp:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer_interfaces/base_writer_interface.hpp:
 
 /opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_period.hpp:
 
@@ -12146,29 +17636,47 @@ cw_serv_autogen/UBWT7CTH6J/moc_ClientManager.cpp:
 
 /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__traits.hpp:
 
-cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
-
 /opt/ros/humble/include/rclcpp_action/rclcpp_action/types.hpp:
 
 /usr/include/c++/11/climits:
 
+/usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h:
+
+/usr/include/boost/type_traits/remove_extent.hpp:
+
+/usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h:
+
+/usr/include/x86_64-linux-gnu/bits/local_lim.h:
+
+/usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
+
+/usr/include/c++/11/bits/allocator.h:
+
+/usr/include/linux/limits.h:
+
+/usr/include/boost/mpl/always.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/boost/type_traits/is_pod.hpp:
+
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_info__builder.hpp:
 
+/opt/ros/humble/include/rclcpp_action/rclcpp_action/client_goal_handle_impl.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h:
+
 /opt/ros/humble/include/rclcpp_action/rclcpp_action/create_client.hpp:
-
-/usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h:
-
-/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h:
-
-/opt/ros/humble/include/rcl_action/rcl_action/action_server.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/experimental/intra_process_manager.hpp:
 
 /usr/include/boost/type_traits/add_pointer.hpp:
+
+/usr/include/yaml-cpp/emitterstyle.h:
 
 /opt/ros/humble/include/rclcpp_action/rclcpp_action/server.hpp:
 
@@ -12176,11 +17684,9 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 
 /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtnetworkglobal.h:
+/opt/ros/humble/include/rcl/rcl/error_handling.h:
 
 /opt/ros/humble/include/rclcpp/rclcpp/detail/rmw_implementation_specific_subscription_payload.hpp:
-
-/opt/ros/humble/include/rcl/rcl/error_handling.h:
 
 /opt/ros/humble/include/action_msgs/action_msgs/srv/cancel_goal.hpp:
 
@@ -12195,6 +17701,22 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__struct.hpp:
 
 /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__builder.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:
+
+/opt/ros/humble/include/rmw/rmw/network_flow_endpoint_array.h:
+
+/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.hpp:
+
+/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp:
+
+/opt/ros/humble/include/libstatistics_collector/libstatistics_collector/topic_statistics_collector/received_message_age.hpp:
+
+/usr/include/boost/preprocessor/tuple/rem.hpp:
+
+/usr/include/c++/11/cstddef:
 
 /usr/include/boost/preprocessor/arithmetic/inc.hpp:
 
@@ -12216,6 +17738,172 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 
 /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp:
 
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_type__traits.hpp:
+
+/usr/include/boost/preprocessor/variadic/size.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qtcore-config.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsystemdetection.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qprocessordetection.h:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsysinfo.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlogging.h:
+
+/usr/include/c++/11/exception:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qhash.h:
+
+/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:
+
+/usr/include/boost/type_traits/detail/is_function_cxx_11.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qglobalstatic.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qnumeric.h:
+
+/usr/include/c++/11/initializer_list:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qversiontagging.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h:
+
+/opt/ros/humble/include/rcl_action/rcl_action/action_server.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h:
+
+/usr/include/boost/config/compiler/gcc.hpp:
+
+/usr/include/boost/iterator/interoperable.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:
+
+/usr/include/boost/filesystem/config.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs_impl.h:
+
+/usr/include/boost/type_traits/is_reference.hpp:
+
+/usr/include/boost/type_traits/is_convertible.hpp:
+
+/usr/include/boost/mpl/aux_/nttp_decl.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qchar.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-arch.h:
+
+/usr/include/boost/mpl/aux_/full_lambda.hpp:
+
+/usr/include/c++/11/tr1/exp_integral.tcc:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringalgorithms.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringview.h:
+
+/usr/include/pthread.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qlist.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h:
+
+/usr/include/yaml-cpp/emittermanip.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qiterator.h:
+
+/usr/include/c++/11/algorithm:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpair.h:
+
+/usr/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
+
+/usr/include/c++/11/cerrno:
+
+/usr/include/boost/smart_ptr/detail/operator_bool.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qbytearraylist.h:
+
+/usr/include/x86_64-linux-gnu/bits/types/sigval_t.h:
+
+/opt/ros/humble/include/rcl_action/rcl_action/types.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qregexp.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qstringmatcher.h:
+
+/usr/include/boost/preprocessor/empty.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_topics_interface_traits.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject_impl.h:
+
+/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/integer_range__traits.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmargins.h:
+
+/usr/include/x86_64-linux-gnu/bits/signum-generic.h:
+
+/usr/include/c++/11/cstdlib:
+
+/usr/include/c++/11/string_view:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/reader_interfaces/base_reader_interface.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/QSettings:
+
+/usr/include/boost/mpl/aux_/config/intel.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h:
+
+/usr/include/boost/mpl/aux_/config/workaround.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h:
+
+/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qsettings.h:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qmap.h:
+
 /usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer:
 
 /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:
@@ -12236,66 +17924,6 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 
 /usr/include/boost/iterator/detail/config_undef.hpp:
 
-/usr/include/boost/container_hash/hash_fwd.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qpointer.h:
-
-/usr/include/boost/mpl/aux_/config/gcc.hpp:
-
-/opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status__struct.h:
-
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/TCPClient.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpSocket:
-
-/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qcborcommon.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QByteArray:
-
-/usr/include/boost/mpl/placeholders.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QDataStream:
-
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:
-
-/opt/ros/humble/include/rcutils/rcutils/logging.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonObject:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qregularexpression.h:
-
-/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h:
-
-/usr/include/c++/11/bits/specfun.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/quuid.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/QJsonDocument:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qjsondocument.h:
-
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionClient.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpserver.h:
-
-/opt/ros/humble/include/rclcpp/rclcpp/service.hpp:
-
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionClient.cpp:
-
-/usr/include/boost/mpl/aux_/template_arity_fwd.hpp:
-
-/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/RunParameter.cpp:
-
-/opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h:
-
-/usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h:
-
 /usr/include/boost/filesystem.hpp:
 
 /usr/include/boost/preprocessor/variadic/elem.hpp:
@@ -12309,6 +17937,8 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 /usr/include/boost/config/stdlib/libstdcpp3.hpp:
 
 /usr/include/boost/config/platform/linux.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_convertible.hpp:
 
 /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:
 
@@ -12334,9 +17964,13 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 
 /usr/include/boost/type_traits/add_reference.hpp:
 
+/usr/include/boost/filesystem/file_status.hpp:
+
 /usr/include/boost/version.hpp:
 
 /usr/include/boost/type_traits/remove_bounds.hpp:
+
+/usr/include/boost/mpl/aux_/config/bind.hpp:
 
 /usr/include/boost/mpl/aux_/config/has_apply.hpp:
 
@@ -12355,6 +17989,8 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 /usr/include/boost/type_traits/is_class.hpp:
 
 /usr/include/boost/mpl/aux_/config/adl.hpp:
+
+/usr/include/boost/mpl/aux_/config/gcc.hpp:
 
 /usr/include/boost/mpl/integral_c_tag.hpp:
 
@@ -12384,11 +18020,13 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 
 /usr/include/boost/type_traits/is_scalar.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/serialized_message.hpp:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h:
+
 /usr/include/boost/mpl/aux_/static_cast.hpp:
+
+/usr/include/boost/mpl/aux_/template_arity_fwd.hpp:
 
 /opt/ros/humble/include/tracetools/tracetools/visibility_control.hpp:
 
@@ -12444,9 +18082,13 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 
 /usr/include/boost/mpl/assert.hpp:
 
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/cache_consumer.hpp:
+
 /opt/ros/humble/include/rclcpp/rclcpp/allocator/allocator_deleter.hpp:
 
 /usr/include/boost/preprocessor/control/detail/while.hpp:
+
+/usr/include/boost/smart_ptr/detail/atomic_count.hpp:
 
 /usr/include/boost/preprocessor/tuple/elem.hpp:
 
@@ -12476,6 +18118,8 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 
 /usr/include/boost/preprocessor/stringize.hpp:
 
+/usr/include/boost/mpl/next.hpp:
+
 /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
 
 /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/main.cpp:
@@ -12490,6 +18134,8 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 
 /usr/include/boost/type_traits/is_integral.hpp:
 
+/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:
+
 /usr/include/boost/type_traits/is_abstract.hpp:
 
 /opt/ros/humble/include/rcl/rcl/event_callback.h:
@@ -12502,9 +18148,17 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 
 /usr/include/boost/mpl/eval_if.hpp:
 
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qpointer.h:
+
+/usr/include/boost/container_hash/hash_fwd.hpp:
+
 /usr/include/boost/mpl/if.hpp:
 
 /usr/include/boost/mpl/identity.hpp:
+
+/usr/include/boost/mpl/aux_/template_arity.hpp:
+
+/usr/include/boost/mpl/placeholders.hpp:
 
 /usr/include/boost/mpl/not.hpp:
 
@@ -12530,9 +18184,9 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 
 /usr/include/boost/core/addressof.hpp:
 
-/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h:
-
 /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_timers_interface.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h:
 
 /usr/include/boost/type_traits/add_const.hpp:
 
@@ -12541,6 +18195,8 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 /usr/include/boost/type_traits/is_enum.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessor/default_params.hpp:
+
+/usr/include/boost/io/detail/ostream_guard.hpp:
 
 /usr/include/boost/mpl/apply_fwd.hpp:
 
@@ -12557,3 +18213,59 @@ cw_serv_autogen/UBWT7CTH6J/moc_TCPClient.cpp:
 /usr/include/boost/mpl/aux_/config/msvc_typename.hpp:
 
 /usr/include/boost/preprocessor/repetition/enum_params.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/experimental/buffers/intra_process_buffer.hpp:
+
+/usr/include/c++/11/pstl/glue_algorithm_defs.h:
+
+/usr/include/boost/mpl/aux_/msvc_never_true.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qvector.h:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+
+/usr/include/boost/mpl/lambda.hpp:
+
+/opt/ros/humble/include/rclcpp/rclcpp/wait_set.hpp:
+
+/usr/include/boost/mpl/bind_fwd.hpp:
+
+/usr/include/boost/mpl/aux_/common_name_wknd.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
+
+/usr/include/boost/mpl/aux_/config/bcc.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
+
+/usr/include/boost/io/quoted.hpp:
+
+/usr/include/boost/functional/hash_fwd.hpp:
+
+/opt/ros/humble/include/rcl_action/rcl_action/goal_handle.h:
+
+/usr/include/boost/smart_ptr/intrusive_ptr.hpp:
+
+/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtGui/qcursor.h:
+
+/usr/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
+
+/usr/include/boost/smart_ptr/detail/sp_noexcept.hpp:
+
+/usr/include/c++/11/stdlib.h:
+
+/usr/include/boost/config/no_tr1/functional.hpp:
+
+/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/topic_metadata.hpp:
+
+/opt/ros/humble/include/rclcpp_action/rclcpp_action/create_server.hpp:
+
+/usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h:
+
+/usr/include/boost/smart_ptr/detail/sp_has_sync_intrinsics.hpp:
+
+/usr/include/boost/filesystem/directory.hpp:

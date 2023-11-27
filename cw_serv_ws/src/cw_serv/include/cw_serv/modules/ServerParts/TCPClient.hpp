@@ -36,6 +36,8 @@ private:
 
     void ActionDoneCallback(const std::string& resultArgs, bool result);
 
+    void ActionFeedbackCallback(int progress);
+
 private slots:
     void ReadMessage();
 

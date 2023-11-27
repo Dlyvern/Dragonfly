@@ -247,6 +247,30 @@ cw_serv_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.s
 .PHONY : cw_serv_autogen/mocs_compilation.cpp.s
 
+src/Base.o: src/Base.cpp.o
+.PHONY : src/Base.o
+
+# target to build an object file
+src/Base.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/Base.cpp.o
+.PHONY : src/Base.cpp.o
+
+src/Base.i: src/Base.cpp.i
+.PHONY : src/Base.i
+
+# target to preprocess a source file
+src/Base.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/Base.cpp.i
+.PHONY : src/Base.cpp.i
+
+src/Base.s: src/Base.cpp.s
+.PHONY : src/Base.s
+
+# target to generate assembly for a file
+src/Base.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/Base.cpp.s
+.PHONY : src/Base.cpp.s
+
 src/actions/ActionClient.o: src/actions/ActionClient.cpp.o
 .PHONY : src/actions/ActionClient.o
 
@@ -342,6 +366,30 @@ src/cw_structs/RunParameter.s: src/cw_structs/RunParameter.cpp.s
 src/cw_structs/RunParameter.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.s
 .PHONY : src/cw_structs/RunParameter.cpp.s
+
+src/cw_structs/Tower.o: src/cw_structs/Tower.cpp.o
+.PHONY : src/cw_structs/Tower.o
+
+# target to build an object file
+src/cw_structs/Tower.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.o
+.PHONY : src/cw_structs/Tower.cpp.o
+
+src/cw_structs/Tower.i: src/cw_structs/Tower.cpp.i
+.PHONY : src/cw_structs/Tower.i
+
+# target to preprocess a source file
+src/cw_structs/Tower.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.i
+.PHONY : src/cw_structs/Tower.cpp.i
+
+src/cw_structs/Tower.s: src/cw_structs/Tower.cpp.s
+.PHONY : src/cw_structs/Tower.s
+
+# target to generate assembly for a file
+src/cw_structs/Tower.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.s
+.PHONY : src/cw_structs/Tower.cpp.s
 
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
@@ -559,6 +607,30 @@ src/modules/TCPServer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.s
 .PHONY : src/modules/TCPServer.cpp.s
 
+src/submodules/Copyist.o: src/submodules/Copyist.cpp.o
+.PHONY : src/submodules/Copyist.o
+
+# target to build an object file
+src/submodules/Copyist.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o
+.PHONY : src/submodules/Copyist.cpp.o
+
+src/submodules/Copyist.i: src/submodules/Copyist.cpp.i
+.PHONY : src/submodules/Copyist.i
+
+# target to preprocess a source file
+src/submodules/Copyist.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.i
+.PHONY : src/submodules/Copyist.cpp.i
+
+src/submodules/Copyist.s: src/submodules/Copyist.cpp.s
+.PHONY : src/submodules/Copyist.s
+
+# target to generate assembly for a file
+src/submodules/Copyist.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.s
+.PHONY : src/submodules/Copyist.cpp.s
+
 src/submodules/HardwareManager.o: src/submodules/HardwareManager.cpp.o
 .PHONY : src/submodules/HardwareManager.o
 
@@ -582,6 +654,30 @@ src/submodules/HardwareManager.s: src/submodules/HardwareManager.cpp.s
 src/submodules/HardwareManager.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.s
 .PHONY : src/submodules/HardwareManager.cpp.s
+
+src/submodules/Recorder.o: src/submodules/Recorder.cpp.o
+.PHONY : src/submodules/Recorder.o
+
+# target to build an object file
+src/submodules/Recorder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o
+.PHONY : src/submodules/Recorder.cpp.o
+
+src/submodules/Recorder.i: src/submodules/Recorder.cpp.i
+.PHONY : src/submodules/Recorder.i
+
+# target to preprocess a source file
+src/submodules/Recorder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.i
+.PHONY : src/submodules/Recorder.cpp.i
+
+src/submodules/Recorder.s: src/submodules/Recorder.cpp.s
+.PHONY : src/submodules/Recorder.s
+
+# target to generate assembly for a file
+src/submodules/Recorder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.s
+.PHONY : src/submodules/Recorder.cpp.s
 
 src/submodules/SubModule.o: src/submodules/SubModule.cpp.o
 .PHONY : src/submodules/SubModule.o
@@ -627,6 +723,9 @@ help:
 	@echo "... cw_serv_autogen/mocs_compilation.o"
 	@echo "... cw_serv_autogen/mocs_compilation.i"
 	@echo "... cw_serv_autogen/mocs_compilation.s"
+	@echo "... src/Base.o"
+	@echo "... src/Base.i"
+	@echo "... src/Base.s"
 	@echo "... src/actions/ActionClient.o"
 	@echo "... src/actions/ActionClient.i"
 	@echo "... src/actions/ActionClient.s"
@@ -639,6 +738,9 @@ help:
 	@echo "... src/cw_structs/RunParameter.o"
 	@echo "... src/cw_structs/RunParameter.i"
 	@echo "... src/cw_structs/RunParameter.s"
+	@echo "... src/cw_structs/Tower.o"
+	@echo "... src/cw_structs/Tower.i"
+	@echo "... src/cw_structs/Tower.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
@@ -666,9 +768,15 @@ help:
 	@echo "... src/modules/TCPServer.o"
 	@echo "... src/modules/TCPServer.i"
 	@echo "... src/modules/TCPServer.s"
+	@echo "... src/submodules/Copyist.o"
+	@echo "... src/submodules/Copyist.i"
+	@echo "... src/submodules/Copyist.s"
 	@echo "... src/submodules/HardwareManager.o"
 	@echo "... src/submodules/HardwareManager.i"
 	@echo "... src/submodules/HardwareManager.s"
+	@echo "... src/submodules/Recorder.o"
+	@echo "... src/submodules/Recorder.i"
+	@echo "... src/submodules/Recorder.s"
 	@echo "... src/submodules/SubModule.o"
 	@echo "... src/submodules/SubModule.i"
 	@echo "... src/submodules/SubModule.s"

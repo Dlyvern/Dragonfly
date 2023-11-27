@@ -8,7 +8,7 @@ class HardwareManager : public SubModule
 private:
     void Run() override;
 public:
-    explicit HardwareManager(std::string name);
+    explicit HardwareManager(const std::string& nameOfNode, QWidget *parent = nullptr);
 
     void Start() override;
 

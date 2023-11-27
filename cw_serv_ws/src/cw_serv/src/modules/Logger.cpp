@@ -4,12 +4,13 @@ Logger::Logger(const std::string &nameOfNode, QWidget *parent)
         : Module(nameOfNode, parent)
 {
     m_DirName = "logs";
+    m_Publisher = this->create_publisher<std_msgs::msg::String>("/cw/logger", 50);
     m_LogSub = this->create_subscription<std_msgs::msg::String>("/cw/log", 500, std::bind(&Logger::EventCallback, this, std::placeholders::_1));
 }
 
 void Logger::Start()
 {
-    LogForLogger("Logger started");
+    Log("Logger started", INFO_LEVEL_LOG);
 
     std::time_t time = std::chrono::system_clock::to_time_t( std::chrono::system_clock::now());
 
@@ -23,21 +24,21 @@ void Logger::Start()
 
     if (boost::filesystem::exists(m_DirName))
     {
-        LogForLogger(m_DirName + " already exists", WARN_LEVEL_LOG);
+        Log(m_DirName + " already exists", WARN_LEVEL_LOG);
         try
         {
             boost::filesystem::remove_all(m_DirName);
-            LogForLogger("Old " + m_DirName + " directory successfully deleted");
+            Log("Old " + m_DirName + " directory successfully deleted", INFO_LEVEL_LOG);
         }
         catch (const boost::filesystem::filesystem_error& e)
         {
-            LogForLogger("Error while deleting " + m_DirName + " error: " + e.what());
+            Log("Error while deleting " + m_DirName + " error: " + e.what(), INFO_LEVEL_LOG);
         }
     }
 
     boost::filesystem::create_directory(m_DirName);
 
-    LogForLogger("Directory " + m_DirName + " successfully created. Full path: " + boost::filesystem::canonical(m_DirName).string());
+    Log("Directory " + m_DirName + " successfully created. Full path: " + boost::filesystem::canonical(m_DirName).string(), INFO_LEVEL_LOG);
 
     boost::filesystem::path folder_path("./" + m_DirName);
 
@@ -52,7 +53,7 @@ void Logger::Start()
 
         log_file.close();
 
-        LogForLogger("Log file created successfully");
+        Log("Log file created successfully", INFO_LEVEL_LOG);
     }
 
     catch (const  boost::filesystem::filesystem_error& e)
@@ -109,6 +110,10 @@ void Logger::ProcessEvents()
                 break;
         }
 
+        std_msgs::msg::String msg;
+        msg.data = event;
+        m_Publisher->publish(msg);
+
         boost::filesystem::ofstream log_file(m_FullPathToLogFile);
 
         if (!log_file.is_open())
@@ -143,11 +148,6 @@ void Logger::CheckTime()
 //    log("Time has changed, moving logfile to " + new_file_name);
 //    std::filesystem::remove(fname);
 //    fname = new_file_name;
-}
-
-void Logger::LogForLogger(const std::string &message, int logLevel)
-{
-    m_Events.emplace_back(message + std::to_string(logLevel));
 }
 
 Logger::~Logger() = default;

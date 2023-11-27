@@ -258,6 +258,7 @@ CMakeFiles/cw_serv.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qbasictimer.h \
  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp \
  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Command.hpp \
  /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
@@ -269,32 +270,7 @@ CMakeFiles/cw_serv.dir/src/main.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
- /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
- /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
- /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp \
  /usr/include/c++/11/csignal /usr/include/signal.h \
  /usr/include/x86_64-linux-gnu/bits/signum-generic.h \
@@ -710,11 +686,6 @@ CMakeFiles/cw_serv.dir/src/main.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/thread_safe_synchronization.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_policies/detail/write_preferring_read_write_lock.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/wait_set_template.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
- /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionServer.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/rclcpp_action.hpp \
  /opt/ros/humble/include/rclcpp_action/rclcpp_action/client.hpp \
  /opt/ros/humble/include/rosidl_runtime_c/rosidl_runtime_c/action_type_support_struct.h \
@@ -776,6 +747,10 @@ CMakeFiles/cw_serv.dir/src/main.cpp.o: \
  /opt/ros/humble/include/action_msgs/action_msgs/msg/detail/goal_status_array__traits.hpp \
  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp \
  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/string.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__struct.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__builder.hpp \
+ /opt/ros/humble/include/std_msgs/std_msgs/msg/detail/string__traits.hpp \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/register_node_macro.hpp \
  /opt/ros/humble/include/class_loader/class_loader/class_loader.hpp \
  /usr/include/console_bridge/console.h \
@@ -788,6 +763,32 @@ CMakeFiles/cw_serv.dir/src/main.cpp.o: \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory_template.hpp \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_factory.hpp \
  /opt/ros/humble/include/rclcpp_components/rclcpp_components/node_instance_wrapper.hpp \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qrect.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qcolor.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qbrush.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qiodevice.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qline.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtransform.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qsharedpointer_impl.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h \
  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/ServerParts/TCPClient.hpp \
  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/QTcpSocket \
  /usr/include/x86_64-linux-gnu/qt5/QtNetwork/qtcpsocket.h \
@@ -1076,4 +1077,81 @@ CMakeFiles/cw_serv.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QDebug \
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h \
  /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp \
- /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp \
+ /opt/ros/humble/include/rclcpp/rclcpp/serialization.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/bag_events.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/visibility_control.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_options.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writers/sequential_writer.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/cache_consumer.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/cache_buffer_interface.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/serialized_bag_message.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_buffer.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_interface.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/circular_message_cache.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/cache/message_cache_circular_buffer.hpp \
+ /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
+ /usr/include/c++/11/bits/deque.tcc \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_converter.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_serializer.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/types/introspection_message.hpp \
+ /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/message_introspection.hpp \
+ /opt/ros/humble/include/rosidl_typesupport_introspection_cpp/rosidl_typesupport_introspection_cpp/visibility_control.h \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/converter_interfaces/serialization_format_deserializer.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/serialization_format_converter_factory_interface.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer_interfaces/base_writer_interface.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_options.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/visibility_control.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/yaml.hpp \
+ /usr/include/yaml-cpp/yaml.h /usr/include/yaml-cpp/parser.h \
+ /usr/include/yaml-cpp/dll.h /usr/include/yaml-cpp/emitter.h \
+ /usr/include/yaml-cpp/binary.h /usr/include/yaml-cpp/emitterdef.h \
+ /usr/include/yaml-cpp/emittermanip.h /usr/include/yaml-cpp/null.h \
+ /usr/include/yaml-cpp/ostream_wrapper.h \
+ /usr/include/yaml-cpp/emitterstyle.h /usr/include/yaml-cpp/stlemitter.h \
+ /usr/include/yaml-cpp/exceptions.h /usr/include/yaml-cpp/mark.h \
+ /usr/include/yaml-cpp/noexcept.h /usr/include/yaml-cpp/traits.h \
+ /usr/include/yaml-cpp/node/node.h \
+ /usr/include/yaml-cpp/node/detail/iterator_fwd.h \
+ /usr/include/yaml-cpp/node/ptr.h /usr/include/yaml-cpp/node/type.h \
+ /usr/include/yaml-cpp/node/impl.h \
+ /usr/include/yaml-cpp/node/detail/memory.h \
+ /usr/include/yaml-cpp/node/detail/node.h \
+ /usr/include/yaml-cpp/node/detail/node_ref.h \
+ /usr/include/yaml-cpp/node/detail/node_data.h \
+ /usr/include/yaml-cpp/node/detail/node_iterator.h \
+ /usr/include/yaml-cpp/node/iterator.h \
+ /usr/include/yaml-cpp/node/detail/iterator.h \
+ /usr/include/yaml-cpp/node/convert.h \
+ /usr/include/yaml-cpp/node/detail/impl.h \
+ /usr/include/yaml-cpp/node/parse.h /usr/include/yaml-cpp/node/emit.h \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/topic_metadata.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/metadata_io.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/bag_metadata.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_factory.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_factory_interface.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_only_interface.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_filter.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_info_interface.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_io_interface.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_read_interface.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_traits.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/read_write_interface.hpp \
+ /opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_interfaces/base_write_interface.hpp \
+ /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/reader.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/readers/sequential_reader.hpp \
+ /opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/reader_interfaces/base_reader_interface.hpp \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QStorageInfo \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qstorageinfo.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qdir.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfileinfo.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QTextStream \
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qtextstream.h

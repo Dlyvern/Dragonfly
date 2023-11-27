@@ -81,7 +81,8 @@ std::pair<std::string, bool> ActionServer::Work()
     //FIX RUN_PARAMETERS IN WORK METHOD
     try
     {
-        result = m_ExecuteFunction(m_Goals.begin()->second.begin()->second);
+        auto run_parameters = m_Goals.begin()->second.begin()->second;
+        result = m_ExecuteFunction(run_parameters);
     }
 
     catch (std::exception &ex)
@@ -134,7 +135,6 @@ rclcpp_action::CancelResponse ActionServer::HandleCancelGoal(const std::shared_p
 
     return rclcpp_action::CancelResponse::REJECT;
 }
-
 
 void ActionServer::Log(const std::string &message, int levelLog)
 {

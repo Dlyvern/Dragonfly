@@ -7,20 +7,35 @@ Robot::Robot(const std::string &nameOfNode, QWidget *parent) : Module(nameOfNode
     m_RunTimer->setInterval(GetRunInterval());
     connect(m_RunTimer, &QTimer::timeout, this, &Robot::Run);
 
+    m_SubmodulesSpinTimer = new QTimer;
+    m_SubmodulesSpinTimer->setInterval(1);
+
+    connect(m_SubmodulesSpinTimer, &QTimer::timeout, [this]
+    {
+        for(const auto&submodule : m_Submodules)
+        {
+            spin_some(submodule);
+        }
+    });
+
     allActions_["Robot"]["Enable"] = std::bind(&Robot::Enable, this, std::placeholders::_1);
     allActions_["Robot"]["DoDiagnostic"] = std::bind(&Robot::DoDiagnostic, this, std::placeholders::_1);
     allActions_["Robot"]["Disable"] = std::bind(&Robot::Disable, this, std::placeholders::_1);
+    allActions_["Robot"]["LongTest"] = std::bind(&Robot::LongTest, this, std::placeholders::_1);
 }
 
 void Robot::Start()
 {
-    m_Submodules.emplace_back(new HardwareManager("HardwareManager"));
     m_RunTimer->start();
-    std::pair<std::string, bool>result;
+    m_SubmodulesSpinTimer->start();
 }
 
 void Robot::InitSubmodules()
 {
+    m_Submodules.emplace_back(std::make_shared<HardwareManager>("HardwareManager"));
+    m_Submodules.emplace_back(std::make_shared<Recorder>("Recorder"));
+    m_Submodules.emplace_back(std::make_shared<Copyist>("Copyist"));
+
     for(const auto&sub_module : m_Submodules)
         sub_module->Start();
 }
@@ -45,6 +60,14 @@ std::pair<std::string, bool> Robot::Enable(RunParameters& runParameters)
 
     return {"robot_enabled", true};
 }
+
+std::pair<std::string, bool>Robot::Disable(RunParameters& runParameters)
+{
+    if(!m_Active) return {"robot_already_disabled", false};
+    m_Active = false;
+    return {"robot_disabled", true};
+}
+
 
 void Robot::LaunchGoose()
 {
@@ -105,7 +128,6 @@ std::pair<std::string, bool> Robot::DoDiagnostic(RunParameters& runParameters)
 
 std::pair<std::string, bool> Robot::MoveToTower(RunParameters& runParameters)
 {
-    qDebug() << runParameters.arguments.begin()->c_str();
     return {"no_tower", false};
 }
 
@@ -119,11 +141,14 @@ std::pair<std::string, bool>Robot::MoveToFurthestTower(RunParameters& runParamet
     return MoveToTower(runParameters);
 }
 
-std::pair<std::string, bool>Robot::Disable(RunParameters& runParameters)
+std::pair<std::string, bool> Robot::LongTest(RunParameters &runParameters)
 {
-    if(!m_Active) return {"robot_already_disabled", false};
-    m_Active = false;
-    return {"robot_disabled", true};
+    rclcpp::Rate rate{0.01};
+
+    for(int i = 0; i < 10; ++i)
+        rate.sleep();
+
+    return {"long_test_succeeded", true};
 }
 
 Robot::~Robot() = default;

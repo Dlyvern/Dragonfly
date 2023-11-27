@@ -46,16 +46,32 @@ set(SOURCE_FILES
 
         ${INCLUDE_DIR}/modules/ServerParts/TCPClient.hpp
         ${SRC_DIR}/modules/ServerParts/TCPClient.cpp
+
         src/modules/ServerParts/PacketParser.cpp
         include/cw_serv/modules/ServerParts/PacketParser.hpp
+
         include/cw_serv/modules/Robot.hpp
         src/modules/Robot.cpp
+
         src/submodules/SubModule.cpp
         include/cw_serv/submodules/SubModule.hpp
+
         include/cw_serv/submodules/HardwareManager.hpp
         src/submodules/HardwareManager.cpp
+
         include/cw_serv/cw_structs/RunParameters.hpp
         src/cw_structs/RunParameter.cpp
+
+        include/cw_serv/cw_structs/Tower.hpp
+        src/cw_structs/Tower.cpp
+
+        include/cw_serv/submodules/Recorder.hpp
+        src/submodules/Recorder.cpp
+
+        include/cw_serv/Base.hpp
+        src/Base.cpp
+        include/cw_serv/submodules/Copyist.hpp
+        src/submodules/Copyist.cpp
 )
 
 include(additional_cmake_lists/CMakeConfix.cmake)
@@ -65,6 +81,7 @@ find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(rclcpp_components REQUIRED)
+find_package(rosbag2_cpp REQUIRED)
 find_package(action_interface REQUIRED)
 find_package(Qt5 COMPONENTS Widgets Network REQUIRED)
 
@@ -169,6 +186,7 @@ ament_target_dependencies(${PROJECT_NAME}
         rclcpp_action
         rclcpp_components
         action_interface
+        rosbag2_cpp
 )
 
 target_link_libraries(${PROJECT_NAME}

@@ -1,6 +1,6 @@
 #include "submodules/HardwareManager.hpp"
 
-HardwareManager::HardwareManager(std::string name) : SubModule(std::move(name))
+HardwareManager::HardwareManager(const std::string& nameOfNode, QWidget *parent) : SubModule(nameOfNode, parent)
 {
 
 }

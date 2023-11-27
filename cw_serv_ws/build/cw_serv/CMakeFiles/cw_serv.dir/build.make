@@ -293,6 +293,62 @@ CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/RunParameter.cpp -o CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.s
 
+CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.o: CMakeFiles/cw_serv.dir/flags.make
+CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/Tower.cpp
+CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.o: CMakeFiles/cw_serv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.o -MF CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.o.d -o CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.o -c /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/Tower.cpp
+
+CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/Tower.cpp > CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.i
+
+CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/Tower.cpp -o CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.s
+
+CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o: CMakeFiles/cw_serv.dir/flags.make
+CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp
+CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o: CMakeFiles/cw_serv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o -MF CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o.d -o CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o -c /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp
+
+CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp > CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.i
+
+CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp -o CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.s
+
+CMakeFiles/cw_serv.dir/src/Base.cpp.o: CMakeFiles/cw_serv.dir/flags.make
+CMakeFiles/cw_serv.dir/src/Base.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/Base.cpp
+CMakeFiles/cw_serv.dir/src/Base.cpp.o: CMakeFiles/cw_serv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/cw_serv.dir/src/Base.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cw_serv.dir/src/Base.cpp.o -MF CMakeFiles/cw_serv.dir/src/Base.cpp.o.d -o CMakeFiles/cw_serv.dir/src/Base.cpp.o -c /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/Base.cpp
+
+CMakeFiles/cw_serv.dir/src/Base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cw_serv.dir/src/Base.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/Base.cpp > CMakeFiles/cw_serv.dir/src/Base.cpp.i
+
+CMakeFiles/cw_serv.dir/src/Base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw_serv.dir/src/Base.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/Base.cpp -o CMakeFiles/cw_serv.dir/src/Base.cpp.s
+
+CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o: CMakeFiles/cw_serv.dir/flags.make
+CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp
+CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o: CMakeFiles/cw_serv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o -MF CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o.d -o CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o -c /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp
+
+CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp > CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.i
+
+CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp -o CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.s
+
 # Object files for target cw_serv
 cw_serv_OBJECTS = \
 "CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o" \
@@ -310,7 +366,11 @@ cw_serv_OBJECTS = \
 "CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o" \
 "CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o" \
 "CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o" \
-"CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o"
+"CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o" \
+"CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.o" \
+"CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o" \
+"CMakeFiles/cw_serv.dir/src/Base.cpp.o" \
+"CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o"
 
 # External object files for target cw_serv
 cw_serv_EXTERNAL_OBJECTS =
@@ -331,6 +391,10 @@ cw_serv: CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o
 cw_serv: CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o
 cw_serv: CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o
 cw_serv: CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o
+cw_serv: CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.o
+cw_serv: CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o
+cw_serv: CMakeFiles/cw_serv.dir/src/Base.cpp.o
+cw_serv: CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o
 cw_serv: CMakeFiles/cw_serv.dir/build.make
 cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
@@ -346,18 +410,52 @@ cw_serv: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/li
 cw_serv: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_introspection_cpp.so
 cw_serv: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_cpp.so
 cw_serv: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_generator_py.so
+cw_serv: /opt/ros/humble/lib/librosbag2_cpp.so
 cw_serv: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 cw_serv: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.3
 cw_serv: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
 cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 cw_serv: /opt/ros/humble/lib/librcl_action.so
+cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
+cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
+cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so
+cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so
+cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so
+cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_py.so
+cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so
+cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so
+cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
+cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
+cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
+cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
+cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
+cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
+cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so
+cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
+cw_serv: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_c.so
+cw_serv: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_generator_c.so
+cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so
+cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
+cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
+cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
+cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
+cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 cw_serv: /opt/ros/humble/lib/librclcpp.so
 cw_serv: /opt/ros/humble/lib/liblibstatistics_collector.so
 cw_serv: /opt/ros/humble/lib/librcl.so
-cw_serv: /opt/ros/humble/lib/librmw_implementation.so
 cw_serv: /opt/ros/humble/lib/librcl_logging_spdlog.so
 cw_serv: /opt/ros/humble/lib/librcl_logging_interface.so
+cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
+cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
+cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
+cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
+cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
+cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
+cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
+cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
 cw_serv: /opt/ros/humble/lib/librcl_yaml_param_parser.so
 cw_serv: /opt/ros/humble/lib/libyaml.so
 cw_serv: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
@@ -369,75 +467,45 @@ cw_serv: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
 cw_serv: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
 cw_serv: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
 cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
-cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
-cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
-cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
-cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
-cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
-cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
-cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
-cw_serv: /opt/ros/humble/lib/libtracetools.so
-cw_serv: /opt/ros/humble/lib/libament_index_cpp.so
-cw_serv: /opt/ros/humble/lib/libclass_loader.so
-cw_serv: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
-cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
-cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
-cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
-cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
-cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_cpp.so
-cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
-cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_cpp.so
-cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
-cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_cpp.so
-cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
-cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_py.so
-cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
-cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_c.so
-cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
-cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_generator_c.so
-cw_serv: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
-cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
 cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
-cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
 cw_serv: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
-cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
-cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
-cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
-cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
 cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
-cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
 cw_serv: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 cw_serv: /opt/ros/humble/lib/libfastcdr.so.1.0.24
-cw_serv: /opt/ros/humble/lib/librmw.so
-cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
 cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
-cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
+cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
+cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
+cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
+cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+cw_serv: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+cw_serv: /opt/ros/humble/lib/libtracetools.so
+cw_serv: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
+cw_serv: /opt/ros/humble/lib/librosidl_typesupport_c.so
 cw_serv: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 cw_serv: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
-cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so
-cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
-cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
-cw_serv: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-cw_serv: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_c.so
-cw_serv: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_generator_c.so
-cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so
-cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
-cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
-cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
-cw_serv: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
-cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
-cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
-cw_serv: /usr/lib/x86_64-linux-gnu/libpython3.10.so
-cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
-cw_serv: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
-cw_serv: /opt/ros/humble/lib/librosidl_typesupport_c.so
-cw_serv: /opt/ros/humble/lib/librcpputils.so
+cw_serv: /opt/ros/humble/lib/librmw_implementation.so
+cw_serv: /opt/ros/humble/lib/librmw.so
 cw_serv: /opt/ros/humble/lib/librosidl_runtime_c.so
+cw_serv: /opt/ros/humble/lib/librosbag2_storage.so
+cw_serv: /opt/ros/humble/lib/libament_index_cpp.so
+cw_serv: /opt/ros/humble/lib/libclass_loader.so
+cw_serv: /opt/ros/humble/lib/librcpputils.so
 cw_serv: /opt/ros/humble/lib/librcutils.so
+cw_serv: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
+cw_serv: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+cw_serv: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
 cw_serv: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 cw_serv: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
 cw_serv: CMakeFiles/cw_serv.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Linking CXX executable cw_serv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Linking CXX executable cw_serv"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cw_serv.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

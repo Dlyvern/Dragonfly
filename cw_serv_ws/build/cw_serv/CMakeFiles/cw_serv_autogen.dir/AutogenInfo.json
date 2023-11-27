@@ -1049,6 +1049,61 @@
 		"/opt/ros/humble/share/composition_interfaces/cmake/export_composition_interfaces__rosidl_generator_pyExport-none.cmake",
 		"/opt/ros/humble/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake",
 		"/opt/ros/humble/share/composition_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake",
+		"/opt/ros/humble/share/rosbag2_cpp/cmake/rosbag2_cppConfig-version.cmake",
+		"/opt/ros/humble/share/rosbag2_cpp/cmake/rosbag2_cppConfig.cmake",
+		"/opt/ros/humble/share/rosbag2_cpp/cmake/ament_cmake_export_include_directories-extras.cmake",
+		"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake",
+		"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
+		"/opt/ros/humble/share/rosbag2_cpp/cmake/ament_cmake_export_libraries-extras.cmake",
+		"/opt/ros/humble/share/rosbag2_cpp/cmake/ament_cmake_export_targets-extras.cmake",
+		"/opt/ros/humble/share/rosbag2_cpp/cmake/export_rosbag2_cppExport.cmake",
+		"/opt/ros/humble/share/rosbag2_cpp/cmake/export_rosbag2_cppExport-none.cmake",
+		"/opt/ros/humble/share/rosbag2_cpp/cmake/ament_cmake_export_dependencies-extras.cmake",
+		"/opt/ros/humble/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig-version.cmake",
+		"/opt/ros/humble/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig.cmake",
+		"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake",
+		"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
+		"/opt/ros/humble/share/pluginlib/cmake/pluginlibConfig-version.cmake",
+		"/opt/ros/humble/share/pluginlib/cmake/pluginlibConfig.cmake",
+		"/opt/ros/humble/share/pluginlib/cmake/pluginlib-extras.cmake",
+		"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake",
+		"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
+		"/opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake",
+		"/opt/ros/humble/share/pluginlib/cmake/pluginlib_enable_plugin_testing.cmake",
+		"/opt/ros/humble/share/pluginlib/cmake/ament_cmake_export_dependencies-extras.cmake",
+		"/opt/ros/humble/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig-version.cmake",
+		"/opt/ros/humble/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig.cmake",
+		"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake",
+		"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
+		"/opt/ros/humble/share/tinyxml2_vendor/cmake/tinyxml2_vendorConfig-version.cmake",
+		"/opt/ros/humble/share/tinyxml2_vendor/cmake/tinyxml2_vendorConfig.cmake",
+		"/opt/ros/humble/share/tinyxml2_vendor/cmake/tinyxml2_vendor-extras.cmake",
+		"/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules/FindTinyXML2.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake",
+		"/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake",
+		"/opt/ros/humble/share/pluginlib/cmake/ament_cmake_export_targets-extras.cmake",
+		"/opt/ros/humble/share/pluginlib/cmake/export_pluginlibExport.cmake",
+		"/opt/ros/humble/share/rosbag2_storage/cmake/rosbag2_storageConfig-version.cmake",
+		"/opt/ros/humble/share/rosbag2_storage/cmake/rosbag2_storageConfig.cmake",
+		"/opt/ros/humble/share/rosbag2_storage/cmake/ament_cmake_export_include_directories-extras.cmake",
+		"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake",
+		"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
+		"/opt/ros/humble/share/rosbag2_storage/cmake/ament_cmake_export_libraries-extras.cmake",
+		"/opt/ros/humble/share/rosbag2_storage/cmake/ament_cmake_export_targets-extras.cmake",
+		"/opt/ros/humble/share/rosbag2_storage/cmake/export_rosbag2_storageExport.cmake",
+		"/opt/ros/humble/share/rosbag2_storage/cmake/export_rosbag2_storageExport-none.cmake",
+		"/opt/ros/humble/share/rosbag2_storage/cmake/ament_cmake_export_dependencies-extras.cmake",
+		"/opt/ros/humble/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig-version.cmake",
+		"/opt/ros/humble/share/ament_cmake_libraries/cmake/ament_cmake_librariesConfig.cmake",
+		"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake",
+		"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake",
+		"/opt/ros/humble/share/yaml_cpp_vendor/cmake/yaml_cpp_vendorConfig-version.cmake",
+		"/opt/ros/humble/share/yaml_cpp_vendor/cmake/yaml_cpp_vendorConfig.cmake",
+		"/opt/ros/humble/share/yaml_cpp_vendor/cmake/yaml_cpp_vendor-extras.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config-version.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-config.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets.cmake",
+		"/usr/lib/x86_64-linux-gnu/cmake/yaml-cpp/yaml-cpp-targets-none.cmake",
 		"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interfaceConfig-version.cmake",
 		"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interfaceConfig.cmake",
 		"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/rosidl_cmake-extras.cmake",
@@ -1193,6 +1248,7 @@
 		"/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/package_level/local_setup.sh.in",
 		"/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/package_level/local_setup.zsh.in",
 		"/opt/ros/humble/share/ament_cmake_core/cmake/index/ament_cmake_index_package_hook.cmake",
+		"/opt/ros/humble/share/pluginlib/cmake/pluginlib_package_hook.cmake",
 		"/opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_package_hook.cmake",
 		"/opt/ros/humble/share/ament_cmake_cppcheck/cmake/ament_cmake_cppcheck_lint_hook.cmake",
 		"/opt/ros/humble/share/ament_cmake_core/cmake/ament_cmake_coreConfig-version.cmake",
@@ -1213,6 +1269,12 @@
 	"DEP_FILE_RULE_NAME" : "",
 	"HEADERS" : 
 	[
+		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp",
+			"MU",
+			"LBFZCMKC7H/moc_Base.cpp",
+			null
+		],
 		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionClient.hpp",
 			"MU",
@@ -1235,6 +1297,12 @@
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/RunParameters.hpp",
 			"MU",
 			"IOOCFJDYUV/moc_RunParameters.cpp",
+			null
+		],
+		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/cw_structs/Tower.hpp",
+			"MU",
+			"IOOCFJDYUV/moc_Tower.cpp",
 			null
 		],
 		[
@@ -1286,9 +1354,21 @@
 			null
 		],
 		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp",
+			"MU",
+			"JBZNCJ465A/moc_Copyist.cpp",
+			null
+		],
+		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp",
 			"MU",
 			"JBZNCJ465A/moc_HardwareManager.cpp",
+			null
+		],
+		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp",
+			"MU",
+			"JBZNCJ465A/moc_Recorder.cpp",
 			null
 		],
 		[
@@ -1330,6 +1410,7 @@
 		"/opt/ros/humble/include/std_msgs",
 		"/opt/ros/humble/include/rclcpp_action",
 		"/opt/ros/humble/include/rclcpp_components",
+		"/opt/ros/humble/include/rosbag2_cpp",
 		"/opt/ros/humble/include/ament_index_cpp",
 		"/opt/ros/humble/include/libstatistics_collector",
 		"/opt/ros/humble/include/builtin_interfaces",
@@ -1359,6 +1440,8 @@
 		"/opt/ros/humble/include/rcl_action",
 		"/opt/ros/humble/include/class_loader",
 		"/opt/ros/humble/include/composition_interfaces",
+		"/opt/ros/humble/include/pluginlib",
+		"/opt/ros/humble/include/rosbag2_storage",
 		"/usr/include/x86_64-linux-gnu/qt5",
 		"/usr/include/x86_64-linux-gnu/qt5/QtWidgets",
 		"/usr/include/x86_64-linux-gnu/qt5/QtGui",
@@ -1398,6 +1481,11 @@
 	"SOURCES" : 
 	[
 		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/Base.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionClient.cpp",
 			"MU",
 			null
@@ -1414,6 +1502,11 @@
 		],
 		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/RunParameter.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/Tower.cpp",
 			"MU",
 			null
 		],
@@ -1463,7 +1556,17 @@
 			null
 		],
 		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp",
+			"MU",
+			null
+		],
+		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp",
 			"MU",
 			null
 		],

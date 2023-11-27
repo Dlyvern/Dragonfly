@@ -28,6 +28,7 @@ private:
     rclcpp::TimerBase::SharedPtr m_ConnectionTimer;
 
     std::function<void(const std::string& message, bool result)>m_DoneCallback;
+    std::function<void(int)>m_FeedbackCallback{nullptr};
 
     std::string m_Name{"NOT_SET"};
 
@@ -58,7 +59,7 @@ public:
 
     void NewAction(const Command &command);
 
-    void Start(std::function<void(const std::string& message, bool result)>doneCallback);
+    void Start(std::function<void(const std::string& message, bool result)>doneCallback,  std::function<void(int)>feedbackCallback = nullptr);
 };
 
 #endif //ACTION_CLIENT_HPP

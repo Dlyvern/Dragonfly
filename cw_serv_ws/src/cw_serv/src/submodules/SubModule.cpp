@@ -2,14 +2,9 @@
 
 #include <utility>
 
-SubModule::SubModule(std::string name) : m_Name{std::move(name)}
+SubModule::SubModule(const std::string& nameOfNode, QWidget *parent) : Base(nameOfNode, parent)
 {
 
-}
-
-const std::string &SubModule::GetName() const
-{
-    return m_Name;
 }
 
 SubModule::~SubModule() = default;

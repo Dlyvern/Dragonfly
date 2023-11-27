@@ -9,14 +9,27 @@
 #include "QTimer"
 #include "QDebug"
 
+#ifndef HARDWARE_MANAGER_HPP
 #include "submodules/HardwareManager.hpp"
+#endif
+
+#ifndef RECORDER_HPP
+#include "submodules/Recorder.hpp"
+#endif
+
+
+#ifndef COPYIST_HPP
+#include "submodules/Copyist.hpp"
+#endif
 
 class Robot : public Module
 {
     Q_OBJECT
 private:
 
-    std::vector<SubModule*>m_Submodules;
+    QTimer* m_SubmodulesSpinTimer;
+
+    std::vector<std::shared_ptr<SubModule>>m_Submodules;
 
     bool m_Active{false};
 
@@ -37,6 +50,9 @@ private:
     std::pair<std::string, bool> MoveToPrevTower(RunParameters& runParameters);
 
     std::pair<std::string, bool> MoveToFurthestTower(RunParameters& runParameters);
+
+
+    std::pair<std::string, bool> LongTest(RunParameters& runParameters);
 
 private slots:
     void Run() override;

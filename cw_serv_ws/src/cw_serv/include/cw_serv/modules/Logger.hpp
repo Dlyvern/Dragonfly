@@ -16,13 +16,12 @@ private:
     std::vector<std::string> m_Events;
     std::vector<std::string> m_Logs;
     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr m_LogSub;
+    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr m_Publisher;
 
     std::string m_FileName; //File where to store logs
     std::string m_DirName; //Dir where FileName will be stored
 
     boost::filesystem::path m_FullPathToLogFile;
-
-    void LogForLogger(const std::string& message, int logLevel = 0);
 
 public:
     explicit Logger(const std::string &nameOfNode, QWidget *parent = nullptr);
