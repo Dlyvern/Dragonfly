@@ -1,6 +1,0 @@
-[27-11-23 22:43:10]|[srv]: Client[Drone]:Received new message from operator: 
------------Message begin---------------
-Target: Recorder
-Operation: Enable
-Arguments: 24
------------Message end------------------[27-11-23 22:43:10]|[Action server]: Finding Recorder with function Enable[27-11-23 22:43:10]|[Recorder]: Start recording to bags[27-11-23 22:43:11]|[ActionClient]: Goal accepted by server, waiting for result[27-11-23 22:43:11]|[ActionClient]: Goal succeeded

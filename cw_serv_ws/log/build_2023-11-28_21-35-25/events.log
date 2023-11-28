@@ -1,0 +1,620 @@
+[0.000000] (-) TimerEvent: {}
+[0.000261] (action_interface) JobQueued: {'identifier': 'action_interface', 'dependencies': OrderedDict()}
+[0.000305] (cw_serv) JobQueued: {'identifier': 'cw_serv', 'dependencies': OrderedDict([('action_interface', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface')])}
+[0.000319] (action_interface) JobStarted: {'identifier': 'action_interface'}
+[0.023503] (action_interface) JobProgress: {'identifier': 'action_interface', 'progress': 'cmake'}
+[0.024497] (action_interface) JobProgress: {'identifier': 'action_interface', 'progress': 'build'}
+[0.024538] (action_interface) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface', '--', '-j12', '-l12'], 'cwd': '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dlyvern'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dlyvern'), ('OLDPWD', '/home/dlyvern/Projects/Dragonfly'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '2209'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dlyvern'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dlyvern'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dlyvernPC:@/tmp/.ICE-unix/2187,unix/dlyvernPC:/tmp/.ICE-unix/2187'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5a514c2_9b03_4179_80d6_5ae65863e3bb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQN2E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.744'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058816] (action_interface) StdoutLine: {'line': b'[  2%] Built target action_interface__cpp\n'}
+[0.076056] (action_interface) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_action_interface\n'}
+[0.089131] (action_interface) StdoutLine: {'line': b'[ 12%] Built target action_interface__rosidl_typesupport_introspection_cpp\n'}
+[0.099783] (-) TimerEvent: {}
+[0.200015] (-) TimerEvent: {}
+[0.216714] (action_interface) StdoutLine: {'line': b'running egg_info\n'}
+[0.217037] (action_interface) StdoutLine: {'line': b'writing action_interface.egg-info/PKG-INFO\n'}
+[0.217228] (action_interface) StdoutLine: {'line': b'writing dependency_links to action_interface.egg-info/dependency_links.txt\n'}
+[0.217307] (action_interface) StdoutLine: {'line': b'writing top-level names to action_interface.egg-info/top_level.txt\n'}
+[0.218735] (action_interface) StdoutLine: {'line': b"reading manifest file 'action_interface.egg-info/SOURCES.txt'\n"}
+[0.219024] (action_interface) StdoutLine: {'line': b"writing manifest file 'action_interface.egg-info/SOURCES.txt'\n"}
+[0.235212] (action_interface) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_build_action_interface_egg\n'}
+[0.248881] (action_interface) StdoutLine: {'line': b'[ 23%] Built target action_interface__rosidl_typesupport_fastrtps_cpp\n'}
+[0.261675] (action_interface) StdoutLine: {'line': b'[ 33%] Built target action_interface__rosidl_typesupport_cpp\n'}
+[0.273147] (action_interface) StdoutLine: {'line': b'[ 43%] Built target action_interface__rosidl_generator_c\n'}
+[0.285648] (action_interface) StdoutLine: {'line': b'[ 53%] Built target action_interface__rosidl_typesupport_fastrtps_c\n'}
+[0.297305] (action_interface) StdoutLine: {'line': b'[ 64%] Built target action_interface__rosidl_typesupport_c\n'}
+[0.300107] (-) TimerEvent: {}
+[0.308884] (action_interface) StdoutLine: {'line': b'[ 74%] Built target action_interface__rosidl_typesupport_introspection_c\n'}
+[0.319610] (action_interface) StdoutLine: {'line': b'[ 74%] Built target action_interface\n'}
+[0.331459] (action_interface) StdoutLine: {'line': b'[ 76%] Built target action_interface__py\n'}
+[0.343918] (action_interface) StdoutLine: {'line': b'[ 84%] Built target action_interface__rosidl_generator_py\n'}
+[0.355800] (action_interface) StdoutLine: {'line': b'[ 89%] Built target action_interface__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.367739] (action_interface) StdoutLine: {'line': b'[ 94%] Built target action_interface__rosidl_typesupport_c__pyext\n'}
+[0.379489] (action_interface) StdoutLine: {'line': b'[100%] Built target action_interface__rosidl_typesupport_introspection_c__pyext\n'}
+[0.385234] (action_interface) CommandEnded: {'returncode': 0}
+[0.400210] (-) TimerEvent: {}
+[0.420389] (action_interface) JobProgress: {'identifier': 'action_interface', 'progress': 'install'}
+[0.425385] (action_interface) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface'], 'cwd': '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dlyvern'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dlyvern'), ('OLDPWD', '/home/dlyvern/Projects/Dragonfly'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '2209'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dlyvern'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dlyvern'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dlyvernPC:@/tmp/.ICE-unix/2187,unix/dlyvernPC:/tmp/.ICE-unix/2187'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5a514c2_9b03_4179_80d6_5ae65863e3bb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQN2E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.744'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/action_interface'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.430681] (action_interface) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.430832] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/ament_index/resource_index/rosidl_interfaces/action_interface\n'}
+[0.430883] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[0.430927] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[0.430982] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.h\n'}
+[0.431014] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[0.431069] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__functions.h\n'}
+[0.431098] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__functions.c\n'}
+[0.431127] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__type_support.h\n'}
+[0.431155] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.h\n'}
+[0.431183] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg\n'}
+[0.431225] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.431252] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv\n'}
+[0.431285] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/cmd.h\n'}
+[0.431320] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail\n'}
+[0.431346] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__functions.h\n'}
+[0.431373] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__functions.c\n'}
+[0.431401] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__type_support.h\n'}
+[0.431429] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__struct.h\n'}
+[0.431456] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/library_path.sh\n'}
+[0.431506] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/library_path.dsv\n'}
+[0.431535] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_generator_c.so\n'}
+[0.431568] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[0.431594] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[0.431619] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[0.431652] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[0.431679] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg\n'}
+[0.431707] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.431738] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv\n'}
+[0.431765] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail\n'}
+[0.431810] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[0.431837] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_fastrtps_c.so\n'}
+[0.431864] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[0.431891] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[0.431947] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[0.431977] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__rosidl_typesupport_introspection_c.h\n'}
+[0.432005] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__type_support.c\n'}
+[0.432032] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg\n'}
+[0.432060] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.432089] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv\n'}
+[0.432126] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail\n'}
+[0.432179] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__rosidl_typesupport_introspection_c.h\n'}
+[0.432207] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__type_support.c\n'}
+[0.432234] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_introspection_c.so\n'}
+[0.432282] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_c.so\n'}
+[0.432308] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[0.432341] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[0.432367] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/cmd.hpp\n'}
+[0.432398] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[0.432426] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__builder.hpp\n'}
+[0.432454] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__struct.hpp\n'}
+[0.432481] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__traits.hpp\n'}
+[0.432508] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv\n'}
+[0.432534] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/cmd.hpp\n'}
+[0.432561] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail\n'}
+[0.432588] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__builder.hpp\n'}
+[0.432615] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__struct.hpp\n'}
+[0.432642] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__traits.hpp\n'}
+[0.432669] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[0.432697] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[0.432723] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[0.432749] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.432808] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/dds_fastrtps\n'}
+[0.432834] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg\n'}
+[0.432860] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.432888] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv\n'}
+[0.432928] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail\n'}
+[0.432953] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.432981] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/dds_fastrtps\n'}
+[0.433008] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.433035] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface\n'}
+[0.433062] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action\n'}
+[0.433090] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail\n'}
+[0.433117] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__type_support.cpp\n'}
+[0.433144] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/action/detail/cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.433172] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv\n'}
+[0.433230] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail\n'}
+[0.433255] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__type_support.cpp\n'}
+[0.433281] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface/action_interface/srv/detail/cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.433307] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_introspection_cpp.so\n'}
+[0.433335] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_cpp.so\n'}
+[0.433363] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/pythonpath.sh\n'}
+[0.433389] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/pythonpath.dsv\n'}
+[0.433413] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info\n'}
+[0.433438] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.433463] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.433489] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.433515] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.433539] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface\n'}
+[0.433565] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.433593] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/_action_interface_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.433621] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.433646] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.433672] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action\n'}
+[0.433731] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action/_cmd_s.c\n'}
+[0.433760] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action/_cmd.py\n'}
+[0.433786] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action/__init__.py\n'}
+[0.433811] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/_action_interface_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.433837] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/_action_interface_s.ep.rosidl_typesupport_c.c\n'}
+[0.433864] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/srv\n'}
+[0.433889] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/srv/_cmd_s.c\n'}
+[0.433918] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/srv/_cmd.py\n'}
+[0.433943] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/srv/__init__.py\n'}
+[0.433968] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/libaction_interface__rosidl_generator_py.so\n'}
+[0.433994] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/__init__.py\n'}
+[0.451830] (action_interface) StdoutLine: {'line': b"Listing '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface'...\n"}
+[0.451895] (action_interface) StdoutLine: {'line': b"Listing '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action'...\n"}
+[0.451925] (action_interface) StdoutLine: {'line': b"Listing '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/srv'...\n"}
+[0.454666] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.454774] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.454878] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages/action_interface/action_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.454993] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_generator_py.so\n'}
+[0.455065] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/action/Cmd.idl\n'}
+[0.455108] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/srv/Cmd.idl\n'}
+[0.455139] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/action/Cmd.action\n'}
+[0.455182] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/srv/Cmd.srv\n'}
+[0.455212] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/srv/Cmd_Request.msg\n'}
+[0.455241] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/srv/Cmd_Response.msg\n'}
+[0.455268] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/ament_index/resource_index/package_run_dependencies/action_interface\n'}
+[0.455303] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/ament_index/resource_index/parent_prefix_path/action_interface\n'}
+[0.455356] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/ament_prefix_path.sh\n'}
+[0.455387] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/ament_prefix_path.dsv\n'}
+[0.455416] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/path.sh\n'}
+[0.455444] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/environment/path.dsv\n'}
+[0.455471] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/local_setup.bash\n'}
+[0.455497] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/local_setup.sh\n'}
+[0.455524] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/local_setup.zsh\n'}
+[0.455551] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/local_setup.dsv\n'}
+[0.455592] (action_interface) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/package.dsv\n'}
+[0.455622] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/ament_index/resource_index/packages/action_interface\n'}
+[0.455672] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_cExport.cmake\n'}
+[0.455707] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.455813] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.455847] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.455948] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.455990] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.456079] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_cExport.cmake\n'}
+[0.456113] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.456210] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_cppExport.cmake\n'}
+[0.456324] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.456362] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.456457] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.456494] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.456600] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_cppExport.cmake\n'}
+[0.456639] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interface__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.456745] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_pyExport.cmake\n'}
+[0.456788] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/export_action_interface__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.456816] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/rosidl_cmake-extras.cmake\n'}
+[0.456854] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.456901] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.456930] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.456958] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.456984] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.457011] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.457051] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interfaceConfig.cmake\n'}
+[0.457077] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake/action_interfaceConfig-version.cmake\n'}
+[0.457103] (action_interface) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/package.xml\n'}
+[0.458573] (action_interface) CommandEnded: {'returncode': 0}
+[0.500284] (-) TimerEvent: {}
+[0.569121] (action_interface) JobEnded: {'identifier': 'action_interface', 'rc': 0}
+[0.569558] (cw_serv) JobStarted: {'identifier': 'cw_serv'}
+[0.591926] (cw_serv) JobProgress: {'identifier': 'cw_serv', 'progress': 'cmake'}
+[0.592407] (cw_serv) JobProgress: {'identifier': 'cw_serv', 'progress': 'build'}
+[0.592607] (cw_serv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv', '--', '-j12', '-l12'], 'cwd': '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dlyvern'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dlyvern'), ('OLDPWD', '/home/dlyvern/Projects/Dragonfly'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '2209'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dlyvern'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dlyvern'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dlyvernPC:@/tmp/.ICE-unix/2187,unix/dlyvernPC:/tmp/.ICE-unix/2187'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5a514c2_9b03_4179_80d6_5ae65863e3bb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQN2E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.744'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble')]), 'shell': False}
+[0.600364] (-) TimerEvent: {}
+[0.615893] (cw_serv) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem \n'}
+[0.616366] (cw_serv) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.699713] (cw_serv) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.700419] (-) TimerEvent: {}
+[0.716971] (cw_serv) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.718336] (cw_serv) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.721652] (cw_serv) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.727899] (cw_serv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.737133] (cw_serv) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.771437] (cw_serv) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.772183] (cw_serv) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800568] (-) TimerEvent: {}
+[0.842369] (cw_serv) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.900721] (-) TimerEvent: {}
+[0.935885] (cw_serv) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[0.991369] (cw_serv) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.000808] (-) TimerEvent: {}
+[1.026028] (cw_serv) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.8 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[1.042284] (cw_serv) StdoutLine: {'line': b'-- Found action_interface: 0.0.0 (/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake)\n'}
+[1.079227] (cw_serv) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.100904] (-) TimerEvent: {}
+[1.129827] (cw_serv) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.130016] (cw_serv) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv>\n'}
+[1.130087] (cw_serv) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.131333] (cw_serv) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.133783] (cw_serv) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.135489] (cw_serv) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.143886] (cw_serv) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.143957] (cw_serv) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.145190] (cw_serv) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.145706] (cw_serv) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.166502] (cw_serv) StdoutLine: {'line': b'-- Generating done\n'}
+[1.167710] (cw_serv) StdoutLine: {'line': b'-- Build files have been written to: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv\n'}
+[1.190491] (cw_serv) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mAutomatic MOC and UIC for target cw_serv\x1b[0m\n'}
+[1.200975] (-) TimerEvent: {}
+[1.301280] (-) TimerEvent: {}
+[1.401963] (-) TimerEvent: {}
+[1.502434] (-) TimerEvent: {}
+[1.533833] (cw_serv) StdoutLine: {'line': b'[  4%] Built target cw_serv_autogen\n'}
+[1.549089] (cw_serv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cw_serv\x1b[0m\n'}
+[1.586616] (cw_serv) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o\x1b[0m\n'}
+[1.602494] (-) TimerEvent: {}
+[1.702684] (-) TimerEvent: {}
+[1.802898] (-) TimerEvent: {}
+[1.903108] (-) TimerEvent: {}
+[2.003291] (-) TimerEvent: {}
+[2.103524] (-) TimerEvent: {}
+[2.203793] (-) TimerEvent: {}
+[2.303998] (-) TimerEvent: {}
+[2.404248] (-) TimerEvent: {}
+[2.504485] (-) TimerEvent: {}
+[2.604714] (-) TimerEvent: {}
+[2.704945] (-) TimerEvent: {}
+[2.805201] (-) TimerEvent: {}
+[2.905427] (-) TimerEvent: {}
+[3.005680] (-) TimerEvent: {}
+[3.105913] (-) TimerEvent: {}
+[3.206159] (-) TimerEvent: {}
+[3.306368] (-) TimerEvent: {}
+[3.406566] (-) TimerEvent: {}
+[3.506796] (-) TimerEvent: {}
+[3.606933] (-) TimerEvent: {}
+[3.707100] (-) TimerEvent: {}
+[3.807254] (-) TimerEvent: {}
+[3.907447] (-) TimerEvent: {}
+[4.007640] (-) TimerEvent: {}
+[4.107788] (-) TimerEvent: {}
+[4.207959] (-) TimerEvent: {}
+[4.308240] (-) TimerEvent: {}
+[4.339683] (cw_serv) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.o\x1b[0m\n'}
+[4.408343] (-) TimerEvent: {}
+[4.508596] (-) TimerEvent: {}
+[4.608869] (-) TimerEvent: {}
+[4.709146] (-) TimerEvent: {}
+[4.809387] (-) TimerEvent: {}
+[4.873762] (cw_serv) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o\x1b[0m\n'}
+[4.909541] (-) TimerEvent: {}
+[5.009819] (-) TimerEvent: {}
+[5.110074] (-) TimerEvent: {}
+[5.210364] (-) TimerEvent: {}
+[5.310708] (-) TimerEvent: {}
+[5.410976] (-) TimerEvent: {}
+[5.511280] (-) TimerEvent: {}
+[5.611581] (-) TimerEvent: {}
+[5.711891] (-) TimerEvent: {}
+[5.812215] (-) TimerEvent: {}
+[5.912533] (-) TimerEvent: {}
+[6.012858] (-) TimerEvent: {}
+[6.113182] (-) TimerEvent: {}
+[6.213497] (-) TimerEvent: {}
+[6.313822] (-) TimerEvent: {}
+[6.414082] (-) TimerEvent: {}
+[6.514339] (-) TimerEvent: {}
+[6.614597] (-) TimerEvent: {}
+[6.714855] (-) TimerEvent: {}
+[6.815183] (-) TimerEvent: {}
+[6.854460] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Enable(RunParameters&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.854630] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:48:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KrunParameters\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.854672] (cw_serv) StderrLine: {'line': b'   48 | std::pair<std::string, bool> Robot::Enable(\x1b[01;35m\x1b[KRunParameters& runParameters\x1b[m\x1b[K)\n'}
+[6.854702] (cw_serv) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.890730] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Disable(RunParameters&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.890870] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:64:59:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KrunParameters\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.890913] (cw_serv) StderrLine: {'line': b'   64 | std::pair<std::string, bool>Robot::Disable(\x1b[01;35m\x1b[KRunParameters& runParameters\x1b[m\x1b[K)\n'}
+[6.890942] (cw_serv) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.894199] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::MoveToTower(RunParameters&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.894279] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:129:64:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KrunParameters\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.894314] (cw_serv) StderrLine: {'line': b'  129 | std::pair<std::string, bool> Robot::MoveToTower(\x1b[01;35m\x1b[KRunParameters& runParameters\x1b[m\x1b[K)\n'}
+[6.894341] (cw_serv) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.895210] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::LongTest(RunParameters&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.895277] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:144:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KrunParameters\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.895310] (cw_serv) StderrLine: {'line': b'  144 | std::pair<std::string, bool> Robot::LongTest(\x1b[01;35m\x1b[KRunParameters &runParameters\x1b[m\x1b[K)\n'}
+[6.895338] (cw_serv) StderrLine: {'line': b'      |                                              \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.915318] (-) TimerEvent: {}
+[7.015554] (-) TimerEvent: {}
+[7.115899] (-) TimerEvent: {}
+[7.216238] (-) TimerEvent: {}
+[7.316516] (-) TimerEvent: {}
+[7.416840] (-) TimerEvent: {}
+[7.517163] (-) TimerEvent: {}
+[7.617478] (-) TimerEvent: {}
+[7.717801] (-) TimerEvent: {}
+[7.794929] (cw_serv) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o\x1b[0m\n'}
+[7.817872] (-) TimerEvent: {}
+[7.918065] (-) TimerEvent: {}
+[8.018316] (-) TimerEvent: {}
+[8.118574] (-) TimerEvent: {}
+[8.218837] (-) TimerEvent: {}
+[8.319148] (-) TimerEvent: {}
+[8.419520] (-) TimerEvent: {}
+[8.519730] (-) TimerEvent: {}
+[8.620027] (-) TimerEvent: {}
+[8.720335] (-) TimerEvent: {}
+[8.820597] (-) TimerEvent: {}
+[8.920924] (-) TimerEvent: {}
+[9.021246] (-) TimerEvent: {}
+[9.121583] (-) TimerEvent: {}
+[9.221887] (-) TimerEvent: {}
+[9.322340] (-) TimerEvent: {}
+[9.422667] (-) TimerEvent: {}
+[9.522980] (-) TimerEvent: {}
+[9.623297] (-) TimerEvent: {}
+[9.652373] (cw_serv) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o\x1b[0m\n'}
+[9.723461] (-) TimerEvent: {}
+[9.823773] (-) TimerEvent: {}
+[9.924034] (-) TimerEvent: {}
+[10.024347] (-) TimerEvent: {}
+[10.124679] (-) TimerEvent: {}
+[10.225002] (-) TimerEvent: {}
+[10.325316] (-) TimerEvent: {}
+[10.425630] (-) TimerEvent: {}
+[10.525883] (-) TimerEvent: {}
+[10.626198] (-) TimerEvent: {}
+[10.726466] (-) TimerEvent: {}
+[10.826789] (-) TimerEvent: {}
+[10.927107] (-) TimerEvent: {}
+[11.027426] (-) TimerEvent: {}
+[11.127745] (-) TimerEvent: {}
+[11.228063] (-) TimerEvent: {}
+[11.328382] (-) TimerEvent: {}
+[11.428638] (-) TimerEvent: {}
+[11.513262] (cw_serv) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o\x1b[0m\n'}
+[11.528728] (-) TimerEvent: {}
+[11.628922] (-) TimerEvent: {}
+[11.636956] (cw_serv) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.o\x1b[0m\n'}
+[11.729030] (-) TimerEvent: {}
+[11.743684] (cw_serv) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o\x1b[0m\n'}
+[11.829196] (-) TimerEvent: {}
+[11.929453] (-) TimerEvent: {}
+[12.029721] (-) TimerEvent: {}
+[12.130024] (-) TimerEvent: {}
+[12.230359] (-) TimerEvent: {}
+[12.330681] (-) TimerEvent: {}
+[12.430968] (-) TimerEvent: {}
+[12.531230] (-) TimerEvent: {}
+[12.631548] (-) TimerEvent: {}
+[12.731863] (-) TimerEvent: {}
+[12.832121] (-) TimerEvent: {}
+[12.932441] (-) TimerEvent: {}
+[13.032768] (-) TimerEvent: {}
+[13.133005] (-) TimerEvent: {}
+[13.233319] (-) TimerEvent: {}
+[13.333617] (-) TimerEvent: {}
+[13.433888] (-) TimerEvent: {}
+[13.534147] (-) TimerEvent: {}
+[13.634460] (-) TimerEvent: {}
+[13.665047] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<std::__cxx11::basic_string<char>, bool> Recorder::Enable(RunParameters&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.665195] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:28:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KrunParameters\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.665234] (cw_serv) StderrLine: {'line': b'   28 | std::pair<std::string, bool> Recorder::Enable(\x1b[01;35m\x1b[KRunParameters &runParameters\x1b[m\x1b[K)\n'}
+[13.665266] (cw_serv) StderrLine: {'line': b'      |                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.734569] (-) TimerEvent: {}
+[13.834886] (-) TimerEvent: {}
+[13.935200] (-) TimerEvent: {}
+[14.035525] (-) TimerEvent: {}
+[14.135786] (-) TimerEvent: {}
+[14.236045] (-) TimerEvent: {}
+[14.336312] (-) TimerEvent: {}
+[14.436652] (-) TimerEvent: {}
+[14.536967] (-) TimerEvent: {}
+[14.637291] (-) TimerEvent: {}
+[14.737619] (-) TimerEvent: {}
+[14.837881] (-) TimerEvent: {}
+[14.938130] (-) TimerEvent: {}
+[15.038422] (-) TimerEvent: {}
+[15.138730] (-) TimerEvent: {}
+[15.239061] (-) TimerEvent: {}
+[15.339375] (-) TimerEvent: {}
+[15.439624] (-) TimerEvent: {}
+[15.539854] (-) TimerEvent: {}
+[15.640165] (-) TimerEvent: {}
+[15.740487] (-) TimerEvent: {}
+[15.840719] (-) TimerEvent: {}
+[15.940963] (-) TimerEvent: {}
+[16.041183] (-) TimerEvent: {}
+[16.141364] (-) TimerEvent: {}
+[16.241601] (-) TimerEvent: {}
+[16.341911] (-) TimerEvent: {}
+[16.442185] (-) TimerEvent: {}
+[16.542437] (-) TimerEvent: {}
+[16.642741] (-) TimerEvent: {}
+[16.743055] (-) TimerEvent: {}
+[16.843422] (-) TimerEvent: {}
+[16.943728] (-) TimerEvent: {}
+[17.043996] (-) TimerEvent: {}
+[17.120715] (cw_serv) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/Base.cpp.o\x1b[0m\n'}
+[17.144145] (-) TimerEvent: {}
+[17.244420] (-) TimerEvent: {}
+[17.344758] (-) TimerEvent: {}
+[17.445078] (-) TimerEvent: {}
+[17.545336] (-) TimerEvent: {}
+[17.645563] (-) TimerEvent: {}
+[17.745751] (-) TimerEvent: {}
+[17.846008] (-) TimerEvent: {}
+[17.946271] (-) TimerEvent: {}
+[18.046451] (-) TimerEvent: {}
+[18.146767] (-) TimerEvent: {}
+[18.247102] (-) TimerEvent: {}
+[18.347423] (-) TimerEvent: {}
+[18.447746] (-) TimerEvent: {}
+[18.548080] (-) TimerEvent: {}
+[18.648398] (-) TimerEvent: {}
+[18.748721] (-) TimerEvent: {}
+[18.849038] (-) TimerEvent: {}
+[18.949346] (-) TimerEvent: {}
+[19.049661] (-) TimerEvent: {}
+[19.149914] (-) TimerEvent: {}
+[19.250204] (-) TimerEvent: {}
+[19.350464] (-) TimerEvent: {}
+[19.450725] (-) TimerEvent: {}
+[19.550978] (-) TimerEvent: {}
+[19.651206] (-) TimerEvent: {}
+[19.751388] (-) TimerEvent: {}
+[19.851611] (-) TimerEvent: {}
+[19.951847] (-) TimerEvent: {}
+[20.052060] (-) TimerEvent: {}
+[20.087225] (cw_serv) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o\x1b[0m\n'}
+[20.152218] (-) TimerEvent: {}
+[20.252471] (-) TimerEvent: {}
+[20.352714] (-) TimerEvent: {}
+[20.452970] (-) TimerEvent: {}
+[20.553185] (-) TimerEvent: {}
+[20.653353] (-) TimerEvent: {}
+[20.753520] (-) TimerEvent: {}
+[20.853724] (-) TimerEvent: {}
+[20.953916] (-) TimerEvent: {}
+[21.054083] (-) TimerEvent: {}
+[21.154261] (-) TimerEvent: {}
+[21.254506] (-) TimerEvent: {}
+[21.354716] (-) TimerEvent: {}
+[21.454963] (-) TimerEvent: {}
+[21.555222] (-) TimerEvent: {}
+[21.655471] (-) TimerEvent: {}
+[21.755659] (-) TimerEvent: {}
+[21.855904] (-) TimerEvent: {}
+[21.956147] (-) TimerEvent: {}
+[21.976160] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<std::__cxx11::basic_string<char>, bool> Copyist::CopyFromBagsToFlash(RunParameters&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[21.976278] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:32:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KrunParameters\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[21.976319] (cw_serv) StderrLine: {'line': b'   32 | std::pair<std::string, bool> Copyist::CopyFromBagsToFlash(\x1b[01;35m\x1b[KRunParameters &runParameters\x1b[m\x1b[K)\n'}
+[21.976348] (cw_serv) StderrLine: {'line': b'      |                                                           \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[22.056245] (-) TimerEvent: {}
+[22.156438] (-) TimerEvent: {}
+[22.256732] (-) TimerEvent: {}
+[22.356983] (-) TimerEvent: {}
+[22.457263] (-) TimerEvent: {}
+[22.557583] (-) TimerEvent: {}
+[22.657858] (-) TimerEvent: {}
+[22.758187] (-) TimerEvent: {}
+[22.858448] (-) TimerEvent: {}
+[22.864237] (cw_serv) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/ClientManager.cpp.o\x1b[0m\n'}
+[22.864448] (cw_serv) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.o\x1b[0m\n'}
+[22.864515] (cw_serv) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/Packet.cpp.o\x1b[0m\n'}
+[22.864563] (cw_serv) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o\x1b[0m\n'}
+[22.864609] (cw_serv) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o\x1b[0m\n'}
+[22.958563] (-) TimerEvent: {}
+[23.058907] (-) TimerEvent: {}
+[23.159280] (-) TimerEvent: {}
+[23.259722] (-) TimerEvent: {}
+[23.360077] (-) TimerEvent: {}
+[23.460565] (-) TimerEvent: {}
+[23.494206] (cw_serv) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o\x1b[0m\n'}
+[23.560717] (-) TimerEvent: {}
+[23.661228] (-) TimerEvent: {}
+[23.761723] (-) TimerEvent: {}
+[23.862173] (-) TimerEvent: {}
+[23.962596] (-) TimerEvent: {}
+[24.062962] (-) TimerEvent: {}
+[24.163313] (-) TimerEvent: {}
+[24.263745] (-) TimerEvent: {}
+[24.364105] (-) TimerEvent: {}
+[24.464551] (-) TimerEvent: {}
+[24.564952] (-) TimerEvent: {}
+[24.665394] (-) TimerEvent: {}
+[24.765851] (-) TimerEvent: {}
+[24.866242] (-) TimerEvent: {}
+[24.966626] (-) TimerEvent: {}
+[25.067077] (-) TimerEvent: {}
+[25.167517] (-) TimerEvent: {}
+[25.178983] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TCPClient::SendMessageToClient(const QJsonObject&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.179402] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:87:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Koverflow in conversion from \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kqint16\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kshort int\x1b[m\x1b[K\xe2\x80\x99} changes value from \xe2\x80\x98\x1b[01m\x1b[K43605\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[K-21931\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow\x07-Woverflow\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[25.179452] (cw_serv) StderrLine: {'line': b'   87 |     Packet packet(\x1b[01;35m\x1b[K0xAA55\x1b[m\x1b[K, 0x01, 0x1234, 0, std::move(msg), 0xFFFF);\n'}
+[25.179487] (cw_serv) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[25.267639] (-) TimerEvent: {}
+[25.368010] (-) TimerEvent: {}
+[25.370270] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/ClientManager.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid ClientManager::MessageFromClient(const QJsonObject&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[25.370521] (cw_serv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/ClientManager.cpp:8:58:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kmessage\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[25.370569] (cw_serv) StderrLine: {'line': b'    8 | void ClientManager::MessageFromClient(\x1b[01;35m\x1b[Kconst QJsonObject &message\x1b[m\x1b[K)\n'}
+[25.370606] (cw_serv) StderrLine: {'line': b'      |                                       \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[25.394220] (cw_serv) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/cw_structs/Command.cpp.o\x1b[0m\n'}
+[25.394687] (cw_serv) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/actions/ActionClient.cpp.o\x1b[0m\n'}
+[25.394741] (cw_serv) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o\x1b[0m\n'}
+[25.394790] (cw_serv) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object CMakeFiles/cw_serv.dir/src/actions/ActionServer.cpp.o\x1b[0m\n'}
+[25.468149] (-) TimerEvent: {}
+[25.568554] (-) TimerEvent: {}
+[25.669245] (-) TimerEvent: {}
+[25.769791] (-) TimerEvent: {}
+[25.870156] (-) TimerEvent: {}
+[25.970571] (-) TimerEvent: {}
+[26.070986] (-) TimerEvent: {}
+[26.171498] (-) TimerEvent: {}
+[26.272007] (-) TimerEvent: {}
+[26.372507] (-) TimerEvent: {}
+[26.472951] (-) TimerEvent: {}
+[26.573313] (-) TimerEvent: {}
+[26.673678] (-) TimerEvent: {}
+[26.774071] (-) TimerEvent: {}
+[26.874448] (-) TimerEvent: {}
+[26.974782] (-) TimerEvent: {}
+[27.075129] (-) TimerEvent: {}
+[27.175479] (-) TimerEvent: {}
+[27.275827] (-) TimerEvent: {}
+[27.376172] (-) TimerEvent: {}
+[27.476509] (-) TimerEvent: {}
+[27.576862] (-) TimerEvent: {}
+[27.677191] (-) TimerEvent: {}
+[27.777538] (-) TimerEvent: {}
+[27.877907] (-) TimerEvent: {}
+[27.978272] (-) TimerEvent: {}
+[28.078637] (-) TimerEvent: {}
+[28.178972] (-) TimerEvent: {}
+[28.279322] (-) TimerEvent: {}
+[28.379608] (-) TimerEvent: {}
+[28.479883] (-) TimerEvent: {}
+[28.580161] (-) TimerEvent: {}
+[28.680475] (-) TimerEvent: {}
+[28.780772] (-) TimerEvent: {}
+[28.881076] (-) TimerEvent: {}
+[28.981381] (-) TimerEvent: {}
+[29.081695] (-) TimerEvent: {}
+[29.181985] (-) TimerEvent: {}
+[29.282244] (-) TimerEvent: {}
+[29.382527] (-) TimerEvent: {}
+[29.482859] (-) TimerEvent: {}
+[29.583194] (-) TimerEvent: {}
+[29.683452] (-) TimerEvent: {}
+[29.783696] (-) TimerEvent: {}
+[29.884059] (-) TimerEvent: {}
+[29.984343] (-) TimerEvent: {}
+[30.057193] (cw_serv) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cw_serv\x1b[0m\n'}
+[30.084507] (-) TimerEvent: {}
+[30.184807] (-) TimerEvent: {}
+[30.285084] (-) TimerEvent: {}
+[30.385303] (-) TimerEvent: {}
+[30.485467] (-) TimerEvent: {}
+[30.585663] (-) TimerEvent: {}
+[30.685905] (-) TimerEvent: {}
+[30.786245] (-) TimerEvent: {}
+[30.886493] (-) TimerEvent: {}
+[30.986736] (-) TimerEvent: {}
+[31.041103] (cw_serv) StdoutLine: {'line': b'[100%] Built target cw_serv\n'}
+[31.059958] (cw_serv) CommandEnded: {'returncode': 0}
+[31.086817] (-) TimerEvent: {}
+[31.100551] (cw_serv) JobProgress: {'identifier': 'cw_serv', 'progress': 'install'}
+[31.101755] (cw_serv) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv'], 'cwd': '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'dlyvern'), ('LC_TIME', 'ru_RU.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/dlyvern'), ('OLDPWD', '/home/dlyvern/Projects/Dragonfly'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'ru_RU.UTF-8'), ('SYSTEMD_EXEC_PID', '2209'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'dlyvern'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'dlyvern'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/dlyvernPC:@/tmp/.ICE-unix/2187,unix/dlyvernPC:/tmp/.ICE-unix/2187'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'ru_RU.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/b5a514c2_9b03_4179_80d6_5ae65863e3bb'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'ru_RU.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.MQN2E2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.744'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'ru_RU.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'ru_RU.UTF-8'), ('LC_IDENTIFICATION', 'ru_RU.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'ru_RU.UTF-8'), ('LC_PAPER', 'ru_RU.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble')]), 'shell': False}
+[31.106165] (cw_serv) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.106649] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/lib/cw_serv/cw_serv\n'}
+[31.110740] (cw_serv) StdoutLine: {'line': b'-- Set runtime path of "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/lib/cw_serv/cw_serv" to ""\n'}
+[31.110807] (cw_serv) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch\n'}
+[31.110847] (cw_serv) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/cw_serv_launch.py\n'}
+[31.110875] (cw_serv) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/settings_for_launch_file\n'}
+[31.110901] (cw_serv) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/settings_for_launch_file/main_settings.ini\n'}
+[31.110928] (cw_serv) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/package_run_dependencies/cw_serv\n'}
+[31.110954] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/parent_prefix_path/cw_serv\n'}
+[31.111181] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/ament_prefix_path.sh\n'}
+[31.111357] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/ament_prefix_path.dsv\n'}
+[31.111556] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/path.sh\n'}
+[31.111614] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/path.dsv\n'}
+[31.111756] (cw_serv) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.bash\n'}
+[31.111800] (cw_serv) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.sh\n'}
+[31.111842] (cw_serv) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.zsh\n'}
+[31.111869] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.dsv\n'}
+[31.111916] (cw_serv) StdoutLine: {'line': b'-- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/package.dsv\n'}
+[31.112046] (cw_serv) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/packages/cw_serv\n'}
+[31.112088] (cw_serv) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/CMakeConfix.cmake\n'}
+[31.112128] (cw_serv) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/cw_servConfig.cmake\n'}
+[31.112154] (cw_serv) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/cw_servConfig-version.cmake\n'}
+[31.112180] (cw_serv) StdoutLine: {'line': b'-- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/package.xml\n'}
+[31.114225] (cw_serv) CommandEnded: {'returncode': 0}
+[31.186892] (-) TimerEvent: {}
+[31.228630] (cw_serv) JobEnded: {'identifier': 'cw_serv', 'rc': 0}
+[31.231076] (-) EventReactorShutdown: {}

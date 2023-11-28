@@ -1,0 +1,32 @@
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Enable(RunParameters&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:48:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   48 | std::pair<std::string, bool> Robot::Enable([01;35m[KRunParameters& runParameters[m[K)
+      |                                            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Disable(RunParameters&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:64:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 | std::pair<std::string, bool>Robot::Disable([01;35m[KRunParameters& runParameters[m[K)
+      |                                            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::MoveToTower(RunParameters&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:129:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  129 | std::pair<std::string, bool> Robot::MoveToTower([01;35m[KRunParameters& runParameters[m[K)
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::LongTest(RunParameters&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:144:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  144 | std::pair<std::string, bool> Robot::LongTest([01;35m[KRunParameters &runParameters[m[K)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Recorder::Enable(RunParameters&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:28:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 | std::pair<std::string, bool> Recorder::Enable([01;35m[KRunParameters &runParameters[m[K)
+      |                                               [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Copyist::CopyFromBagsToFlash(RunParameters&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:32:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   32 | std::pair<std::string, bool> Copyist::CopyFromBagsToFlash([01;35m[KRunParameters &runParameters[m[K)
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:[m[K In member function ‘[01m[Kvoid TCPClient::SendMessageToClient(const QJsonObject&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:87:19:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kqint16[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K43605[m[K’ to ‘[01m[K-21931[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+   87 |     Packet packet([01;35m[K0xAA55[m[K, 0x01, 0x1234, 0, std::move(msg), 0xFFFF);
+      |                   [01;35m[K^~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/ClientManager.cpp:[m[K In member function ‘[01m[Kvoid ClientManager::MessageFromClient(const QJsonObject&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/ClientManager.cpp:8:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | void ClientManager::MessageFromClient([01;35m[Kconst QJsonObject &message[m[K)
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K

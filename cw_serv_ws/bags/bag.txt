@@ -1,0 +1,20 @@
+[28-11-23 21:42:33]|[srv]: Client[Drone]:Received new message from operator: 
+-----------Message begin---------------
+Target: Recorder
+Operation: Enable
+Arguments: 24
+-----------Message end------------------
+[28-11-23 21:42:33]|[Action server]: Finding Recorder with function Enable
+[28-11-23 21:42:33]|[Recorder]: Start recording to bags
+[28-11-23 21:42:34]|[ActionClient]: Goal accepted by server, waiting for result
+[28-11-23 21:42:34]|[ActionClient]: Goal succeeded
+[28-11-23 21:42:37]|[srv]: Client[Drone]:Received new message from operator: 
+-----------Message begin---------------
+Target: Copyist
+Operation: CopyFromBagsToFlash
+Arguments: 24
+-----------Message end------------------
+[28-11-23 21:42:37]|[Action server]: Finding Copyist with function CopyFromBagsToFlash
+[28-11-23 21:42:37]|[Copyist]: Copying to bags
+[28-11-23 21:42:37]|[ActionClient]: Goal accepted by server, waiting for result
+[28-11-23 21:42:37]|[ActionClient]: Goal succeeded

@@ -1,0 +1,60 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:89 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/ClientManager.cpp:[m[K In member function ‘[01m[Kvoid ClientManager::MessageFromClient(const QJsonObject&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/ClientManager.cpp:8:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+    8 | void ClientManager::MessageFromClient([01;35m[Kconst QJsonObject &message[m[K)
+      |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:[m[K In member function ‘[01m[Kvoid TCPClient::SendMessageToClient(const QJsonObject&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:87:19:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kqint16[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K43605[m[K’ to ‘[01m[K-21931[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+   87 |     Packet packet([01;35m[K0xAA55[m[K, 0x01, 0x1234, 0, std::move(msg), 0xFFFF);
+      |                   [01;35m[K^~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Enable(RunParameters&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:48:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   48 | std::pair<std::string, bool> Robot::Enable([01;35m[KRunParameters& runParameters[m[K)
+      |                                            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Disable(RunParameters&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:64:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   64 | std::pair<std::string, bool>Robot::Disable([01;35m[KRunParameters& runParameters[m[K)
+      |                                            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::MoveToTower(RunParameters&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:129:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  129 | std::pair<std::string, bool> Robot::MoveToTower([01;35m[KRunParameters& runParameters[m[K)
+      |                                                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::LongTest(RunParameters&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:144:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+  144 | std::pair<std::string, bool> Robot::LongTest([01;35m[KRunParameters &runParameters[m[K)
+      |                                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Copyist::CopyFromBagsToFlash(RunParameters&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:32:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   32 | std::pair<std::string, bool> Copyist::CopyFromBagsToFlash([01;35m[KRunParameters &runParameters[m[K)
+      |                                                           [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Recorder::Enable(RunParameters&)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:28:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 | std::pair<std::string, bool> Recorder::Enable([01;35m[KRunParameters &runParameters[m[K)
+      |                                               [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+/usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: in function `boost::filesystem::operator/(boost::filesystem::path const&, boost::filesystem::path const&)':
+Logger.cpp:(.text._ZN5boost10filesystemdvERKNS0_4pathES3_[_ZN5boost10filesystemdvERKNS0_4pathES3_]+0x3b): undefined reference to `boost::filesystem::path::operator/=(boost::filesystem::path const&)'
+/usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: in function `boost::filesystem::exists(boost::filesystem::path const&)':
+Logger.cpp:(.text._ZN5boost10filesystem6existsERKNS0_4pathE[_ZN5boost10filesystem6existsERKNS0_4pathE]+0x33): undefined reference to `boost::filesystem::detail::status(boost::filesystem::path const&, boost::system::error_code*)'
+/usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: in function `boost::filesystem::current_path()':
+Logger.cpp:(.text._ZN5boost10filesystem12current_pathEv[_ZN5boost10filesystem12current_pathEv]+0x2c): undefined reference to `boost::filesystem::detail::current_path(boost::system::error_code*)'
+/usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: in function `boost::filesystem::canonical(boost::filesystem::path const&, boost::filesystem::path const&)':
+Logger.cpp:(.text._ZN5boost10filesystem9canonicalERKNS0_4pathES3_[_ZN5boost10filesystem9canonicalERKNS0_4pathES3_]+0x3c): undefined reference to `boost::filesystem::detail::canonical(boost::filesystem::path const&, boost::filesystem::path const&, boost::system::error_code*)'
+/usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: in function `boost::filesystem::create_directory(boost::filesystem::path const&)':
+Logger.cpp:(.text._ZN5boost10filesystem16create_directoryERKNS0_4pathE[_ZN5boost10filesystem16create_directoryERKNS0_4pathE]+0x22): undefined reference to `boost::filesystem::detail::create_directory(boost::filesystem::path const&, boost::filesystem::path const*, boost::system::error_code*)'
+/usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: in function `boost::filesystem::remove_all(boost::filesystem::path const&)':
+Logger.cpp:(.text._ZN5boost10filesystem10remove_allERKNS0_4pathE[_ZN5boost10filesystem10remove_allERKNS0_4pathE]+0x1d): undefined reference to `boost::filesystem::detail::remove_all(boost::filesystem::path const&, boost::system::error_code*)'
+/usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o:(.data.rel.local.DW.ref._ZTIN5boost10filesystem16filesystem_errorE[DW.ref._ZTIN5boost10filesystem16filesystem_errorE]+0x0): undefined reference to `typeinfo for boost::filesystem::filesystem_error'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:535: cw_serv] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

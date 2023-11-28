@@ -1,0 +1,184 @@
+[0.026s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[0.049s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.153s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[0.178s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.180s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.185s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.206s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.248s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.251s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.331s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.438s] -- Found rclcpp_action: 16.0.7 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.499s] -- Found rclcpp_components: 16.0.7 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.539s] -- Found rosbag2_cpp: 0.15.8 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[0.559s] -- Found action_interface: 0.0.0 (/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/share/action_interface/cmake)
+[0.597s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.597s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.597s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.597s]   problems in calling code that expects `find_package` result variables
+[0.597s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.597s] Call Stack (most recent call first):
+[0.597s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.597s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.597s]   CMakeLists.txt:89 (find_package)
+[0.597s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.597s] [0m
+[0.597s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[0.597s] -- Checking for module 'bullet>=2.82'
+[0.604s] --   Found bullet, version 3.05
+[0.660s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[0.686s] -- Found assimp: /usr/include (found version "5.2.0") 
+[0.696s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.714s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[0.726s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.729s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.734s] -- Searching for dependencies of ignition-math6
+[0.735s] -- Looking for OGRE...
+[0.736s] -- OGRE_PREFIX_WATCH changed.
+[0.739s] -- Checking for module 'OGRE'
+[0.745s] --   Found OGRE, version 1.9.0
+[0.761s] -- Found Ogre Ghadamon (1.9.0)
+[0.765s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.772s] -- Looking for OGRE_Paging...
+[0.775s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.776s] -- Looking for OGRE_Terrain...
+[0.778s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.778s] -- Looking for OGRE_Property...
+[0.781s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.781s] -- Looking for OGRE_RTShaderSystem...
+[0.784s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.784s] -- Looking for OGRE_Volume...
+[0.787s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.787s] -- Looking for OGRE_Overlay...
+[0.790s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.851s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.852s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.852s] -- Searching for dependencies of ignition-transport8
+[0.863s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.869s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.873s] -- Checking for module 'libzmq >= 4'
+[0.880s] --   Found libzmq , version 4.3.4
+[0.898s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[0.901s] -- Checking for module 'uuid'
+[0.908s] --   Found uuid, version 2.37.2
+[0.923s] -- Found UUID: TRUE  
+[0.925s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.925s] -- Searching for dependencies of ignition-msgs5
+[0.936s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.939s] -- Checking for module 'tinyxml2'
+[0.945s] --   Found tinyxml2, version 9.0.0
+[0.962s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.964s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.964s] -- Searching for dependencies of ignition-common3
+[0.964s] -- Looking for dlfcn.h - found
+[0.965s] -- Looking for libdl - found
+[0.966s] -- Found DL: TRUE  
+[0.973s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[0.973s] -- Searching for <ignition-common3> component [graphics]
+[0.975s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.975s] -- Searching for dependencies of ignition-common3-graphics
+[0.975s] -- Looking for ignition-math6 -- found version 6.15.0
+[0.977s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.977s] -- Searching for dependencies of ignition-fuel_tools4
+[1.018s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[1.023s] -- Checking for module 'jsoncpp'
+[1.030s] --   Found jsoncpp, version 1.9.5
+[1.046s] -- Found JSONCPP: TRUE  
+[1.049s] -- Checking for module 'libzip'
+[1.055s] --   Found libzip, version 1.7.3
+[1.072s] -- Found ZIP: TRUE  
+[1.072s] -- Looking for ignition-common3 -- found version 3.14.0
+[1.072s] -- Looking for ignition-math6 -- found version 6.15.0
+[1.073s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[1.076s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.112s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.167s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.167s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv>
+[1.167s] -- Configured cppcheck exclude dirs and/or files: 
+[1.168s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.170s] -- Added test 'lint_cmake' to check CMake code style
+[1.172s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.180s] -- Added test 'uncrustify' to check C / C++ code style
+[1.180s] -- Configured uncrustify additional arguments: 
+[1.182s] -- Added test 'xmllint' to check XML markup files
+[1.183s] -- Configuring done
+[1.205s] -- Generating done
+[1.207s] -- Build files have been written to: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv
+[1.232s] [  4%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[1.246s] AutoGen warning: "SRC:/src/submodules/DronePlugin.cpp" is empty.
+[1.247s] 
+[1.648s] [  4%] Built target cw_serv_autogen
+[1.667s] [35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[1.711s] [  8%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o[0m
+[1.711s] [ 13%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o[0m
+[1.711s] [ 17%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/actions/ActionServer.cpp.o[0m
+[1.712s] [ 21%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/cw_structs/Command.cpp.o[0m
+[1.712s] [ 30%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/actions/ActionClient.cpp.o[0m
+[1.712s] [ 30%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o[0m
+[1.713s] [ 34%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o[0m
+[1.714s] [ 39%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o[0m
+[1.714s] [ 43%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/ClientManager.cpp.o[0m
+[1.714s] [ 47%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/Packet.cpp.o[0m
+[1.717s] [ 56%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/PacketParser.cpp.o[0m
+[1.717s] [ 56%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/TCPClient.cpp.o[0m
+[2.344s] [ 60%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o[0m
+[3.161s] [ 65%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o[0m
+[3.359s] [ 69%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o[0m
+[70.887s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/ClientManager.cpp:[m[K In member function ‘[01m[Kvoid ClientManager::MessageFromClient(const QJsonObject&)[m[K’:
+[70.888s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/ClientManager.cpp:8:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kmessage[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[70.888s]     8 | void ClientManager::MessageFromClient([01;35m[Kconst QJsonObject &message[m[K)
+[70.888s]       |                                       [01;35m[K~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[70.948s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:[m[K In member function ‘[01m[Kvoid TCPClient::SendMessageToClient(const QJsonObject&)[m[K’:
+[70.949s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/ServerParts/TCPClient.cpp:87:19:[m[K [01;35m[Kwarning: [m[Koverflow in conversion from ‘[01m[Kint[m[K’ to ‘[01m[Kqint16[m[K’ {aka ‘[01m[Kshort int[m[K’} changes value from ‘[01m[K43605[m[K’ to ‘[01m[K-21931[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Woverflow-Woverflow]8;;[m[K]
+[70.949s]    87 |     Packet packet([01;35m[K0xAA55[m[K, 0x01, 0x1234, 0, std::move(msg), 0xFFFF);
+[70.949s]       |                   [01;35m[K^~~~~~[m[K
+[71.198s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Enable(RunParameters&)[m[K’:
+[71.198s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:48:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[71.199s]    48 | std::pair<std::string, bool> Robot::Enable([01;35m[KRunParameters& runParameters[m[K)
+[71.199s]       |                                            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[71.352s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Disable(RunParameters&)[m[K’:
+[71.352s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:64:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[71.352s]    64 | std::pair<std::string, bool>Robot::Disable([01;35m[KRunParameters& runParameters[m[K)
+[71.352s]       |                                            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[71.361s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::MoveToTower(RunParameters&)[m[K’:
+[71.361s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:129:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[71.361s]   129 | std::pair<std::string, bool> Robot::MoveToTower([01;35m[KRunParameters& runParameters[m[K)
+[71.361s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[71.363s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::LongTest(RunParameters&)[m[K’:
+[71.363s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:144:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[71.363s]   144 | std::pair<std::string, bool> Robot::LongTest([01;35m[KRunParameters &runParameters[m[K)
+[71.363s]       |                                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[75.840s] [ 73%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/DronePlugin.cpp.o[0m
+[75.863s] [ 78%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o[0m
+[78.089s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Copyist::CopyFromBagsToFlash(RunParameters&)[m[K’:
+[78.089s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:32:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[78.089s]    32 | std::pair<std::string, bool> Copyist::CopyFromBagsToFlash([01;35m[KRunParameters &runParameters[m[K)
+[78.090s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[79.060s] [ 82%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/Base.cpp.o[0m
+[82.610s] [ 86%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o[0m
+[84.540s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Recorder::Enable(RunParameters&)[m[K’:
+[84.540s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:28:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[84.540s]    28 | std::pair<std::string, bool> Recorder::Enable([01;35m[KRunParameters &runParameters[m[K)
+[84.540s]       |                                               [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[87.970s] [ 91%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.o[0m
+[88.073s] [ 95%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/cw_structs/RunParameter.cpp.o[0m
+[88.194s] [100%] [32m[1mLinking CXX executable cw_serv[0m
+[89.201s] /usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: in function `boost::filesystem::operator/(boost::filesystem::path const&, boost::filesystem::path const&)':
+[89.201s] Logger.cpp:(.text._ZN5boost10filesystemdvERKNS0_4pathES3_[_ZN5boost10filesystemdvERKNS0_4pathES3_]+0x3b): undefined reference to `boost::filesystem::path::operator/=(boost::filesystem::path const&)'
+[89.201s] /usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: in function `boost::filesystem::exists(boost::filesystem::path const&)':
+[89.201s] Logger.cpp:(.text._ZN5boost10filesystem6existsERKNS0_4pathE[_ZN5boost10filesystem6existsERKNS0_4pathE]+0x33): undefined reference to `boost::filesystem::detail::status(boost::filesystem::path const&, boost::system::error_code*)'
+[89.201s] /usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: in function `boost::filesystem::current_path()':
+[89.201s] Logger.cpp:(.text._ZN5boost10filesystem12current_pathEv[_ZN5boost10filesystem12current_pathEv]+0x2c): undefined reference to `boost::filesystem::detail::current_path(boost::system::error_code*)'
+[89.202s] /usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: in function `boost::filesystem::canonical(boost::filesystem::path const&, boost::filesystem::path const&)':
+[89.202s] Logger.cpp:(.text._ZN5boost10filesystem9canonicalERKNS0_4pathES3_[_ZN5boost10filesystem9canonicalERKNS0_4pathES3_]+0x3c): undefined reference to `boost::filesystem::detail::canonical(boost::filesystem::path const&, boost::filesystem::path const&, boost::system::error_code*)'
+[89.202s] /usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: in function `boost::filesystem::create_directory(boost::filesystem::path const&)':
+[89.202s] Logger.cpp:(.text._ZN5boost10filesystem16create_directoryERKNS0_4pathE[_ZN5boost10filesystem16create_directoryERKNS0_4pathE]+0x22): undefined reference to `boost::filesystem::detail::create_directory(boost::filesystem::path const&, boost::filesystem::path const*, boost::system::error_code*)'
+[89.202s] /usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o: in function `boost::filesystem::remove_all(boost::filesystem::path const&)':
+[89.202s] Logger.cpp:(.text._ZN5boost10filesystem10remove_allERKNS0_4pathE[_ZN5boost10filesystem10remove_allERKNS0_4pathE]+0x1d): undefined reference to `boost::filesystem::detail::remove_all(boost::filesystem::path const&, boost::system::error_code*)'
+[89.205s] /usr/bin/ld: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o:(.data.rel.local.DW.ref._ZTIN5boost10filesystem16filesystem_errorE[DW.ref._ZTIN5boost10filesystem16filesystem_errorE]+0x0): undefined reference to `typeinfo for boost::filesystem::filesystem_error'
+[89.245s] collect2: error: ld returned 1 exit status
+[89.246s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:535: cw_serv] Error 1
+[89.249s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Error 2
+[89.252s] gmake: *** [Makefile:146: all] Error 2
+[89.304s] Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv' returned '2': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12

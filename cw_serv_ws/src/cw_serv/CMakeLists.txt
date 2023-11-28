@@ -72,6 +72,7 @@ set(SOURCE_FILES
         src/Base.cpp
         include/cw_serv/submodules/Copyist.hpp
         src/submodules/Copyist.cpp
+
 )
 
 include(additional_cmake_lists/CMakeConfix.cmake)
@@ -84,6 +85,50 @@ find_package(rclcpp_components REQUIRED)
 find_package(rosbag2_cpp REQUIRED)
 find_package(action_interface REQUIRED)
 find_package(Qt5 COMPONENTS Widgets Network REQUIRED)
+
+add_executable(${PROJECT_NAME} ${SOURCE_FILES})
+
+ament_target_dependencies(${PROJECT_NAME}
+        rclcpp
+        std_msgs
+        rclcpp_action
+        rclcpp_components
+        action_interface
+        rosbag2_cpp
+)
+
+target_link_libraries(${PROJECT_NAME}
+        Qt5::Widgets
+        Qt5::Network
+        ${Boost_LIBRARIES}
+)
+
+target_include_directories(${PROJECT_NAME} PUBLIC
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/${INCLUDE_DIR}>
+        $<INSTALL_INTERFACE:include>
+        ${Boost_INCLUDE_DIRS})
+
+
+
+install(TARGETS
+        ${PROJECT_NAME}
+        DESTINATION lib/${PROJECT_NAME})
+
+install(
+        DIRECTORY launch
+        DESTINATION share/${PROJECT_NAME}
+)
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  set(ament_cmake_copyright_FOUND TRUE)
+  set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_package(CONFIG_EXTRAS additional_cmake_lists/CMakeConfix.cmake)
+
+
 
 #add_executable(action_client ${INCLUDE_DIR}/actions/ActionClient.hpp ${SRC_DIR}/actions/ActionClient.cpp)
 #add_executable(action_server  ${INCLUDE_DIR}/actions/ActionServer.hpp ${SRC_DIR}/actions/ActionServer.cpp)
@@ -177,55 +222,16 @@ find_package(Qt5 COMPONENTS Widgets Network REQUIRED)
 #        ARCHIVE DESTINATION lib
 #        LIBRARY DESTINATION lib
 #        RUNTIME DESTINATION bin)
-
-add_executable(${PROJECT_NAME} ${SOURCE_FILES})
-
-ament_target_dependencies(${PROJECT_NAME}
-        rclcpp
-        std_msgs
-        rclcpp_action
-        rclcpp_components
-        action_interface
-        rosbag2_cpp
-)
-
-target_link_libraries(${PROJECT_NAME}
-        Qt5::Widgets
-        Qt5::Network
-        ${Boost_LIBRARIES}
-)
-
-target_include_directories(${PROJECT_NAME} PUBLIC
-        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/${INCLUDE_DIR}>
-        $<INSTALL_INTERFACE:include>
-        ${Boost_INCLUDE_DIRS})
-
-
-
-install(TARGETS
-        ${PROJECT_NAME}
-#        main
-#        action_client
-#        action_server
-#        command
-#        logger
-#        module
-#        client_manager
-#        tcp_server
-#        packet
-#        tcp_client
-        DESTINATION lib/${PROJECT_NAME})
-
-install(
-        DIRECTORY launch
-        DESTINATION share/${PROJECT_NAME}
-)
-
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  set(ament_cmake_copyright_FOUND TRUE)
-  set(ament_cmake_cpplint_FOUND TRUE)
-  ament_lint_auto_find_test_dependencies()
-endif()
-
-ament_package(CONFIG_EXTRAS additional_cmake_lists/CMakeConfix.cmake)
+#install(TARGETS
+#        ${PROJECT_NAME}
+#        #        main
+#        #        action_client
+#        #        action_server
+#        #        command
+#        #        logger
+#        #        module
+#        #        client_manager
+#        #        tcp_server
+#        #        packet
+#        #        tcp_client
+#        DESTINATION lib/${PROJECT_NAME})

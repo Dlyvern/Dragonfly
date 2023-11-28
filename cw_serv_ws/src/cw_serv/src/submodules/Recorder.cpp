@@ -20,6 +20,8 @@ void Recorder::Run()
 
 void Recorder::CallbackFromTopics(std::shared_ptr<rclcpp::SerializedMessage> msg)
 {
+    if(!m_Active) return;
+
     rclcpp::Time time_stamp = this->now();
 
     m_Writer->write(std::move(msg), "/cw/logger", "std_msgs/msg/String", time_stamp);

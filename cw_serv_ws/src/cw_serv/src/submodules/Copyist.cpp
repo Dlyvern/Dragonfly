@@ -18,15 +18,17 @@ void Copyist::Run()
 
 QString Copyist::FindFlash()
 {
-    QList<QStorageInfo> storageDevices = QStorageInfo::mountedVolumes();
+//TO-DO FIX IT
 
-    for (const auto &device : storageDevices)
-    {
-        if (device.isReadOnly() && device.bytesTotal() > 0)
-            return device.rootPath();
-    }
+//    QList<QStorageInfo> storageDevices = QStorageInfo::mountedVolumes();
+//
+//    for (const auto &device : storageDevices)
+//    {
+//        if (device.isReadOnly() && device.bytesTotal() > 0)
+//            return device.rootPath();
+//    }
 
-    return {};
+    return {"bags"};
 }
 
 std::pair<std::string, bool> Copyist::CopyFromBagsToFlash(RunParameters &runParameters)
@@ -65,7 +67,7 @@ std::pair<std::string, bool> Copyist::CopyFromBagsToFlash(RunParameters &runPara
 
                 m_Serialization.deserialize_message(&serialized_msg, &ros_msg);
 
-                in << ros_msg.data.c_str();
+                in << ros_msg.data.c_str() << "\n";
             }
         }
 

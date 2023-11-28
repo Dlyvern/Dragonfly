@@ -11,6 +11,7 @@
 #include "QStorageInfo"
 #include "QTextStream"
 
+
 class Copyist : public SubModule
 {
 private:
