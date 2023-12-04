@@ -1,20 +1,17 @@
 #include "Base.hpp"
 
-#include "modules/Module.hpp"
-
 std::shared_ptr<ActionServer>Base::m_ActionServer{nullptr};
+
 std::unordered_map<std::string, std::unordered_map<std::string, std::function<std::pair<std::string, bool>(RunParameters& runParameters)>>>Base::allActions_;
 
-Base::Base(const std::string &nameOfNode, QWidget *parent) : rclcpp::Node(nameOfNode), QWidget(parent), m_Name{nameOfNode}
+Base::Base(const std::string &nameOfNode) : rclcpp::Node(nameOfNode), m_Name{nameOfNode}
 {
     m_LogPublisher = this->create_publisher<std_msgs::msg::String>("/cw/log", 200);
 
-    if (!m_ActionServer)
+    if(!m_ActionServer)
     {
         m_ActionServer = std::make_shared<ActionServer>();
-
         m_ActionServer->Start(allActions_);
-
         std::thread([]{spin(m_ActionServer);}).detach();
     }
 }
@@ -67,8 +64,6 @@ std::chrono::milliseconds Base::GetRunInterval() const
 
 rclcpp::Parameter Base::GetParameter(const std::string &parameter) const
 {
-    Log("Trying to get parameter '" + parameter + "'", INFO_LEVEL_LOG);
-
     try
     {
         if (!this->has_parameter(parameter))

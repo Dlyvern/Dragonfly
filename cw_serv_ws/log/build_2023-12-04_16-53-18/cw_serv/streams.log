@@ -1,0 +1,146 @@
+[0.024s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[0.088s] [  4%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[0.448s] [  4%] Built target cw_serv_autogen
+[0.465s] [35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[0.507s] [  8%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o[0m
+[0.507s] [ 13%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o[0m
+[0.508s] [ 17%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o[0m
+[0.508s] [ 21%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o[0m
+[0.509s] [ 26%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o[0m
+[0.510s] [ 30%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/ServerParts/ClientManager.cpp.o[0m
+[0.511s] [ 34%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o[0m
+[0.512s] [ 39%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o[0m
+[0.512s] [ 43%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o[0m
+[0.513s] [ 47%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o[0m
+[0.514s] [ 52%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/Base.cpp.o[0m
+[0.515s] [ 56%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o[0m
+[34.225s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp:[m[K In member function ‘[01m[Kvirtual std::pair<std::__cxx11::basic_string<char>, bool> HardwareManager::Disable(RunParameters&)[m[K’:
+[34.228s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp:18:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[34.228s]    18 | std::pair<std::string, bool> HardwareManager::Disable([01;35m[KRunParameters &runParameters[m[K)
+[34.228s]       |                                                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[34.972s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Recorder::Enable(RunParameters&)[m[K’:
+[34.973s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:30:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[34.973s]    30 | std::pair<std::string, bool> Recorder::Enable([01;35m[KRunParameters &runParameters[m[K)
+[34.973s]       |                                               [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[34.975s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:[m[K In member function ‘[01m[Kvirtual std::pair<std::__cxx11::basic_string<char>, bool> Recorder::Disable(RunParameters&)[m[K’:
+[34.976s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:69:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[34.976s]    69 | std::pair<std::string, bool> Recorder::Disable([01;35m[KRunParameters &runParameters[m[K)
+[34.976s]       |                                                [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[35.106s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Copyist::CopyFromBagsToFlash(RunParameters&)[m[K’:
+[35.106s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:47:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.106s]    47 | std::pair<std::string, bool> Copyist::CopyFromBagsToFlash([01;35m[KRunParameters &runParameters[m[K)
+[35.106s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[35.107s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:[m[K In member function ‘[01m[Kvirtual std::pair<std::__cxx11::basic_string<char>, bool> Copyist::Disable(RunParameters&)[m[K’:
+[35.107s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:100:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.107s]   100 | std::pair<std::string, bool> Copyist::Disable([01;35m[KRunParameters &runParameters[m[K)
+[35.107s]       |                                               [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[35.557s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Enable(RunParameters&)[m[K’:
+[35.558s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:48:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.558s]    48 | std::pair<std::string, bool> Robot::Enable([01;35m[KRunParameters& runParameters[m[K)
+[35.558s]       |                                            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[35.561s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Disable(RunParameters&)[m[K’:
+[35.561s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:64:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.561s]    64 | std::pair<std::string, bool>Robot::Disable([01;35m[KRunParameters& runParameters[m[K)
+[35.561s]       |                                            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[35.565s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::MoveToTower(RunParameters&)[m[K’:
+[35.566s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:136:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.566s]   136 | std::pair<std::string, bool> Robot::MoveToTower([01;35m[KRunParameters& runParameters[m[K)
+[35.566s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[35.567s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::LongTest(RunParameters&)[m[K’:
+[35.567s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:151:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[35.567s]   151 | std::pair<std::string, bool> Robot::LongTest([01;35m[KRunParameters &runParameters[m[K)
+[35.567s]       |                                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[36.150s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:2[m[K:
+[36.151s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:80:42:[m[K [01;31m[Kerror: [m[K‘[01m[KstaticMetaObject[m[K’ is not a member of ‘[01m[KModule[m[K’
+[36.151s]    80 |     QMetaObject::SuperData::link<Module::[01;31m[KstaticMetaObject[m[K>(),
+[36.151s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[36.151s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:80:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQMetaObject::SuperData::link<<expression error> >()[m[K’
+[36.151s]    80 |     [01;31m[KQMetaObject::SuperData::link<Module::staticMetaObject>()[m[K,
+[36.151s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[36.151s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:46[m[K,
+[36.151s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h:48[m[K,
+[36.151s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer:1[m[K,
+[36.151s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Robot.hpp:9[m[K,
+[36.151s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:10[m[K,
+[36.151s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:2[m[K:
+[36.151s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:599:69:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<const QMetaObject& MO> static constexpr QMetaObject::SuperData QMetaObject::SuperData::link()[m[K’
+[36.151s]   599 |         template <const QMetaObject &MO> static constexpr SuperData [01;36m[Klink[m[K()
+[36.151s]       |                                                                     [01;36m[K^~~~[m[K
+[36.151s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:599:69:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[36.151s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:2[m[K:
+[36.151s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:80:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.152s]    80 |     [01;31m[KQMetaObject::SuperData::link<Module::staticMetaObject>()[m[K,
+[36.152s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[36.152s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:[m[K In member function ‘[01m[Kvirtual void* Robot::qt_metacast(const char*)[m[K’:
+[36.152s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:101:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt_metacast[m[K’ is not a member of ‘[01m[KModule[m[K’
+[36.152s]   101 |     return Module::[01;31m[Kqt_metacast[m[K(_clname);
+[36.152s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[36.152s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:[m[K In member function ‘[01m[Kvirtual int Robot::qt_metacall(QMetaObject::Call, int, void**)[m[K’:
+[36.152s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:106:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt_metacall[m[K’ is not a member of ‘[01m[KModule[m[K’
+[36.152s]   106 |     _id = Module::[01;31m[Kqt_metacall[m[K(_c, _id, _a);
+[36.152s]       |                   [01;31m[K^~~~~~~~~~~[m[K
+[36.687s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:6[m[K:
+[36.687s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:[m[K At global scope:
+[36.687s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:91:42:[m[K [01;31m[Kerror: [m[K‘[01m[KstaticMetaObject[m[K’ is not a member of ‘[01m[KModule[m[K’
+[36.687s]    91 |     QMetaObject::SuperData::link<Module::[01;31m[KstaticMetaObject[m[K>(),
+[36.687s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[36.687s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:91:59:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQMetaObject::SuperData::link<<expression error> >()[m[K’
+[36.687s]    91 |     [01;31m[KQMetaObject::SuperData::link<Module::staticMetaObject>()[m[K,
+[36.687s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[36.687s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:46[m[K,
+[36.688s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h:48[m[K,
+[36.688s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer:1[m[K,
+[36.688s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Robot.hpp:9[m[K,
+[36.688s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:10[m[K,
+[36.688s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:2[m[K:
+[36.688s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:599:69:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<const QMetaObject& MO> static constexpr QMetaObject::SuperData QMetaObject::SuperData::link()[m[K’
+[36.688s]   599 |         template <const QMetaObject &MO> static constexpr SuperData [01;36m[Klink[m[K()
+[36.688s]       |                                                                     [01;36m[K^~~~[m[K
+[36.688s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:599:69:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[36.688s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:6[m[K:
+[36.688s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:91:59:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.688s]    91 |     [01;31m[KQMetaObject::SuperData::link<Module::staticMetaObject>()[m[K,
+[36.688s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[36.688s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:[m[K In member function ‘[01m[Kvirtual void* TCPServer::qt_metacast(const char*)[m[K’:
+[36.688s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:112:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt_metacast[m[K’ is not a member of ‘[01m[KModule[m[K’
+[36.688s]   112 |     return Module::[01;31m[Kqt_metacast[m[K(_clname);
+[36.688s]       |                    [01;31m[K^~~~~~~~~~~[m[K
+[36.688s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:[m[K In member function ‘[01m[Kvirtual int TCPServer::qt_metacall(QMetaObject::Call, int, void**)[m[K’:
+[36.688s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:117:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt_metacall[m[K’ is not a member of ‘[01m[KModule[m[K’
+[36.689s]   117 |     _id = Module::[01;31m[Kqt_metacall[m[K(_c, _id, _a);
+[36.689s]       |                   [01;31m[K^~~~~~~~~~~[m[K
+[36.689s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:7[m[K:
+[36.689s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:[m[K At global scope:
+[36.689s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:67:45:[m[K [01;31m[Kerror: [m[K‘[01m[KstaticMetaObject[m[K’ is not a member of ‘[01m[KSubModule[m[K’
+[36.689s]    67 |     QMetaObject::SuperData::link<SubModule::[01;31m[KstaticMetaObject[m[K>(),
+[36.689s]       |                                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[36.689s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:67:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQMetaObject::SuperData::link<<expression error> >()[m[K’
+[36.689s]    67 |     [01;31m[KQMetaObject::SuperData::link<SubModule::staticMetaObject>()[m[K,
+[36.689s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[36.690s] In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:46[m[K,
+[36.690s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h:48[m[K,
+[36.690s]                  from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer:1[m[K,
+[36.690s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Robot.hpp:9[m[K,
+[36.690s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:10[m[K,
+[36.690s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:2[m[K:
+[36.690s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:599:69:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<const QMetaObject& MO> static constexpr QMetaObject::SuperData QMetaObject::SuperData::link()[m[K’
+[36.690s]   599 |         template <const QMetaObject &MO> static constexpr SuperData [01;36m[Klink[m[K()
+[36.690s]       |                                                                     [01;36m[K^~~~[m[K
+[36.690s] [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:599:69:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[36.690s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:7[m[K:
+[36.690s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:67:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[36.690s]    67 |     [01;31m[KQMetaObject::SuperData::link<SubModule::staticMetaObject>()[m[K,
+[36.690s]       |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[36.690s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:[m[K In member function ‘[01m[Kvirtual void* Copyist::qt_metacast(const char*)[m[K’:
+[36.690s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:88:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt_metacast[m[K’ is not a member of ‘[01m[KSubModule[m[K’
+[36.690s]    88 |     return SubModule::[01;31m[Kqt_metacast[m[K(_clname);
+[36.690s]       |                       [01;31m[K^~~~~~~~~~~[m[K
+[36.690s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:[m[K In member function ‘[01m[Kvirtual int Copyist::qt_metacall(QMetaObject::Call, int, void**)[m[K’:
+[36.690s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:93:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt_metacall[m[K’ is not a member of ‘[01m[KSubModule[m[K’
+[36.691s]    93 |     _id = SubModule::[01;31m[Kqt_metacall[m[K(_c, _id, _a);
+[36.691s]       |                      [01;31m[K^~~~~~~~~~~[m[K
+[37.691s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:76: CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o] Error 1
+[37.691s] gmake[2]: *** Waiting for unfinished jobs....
+[41.319s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Error 2
+[41.321s] gmake: *** [Makefile:146: all] Error 2
+[41.382s] Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv' returned '2': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12

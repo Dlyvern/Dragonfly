@@ -1,6 +1,6 @@
 #include "modules/Robot.hpp"
 
-Robot::Robot(const std::string &nameOfNode, QWidget *parent) : Module(nameOfNode, parent)
+Robot::Robot(const std::string &nameOfNode, QObject *parent) : QObject(parent), Module(nameOfNode)
 {
     m_RunTimer = new QTimer;
     SetRunInterval(std::chrono::seconds(1));
@@ -20,8 +20,8 @@ Robot::Robot(const std::string &nameOfNode, QWidget *parent) : Module(nameOfNode
 
     allActions_["Robot"]["Enable"] = std::bind(&Robot::Enable, this, std::placeholders::_1);
     allActions_["Robot"]["DoDiagnostic"] = std::bind(&Robot::DoDiagnostic, this, std::placeholders::_1);
-    allActions_["Robot"]["Disable"] = std::bind(&Robot::Disable, this, std::placeholders::_1);
     allActions_["Robot"]["LongTest"] = std::bind(&Robot::LongTest, this, std::placeholders::_1);
+    allActions_["Robot"]["Disable"] = std::bind(&Robot::Disable, this, std::placeholders::_1);
 }
 
 void Robot::Start()
@@ -64,7 +64,14 @@ std::pair<std::string, bool> Robot::Enable(RunParameters& runParameters)
 std::pair<std::string, bool>Robot::Disable(RunParameters& runParameters)
 {
     if(!m_Active) return {"robot_already_disabled", false};
+
+    RunParameters rp;
+
+    for(auto& submodule : m_Submodules)
+        submodule->Disable(rp);
+
     m_Active = false;
+
     return {"robot_disabled", true};
 }
 

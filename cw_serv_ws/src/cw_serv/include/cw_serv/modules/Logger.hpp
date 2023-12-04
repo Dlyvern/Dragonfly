@@ -24,7 +24,7 @@ private:
     boost::filesystem::path m_FullPathToLogFile;
 
 public:
-    explicit Logger(const std::string &nameOfNode, QWidget *parent = nullptr);
+    explicit Logger(const std::string &nameOfNode);
 
     void CheckTime();
 

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp" "CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o.d"
   "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/Base.cpp" "CMakeFiles/cw_serv.dir/src/Base.cpp.o" "gcc" "CMakeFiles/cw_serv.dir/src/Base.cpp.o.d"
+  "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/MainNode.cpp" "CMakeFiles/cw_serv.dir/src/MainNode.cpp.o" "gcc" "CMakeFiles/cw_serv.dir/src/MainNode.cpp.o.d"
   "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionClient.cpp" "CMakeFiles/cw_serv.dir/src/actions/ActionClient.cpp.o" "gcc" "CMakeFiles/cw_serv.dir/src/actions/ActionClient.cpp.o.d"
   "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionServer.cpp" "CMakeFiles/cw_serv.dir/src/actions/ActionServer.cpp.o" "gcc" "CMakeFiles/cw_serv.dir/src/actions/ActionServer.cpp.o.d"
   "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/cw_structs/Command.cpp" "CMakeFiles/cw_serv.dir/src/cw_structs/Command.cpp.o" "gcc" "CMakeFiles/cw_serv.dir/src/cw_structs/Command.cpp.o.d"

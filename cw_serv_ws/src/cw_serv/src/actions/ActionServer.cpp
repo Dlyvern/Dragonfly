@@ -23,8 +23,6 @@ void ActionServer::Start(std::unordered_map<std::string, std::unordered_map<std:
 
 void ActionServer::HandleAcceptedGoal(const std::shared_ptr< rclcpp_action::ServerGoalHandle<action_interface::action::Cmd>> goal_handle)
 {
-    rclcpp::Rate loop_rate(1);
-
     auto feedback = std::make_shared<action_interface::action::Cmd::Feedback>();
     auto result = std::make_shared<action_interface::action::Cmd::Result>();
 
@@ -32,7 +30,9 @@ void ActionServer::HandleAcceptedGoal(const std::shared_ptr< rclcpp_action::Serv
 
     m_WorkFuture = std::async(std::launch::async, [this]{ return Work();});
 
-    while(true)
+    bool executed{false};
+
+    while(!executed)
     {
         if (goal_handle->is_canceling())
         {
@@ -43,14 +43,10 @@ void ActionServer::HandleAcceptedGoal(const std::shared_ptr< rclcpp_action::Serv
             return;
         }
 
-        if(m_WorkFuture.wait_for(std::chrono::milliseconds(1)) == std::future_status::ready)
-        {
-            break;
-        }
+        executed = (m_WorkFuture.wait_for(std::chrono::milliseconds(1)) == std::future_status::ready);
 
         feedback->progress++;
         goal_handle->publish_feedback(feedback);
-        loop_rate.sleep();
     }
 
     if(!rclcpp::ok())
@@ -77,7 +73,6 @@ std::pair<std::string, bool> ActionServer::Work()
         return {"No work", false};
     }
 
-
     //FIX RUN_PARAMETERS IN WORK METHOD
     try
     {
@@ -87,7 +82,7 @@ std::pair<std::string, bool> ActionServer::Work()
 
     catch (std::exception &ex)
     {
-        return {R"(Action server failed while executing action callback: \"%s\"", ex.what())", false};
+        return {"Action server failed while executing action callback: " + std::string(ex.what()), false};
     }
 
     return result;
@@ -97,8 +92,6 @@ rclcpp_action::GoalResponse ActionServer::HandleGoal(const rclcpp_action::GoalUU
 {
     std::string target  = goal->target[0];
     std::string operation = goal->operation;
-
-    Log("Finding " + target + " with function " + operation, 0);
 
     auto operations = m_AllActionsFromModulesAndSubmodules->find(target);
 

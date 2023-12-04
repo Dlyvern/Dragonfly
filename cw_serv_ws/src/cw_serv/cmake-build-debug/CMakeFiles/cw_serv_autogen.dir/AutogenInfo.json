@@ -1279,6 +1279,12 @@
 			null
 		],
 		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp",
+			"MU",
+			"LBFZCMKC7H/moc_MainNode.cpp",
+			null
+		],
+		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionClient.hpp",
 			"MU",
 			"6MSQTJTTMG/moc_ActionClient.cpp",
@@ -1407,12 +1413,12 @@
 		"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug",
 		"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv",
 		"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv",
+		"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface",
 		"/opt/ros/humble/include/rclcpp",
 		"/opt/ros/humble/include/std_msgs",
 		"/opt/ros/humble/include/rclcpp_action",
 		"/opt/ros/humble/include/rclcpp_components",
 		"/opt/ros/humble/include/rosbag2_cpp",
-		"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface",
 		"/opt/ros/humble/include/ament_index_cpp",
 		"/opt/ros/humble/include/libstatistics_collector",
 		"/opt/ros/humble/include/builtin_interfaces",
@@ -1484,6 +1490,11 @@
 	[
 		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/Base.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/MainNode.cpp",
 			"MU",
 			null
 		],

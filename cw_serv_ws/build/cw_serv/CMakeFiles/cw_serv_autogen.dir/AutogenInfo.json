@@ -1276,6 +1276,12 @@
 			null
 		],
 		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp",
+			"MU",
+			"LBFZCMKC7H/moc_MainNode.cpp",
+			null
+		],
+		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionClient.hpp",
 			"MU",
 			"6MSQTJTTMG/moc_ActionClient.cpp",
@@ -1482,6 +1488,11 @@
 	[
 		[
 			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/Base.cpp",
+			"MU",
+			null
+		],
+		[
+			"/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/MainNode.cpp",
 			"MU",
 			null
 		],

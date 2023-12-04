@@ -12,7 +12,7 @@
 #include "cw_structs/Command.hpp"
 #endif
 
-class ClientManager : public QWidget
+class ClientManager : public QObject
 {
     Q_OBJECT
 private:
@@ -23,17 +23,11 @@ private:
     void Log(const std::string&message, int logLevel, TCPClient* tcpClient) const;
 
 public:
-    explicit ClientManager(QWidget* parent = nullptr);
+    explicit ClientManager(QObject* parent = nullptr);
 
     void AddNewClient(std::shared_ptr<TCPClient>&&tcpClient);
 
     virtual ~ClientManager();
-
-public slots:
-    void MessageForClient(const QJsonObject& message,  int idOfClient);
-
-private slots:
-    void MessageFromClient(const QJsonObject& message);
 };
 
 #endif //CLIENT_MANAGER_HPP

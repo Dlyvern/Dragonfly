@@ -4,3 +4,4 @@
 #include "UBWT7CTH6J/moc_PacketParser.cpp"
 #include "UBWT7CTH6J/moc_TCPClient.cpp"
 #include "4XGV5CRBCI/moc_TCPServer.cpp"
+#include "JBZNCJ465A/moc_Copyist.cpp"

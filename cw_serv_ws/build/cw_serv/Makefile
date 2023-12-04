@@ -271,6 +271,30 @@ src/Base.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/Base.cpp.s
 .PHONY : src/Base.cpp.s
 
+src/MainNode.o: src/MainNode.cpp.o
+.PHONY : src/MainNode.o
+
+# target to build an object file
+src/MainNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/MainNode.cpp.o
+.PHONY : src/MainNode.cpp.o
+
+src/MainNode.i: src/MainNode.cpp.i
+.PHONY : src/MainNode.i
+
+# target to preprocess a source file
+src/MainNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/MainNode.cpp.i
+.PHONY : src/MainNode.cpp.i
+
+src/MainNode.s: src/MainNode.cpp.s
+.PHONY : src/MainNode.s
+
+# target to generate assembly for a file
+src/MainNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/MainNode.cpp.s
+.PHONY : src/MainNode.cpp.s
+
 src/actions/ActionClient.o: src/actions/ActionClient.cpp.o
 .PHONY : src/actions/ActionClient.o
 
@@ -726,6 +750,9 @@ help:
 	@echo "... src/Base.o"
 	@echo "... src/Base.i"
 	@echo "... src/Base.s"
+	@echo "... src/MainNode.o"
+	@echo "... src/MainNode.i"
+	@echo "... src/MainNode.s"
 	@echo "... src/actions/ActionClient.o"
 	@echo "... src/actions/ActionClient.i"
 	@echo "... src/actions/ActionClient.s"

@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o.d"
   "CMakeFiles/cw_serv.dir/src/Base.cpp.o"
   "CMakeFiles/cw_serv.dir/src/Base.cpp.o.d"
+  "CMakeFiles/cw_serv.dir/src/MainNode.cpp.o"
+  "CMakeFiles/cw_serv.dir/src/MainNode.cpp.o.d"
   "CMakeFiles/cw_serv.dir/src/actions/ActionClient.cpp.o"
   "CMakeFiles/cw_serv.dir/src/actions/ActionClient.cpp.o.d"
   "CMakeFiles/cw_serv.dir/src/actions/ActionServer.cpp.o"

@@ -56,12 +56,12 @@
 					<Add directory="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv"/>
 					<Add directory="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug/cw_serv_autogen/include"/>
 					<Add directory="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv"/>
+					<Add directory="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface"/>
 					<Add directory="/opt/ros/humble/include/rclcpp"/>
 					<Add directory="/opt/ros/humble/include/std_msgs"/>
 					<Add directory="/opt/ros/humble/include/rclcpp_action"/>
 					<Add directory="/opt/ros/humble/include/rclcpp_components"/>
 					<Add directory="/opt/ros/humble/include/rosbag2_cpp"/>
-					<Add directory="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface"/>
 					<Add directory="/opt/ros/humble/include/ament_index_cpp"/>
 					<Add directory="/opt/ros/humble/include/libstatistics_collector"/>
 					<Add directory="/opt/ros/humble/include/builtin_interfaces"/>
@@ -133,12 +133,12 @@
 					<Add directory="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv"/>
 					<Add directory="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/cmake-build-debug/cw_serv_autogen/include"/>
 					<Add directory="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv"/>
+					<Add directory="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface"/>
 					<Add directory="/opt/ros/humble/include/rclcpp"/>
 					<Add directory="/opt/ros/humble/include/std_msgs"/>
 					<Add directory="/opt/ros/humble/include/rclcpp_action"/>
 					<Add directory="/opt/ros/humble/include/rclcpp_components"/>
 					<Add directory="/opt/ros/humble/include/rosbag2_cpp"/>
-					<Add directory="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/include/action_interface"/>
 					<Add directory="/opt/ros/humble/include/ament_index_cpp"/>
 					<Add directory="/opt/ros/humble/include/libstatistics_collector"/>
 					<Add directory="/opt/ros/humble/include/builtin_interfaces"/>
@@ -278,6 +278,9 @@
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp">
 			<Option target="cw_serv"/>
 		</Unit>
+		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp">
+			<Option target="cw_serv"/>
+		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/actions/ActionClient.hpp">
 			<Option target="cw_serv"/>
 		</Unit>
@@ -330,6 +333,9 @@
 			<Option target="cw_serv"/>
 		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/Base.cpp">
+			<Option target="cw_serv"/>
+		</Unit>
+		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/MainNode.cpp">
 			<Option target="cw_serv"/>
 		</Unit>
 		<Unit filename="/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/actions/ActionClient.cpp">

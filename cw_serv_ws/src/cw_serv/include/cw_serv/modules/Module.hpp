@@ -24,7 +24,7 @@ protected:
 
 public:
 
-    explicit Module(const std::string& nameOfNode, QWidget *parent = nullptr);
+    explicit Module(const std::string& nameOfNode);
 
     virtual void Start() = 0;
 

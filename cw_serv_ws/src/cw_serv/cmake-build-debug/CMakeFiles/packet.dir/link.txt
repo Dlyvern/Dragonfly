@@ -1,2 +1,0 @@
-/usr/bin/ar qc libpacket.a CMakeFiles/packet.dir/packet_autogen/mocs_compilation.cpp.o CMakeFiles/packet.dir/src/modules/ServerParts/Packet.cpp.o
-/usr/bin/ranlib libpacket.a

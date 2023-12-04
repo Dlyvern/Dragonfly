@@ -77,7 +77,7 @@ void Robot::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void 
 }
 
 QT_INIT_METAOBJECT const QMetaObject Robot::staticMetaObject = { {
-    QMetaObject::SuperData::link<Module::staticMetaObject>(),
+    QMetaObject::SuperData::link<QObject::staticMetaObject>(),
     qt_meta_stringdata_Robot.data,
     qt_meta_data_Robot,
     qt_static_metacall,
@@ -96,12 +96,14 @@ void *Robot::qt_metacast(const char *_clname)
     if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_Robot.stringdata0))
         return static_cast<void*>(this);
-    return Module::qt_metacast(_clname);
+    if (!strcmp(_clname, "Module"))
+        return static_cast< Module*>(this);
+    return QObject::qt_metacast(_clname);
 }
 
 int Robot::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
-    _id = Module::qt_metacall(_c, _id, _a);
+    _id = QObject::qt_metacall(_c, _id, _a);
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {

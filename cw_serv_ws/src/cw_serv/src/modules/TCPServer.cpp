@@ -1,6 +1,6 @@
 #include "modules/TCPServer.hpp"
 
-TCPServer::TCPServer(const std::string &name, QWidget *parent) : Module(name, parent)
+TCPServer::TCPServer(const std::string &name, QObject *parent) : QObject(parent), Module(name)
 {
     this->declare_parameter("server/port_tcp", 8080);
     this->declare_parameter("server/ip", "127.0.0.1");
@@ -12,8 +12,6 @@ TCPServer::TCPServer(const std::string &name, QWidget *parent) : Module(name, pa
     connect(m_Server, &QTcpServer::newConnection, this, &TCPServer::NewConnection);
 
     connect(m_RunTimer, &QTimer::timeout, this, &TCPServer::Run);
-
-    connect(this, &TCPServer::MessageForClient, m_ClientManager, &ClientManager::MessageForClient);
 }
 
 void TCPServer::Start()
@@ -69,10 +67,4 @@ void TCPServer::LogMessageFromClient(const std::string &message, int levelLog)
     Log(message, levelLog);
 }
 
-TCPServer::~TCPServer()
-{
-    SetRunning(false);
-    delete(m_Server);
-    delete(m_ClientManager);
-    delete(m_RunTimer);
-}
+TCPServer::~TCPServer() = default;

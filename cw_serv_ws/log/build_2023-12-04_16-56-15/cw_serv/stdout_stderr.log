@@ -1,0 +1,48 @@
+[  4%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[  4%] Built target cw_serv_autogen
+[35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[  8%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/MainNode.cpp.o[0m
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:[m[K In constructor ‘[01m[KTCPServer::TCPServer(const string&, QObject*)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:3:94:[m[K [01;35m[Kwarning: [m[Kbase ‘[01m[KModule[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    3 | TCPServer::TCPServer(const std::string &name, QObject *parent) : Module(name), QObject(parent[01;35m[K)[m[K
+      |                                                                                              [01;35m[K^[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:3:94:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQObject[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+    3 | [01;35m[KTCPServer[m[K::TCPServer(const std::string &name, QObject *parent) : Module(name), QObject(parent)
+      | [01;35m[K^~~~~~~~~[m[K
+In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:7[m[K:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:67:45:[m[K [01;31m[Kerror: [m[K‘[01m[KstaticMetaObject[m[K’ is not a member of ‘[01m[KSubModule[m[K’
+   67 |     QMetaObject::SuperData::link<SubModule::[01;31m[KstaticMetaObject[m[K>(),
+      |                                             [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:67:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KQMetaObject::SuperData::link<<expression error> >()[m[K’
+   67 |     [01;31m[KQMetaObject::SuperData::link<SubModule::staticMetaObject>()[m[K,
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobject.h:46[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qtimer.h:48[m[K,
+                 from [01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/QTimer:1[m[K,
+                 from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Robot.hpp:9[m[K,
+                 from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:10[m[K,
+                 from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:2[m[K:
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:599:69:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<const QMetaObject& MO> static constexpr QMetaObject::SuperData QMetaObject::SuperData::link()[m[K’
+  599 |         template <const QMetaObject &MO> static constexpr SuperData [01;36m[Klink[m[K()
+      |                                                                     [01;36m[K^~~~[m[K
+[01m[K/usr/include/x86_64-linux-gnu/qt5/QtCore/qobjectdefs.h:599:69:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:7[m[K:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:67:62:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   67 |     [01;31m[KQMetaObject::SuperData::link<SubModule::staticMetaObject>()[m[K,
+      |     [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:[m[K In member function ‘[01m[Kvirtual void* Copyist::qt_metacast(const char*)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:88:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt_metacast[m[K’ is not a member of ‘[01m[KSubModule[m[K’
+   88 |     return SubModule::[01;31m[Kqt_metacast[m[K(_clname);
+      |                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:[m[K In member function ‘[01m[Kvirtual int Copyist::qt_metacall(QMetaObject::Call, int, void**)[m[K’:
+[01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/JBZNCJ465A/moc_Copyist.cpp:93:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kqt_metacall[m[K’ is not a member of ‘[01m[KSubModule[m[K’
+   93 |     _id = SubModule::[01;31m[Kqt_metacall[m[K(_c, _id, _a);
+      |                      [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:76: CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

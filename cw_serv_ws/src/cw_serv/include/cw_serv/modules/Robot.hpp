@@ -22,7 +22,7 @@
 #include "submodules/Copyist.hpp"
 #endif
 
-class Robot : public Module
+class Robot :  public QObject, public Module
 {
     Q_OBJECT
 private:
@@ -51,14 +51,13 @@ private:
 
     std::pair<std::string, bool> MoveToFurthestTower(RunParameters& runParameters);
 
-
     std::pair<std::string, bool> LongTest(RunParameters& runParameters);
 
 private slots:
     void Run() override;
 
 public:
-    explicit Robot(const std::string& nameOfNode, QWidget *parent = nullptr);
+    explicit Robot(const std::string& nameOfNode, QObject *parent = nullptr);
 
     void Start() override;
 

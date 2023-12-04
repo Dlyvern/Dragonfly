@@ -1,0 +1,652 @@
+[0.033s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[0.098s] [  4%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[0.818s] [  4%] Built target cw_serv_autogen
+[0.864s] [  8%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o[0m
+[0.864s] [ 17%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o[0m
+[0.864s] [ 26%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o[0m
+[0.864s] [ 13%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o[0m
+[0.864s] [ 26%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o[0m
+[0.864s] [ 30%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o[0m
+[0.865s] [ 34%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o[0m
+[0.867s] [ 39%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o[0m
+[0.875s] [ 47%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o[0m
+[0.875s] [ 47%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/Base.cpp.o[0m
+[0.876s] [ 52%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/MainNode.cpp.o[0m
+[0.876s] [ 56%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o[0m
+[9.122s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:7[m[K,
+[9.136s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:7[m[K,
+[9.136s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[9.136s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[9.136s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/SubModule.cpp:1[m[K:
+[9.137s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:12:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[9.137s]    12 | [01;31m[K{[m[K
+[9.137s]       | [01;31m[K^[m[K
+[9.147s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:7[m[K,
+[9.147s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:7[m[K,
+[9.147s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[9.147s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[9.147s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:5[m[K,
+[9.147s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:1[m[K:
+[9.147s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:12:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[9.147s]    12 | [01;31m[K{[m[K
+[9.147s]       | [01;31m[K^[m[K
+[9.240s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:7[m[K,
+[9.240s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:7[m[K,
+[9.240s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[9.240s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/Base.cpp:1[m[K:
+[9.240s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:12:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[9.240s]    12 | [01;31m[K{[m[K
+[9.240s]       | [01;31m[K^[m[K
+[9.494s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:7[m[K,
+[9.494s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:7[m[K,
+[9.494s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[9.494s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[9.495s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:4[m[K,
+[9.495s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp:1[m[K:
+[9.495s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:12:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[9.495s]    12 | [01;31m[K{[m[K
+[9.495s]       | [01;31m[K^[m[K
+[9.497s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:7[m[K,
+[9.497s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:7[m[K,
+[9.497s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[9.497s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[9.497s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:5[m[K,
+[9.497s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:2[m[K:
+[9.497s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:12:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[9.497s]    12 | [01;31m[K{[m[K
+[9.497s]       | [01;31m[K^[m[K
+[23.087s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:10[m[K,
+[32.200s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[35.974s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[37.308s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:7[m[K,
+[39.674s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:1[m[K:
+[44.319s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:12:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[50.142s]    12 | [01;31m[K{[m[K
+[52.504s]       | [01;31m[K^[m[K
+[52.506s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:18:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[52.506s]    18 |     rclcpp::Subscription<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr m_LogSub;
+[52.506s]       |                          [01;31m[K^~~~~~~~[m[K
+[52.507s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:18:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[52.507s]    18 |     rclcpp::Subscription<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr m_LogSub;
+[52.507s]       |                                               [01;31m[K^[m[K
+[52.507s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:18:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[52.507s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:18:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[52.508s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:18:47:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[52.508s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:18:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[52.508s]    18 |     rclcpp::Subscription<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K m_LogSub;
+[52.508s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[52.508s]       |                                                           [32m[K;[m[K
+[52.508s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:18:60:[m[K [01;31m[Kerror: [m[K‘[01m[Km_LogSub[m[K’ does not name a type
+[52.508s]    18 |     rclcpp::Subscription<std_msgs::msg::String>::SharedPtr [01;31m[Km_LogSub[m[K;
+[52.509s]       |                                                            [01;31m[K^~~~~~~~[m[K
+[52.509s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:19:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[52.509s]    19 |     rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr m_Publisher;
+[52.509s]       |                       [01;31m[K^~~~~~~~[m[K
+[52.509s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:19:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[52.509s]    19 |     rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr m_Publisher;
+[52.509s]       |                                            [01;31m[K^[m[K
+[52.509s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:19:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[52.509s]    19 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K m_Publisher;
+[52.509s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[52.509s]       |                                                        [32m[K;[m[K
+[52.509s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:19:47:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint Logger::SharedPtr[m[K’
+[52.510s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:18:50:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint Logger::SharedPtr[m[K’
+[52.510s]    18 |     rclcpp::Subscription<std_msgs::msg::String>::[01;36m[KSharedPtr[m[K m_LogSub;
+[52.510s]       |                                                  [01;36m[K^~~~~~~~~[m[K
+[52.510s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:19:57:[m[K [01;31m[Kerror: [m[K‘[01m[Km_Publisher[m[K’ does not name a type; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+[52.510s]    19 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Km_Publisher[m[K;
+[52.510s]       |                                                         [01;31m[K^~~~~~~~~~~[m[K
+[52.510s]       |                                                         [32m[Krmw_publisher_t[m[K
+[52.510s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:33:30:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ does not name a type
+[52.510s]    33 |     void EventCallback(const [01;31m[Kstd_msgs[m[K::msg::String::SharedPtr msg);
+[52.510s]       |                              [01;31m[K^~~~~~~~[m[K
+[52.511s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:33:43:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K::[m[K’ token
+[52.511s]    33 |     void EventCallback(const std_msgs::msg[01;31m[K::[m[KString::SharedPtr msg);
+[52.511s]       |                                           [01;31m[K^~[m[K
+[52.511s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:33:43:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K::[m[K’ token
+[52.513s]    33 |     void EventCallback[34m[K([m[Kconst std_msgs::msg[01;31m[K:[m[K[32m[K:[m[KString::SharedPtr msg);
+[52.513s]       |                       [34m[K~[m[K                   [01;31m[K^[m[K[32m[K~[m[K
+[52.513s]       |                                           [32m[K)[m[K
+[52.513s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:33:40:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[52.513s]    33 |     void EventCallback(const std_msgs::[01;31m[Kmsg[m[K::String::SharedPtr msg);
+[52.513s]       |                                        [01;31m[K^~~[m[K
+[52.513s]       |                                           [32m[K;[m[K
+[52.513s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:33:45:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ in namespace ‘[01m[K::[m[K’ does not name a type; did you mean ‘[01m[KQString[m[K’?
+[52.513s]    33 |     void EventCallback(const std_msgs::msg::[01;31m[KString[m[K::SharedPtr msg);
+[52.513s]       |                                             [01;31m[K^~~~~~[m[K
+[52.514s]       |                                             [32m[KQString[m[K
+[52.514s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:14:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Logger::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[52.514s]    14 |     void [01;31m[KRun[m[K() override;
+[52.515s]       |          [01;31m[K^~~[m[K
+[52.515s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Logger::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[52.515s]    31 |     void [01;31m[KStart[m[K() override;
+[52.515s]       |          [01;31m[K^~~~~[m[K
+[52.515s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:4[m[K,
+[52.515s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:13[m[K,
+[52.515s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[52.515s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[52.515s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[52.515s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:7[m[K,
+[52.515s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:1[m[K:
+[52.515s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:9:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[52.515s]     9 | [01;31m[K{[m[K
+[52.515s]       | [01;31m[K^[m[K
+[52.817s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:7[m[K,
+[52.817s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[52.817s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[52.817s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:6[m[K,
+[52.817s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:1[m[K:
+[52.817s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:22:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[52.817s]    22 | [01;31m[K{[m[K
+[52.817s]       | [01;31m[K^[m[K
+[52.820s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:41:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid TCPServer::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[52.820s]    41 |     void [01;31m[KRun[m[K() override;
+[52.820s]       |          [01;31m[K^~~[m[K
+[52.820s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:46:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid TCPServer::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[52.820s]    46 |     void [01;31m[KStart[m[K() override;
+[52.820s]       |          [01;31m[K^~~~~[m[K
+[52.846s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:7[m[K,
+[52.847s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[52.847s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[52.847s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:5[m[K,
+[52.847s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Logger.cpp:1[m[K:
+[52.847s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:22:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[52.847s]    22 | [01;31m[K{[m[K
+[52.847s]       | [01;31m[K^[m[K
+[52.847s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:41:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid TCPServer::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[52.847s]    41 |     void [01;31m[KRun[m[K() override;
+[52.847s]       |          [01;31m[K^~~[m[K
+[52.847s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:46:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid TCPServer::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[52.848s]    46 |     void [01;31m[KStart[m[K() override;
+[52.848s]       |          [01;31m[K^~~~~[m[K
+[52.848s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:4[m[K,
+[52.848s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:13[m[K,
+[52.848s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[52.848s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[52.848s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[52.848s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:5[m[K,
+[52.848s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Logger.cpp:1[m[K:
+[52.848s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:9:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[52.848s]     9 | [01;31m[K{[m[K
+[52.848s]       | [01;31m[K^[m[K
+[52.901s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:7[m[K,
+[52.901s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[52.901s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[52.901s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Robot.hpp:6[m[K,
+[52.901s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:10[m[K,
+[52.901s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:2[m[K:
+[52.901s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:22:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[52.901s]    22 | [01;31m[K{[m[K
+[52.901s]       | [01;31m[K^[m[K
+[52.901s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:41:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid TCPServer::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[52.901s]    41 |     void [01;31m[KRun[m[K() override;
+[52.901s]       |          [01;31m[K^~~[m[K
+[52.902s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:46:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid TCPServer::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[52.902s]    46 |     void [01;31m[KStart[m[K() override;
+[52.902s]       |          [01;31m[K^~~~~[m[K
+[53.020s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:10[m[K,
+[53.020s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[53.020s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[53.020s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:6[m[K,
+[53.020s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:1[m[K:
+[53.021s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:12:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[53.021s]    12 | [01;31m[K{[m[K
+[53.021s]       | [01;31m[K^[m[K
+[53.090s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:10[m[K,
+[53.090s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[53.090s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[53.090s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Robot.hpp:6[m[K,
+[53.090s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:10[m[K,
+[53.090s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:2[m[K:
+[53.090s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:12:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[53.090s]    12 | [01;31m[K{[m[K
+[53.090s]       | [01;31m[K^[m[K
+[53.127s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:13[m[K,
+[53.127s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[53.127s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[53.127s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[53.127s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:5[m[K,
+[53.127s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:1[m[K:
+[53.127s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:7:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[53.127s]     7 | [01;31m[K{[m[K
+[53.127s]       | [01;31m[K^[m[K
+[53.128s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:9:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid HardwareManager::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[53.128s]     9 |     void [01;31m[KRun[m[K() override;
+[53.128s]       |          [01;31m[K^~~[m[K
+[53.128s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:13:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid HardwareManager::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[53.128s]    13 |     void [01;31m[KStart[m[K() override;
+[53.128s]       |          [01;31m[K^~~~~[m[K
+[53.128s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:15:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> HardwareManager::Disable(RunParameters&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[53.128s]    15 |     std::pair<std::string, bool> [01;31m[KDisable[m[K(RunParameters &runParameters) override;
+[53.128s]       |                                  [01;31m[K^~~~~~~[m[K
+[53.176s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:14:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Logger::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[53.177s]    14 |     void [01;31m[KRun[m[K() override;
+[53.177s]       |          [01;31m[K^~~[m[K
+[53.177s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Logger::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[53.177s]    31 |     void [01;31m[KStart[m[K() override;
+[53.177s]       |          [01;31m[K^~~~~[m[K
+[53.187s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:4[m[K,
+[53.187s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:13[m[K,
+[53.188s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[53.188s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[53.188s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/Base.cpp:1[m[K:
+[53.188s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:9:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[53.188s]     9 | [01;31m[K{[m[K
+[53.188s]       | [01;31m[K^[m[K
+[53.246s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:14:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Logger::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[53.246s]    14 |     void [01;31m[KRun[m[K() override;
+[53.246s]       |          [01;31m[K^~~[m[K
+[53.246s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Logger::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[53.246s]    31 |     void [01;31m[KStart[m[K() override;
+[53.247s]       |          [01;31m[K^~~~~[m[K
+[53.362s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[53.362s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[53.362s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:6[m[K,
+[53.362s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:1[m[K:
+[53.362s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:33:[m[K [01;31m[Kerror: [m[K‘[01m[KModule[m[K’ was not declared in this scope
+[53.362s]    25 |     std::vector<std::shared_ptr<[01;31m[KModule[m[K>>m_Modules;
+[53.362s]       |                                 [01;31m[K^~~~~~[m[K
+[53.362s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[53.362s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[53.363s]    25 |     std::vector<std::shared_ptr<Module[01;31m[K>>[m[Km_Modules;
+[53.363s]       |                                       [01;31m[K^~[m[K
+[53.363s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[53.423s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[53.423s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[53.423s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/../../../../src/cw_serv/include/cw_serv/modules/Robot.hpp:6[m[K,
+[53.423s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_Robot.cpp:10[m[K,
+[53.424s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:2[m[K:
+[53.424s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:33:[m[K [01;31m[Kerror: [m[K‘[01m[KModule[m[K’ was not declared in this scope
+[53.424s]    25 |     std::vector<std::shared_ptr<[01;31m[KModule[m[K>>m_Modules;
+[53.424s]       |                                 [01;31m[K^~~~~~[m[K
+[53.424s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[53.424s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[53.424s]    25 |     std::vector<std::shared_ptr<Module[01;31m[K>>[m[Km_Modules;
+[53.424s]       |                                       [01;31m[K^~[m[K
+[53.424s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[53.474s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[53.474s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[53.474s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[53.475s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:7[m[K,
+[53.475s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:1[m[K:
+[53.475s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:26:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[53.475s]    26 | [01;31m[K{[m[K
+[53.475s]       | [01;31m[K^[m[K
+[53.478s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:57:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Robot::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[53.478s]    57 |     void [01;31m[KRun[m[K() override;
+[53.478s]       |          [01;31m[K^~~[m[K
+[53.478s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:62:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Robot::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[53.479s]    62 |     void [01;31m[KStart[m[K() override;
+[53.479s]       |          [01;31m[K^~~~~[m[K
+[53.729s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:22[m[K,
+[53.729s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[53.729s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[53.729s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[53.730s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:5[m[K,
+[53.730s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:1[m[K:
+[53.730s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:16:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[53.730s]    16 | [01;31m[K{[m[K
+[53.730s]       | [01;31m[K^[m[K
+[53.730s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:24:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Copyist::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[53.730s]    24 |     void [01;31m[KRun[m[K() override;
+[53.730s]       |          [01;31m[K^~~[m[K
+[53.730s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Copyist::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[53.730s]    31 |     void [01;31m[KStart[m[K() override;
+[53.730s]       |          [01;31m[K^~~~~[m[K
+[53.730s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:35:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Copyist::Disable(RunParameters&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[53.731s]    35 |     std::pair<std::string, bool>[01;31m[KDisable[m[K(RunParameters& runParameters) override;
+[53.731s]       |                                 [01;31m[K^~~~~~~[m[K
+[53.754s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[53.755s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[53.755s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[53.755s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:5[m[K,
+[53.755s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:1[m[K:
+[53.755s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSubModule[m[K’ was not declared in this scope; did you mean ‘[01m[KModule[m[K’?
+[53.755s]    32 |     std::vector<std::shared_ptr<[01;31m[KSubModule[m[K>>m_Submodules;
+[53.756s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[53.756s]       |                                 [32m[KModule[m[K
+[53.756s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[53.756s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[53.756s]    32 |     std::vector<std::shared_ptr<SubModule[01;31m[K>>[m[Km_Submodules;
+[53.756s]       |                                          [01;31m[K^~[m[K
+[53.756s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[54.146s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[54.147s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[54.147s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[54.147s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:5[m[K,
+[54.147s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Logger.cpp:1[m[K:
+[54.147s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:26:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[54.147s]    26 | [01;31m[K{[m[K
+[54.147s]       | [01;31m[K^[m[K
+[54.152s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:57:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Robot::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[54.153s]    57 |     void [01;31m[KRun[m[K() override;
+[54.153s]       |          [01;31m[K^~~[m[K
+[54.153s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:62:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Robot::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[54.153s]    62 |     void [01;31m[KStart[m[K() override;
+[54.153s]       |          [01;31m[K^~~~~[m[K
+[54.275s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In constructor ‘[01m[KRobot::Robot(const string&, QObject*)[m[K’:
+[54.275s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:3:98:[m[K [01;35m[Kwarning: [m[Kbase ‘[01m[KModule[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[54.275s]     3 | Robot::Robot(const std::string &nameOfNode, QObject *parent) : Module(nameOfNode), QObject(parent[01;35m[K)[m[K
+[54.275s]       |                                                                                                  [01;35m[K^[m[K
+[54.275s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:3:98:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQObject[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[54.275s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[54.275s]     3 | [01;35m[KRobot[m[K::Robot(const std::string &nameOfNode, QObject *parent) : Module(nameOfNode), QObject(parent)
+[54.276s]       | [01;35m[K^~~~~[m[K
+[54.312s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Recorder::Enable(RunParameters&)[m[K’:
+[54.313s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:31:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[54.313s]    31 | std::pair<std::string, bool> Recorder::Enable([01;35m[KRunParameters &runParameters[m[K)
+[54.313s]       |                                               [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[54.319s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:[m[K In member function ‘[01m[Kvirtual std::pair<std::__cxx11::basic_string<char>, bool> Recorder::Disable(RunParameters&)[m[K’:
+[54.319s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:70:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[54.319s]    70 | std::pair<std::string, bool> Recorder::Disable([01;35m[KRunParameters &runParameters[m[K)
+[54.319s]       |                                                [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[54.336s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Enable(RunParameters&)[m[K’:
+[54.337s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:48:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[54.337s]    48 | std::pair<std::string, bool> Robot::Enable([01;35m[KRunParameters& runParameters[m[K)
+[54.337s]       |                                            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[54.343s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Disable(RunParameters&)[m[K’:
+[54.343s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:64:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[54.343s]    64 | std::pair<std::string, bool>Robot::Disable([01;35m[KRunParameters& runParameters[m[K)
+[54.343s]       |                                            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[54.347s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[54.347s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[54.347s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:5[m[K,
+[54.347s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Logger.cpp:1[m[K:
+[54.347s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:33:[m[K [01;31m[Kerror: [m[K‘[01m[KModule[m[K’ was not declared in this scope
+[54.348s]    25 |     std::vector<std::shared_ptr<[01;31m[KModule[m[K>>m_Modules;
+[54.348s]       |                                 [01;31m[K^~~~~~[m[K
+[54.348s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[54.348s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[54.348s]    25 |     std::vector<std::shared_ptr<Module[01;31m[K>>[m[Km_Modules;
+[54.348s]       |                                       [01;31m[K^~[m[K
+[54.348s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[54.353s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::MoveToTower(RunParameters&)[m[K’:
+[54.353s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:136:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[54.353s]   136 | std::pair<std::string, bool> Robot::MoveToTower([01;35m[KRunParameters& runParameters[m[K)
+[54.354s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[54.356s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::LongTest(RunParameters&)[m[K’:
+[54.356s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:151:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[54.356s]   151 | std::pair<std::string, bool> Robot::LongTest([01;35m[KRunParameters &runParameters[m[K)
+[54.356s]       |                                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[54.466s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/mocs_compilation.cpp:6[m[K:
+[54.466s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:[m[K In member function ‘[01m[Kvirtual void* TCPServer::qt_metacast(const char*)[m[K’:
+[54.466s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/cw_serv_autogen/4XGV5CRBCI/moc_TCPServer.cpp:111:16:[m[K [01;31m[Kerror: [m[Kinvalid ‘[01m[Kstatic_cast[m[K’ from type ‘[01m[KTCPServer*[m[K’ to type ‘[01m[KModule*[m[K’
+[54.466s]   111 |         return [01;31m[Kstatic_cast< Module*>(this)[m[K;
+[54.466s]       |                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[54.650s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:13[m[K,
+[54.651s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[54.651s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[54.651s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[54.651s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/SubModule.cpp:1[m[K:
+[54.651s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:7:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[54.651s]     7 | [01;31m[K{[m[K
+[54.651s]       | [01;31m[K^[m[K
+[54.651s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:9:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid HardwareManager::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[54.651s]     9 |     void [01;31m[KRun[m[K() override;
+[54.651s]       |          [01;31m[K^~~[m[K
+[54.651s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:13:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid HardwareManager::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[54.651s]    13 |     void [01;31m[KStart[m[K() override;
+[54.651s]       |          [01;31m[K^~~~~[m[K
+[54.651s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:15:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> HardwareManager::Disable(RunParameters&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[54.651s]    15 |     std::pair<std::string, bool> [01;31m[KDisable[m[K(RunParameters &runParameters) override;
+[54.651s]       |                                  [01;31m[K^~~~~~~[m[K
+[54.904s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:13[m[K,
+[54.904s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[54.904s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[54.905s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[54.905s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:5[m[K,
+[54.905s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:2[m[K:
+[54.905s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:7:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[54.905s]     7 | [01;31m[K{[m[K
+[54.905s]       | [01;31m[K^[m[K
+[54.905s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:9:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid HardwareManager::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[54.905s]     9 |     void [01;31m[KRun[m[K() override;
+[54.905s]       |          [01;31m[K^~~[m[K
+[54.905s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:13:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid HardwareManager::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[54.905s]    13 |     void [01;31m[KStart[m[K() override;
+[54.905s]       |          [01;31m[K^~~~~[m[K
+[54.906s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:15:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> HardwareManager::Disable(RunParameters&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[54.906s]    15 |     std::pair<std::string, bool> [01;31m[KDisable[m[K(RunParameters &runParameters) override;
+[54.906s]       |                                  [01;31m[K^~~~~~~[m[K
+[55.153s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:17[m[K,
+[55.153s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[55.153s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[55.153s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[55.153s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/SubModule.cpp:1[m[K:
+[55.153s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:13:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[55.153s]    13 | [01;31m[K{[m[K
+[55.153s]       | [01;31m[K^[m[K
+[55.168s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:28:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Recorder::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.169s]    28 |     void [01;31m[KRun[m[K() override;
+[55.169s]       |          [01;31m[K^~~[m[K
+[55.169s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:33:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Recorder::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.169s]    33 |     void [01;31m[KStart[m[K() override;
+[55.169s]       |          [01;31m[K^~~~~[m[K
+[55.169s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:35:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Recorder::Disable(RunParameters&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.169s]    35 |     std::pair<std::string, bool>[01;31m[KDisable[m[K(RunParameters& runParameters)override;
+[55.169s]       |                                 [01;31m[K^~~~~~~[m[K
+[55.419s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:17[m[K,
+[55.419s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[55.420s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[55.420s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[55.420s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:5[m[K,
+[55.420s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:2[m[K:
+[55.420s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:13:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[55.420s]    13 | [01;31m[K{[m[K
+[55.420s]       | [01;31m[K^[m[K
+[55.436s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:28:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Recorder::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.436s]    28 |     void [01;31m[KRun[m[K() override;
+[55.436s]       |          [01;31m[K^~~[m[K
+[55.436s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:33:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Recorder::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.436s]    33 |     void [01;31m[KStart[m[K() override;
+[55.436s]       |          [01;31m[K^~~~~[m[K
+[55.436s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:35:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Recorder::Disable(RunParameters&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.436s]    35 |     std::pair<std::string, bool>[01;31m[KDisable[m[K(RunParameters& runParameters)override;
+[55.436s]       |                                 [01;31m[K^~~~~~~[m[K
+[55.456s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[55.456s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[55.456s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[55.456s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:5[m[K,
+[55.456s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:2[m[K:
+[55.457s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSubModule[m[K’ was not declared in this scope; did you mean ‘[01m[KModule[m[K’?
+[55.457s]    32 |     std::vector<std::shared_ptr<[01;31m[KSubModule[m[K>>m_Submodules;
+[55.457s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[55.457s]       |                                 [32m[KModule[m[K
+[55.457s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:7[m[K,
+[55.457s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[55.457s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[55.457s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:1[m[K:
+[55.457s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:22:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[55.457s]    22 | [01;31m[K{[m[K
+[55.457s]       | [01;31m[K^[m[K
+[55.457s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[55.457s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[55.457s]    32 |     std::vector<std::shared_ptr<SubModule[01;31m[K>>[m[Km_Submodules;
+[55.457s]       |                                          [01;31m[K^~[m[K
+[55.457s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[55.457s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:41:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid TCPServer::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.457s]    41 |     void [01;31m[KRun[m[K() override;
+[55.457s]       |          [01;31m[K^~~[m[K
+[55.457s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:46:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid TCPServer::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.458s]    46 |     void [01;31m[KStart[m[K() override;
+[55.458s]       |          [01;31m[K^~~~~[m[K
+[55.464s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:17[m[K,
+[55.464s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[55.464s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[55.465s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[55.465s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:4[m[K,
+[55.465s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp:1[m[K:
+[55.465s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:13:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[55.465s]    13 | [01;31m[K{[m[K
+[55.465s]       | [01;31m[K^[m[K
+[55.480s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:28:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Recorder::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.481s]    28 |     void [01;31m[KRun[m[K() override;
+[55.481s]       |          [01;31m[K^~~[m[K
+[55.481s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:33:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Recorder::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.481s]    33 |     void [01;31m[KStart[m[K() override;
+[55.481s]       |          [01;31m[K^~~~~[m[K
+[55.481s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Recorder.hpp:35:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Recorder::Disable(RunParameters&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.481s]    35 |     std::pair<std::string, bool>[01;31m[KDisable[m[K(RunParameters& runParameters)override;
+[55.481s]       |                                 [01;31m[K^~~~~~~[m[K
+[55.525s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:22[m[K,
+[55.525s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[55.525s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[55.525s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[55.525s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/SubModule.cpp:1[m[K:
+[55.525s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:16:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[55.525s]    16 | [01;31m[K{[m[K
+[55.525s]       | [01;31m[K^[m[K
+[55.525s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:24:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Copyist::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.525s]    24 |     void [01;31m[KRun[m[K() override;
+[55.526s]       |          [01;31m[K^~~[m[K
+[55.526s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Copyist::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.526s]    31 |     void [01;31m[KStart[m[K() override;
+[55.526s]       |          [01;31m[K^~~~~[m[K
+[55.526s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:35:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Copyist::Disable(RunParameters&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.526s]    35 |     std::pair<std::string, bool>[01;31m[KDisable[m[K(RunParameters& runParameters) override;
+[55.526s]       |                                 [01;31m[K^~~~~~~[m[K
+[55.543s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[55.543s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[55.543s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[55.543s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/SubModule.cpp:1[m[K:
+[55.543s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSubModule[m[K’ was not declared in this scope; did you mean ‘[01m[KModule[m[K’?
+[55.543s]    32 |     std::vector<std::shared_ptr<[01;31m[KSubModule[m[K>>m_Submodules;
+[55.543s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[55.543s]       |                                 [32m[KModule[m[K
+[55.543s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[55.543s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[55.543s]    32 |     std::vector<std::shared_ptr<SubModule[01;31m[K>>[m[Km_Submodules;
+[55.543s]       |                                          [01;31m[K^~[m[K
+[55.544s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[55.644s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:10[m[K,
+[55.644s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[55.644s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[55.645s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:1[m[K:
+[55.645s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:12:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[55.645s]    12 | [01;31m[K{[m[K
+[55.645s]       | [01;31m[K^[m[K
+[55.662s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:76: CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o] Error 1
+[55.664s] gmake[2]: *** Waiting for unfinished jobs....
+[55.719s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:244: CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o] Error 1
+[55.740s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:14:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Logger::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.740s]    14 |     void [01;31m[KRun[m[K() override;
+[55.740s]       |          [01;31m[K^~~[m[K
+[55.740s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Logger.hpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Logger::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.740s]    31 |     void [01;31m[KStart[m[K() override;
+[55.740s]       |          [01;31m[K^~~~~[m[K
+[55.741s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:4[m[K,
+[55.741s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:13[m[K,
+[55.741s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[55.741s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[55.741s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[55.741s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:1[m[K:
+[55.741s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:9:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[55.741s]     9 | [01;31m[K{[m[K
+[55.741s]       | [01;31m[K^[m[K
+[55.796s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:22[m[K,
+[55.796s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[55.796s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[55.796s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[55.796s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:4[m[K,
+[55.796s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp:1[m[K:
+[55.796s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:16:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[55.796s]    16 | [01;31m[K{[m[K
+[55.797s]       | [01;31m[K^[m[K
+[55.797s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:24:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Copyist::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.797s]    24 |     void [01;31m[KRun[m[K() override;
+[55.797s]       |          [01;31m[K^~~[m[K
+[55.797s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:31:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Copyist::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.797s]    31 |     void [01;31m[KStart[m[K() override;
+[55.797s]       |          [01;31m[K^~~~~[m[K
+[55.797s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/Copyist.hpp:35:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Copyist::Disable(RunParameters&)[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[55.797s]    35 |     std::pair<std::string, bool>[01;31m[KDisable[m[K(RunParameters& runParameters) override;
+[55.797s]       |                                 [01;31m[K^~~~~~~[m[K
+[55.810s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[55.810s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[55.810s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/SubModule.hpp:5[m[K,
+[55.810s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/submodules/HardwareManager.hpp:4[m[K,
+[55.810s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp:1[m[K:
+[55.810s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:33:[m[K [01;31m[Kerror: [m[K‘[01m[KSubModule[m[K’ was not declared in this scope; did you mean ‘[01m[KModule[m[K’?
+[55.810s]    32 |     std::vector<std::shared_ptr<[01;31m[KSubModule[m[K>>m_Submodules;
+[55.810s]       |                                 [01;31m[K^~~~~~~~~[m[K
+[55.810s]       |                                 [32m[KModule[m[K
+[55.811s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[55.811s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[55.811s]    32 |     std::vector<std::shared_ptr<SubModule[01;31m[K>>[m[Km_Submodules;
+[55.811s]       |                                          [01;31m[K^~[m[K
+[55.811s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:32:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[55.893s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp:[m[K In member function ‘[01m[Kvirtual std::pair<std::__cxx11::basic_string<char>, bool> HardwareManager::Disable(RunParameters&)[m[K’:
+[55.893s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/HardwareManager.cpp:18:70:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[55.893s]    18 | std::pair<std::string, bool> HardwareManager::Disable([01;35m[KRunParameters &runParameters[m[K)
+[55.893s]       |                                                       [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[55.929s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:[m[K In constructor ‘[01m[KCopyist::Copyist(const string&, QObject*)[m[K’:
+[55.929s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:4:105:[m[K [01;35m[Kwarning: [m[Kbase ‘[01m[KSubModule[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[55.929s]     4 | Copyist::Copyist(const std::string &nameOfNode, QObject *parent) : SubModule(nameOfNode), QObject(parent[01;35m[K)[m[K
+[55.929s]       |                                                                                                         [01;35m[K^[m[K
+[55.930s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:4:105:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQObject[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[55.930s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:4:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[55.930s]     4 | [01;35m[KCopyist[m[K::Copyist(const std::string &nameOfNode, QObject *parent) : SubModule(nameOfNode), QObject(parent)
+[55.930s]       | [01;35m[K^~~~~~~[m[K
+[55.965s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Copyist::CopyFromBagsToFlash(RunParameters&)[m[K’:
+[55.965s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:47:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[55.966s]    47 | std::pair<std::string, bool> Copyist::CopyFromBagsToFlash([01;35m[KRunParameters &runParameters[m[K)
+[55.966s]       |                                                           [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[55.967s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:[m[K In member function ‘[01m[Kvirtual std::pair<std::__cxx11::basic_string<char>, bool> Copyist::Disable(RunParameters&)[m[K’:
+[55.967s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Copyist.cpp:100:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[55.967s]   100 | std::pair<std::string, bool> Copyist::Disable([01;35m[KRunParameters &runParameters[m[K)
+[55.967s]       |                                               [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[56.051s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:328: CMakeFiles/cw_serv.dir/src/Base.cpp.o] Error 1
+[56.179s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[56.179s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[56.179s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/TCPServer.hpp:7[m[K,
+[56.179s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:1[m[K:
+[56.179s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:33:[m[K [01;31m[Kerror: [m[K‘[01m[KModule[m[K’ was not declared in this scope
+[56.179s]    25 |     std::vector<std::shared_ptr<[01;31m[KModule[m[K>>m_Modules;
+[56.179s]       |                                 [01;31m[K^~~~~~[m[K
+[56.179s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[56.179s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[56.179s]    25 |     std::vector<std::shared_ptr<Module[01;31m[K>>[m[Km_Modules;
+[56.179s]       |                                       [01;31m[K^~[m[K
+[56.179s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[56.233s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:12[m[K,
+[56.233s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[56.233s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[56.233s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:1[m[K:
+[56.233s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:26:1:[m[K [01;31m[Kerror: [m[Kexpected class-name before ‘[01m[K{[m[K’ token
+[56.233s]    26 | [01;31m[K{[m[K
+[56.233s]       | [01;31m[K^[m[K
+[56.236s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:57:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Robot::Run()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[56.236s]    57 |     void [01;31m[KRun[m[K() override;
+[56.236s]       |          [01;31m[K^~~[m[K
+[56.236s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Robot.hpp:62:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid Robot::Start()[m[K’ marked ‘[01m[Koverride[m[K’, but does not override
+[56.236s]    62 |     void [01;31m[KStart[m[K() override;
+[56.236s]       |          [01;31m[K^~~~~[m[K
+[56.339s] In file included from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/Base.hpp:25[m[K,
+[56.340s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/modules/Module.hpp:5[m[K,
+[56.340s]                  from [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Module.cpp:1[m[K:
+[56.340s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:33:[m[K [01;31m[Kerror: [m[K‘[01m[KModule[m[K’ was not declared in this scope
+[56.340s]    25 |     std::vector<std::shared_ptr<[01;31m[KModule[m[K>>m_Modules;
+[56.340s]       |                                 [01;31m[K^~~~~~[m[K
+[56.340s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:33:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[56.340s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[56.340s]    25 |     std::vector<std::shared_ptr<Module[01;31m[K>>[m[Km_Modules;
+[56.340s]       |                                       [01;31m[K^~[m[K
+[56.340s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/include/cw_serv/MainNode.hpp:25:39:[m[K [01;31m[Kerror: [m[Ktemplate argument 2 is invalid
+[56.459s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:[m[K In constructor ‘[01m[KTCPServer::TCPServer(const string&, QObject*)[m[K’:
+[56.459s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:3:94:[m[K [01;35m[Kwarning: [m[Kbase ‘[01m[KModule[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[56.459s]     3 | TCPServer::TCPServer(const std::string &name, QObject *parent) : Module(name), QObject(parent[01;35m[K)[m[K
+[56.459s]       |                                                                                              [01;35m[K^[m[K
+[56.460s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:3:94:[m[K [01;35m[Kwarning: [m[K  base ‘[01m[KQObject[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[56.460s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/TCPServer.cpp:3:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[56.460s]     3 | [01;35m[KTCPServer[m[K::TCPServer(const std::string &name, QObject *parent) : Module(name), QObject(parent)
+[56.460s]       | [01;35m[K^~~~~~~~~[m[K
+[56.613s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:258: CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o] Error 1
+[56.686s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:272: CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o] Error 1
+[57.057s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:160: CMakeFiles/cw_serv.dir/src/modules/Module.cpp.o] Error 1
+[57.158s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:174: CMakeFiles/cw_serv.dir/src/modules/TCPServer.cpp.o] Error 1
+[57.362s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:342: CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o] Error 1
+[58.334s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:314: CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o] Error 1
+[58.642s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:146: CMakeFiles/cw_serv.dir/src/modules/Logger.cpp.o] Error 1
+[58.897s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Error 2
+[58.900s] gmake: *** [Makefile:146: all] Error 2
+[58.957s] Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv' returned '2': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12

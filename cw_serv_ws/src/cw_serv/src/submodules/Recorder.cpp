@@ -1,11 +1,13 @@
 #include "submodules/Recorder.hpp"
+#include "MainNode.hpp"
 
-#include <utility>
 
-Recorder::Recorder(const std::string& nameOfNode, QWidget *parent) : SubModule(nameOfNode, parent)
+Recorder::Recorder(const std::string& nameOfNode) : SubModule(nameOfNode)
 {
     m_Writer = std::make_unique<rosbag2_cpp::Writer>();
+
     allActions_["Recorder"]["Enable"] = std::bind(&Recorder::Enable, this, std::placeholders::_1);
+    allActions_["Recorder"]["Disable"] = std::bind(&Recorder::Disable, this, std::placeholders::_1);
 }
 
 void Recorder::Start()
@@ -20,7 +22,7 @@ void Recorder::Run()
 
 void Recorder::CallbackFromTopics(std::shared_ptr<rclcpp::SerializedMessage> msg)
 {
-    if(!m_Active) return;
+    if(!IsActive()) return;
 
     rclcpp::Time time_stamp = this->now();
 
@@ -29,9 +31,7 @@ void Recorder::CallbackFromTopics(std::shared_ptr<rclcpp::SerializedMessage> msg
 
 std::pair<std::string, bool> Recorder::Enable(RunParameters &runParameters)
 {
-    if(m_Active) return {"recorder_already_enabled", false};
-
-    m_Active = true;
+    if(IsActive()) return {"recorder_already_enabled", false};
 
     for(const auto& topic : m_RecTopics)
     {
@@ -63,7 +63,22 @@ std::pair<std::string, bool> Recorder::Enable(RunParameters &runParameters)
 
     Log("Start recording to " + m_BagDir, INFO_LEVEL_LOG);
 
+    SetActive(true);
+
     return {"recorder_is_enabled", true};
+}
+
+std::pair<std::string, bool> Recorder::Disable(RunParameters &runParameters)
+{
+    if(!IsActive()) return {"disabled_already", false};
+
+    m_Subscriptions.clear();
+
+    m_Writer->close();
+
+    SetActive(false);
+
+    return {"recorder_disabled", true};
 }
 
 Recorder::~Recorder() = default;

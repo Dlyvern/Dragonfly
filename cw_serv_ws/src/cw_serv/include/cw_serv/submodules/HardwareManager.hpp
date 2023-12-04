@@ -8,11 +8,13 @@ class HardwareManager : public SubModule
 private:
     void Run() override;
 public:
-    explicit HardwareManager(const std::string& nameOfNode, QWidget *parent = nullptr);
+    explicit HardwareManager(const std::string& nameOfNode);
 
     void Start() override;
 
-    ~HardwareManager();
+    std::pair<std::string, bool> Disable(RunParameters &runParameters) override;
+
+    virtual ~HardwareManager();
 };
 
 #endif //HARDWARE_MANAGER_HPP

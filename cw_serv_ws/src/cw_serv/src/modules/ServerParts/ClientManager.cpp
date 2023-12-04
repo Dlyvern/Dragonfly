@@ -1,17 +1,6 @@
 #include "modules/ServerParts/ClientManager.hpp"
 
-ClientManager::ClientManager(QWidget *parent) : QWidget(parent)
-{
-
-}
-
-void ClientManager::MessageFromClient(const QJsonObject &message)
-{
-    auto* client(qobject_cast<TCPClient*>(sender()));
-
-    if (!client) return;
-
-}
+ClientManager::ClientManager(QObject *parent) : QObject(parent){}
 
 void ClientManager::Log(const std::string &message, int logLevel, TCPClient* tcpClient) const
 {
@@ -20,8 +9,6 @@ void ClientManager::Log(const std::string &message, int logLevel, TCPClient* tcp
 
 void ClientManager::AddNewClient(std::shared_ptr<TCPClient> &&tcpClient)
 {
-    connect(tcpClient.get(), &TCPClient::SendMessageToServer, this, &ClientManager::MessageFromClient);
-
     m_TCPClients[tcpClient->GetId()] = tcpClient;
 }
 
@@ -38,18 +25,6 @@ bool ClientManager::DisconnectClient(TCPClient* tcpClient)
     }
 
     return false;
-}
-
-void ClientManager::MessageForClient(const QJsonObject &message,  int idOfClient)
-{
-    auto client = m_TCPClients.find(idOfClient);
-    if(client == m_TCPClients.end())
-    {
-        qDebug() << "New message for unknown client";
-        return;
-    }
-    Log("New message for client with id " + std::to_string(idOfClient), 0, client->second.get());
-    client->second->SendMessageToClient(message);
 }
 
 ClientManager::~ClientManager() = default;

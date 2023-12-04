@@ -5,15 +5,16 @@
 #include "SubModule.hpp"
 #endif
 
-#include "boost/filesystem.hpp"
 #include "rclcpp/serialization.hpp"
 #include "rosbag2_cpp/reader.hpp"
 #include "QStorageInfo"
 #include "QTextStream"
+#include "regex"
+#include <fstream>
 
-
-class Copyist : public SubModule
+class Copyist : public QObject, public SubModule
 {
+    Q_OBJECT
 private:
     rosbag2_cpp::Reader m_Reader;
     rclcpp::Serialization<std_msgs::msg::String> m_Serialization;
@@ -24,15 +25,14 @@ private:
 
     std::pair<std::string, bool> CopyFromBagsToFlash(RunParameters &runParameters);
 
-
     QString FindFlash();
 
-
 public:
-
     void Start() override;
 
-    explicit Copyist(const std::string &nameOfNode, QWidget *parent = nullptr);
+    explicit Copyist(const std::string &nameOfNode, QObject *parent = nullptr);
+
+    std::pair<std::string, bool>Disable(RunParameters& runParameters) override;
 
     virtual ~Copyist();
 };

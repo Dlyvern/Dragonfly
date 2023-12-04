@@ -72,6 +72,8 @@ set(SOURCE_FILES
         src/Base.cpp
         include/cw_serv/submodules/Copyist.hpp
         src/submodules/Copyist.cpp
+        src/MainNode.cpp
+        include/cw_serv/MainNode.hpp
 
 )
 
@@ -107,8 +109,6 @@ target_include_directories(${PROJECT_NAME} PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/${INCLUDE_DIR}>
         $<INSTALL_INTERFACE:include>
         ${Boost_INCLUDE_DIRS})
-
-
 
 install(TARGETS
         ${PROJECT_NAME}

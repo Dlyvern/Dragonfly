@@ -15,8 +15,6 @@ private:
     std::unique_ptr<rosbag2_cpp::Writer> m_Writer{nullptr};
     std::string m_BagDir{"bags"};
 
-    bool m_Active{false};
-
     std::vector<rclcpp::Subscription<std_msgs::msg::String>::SharedPtr>m_Subscriptions;
 
     std::vector<std::string>m_RecTopics
@@ -34,7 +32,9 @@ public:
 
     void Start() override;
 
-    explicit Recorder(const std::string& nameOfNode, QWidget *parent = nullptr);
+    std::pair<std::string, bool>Disable(RunParameters& runParameters)override;
+
+    explicit Recorder(const std::string& nameOfNode);
 
     virtual ~Recorder();
 };

@@ -1,8 +1,5 @@
 #include "actions/ActionClient.hpp"
 
-#include <utility>
-
-
 ActionClient::ActionClient(std::chrono::seconds serverTimeOut) : rclcpp::Node("ActionClient"), m_Name{"ActionClient"}, m_ServerTimeOut{serverTimeOut}
 {
     m_ActionClient = rclcpp_action::create_client<action_interface::action::Cmd>(this, "cmd");
@@ -80,13 +77,7 @@ void ActionClient::GoalResponse(rclcpp_action::ClientGoalHandle<action_interface
     auto goal_handle = future.get();
 
     if (!goal_handle)
-    {
         Log("Goal was rejected by server", 2);
-    }
-    else
-    {
-        Log("Goal accepted by server, waiting for result", 0);
-    }
 }
 
 void ActionClient::GoalResult(const rclcpp_action::ClientGoalHandle<action_interface::action::Cmd>::WrappedResult & result)

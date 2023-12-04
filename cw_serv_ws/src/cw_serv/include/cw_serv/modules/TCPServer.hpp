@@ -18,7 +18,7 @@
 #include "QTcpServer"
 #include "QTcpSocket"
 
-class TCPServer : public Module
+class TCPServer : public QObject, public Module
 {
     Q_OBJECT
 private:
@@ -40,11 +40,8 @@ private slots:
 
     void Run() override;
 
-signals:
-    void MessageForClient(const QJsonObject& message, int idOfClient);
-
 public:
-    explicit TCPServer(const std::string &name, QWidget *parent = nullptr);
+    explicit TCPServer(const std::string &name, QObject *parent = nullptr);
 
     void Start() override;
 

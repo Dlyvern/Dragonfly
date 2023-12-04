@@ -1,6 +1,6 @@
 #include "modules/Module.hpp"
 
-Module::Module(const std::string &nameOfNode, QWidget *parent) : Base(nameOfNode, parent)
+Module::Module(const std::string &nameOfNode) : Base(nameOfNode)
 {
 
 }

@@ -25,16 +25,12 @@
 #include "actions/ActionServer.hpp"
 #endif
 
-#include "QWidget"
 #include "rclcpp/rclcpp.hpp"
 #include "std_msgs/msg/string.hpp"
-#include "QSettings"
 
-
-class Base : public rclcpp::Node, public QWidget
+class Base : public rclcpp::Node
 {
 private:
-    static std::shared_ptr<ActionServer>m_ActionServer;
     std::string m_Name{"NOT_SET"};
 
     std::chrono::milliseconds m_RunInterval{1000};
@@ -42,6 +38,8 @@ private:
     bool m_IsRunning{false};
 
     std::shared_ptr<rclcpp::Publisher<std_msgs::msg::String>>m_LogPublisher;
+
+    static std::shared_ptr<ActionServer>m_ActionServer;
 
 protected:
 
@@ -57,18 +55,16 @@ protected:
 
     void SetRunInterval(std::chrono::milliseconds runInterval);
 
+    void Log(const std::string &message, int logLevel) const;
 public:
 
-    explicit Base(const std::string& nameOfNode, QWidget *parent = nullptr);
+    explicit Base(const std::string& nameOfNode);
 
     virtual void Start() = 0;
 
     bool IsRunning() const;
 
     virtual ~Base();
-
-public slots:
-    void Log(const std::string &message, int logLevel) const;
 };
 
 #endif //BASE_HPP

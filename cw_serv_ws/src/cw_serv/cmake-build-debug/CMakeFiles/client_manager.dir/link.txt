@@ -1,2 +1,0 @@
-/usr/bin/ar qc libclient_manager.a CMakeFiles/client_manager.dir/client_manager_autogen/mocs_compilation.cpp.o CMakeFiles/client_manager.dir/src/modules/ServerParts/ClientManager.cpp.o
-/usr/bin/ranlib libclient_manager.a

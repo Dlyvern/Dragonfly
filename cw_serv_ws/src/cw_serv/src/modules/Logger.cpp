@@ -1,7 +1,6 @@
 #include "modules/Logger.hpp"
 
-Logger::Logger(const std::string &nameOfNode, QWidget *parent)
-        : Module(nameOfNode, parent)
+Logger::Logger(const std::string &nameOfNode) : Module(nameOfNode)
 {
     m_DirName = "logs";
     m_Publisher = this->create_publisher<std_msgs::msg::String>("/cw/logger", 50);
@@ -25,10 +24,10 @@ void Logger::Start()
     if (boost::filesystem::exists(m_DirName))
     {
         Log(m_DirName + " already exists", WARN_LEVEL_LOG);
+
         try
         {
             boost::filesystem::remove_all(m_DirName);
-            Log("Old " + m_DirName + " directory successfully deleted", INFO_LEVEL_LOG);
         }
         catch (const boost::filesystem::filesystem_error& e)
         {
@@ -52,8 +51,6 @@ void Logger::Start()
             throw std::runtime_error("Error while creating log file");
 
         log_file.close();
-
-        Log("Log file created successfully", INFO_LEVEL_LOG);
     }
 
     catch (const  boost::filesystem::filesystem_error& e)
