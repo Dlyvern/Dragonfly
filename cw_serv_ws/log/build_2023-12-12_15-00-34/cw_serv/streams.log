@@ -1,0 +1,9 @@
+[0.030s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[0.063s] [  4%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[0.084s] [  4%] Built target cw_serv_autogen
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[0.160s] [  8%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o[0m
+[2.213s] gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:314: CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o] Interrupt
+[2.214s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Interrupt
+[2.214s] gmake: *** [Makefile:146: all] Interrupt
+[2.224s] Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv' returned '-2': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12

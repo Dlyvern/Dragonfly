@@ -1,0 +1,4 @@
+[  4%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[  4%] Built target cw_serv_autogen
+[35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[  8%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o[0m

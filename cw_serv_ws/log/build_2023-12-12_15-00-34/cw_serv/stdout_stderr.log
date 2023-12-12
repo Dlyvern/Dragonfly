@@ -1,0 +1,7 @@
+[  4%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[  4%] Built target cw_serv_autogen
+[35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[  8%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o[0m
+gmake[2]: *** [CMakeFiles/cw_serv.dir/build.make:314: CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o] Interrupt
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/cw_serv.dir/all] Interrupt
+gmake: *** [Makefile:146: all] Interrupt

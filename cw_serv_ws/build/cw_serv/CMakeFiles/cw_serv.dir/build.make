@@ -363,6 +363,34 @@ CMakeFiles/cw_serv.dir/src/MainNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw_serv.dir/src/MainNode.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/MainNode.cpp -o CMakeFiles/cw_serv.dir/src/MainNode.cpp.s
 
+CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.o: CMakeFiles/cw_serv.dir/flags.make
+CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/devices/RtspCamera.cpp
+CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.o: CMakeFiles/cw_serv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.o -MF CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.o.d -o CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.o -c /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/devices/RtspCamera.cpp
+
+CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/devices/RtspCamera.cpp > CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.i
+
+CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/devices/RtspCamera.cpp -o CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.s
+
+CMakeFiles/cw_serv.dir/src/devices/Device.cpp.o: CMakeFiles/cw_serv.dir/flags.make
+CMakeFiles/cw_serv.dir/src/devices/Device.cpp.o: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/devices/Device.cpp
+CMakeFiles/cw_serv.dir/src/devices/Device.cpp.o: CMakeFiles/cw_serv.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/cw_serv.dir/src/devices/Device.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cw_serv.dir/src/devices/Device.cpp.o -MF CMakeFiles/cw_serv.dir/src/devices/Device.cpp.o.d -o CMakeFiles/cw_serv.dir/src/devices/Device.cpp.o -c /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/devices/Device.cpp
+
+CMakeFiles/cw_serv.dir/src/devices/Device.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cw_serv.dir/src/devices/Device.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/devices/Device.cpp > CMakeFiles/cw_serv.dir/src/devices/Device.cpp.i
+
+CMakeFiles/cw_serv.dir/src/devices/Device.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cw_serv.dir/src/devices/Device.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/devices/Device.cpp -o CMakeFiles/cw_serv.dir/src/devices/Device.cpp.s
+
 # Object files for target cw_serv
 cw_serv_OBJECTS = \
 "CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o" \
@@ -385,7 +413,9 @@ cw_serv_OBJECTS = \
 "CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o" \
 "CMakeFiles/cw_serv.dir/src/Base.cpp.o" \
 "CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o" \
-"CMakeFiles/cw_serv.dir/src/MainNode.cpp.o"
+"CMakeFiles/cw_serv.dir/src/MainNode.cpp.o" \
+"CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.o" \
+"CMakeFiles/cw_serv.dir/src/devices/Device.cpp.o"
 
 # External object files for target cw_serv
 cw_serv_EXTERNAL_OBJECTS =
@@ -411,13 +441,9 @@ cw_serv: CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o
 cw_serv: CMakeFiles/cw_serv.dir/src/Base.cpp.o
 cw_serv: CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o
 cw_serv: CMakeFiles/cw_serv.dir/src/MainNode.cpp.o
+cw_serv: CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.o
+cw_serv: CMakeFiles/cw_serv.dir/src/devices/Device.cpp.o
 cw_serv: CMakeFiles/cw_serv.dir/build.make
-cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
-cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 cw_serv: /opt/ros/humble/lib/librclcpp_action.so
 cw_serv: /opt/ros/humble/lib/libcomponent_manager.so
 cw_serv: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_fastrtps_c.so
@@ -427,11 +453,49 @@ cw_serv: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/li
 cw_serv: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_typesupport_cpp.so
 cw_serv: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib/libaction_interface__rosidl_generator_py.so
 cw_serv: /opt/ros/humble/lib/librosbag2_cpp.so
+cw_serv: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+cw_serv: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+cw_serv: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+cw_serv: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+cw_serv: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 cw_serv: /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.15.3
 cw_serv: /usr/lib/x86_64-linux-gnu/libQt5Network.so.5.15.3
 cw_serv: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
-cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
-cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_barcode.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_bgsegm.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_bioinspired.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_ccalib.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_dnn_objdetect.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_dnn_superres.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_dpm.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_face.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_freetype.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_fuzzy.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_hdf.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_hfs.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_img_hash.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_intensity_transform.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_line_descriptor.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_mcc.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_quality.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_rapid.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_reg.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_rgbd.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_saliency.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_shape.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_stereo.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_structured_light.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_superres.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_surface_matching.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_tracking.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_videostab.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_viz.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_wechat_qrcode.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_xobjdetect.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_xphoto.so.4.5.4d
 cw_serv: /opt/ros/humble/lib/librcl_action.so
 cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_fastrtps_c.so
 cw_serv: /opt/ros/humble/lib/libcomposition_interfaces__rosidl_typesupport_introspection_c.so
@@ -483,45 +547,83 @@ cw_serv: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
 cw_serv: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
 cw_serv: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
 cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
-cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
-cw_serv: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
-cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
-cw_serv: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
-cw_serv: /opt/ros/humble/lib/libfastcdr.so.1.0.24
 cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
-cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
-cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
-cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
-cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
-cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
 cw_serv: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
-cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
-cw_serv: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 cw_serv: /opt/ros/humble/lib/libtracetools.so
-cw_serv: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-cw_serv: /opt/ros/humble/lib/librosidl_typesupport_c.so
-cw_serv: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
-cw_serv: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
 cw_serv: /opt/ros/humble/lib/librmw_implementation.so
-cw_serv: /opt/ros/humble/lib/librmw.so
-cw_serv: /opt/ros/humble/lib/librosidl_runtime_c.so
 cw_serv: /opt/ros/humble/lib/librosbag2_storage.so
 cw_serv: /opt/ros/humble/lib/libament_index_cpp.so
 cw_serv: /opt/ros/humble/lib/libclass_loader.so
-cw_serv: /opt/ros/humble/lib/librcpputils.so
-cw_serv: /opt/ros/humble/lib/librcutils.so
 cw_serv: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.1.0
 cw_serv: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
 cw_serv: /usr/lib/x86_64-linux-gnu/libyaml-cpp.so.0.7.0
+cw_serv: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+cw_serv: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+cw_serv: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+cw_serv: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
+cw_serv: /opt/ros/humble/lib/libfastcdr.so.1.0.24
+cw_serv: /opt/ros/humble/lib/librmw.so
+cw_serv: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+cw_serv: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+cw_serv: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
+cw_serv: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
+cw_serv: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
+cw_serv: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+cw_serv: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+cw_serv: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+cw_serv: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+cw_serv: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+cw_serv: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+cw_serv: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+cw_serv: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+cw_serv: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+cw_serv: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
+cw_serv: /opt/ros/humble/lib/librosidl_typesupport_c.so
+cw_serv: /opt/ros/humble/lib/librcpputils.so
+cw_serv: /opt/ros/humble/lib/librosidl_runtime_c.so
+cw_serv: /opt/ros/humble/lib/librcutils.so
 cw_serv: /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.15.3
 cw_serv: /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.15.3
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_highgui.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_datasets.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_plot.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_text.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_ml.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_phase_unwrapping.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_optflow.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_ximgproc.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_video.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_videoio.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_imgcodecs.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_objdetect.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_calib3d.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_dnn.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_features2d.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_flann.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.5.4d
+cw_serv: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.5.4d
 cw_serv: CMakeFiles/cw_serv.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Linking CXX executable cw_serv"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable cw_serv"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cw_serv.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

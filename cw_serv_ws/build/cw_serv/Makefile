@@ -415,6 +415,54 @@ src/cw_structs/Tower.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/cw_structs/Tower.cpp.s
 .PHONY : src/cw_structs/Tower.cpp.s
 
+src/devices/Device.o: src/devices/Device.cpp.o
+.PHONY : src/devices/Device.o
+
+# target to build an object file
+src/devices/Device.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/devices/Device.cpp.o
+.PHONY : src/devices/Device.cpp.o
+
+src/devices/Device.i: src/devices/Device.cpp.i
+.PHONY : src/devices/Device.i
+
+# target to preprocess a source file
+src/devices/Device.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/devices/Device.cpp.i
+.PHONY : src/devices/Device.cpp.i
+
+src/devices/Device.s: src/devices/Device.cpp.s
+.PHONY : src/devices/Device.s
+
+# target to generate assembly for a file
+src/devices/Device.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/devices/Device.cpp.s
+.PHONY : src/devices/Device.cpp.s
+
+src/devices/RtspCamera.o: src/devices/RtspCamera.cpp.o
+.PHONY : src/devices/RtspCamera.o
+
+# target to build an object file
+src/devices/RtspCamera.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.o
+.PHONY : src/devices/RtspCamera.cpp.o
+
+src/devices/RtspCamera.i: src/devices/RtspCamera.cpp.i
+.PHONY : src/devices/RtspCamera.i
+
+# target to preprocess a source file
+src/devices/RtspCamera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.i
+.PHONY : src/devices/RtspCamera.cpp.i
+
+src/devices/RtspCamera.s: src/devices/RtspCamera.cpp.s
+.PHONY : src/devices/RtspCamera.s
+
+# target to generate assembly for a file
+src/devices/RtspCamera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cw_serv.dir/build.make CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.s
+.PHONY : src/devices/RtspCamera.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -768,6 +816,12 @@ help:
 	@echo "... src/cw_structs/Tower.o"
 	@echo "... src/cw_structs/Tower.i"
 	@echo "... src/cw_structs/Tower.s"
+	@echo "... src/devices/Device.o"
+	@echo "... src/devices/Device.i"
+	@echo "... src/devices/Device.s"
+	@echo "... src/devices/RtspCamera.o"
+	@echo "... src/devices/RtspCamera.i"
+	@echo "... src/devices/RtspCamera.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

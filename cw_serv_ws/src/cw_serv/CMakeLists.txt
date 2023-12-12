@@ -74,6 +74,10 @@ set(SOURCE_FILES
         src/submodules/Copyist.cpp
         src/MainNode.cpp
         include/cw_serv/MainNode.hpp
+        include/cw_serv/devices/RtspCamera.hpp
+        src/devices/RtspCamera.cpp
+        src/devices/Device.cpp
+        include/cw_serv/devices/Device.hpp
 
 )
 
@@ -85,8 +89,10 @@ find_package(std_msgs REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(rclcpp_components REQUIRED)
 find_package(rosbag2_cpp REQUIRED)
+find_package(sensor_msgs REQUIRED)
 find_package(action_interface REQUIRED)
 find_package(Qt5 COMPONENTS Widgets Network REQUIRED)
+find_package(OpenCV REQUIRED)
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
@@ -97,18 +103,21 @@ ament_target_dependencies(${PROJECT_NAME}
         rclcpp_components
         action_interface
         rosbag2_cpp
+        sensor_msgs
 )
 
 target_link_libraries(${PROJECT_NAME}
         Qt5::Widgets
         Qt5::Network
         ${Boost_LIBRARIES}
+        ${OpenCV_LIBS}
 )
 
 target_include_directories(${PROJECT_NAME} PUBLIC
         $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/${INCLUDE_DIR}>
         $<INSTALL_INTERFACE:include>
-        ${Boost_INCLUDE_DIRS})
+        ${Boost_INCLUDE_DIRS}
+        ${OpenCV_INCLUDE_DIRS})
 
 install(TARGETS
         ${PROJECT_NAME}
