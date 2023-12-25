@@ -22,6 +22,9 @@
 #include "submodules/Copyist.hpp"
 #endif
 
+#include "devices/RtspCamera.hpp"
+
+
 class Robot :  public QObject, public Module
 {
     Q_OBJECT

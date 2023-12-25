@@ -11,13 +11,13 @@ Recorder::Recorder(const std::string& nameOfNode) : SubModule(nameOfNode)
         m_Subscriptions.emplace_back(create_subscription<std_msgs::msg::String>(
                 topic, 10, std::bind(&Recorder::CallbackFromTopics, this, std::placeholders::_1)));
     }
-
-    allActions_["Recorder"]["Enable"] = std::bind(&Recorder::Enable, this, std::placeholders::_1);
-    allActions_["Recorder"]["Disable"] = std::bind(&Recorder::Disable, this, std::placeholders::_1);
 }
 
 void Recorder::Start()
 {
+    allActions_["Recorder"]["Enable"] = std::bind(&Recorder::Enable, this, std::placeholders::_1);
+    allActions_["Recorder"]["Disable"] = std::bind(&Recorder::Disable, this, std::placeholders::_1);
+
     try
     {
         m_Writer->open(m_BagDir);
@@ -48,6 +48,7 @@ void Recorder::Start()
             return;
         }
     }
+    Log("Recorder started", INFO_LEVEL_LOG);
 }
 
 void Recorder::Run()

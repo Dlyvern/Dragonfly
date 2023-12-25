@@ -3,12 +3,12 @@
 
 Copyist::Copyist(const std::string &nameOfNode, QObject *parent) : QObject(parent), SubModule(nameOfNode)
 {
-    allActions_["Copyist"]["CopyFromBagsToFlash"] = std::bind(&Copyist::CopyFromBagsToFlash, this, std::placeholders::_1);
 }
 
 void Copyist::Start()
 {
-
+    allActions_["Copyist"]["CopyFromBagsToFlash"] = std::bind(&Copyist::CopyFromBagsToFlash, this, std::placeholders::_1);
+    Log("Copyist started", INFO_LEVEL_LOG);
 }
 
 void Copyist::Run()

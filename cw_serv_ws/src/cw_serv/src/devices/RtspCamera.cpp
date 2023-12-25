@@ -16,20 +16,50 @@ RtcpCamera::RtcpCamera(const std::string &nodeName) : Device(nodeName)
 //    <param name="image_raw_topic" value="$(arg image_raw_topic)" />
 //    <param name="camera_info_topic" value="$(arg camera_info_topic)" />
 
-    this->declare_parameter("rtsp_resource", "rtsp://admin:admin@192.168.31.232:554/ch01/0");
-
+    this->declare_parameter("rtsp_resource", "rtsp://admin:admin@192.168.31.191:554/ch01/0");
 }
 
 void RtcpCamera::Start()
 {
+    allActions_["RtspCamera"]["Enable"] = std::bind(&RtcpCamera::Enable, this, std::placeholders::_1);
 
+    Log("Rtsp camera started", INFO_LEVEL_LOG);
 }
 
 void RtcpCamera::Run()
 {
+    while(IsRunning())
+    {
+        if(m_VideoCapture.isOpened())
+        {
+            cv::namedWindow("Test");
+            cv::Mat frame;
 
+            while(IsRunning())
+            {
+                m_VideoCapture.read(frame);
+
+                cv::imshow("Test", frame);
+            }
+        }
+    }
 }
 
+std::pair<std::string, bool> RtcpCamera::Enable(RunParameters &runParameters)
+{
+//    cap.open(this->GetParameter("rtsp_resource").as_string());
+    m_VideoCapture.open("rtsp://admin:admin@192.168.31.191:554/ch01/0");
 
+    if(!m_VideoCapture.isOpened())
+        return{"could not open rtsp stream", false};
+
+    SetRunning(true);
+
+    m_WorkThread = std::thread([this]{Run();});
+
+    m_WorkThread.detach();
+
+    return{"rtsp stream opened", false};
+}
 
 RtcpCamera::~RtcpCamera() = default;

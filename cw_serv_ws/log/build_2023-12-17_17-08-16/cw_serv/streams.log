@@ -1,0 +1,61 @@
+[0.040s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[0.086s] [  4%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[0.133s] [  4%] Built target cw_serv_autogen
+[0.155s] [35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[0.200s] [  8%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o[0m
+[0.200s] [ 12%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o[0m
+[0.200s] [ 16%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o[0m
+[0.201s] [ 20%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o[0m
+[0.202s] [ 24%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/MainNode.cpp.o[0m
+[4.155s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Enable(RunParameters&)[m[K’:
+[4.156s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:50:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.156s]    50 | std::pair<std::string, bool> Robot::Enable([01;35m[KRunParameters& runParameters[m[K)
+[4.156s]       |                                            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[4.158s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Disable(RunParameters&)[m[K’:
+[4.159s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:70:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.159s]    70 | std::pair<std::string, bool>Robot::Disable([01;35m[KRunParameters& runParameters[m[K)
+[4.159s]       |                                            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[4.163s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::MoveToTower(RunParameters&)[m[K’:
+[4.163s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:142:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.164s]   142 | std::pair<std::string, bool> Robot::MoveToTower([01;35m[KRunParameters& runParameters[m[K)
+[4.164s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[4.165s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::LongTest(RunParameters&)[m[K’:
+[4.165s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:157:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.165s]   157 | std::pair<std::string, bool> Robot::LongTest([01;35m[KRunParameters &runParameters[m[K)
+[4.165s]       |                                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[4.433s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Recorder::Enable(RunParameters&)[m[K’:
+[4.433s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:77:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.433s]    77 | std::pair<std::string, bool> Recorder::Enable([01;35m[KRunParameters &runParameters[m[K)
+[4.433s]       |                                               [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[4.436s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:[m[K In member function ‘[01m[Kvirtual std::pair<std::__cxx11::basic_string<char>, bool> Recorder::Disable(RunParameters&)[m[K’:
+[4.436s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:88:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.436s]    88 | std::pair<std::string, bool> Recorder::Disable([01;35m[KRunParameters &runParameters[m[K)
+[4.436s]       |                                                [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[9.095s] [ 28%] [32m[1mLinking CXX executable cw_serv[0m
+[11.350s] [100%] Built target cw_serv
+[11.357s] Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv' returned '0': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[11.482s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv
+[11.499s] -- Install configuration: ""
+[11.501s] -- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/lib/cw_serv/cw_serv
+[11.507s] -- Set runtime path of "/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/lib/cw_serv/cw_serv" to ""
+[11.507s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch
+[11.507s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/settings_for_launch_file
+[11.507s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/settings_for_launch_file/main_settings.ini
+[11.507s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/launch/cwserv.launch.py
+[11.508s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/package_run_dependencies/cw_serv
+[11.508s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/parent_prefix_path/cw_serv
+[11.508s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/ament_prefix_path.sh
+[11.508s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/ament_prefix_path.dsv
+[11.508s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/path.sh
+[11.509s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/environment/path.dsv
+[11.509s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.bash
+[11.509s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.sh
+[11.509s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.zsh
+[11.509s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/local_setup.dsv
+[11.509s] -- Installing: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/package.dsv
+[11.509s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/ament_index/resource_index/packages/cw_serv
+[11.509s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/CMakeConfix.cmake
+[11.509s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/cw_servConfig.cmake
+[11.509s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/cmake/cw_servConfig-version.cmake
+[11.509s] -- Up-to-date: /home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv/share/cw_serv/package.xml
+[11.511s] Invoked command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv' returned '0': AMENT_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/opt/ros/humble LD_LIBRARY_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv

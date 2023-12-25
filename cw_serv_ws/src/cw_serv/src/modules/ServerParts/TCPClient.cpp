@@ -18,7 +18,7 @@ TCPClient::TCPClient(QTcpSocket *clientSocket, int id, QObject*parent)
 
 void TCPClient::Log(const std::string &message, int levelLog)
 {
-    std::string message_for_server = "Client[" + GetName().toStdString() + "]:" + message;
+    std::string message_for_server = "Client[" + GetName().toStdString() + "]: " + message;
     emit LogClient(message_for_server, levelLog);
 }
 
@@ -84,6 +84,7 @@ const int &TCPClient::GetId() const
 void TCPClient::SendMessageToClient(const QJsonObject &message)
 {
     auto msg = message;
+
     Packet packet(0xAA55, 0x01, 0x1234, 0, std::move(msg), 0xFFFF);
 
     QByteArray container = packet.Pack();

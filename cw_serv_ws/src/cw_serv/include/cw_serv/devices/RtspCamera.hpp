@@ -10,8 +10,13 @@ class RtcpCamera : public Device
 {
 private:
     void Run() override;
+    cv::VideoCapture m_VideoCapture;
+    std::thread m_WorkThread;
 public:
     explicit RtcpCamera(const std::string& nodeName);
+
+    std::pair<std::string, bool> Enable(RunParameters& runParameters);
+
 
     void Start() override;
     virtual ~RtcpCamera();

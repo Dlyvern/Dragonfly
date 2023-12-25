@@ -18,6 +18,10 @@ Robot::Robot(const std::string &nameOfNode, QObject *parent) : QObject(parent), 
         }
     });
 
+    m_Submodules.emplace_back(std::make_shared<HardwareManager>("HardwareManager"));
+    m_Submodules.emplace_back(std::make_shared<Recorder>("Recorder"));
+    m_Submodules.emplace_back(std::make_shared<Copyist>("Copyist"));
+
     allActions_["Robot"]["Enable"] = std::bind(&Robot::Enable, this, std::placeholders::_1);
     allActions_["Robot"]["DoDiagnostic"] = std::bind(&Robot::DoDiagnostic, this, std::placeholders::_1);
     allActions_["Robot"]["LongTest"] = std::bind(&Robot::LongTest, this, std::placeholders::_1);
@@ -32,10 +36,6 @@ void Robot::Start()
 
 void Robot::InitSubmodules()
 {
-    m_Submodules.emplace_back(std::make_shared<HardwareManager>("HardwareManager"));
-    m_Submodules.emplace_back(std::make_shared<Recorder>("Recorder"));
-    m_Submodules.emplace_back(std::make_shared<Copyist>("Copyist"));
-
     for(const auto&sub_module : m_Submodules)
         sub_module->Start();
 }
@@ -55,6 +55,10 @@ std::pair<std::string, bool> Robot::Enable(RunParameters& runParameters)
     LaunchGoose();
 
     InitSubmodules();
+
+    auto rtsp_camera = new RtcpCamera{"rtsp_camera"};
+
+    rtsp_camera->Start();
 
     m_Active = true;
 

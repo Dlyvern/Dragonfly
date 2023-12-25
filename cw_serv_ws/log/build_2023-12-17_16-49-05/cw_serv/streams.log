@@ -1,0 +1,13 @@
+[0.051s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[0.105s] [  4%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[0.537s] [  4%] Built target cw_serv_autogen
+[0.558s] [35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[0.608s] [  8%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o[0m
+[0.608s] [ 12%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o[0m
+[0.608s] [ 16%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o[0m
+[0.609s] [ 20%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/SubModule.cpp.o[0m
+[0.610s] [ 24%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/HardwareManager.cpp.o[0m
+[0.613s] [ 32%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o[0m
+[0.613s] [ 32%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Copyist.cpp.o[0m
+[0.614s] [ 36%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.o[0m
+[0.614s] [ 40%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/MainNode.cpp.o[0m

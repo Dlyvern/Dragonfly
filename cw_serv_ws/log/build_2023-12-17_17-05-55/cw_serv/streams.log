@@ -1,0 +1,38 @@
+[0.052s] Invoking command in '/home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv': CMAKE_PREFIX_PATH=/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/action_interface:/home/dlyvern/Projects/Dragonfly/cw_serv_ws/install/cw_serv:/opt/ros/humble /usr/bin/cmake --build /home/dlyvern/Projects/Dragonfly/cw_serv_ws/build/cw_serv -- -j12 -l12
+[0.111s] [  4%] [34m[1mAutomatic MOC and UIC for target cw_serv[0m
+[0.559s] [  4%] Built target cw_serv_autogen
+[0.584s] [35m[1mConsolidate compiler generated dependencies of target cw_serv[0m
+[0.636s] [  8%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/cw_serv_autogen/mocs_compilation.cpp.o[0m
+[0.637s] [ 12%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/main.cpp.o[0m
+[0.638s] [ 16%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/modules/Robot.cpp.o[0m
+[0.639s] [ 20%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/submodules/Recorder.cpp.o[0m
+[0.639s] [ 24%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/MainNode.cpp.o[0m
+[0.640s] [ 28%] [32mBuilding CXX object CMakeFiles/cw_serv.dir/src/devices/RtspCamera.cpp.o[0m
+[3.954s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/devices/RtspCamera.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> RtcpCamera::Enable(RunParameters&)[m[K’:
+[3.961s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/devices/RtspCamera.cpp:48:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[3.962s]    48 | std::pair<std::string, bool> RtcpCamera::Enable([01;35m[KRunParameters &runParameters[m[K)
+[3.962s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[5.151s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Enable(RunParameters&)[m[K’:
+[5.151s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:50:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.151s]    50 | std::pair<std::string, bool> Robot::Enable([01;35m[KRunParameters& runParameters[m[K)
+[5.151s]       |                                            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[5.153s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::Disable(RunParameters&)[m[K’:
+[5.153s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:70:59:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.153s]    70 | std::pair<std::string, bool>Robot::Disable([01;35m[KRunParameters& runParameters[m[K)
+[5.153s]       |                                            [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[5.158s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::MoveToTower(RunParameters&)[m[K’:
+[5.158s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:142:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.158s]   142 | std::pair<std::string, bool> Robot::MoveToTower([01;35m[KRunParameters& runParameters[m[K)
+[5.158s]       |                                                 [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[5.160s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Robot::LongTest(RunParameters&)[m[K’:
+[5.160s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/modules/Robot.cpp:157:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.160s]   157 | std::pair<std::string, bool> Robot::LongTest([01;35m[KRunParameters &runParameters[m[K)
+[5.160s]       |                                              [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[5.771s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:[m[K In member function ‘[01m[Kstd::pair<std::__cxx11::basic_string<char>, bool> Recorder::Enable(RunParameters&)[m[K’:
+[5.771s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:77:62:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.771s]    77 | std::pair<std::string, bool> Recorder::Enable([01;35m[KRunParameters &runParameters[m[K)
+[5.771s]       |                                               [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[5.772s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:[m[K In member function ‘[01m[Kvirtual std::pair<std::__cxx11::basic_string<char>, bool> Recorder::Disable(RunParameters&)[m[K’:
+[5.772s] [01m[K/home/dlyvern/Projects/Dragonfly/cw_serv_ws/src/cw_serv/src/submodules/Recorder.cpp:88:63:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KrunParameters[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.772s]    88 | std::pair<std::string, bool> Recorder::Disable([01;35m[KRunParameters &runParameters[m[K)
+[5.772s]       |                                                [01;35m[K~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K

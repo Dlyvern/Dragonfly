@@ -81,6 +81,8 @@ max_serialized_size_Cmd_Request(
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
 
@@ -101,7 +103,20 @@ max_serialized_size_Cmd_Request(
     }
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = action_interface::srv::Cmd_Request;
+    is_plain =
+      (
+      offsetof(DataType, cmd) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static bool _Cmd_Request__cdr_serialize(
@@ -296,6 +311,8 @@ max_serialized_size_Cmd_Response(
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
 
@@ -307,6 +324,7 @@ max_serialized_size_Cmd_Response(
   {
     size_t array_size = 1;
 
+    last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
 
@@ -323,7 +341,20 @@ max_serialized_size_Cmd_Response(
     }
   }
 
-  return current_alignment - initial_alignment;
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = action_interface::srv::Cmd_Response;
+    is_plain =
+      (
+      offsetof(DataType, res_arg) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
 }
 
 static bool _Cmd_Response__cdr_serialize(
